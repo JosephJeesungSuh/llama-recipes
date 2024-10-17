@@ -23,7 +23,9 @@ class train_config:
     num_workers_dataloader: int=1
     lr: float=1e-4
     weight_decay: float=0.0
-    gamma: float= 0.85 # multiplicatively decay the learning rate by gamma after each epoch
+    lr_scheduler: str="step" # alternative: cosine
+    gamma: float= 0.85 # multiplicatively decay the learning rate by gamma after each epoch if using step scheduler
+    warmup_steps: int=0 # number of warmup steps for the scheduler
     seed: int=42
     use_fp16: bool=False
     mixed_precision: bool=True

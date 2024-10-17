@@ -2,560 +2,266 @@
 # This software may be used and distributed according to the terms of the Llama 2 Community License Agreement.
 
 import os
-import time
+# import time
 import yaml
 from contextlib import nullcontext
 from pathlib import Path
-from datetime import datetime
-import contextlib
+from pkg_resources import packaging
 
 
 import torch
+from torch.optim.lr_scheduler import StepLR
+
 import torch.cuda.nccl as nccl
 import torch.distributed as dist
-from torch.distributed.fsdp import StateDictType
-from torch.distributed.fsdp.sharded_grad_scaler import ShardedGradScaler
 import torch.nn.functional as F
-from tqdm import tqdm
-from transformers import LlamaTokenizer
+# from torch.distributed.fsdp import StateDictType
+# from torch.distributed.fsdp.sharded_grad_scaler import ShardedGradScaler
+# from tqdm import tqdm
+# from transformers import LlamaTokenizer
+from transformers.optimization import get_cosine_schedule_with_warmup
+
+
+# from llama_recipes.model_checkpointing import save_model_checkpoint, save_model_and_optimizer_sharded, save_optimizer_checkpoint
+from llama_recipes.policies import fpSixteen, bfSixteen, get_llama_wrapper
+# from llama_recipes.utils.memory_utils import MemoryTrace
+
+## ADDED
 import json
+import shutil
+import uuid
+from torch.distributed.fsdp import (
+    FullyShardedDataParallel as FSDP
+)
+from torch.utils.tensorboard import SummaryWriter
+
+## -- DISUSED -- ##
+# def set_tokenizer_params(tokenizer: LlamaTokenizer):
+#     tokenizer.pad_token_id = 0
+#     tokenizer.padding_side = "left"
+
+## -- DISUSED -- ##
+# # Converting Bytes to Megabytes
+# def byte2mb(x):
+#     return int(x / 2**20)
+
+## -- ADDED -- ##
+def check_peft_save_successful(temp_path):
+    try:
+        adapter_config_path = os.path.join(temp_path, "adapter_config.json")
+        _ = json.loads(open(adapter_config_path).read())
+        return True
+    except:
+        return False
+    
+## -- ADDED -- ##
+def save_checkpoint(save_path, model, optimizer, scaler, train_dataloader, eval_dataloader, lr_scheduler, metrics, timer, saver):
+
+    timer.report("started checkpoint saving")
+    peft_path = os.path.join(save_path, "peft")
+    peft_model_saved = False
+    while peft_model_saved == False:
+        dist.barrier()
+        # Remove any pre-existing peft_path
+        if int(os.environ["RANK"]) == 0:
+            if os.path.isdir(peft_path):
+                shutil.rmtree(peft_path)
+        dist.barrier()
+        timer.report("prepared peft_path")
+
+        # Attempt to save the model
+        model.save_pretrained(peft_path)
+        dist.barrier()
+        timer.report("saved peft model")
+
+        # check to confirm the peft model has saved successfully
+        peft_model_saved = check_peft_save_successful(peft_path)
+        dist.barrier()
+        timer.report("checked peft model saved")
+
+    full_osd = FSDP.full_optim_state_dict(model, optimizer)
+    if int(os.environ["RANK"]) == 0:
+        torch.save(full_osd, os.path.join(save_path, "optimizer.pt"))
+    timer.report("saved optimizer")
+
+    if int(os.environ["RANK"]) == 0:
+        torch.save({
+            "scaler": scaler.state_dict(),
+            "train_sampler": train_dataloader.sampler.state_dict(),
+            "eval_sampler": eval_dataloader.sampler.state_dict(),
+            "lr_scheduler": lr_scheduler.state_dict(),
+            "metrics": metrics,
+        }, os.path.join(save_path, "other_checkpoint.pt"))
+        timer.report("saved other checkpoint")
+
+        saver.atomic_symlink(save_path)
+        timer.report("re-assigned symlink, done.")
+
+    dist.barrier()
 
 
-from llama_recipes.model_checkpointing import save_fsdp_model_checkpoint_full, save_model_and_optimizer_sharded, save_optimizer_checkpoint, save_peft_checkpoint, save_model_checkpoint
-from llama_recipes.policies import fpSixteen,bfSixteen, get_llama_wrapper
-from llama_recipes.utils.memory_utils import MemoryTrace
-from accelerate.utils import is_xpu_available, is_ccl_available
-from llama_recipes.utils.flop_utils import FlopMeasure
-def set_tokenizer_params(tokenizer: LlamaTokenizer):
-    tokenizer.pad_token_id = 0
-    tokenizer.padding_side = "left"
+def train(epoch, model, train_dataloader, eval_dataloader, optimizer, lr_scheduler, scaler, metrics, timer, gradient_accumulation_steps, train_config, saver, wandb_run=None):
 
-@contextlib.contextmanager
-def profile(cfg, local_rank=None):
-    use_profiler: bool = cfg.use_profiler
-    use_flop_counter: bool = cfg.flop_counter
-    if use_flop_counter and use_profiler:
-        raise ValueError("Cannot use both profiler and flop counter")
-    if use_profiler:
-        # profiler needs a warmup stage to get the accurate profiling results
-        wait_step, warmup_step, active_step = 1, 2, 3
-        min_step = wait_step + warmup_step + active_step + 1
-        if cfg.max_train_step > 0 and cfg.max_train_step < min_step:
-            raise ValueError(f"pytorch profiler requires at least {min_step} train steps to finish the warm-up and recording stage, {wait_step} for wait_step, {warmup_step} for warmup_step, {active_step} for profiling step, please increase the max_train_step, current max_train_step {cfg.max_train_step}")
-        print(f"pytorch profiling is activated and results will be saved in {cfg.profiler_dir}")
-        with torch.profiler.profile(
-            activities=[
-                torch.profiler.ProfilerActivity.CPU,
-                torch.profiler.ProfilerActivity.CUDA,
-            ],
-            schedule=torch.profiler.schedule(wait=wait_step, warmup=warmup_step, active=active_step, repeat=1),
-            on_trace_ready=torch.profiler.tensorboard_trace_handler(
-                cfg.profiler_dir
-            ),
-            profile_memory=True,
-            with_stack=False,
-            with_flops=True,
-            record_shapes=True,
-        ) as torch_profiler:
-            yield torch_profiler
-    elif use_flop_counter:
-        if cfg.max_train_step > 0 and cfg.max_train_step <= cfg.flop_counter_start:
-            raise ValueError(f"flop counter requires at least {cfg.flop_counter_start + 1} train steps, please increase the max_train_step, current max_train_step {cfg.max_train_step}")
-        with FlopMeasure(rank=local_rank,warmup_step=cfg.flop_counter_start) as flop_counter:
-            yield flop_counter
-    else:
-        torch_profiler = contextlib.nullcontext()
-        yield None
+    ## -- MOVED OUTSIDE TRAINING LOOP -- ##
+    # # Create a gradient scaler for fp16
+    # if train_config.use_fp16 and train_config.enable_fsdp:
+    #     scaler = ShardedGradScaler()
+    # elif train_config.use_fp16 and not train_config.enable_fsdp:
+    #     scaler = torch.cuda.amp.GradScaler()
 
-def ordinal_emd(
-    list_1: torch.Tensor,
-    list_2: torch.Tensor,
-    ordinal_value: torch.Tensor,
-) -> torch.Tensor:
-    """
-    Measure Wasserstein distance between two ordinal distributions using PyTorch.
-    Credits to Suhong for modifying original emd function to work with PyTorch tensors.
-    Joseph made some correction after it.
-    """
+    ## -- MOVED OUTSIDE TRAINING LOOP -- ##
+    # for epoch in range(train_config.num_epochs):
+    #     epoch_start_time = time.perf_counter()
 
-    # Ensure all inputs are tensors
-    if not isinstance(list_1, torch.Tensor):
-        list_1 = torch.tensor(list_1, dtype=torch.float32)
-    if not isinstance(list_2, torch.Tensor):
-        list_2 = torch.tensor(list_2, dtype=torch.float32)
-    if not isinstance(ordinal_value, torch.Tensor):
-        ordinal_value = torch.tensor(ordinal_value, dtype=torch.float32)
-
-    # Ensure same length
-    min_length = min(list_1.shape[0], list_2.shape[0], ordinal_value.shape[0])
-    list_1 = list_1[:min_length]
-    list_2 = list_2[:min_length]
-    ordinal_value = ordinal_value[:min_length]
-
-    # Normalize the distributions
-    list_1 = list_1 / list_1.sum()
-    list_2 = list_2 / list_2.sum()
-
-    # Check if ordinal_value has variation
-    if torch.max(ordinal_value) == torch.min(ordinal_value):
-        # return torch.tensor(float('nan'))
-        return torch.tensor(0.0) # modification: just return nan
-
-    # Sort ordinal_value and corresponding lists
-    sorted_indices = torch.argsort(ordinal_value)
-    ordinal_value = ordinal_value[sorted_indices]
-    list_1 = list_1[sorted_indices]
-    list_2 = list_2[sorted_indices]
-
-    # Compute cumulative distributions
-    cum_dist_1 = torch.cumsum(list_1, dim=0)
-    cum_dist_2 = torch.cumsum(list_2, dim=0)
-
-    # Compute differences and delta ordinal values
-    diff = torch.abs(cum_dist_1[:-1] - cum_dist_2[:-1])
-    delta_ordinal = ordinal_value[1:] - ordinal_value[:-1]
-
-    # Compute EMD
-    emd = torch.sum(diff * delta_ordinal)
-
-    # Normalize EMD
-    emd = emd / (torch.max(ordinal_value) - torch.min(ordinal_value))
-
-    return emd
-
-
-def train(model, train_dataloader,eval_dataloader, tokenizer, optimizer, lr_scheduler, gradient_accumulation_steps, train_config, fsdp_config=None, local_rank=None, rank=None, wandb_run=None):
-    """
-    Trains the model on the given dataloader
-
-    Args:
-        model: The model to be trained
-        train_dataloader: The dataloader containing the training data
-        optimizer: The optimizer used for training
-        lr_scheduler: The learning rate scheduler
-        gradient_accumulation_steps: The number of steps to accumulate gradients before performing a backward/update operation
-        num_epochs: The number of epochs to train for
-        local_rank: The rank of the current node in a distributed setting
-        train_config: The training configuration
-        eval_dataloader: The dataloader containing the eval data
-        tokenizer: tokenizer used in the eval for decoding the predicitons
-
-    Returns: results dictionary containing average training and validation perplexity and loss
-    """
-    # Create a gradient scaler for fp16
-    if train_config.use_fp16 and train_config.enable_fsdp:
-        scaler = ShardedGradScaler()
-    elif train_config.use_fp16 and not train_config.enable_fsdp:
-        scaler = torch.cuda.amp.GradScaler()
-    if train_config.enable_fsdp:
-        world_size = int(os.environ["WORLD_SIZE"])
-
-
-
+    model.train()
     autocast = torch.cuda.amp.autocast if train_config.use_fp16 else nullcontext
-    train_prep = []
-    train_loss = []
-    val_prep = []
-    val_loss =[]
 
-    if train_config.save_metrics:
-        if not os.path.exists(train_config.output_dir):
-            os.makedirs(train_config.output_dir, exist_ok=True)
-        metrics_filename = f"{train_config.output_dir}/metrics_data_{local_rank}-{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json"
-        train_step_perplexity = []
-        train_step_loss = []
-        val_step_loss = []
-        val_step_perplexity = []
+    step = train_dataloader.sampler.progress // train_dataloader.batch_size
+    total_steps = len(train_dataloader) // gradient_accumulation_steps
 
-    epoch_times = []
-    checkpoint_times = []
-    results = {}
-    best_val_loss = float("inf")
-    total_train_steps = 0
-    max_steps_reached = False  # Flag to indicate max training steps reached
-    # Start the training loop
-    for epoch in range(train_config.num_epochs):
-        print(f"Starting epoch {epoch}/{train_config.num_epochs}")
-        print(f"train_config.max_train_step: {train_config.max_train_step}")
-        # stop when the maximum number of training steps is reached
-        if max_steps_reached:
-            break
-        epoch_start_time = time.perf_counter()
-        with MemoryTrace() as memtrace:  # track the memory usage
-            model.train()
-            total_loss = 0.0
-            total_length = len(train_dataloader)//gradient_accumulation_steps
-            pbar = tqdm(colour="blue", desc=f"Training Epoch: {epoch+1}", total=total_length, dynamic_ncols=True)
-            with profile(train_config,local_rank) as profile_context:
+    timer.report(f"training epoch {epoch + 1} start from step {step + 1}")
 
-                evaluation_freq = 4 # run evaluation every evaluation_freq steps
+    for batch in train_dataloader:
 
-                for step, batch in enumerate(train_dataloader):
-                    total_train_steps += 1
-                    # stop when the maximum number of training steps is reached
-                    if train_config.max_train_step > 0 and total_train_steps > train_config.max_train_step:
-                        max_steps_reached = True
-                        if not train_config.enable_fsdp or local_rank==0:
-                            print("max training steps reached, stopping training, total train steps finished: ", total_train_steps-1)
-                        break
-                    for key in batch.keys():
-                        if train_config.enable_fsdp:
-                            if is_xpu_available():
-                                batch[key] = batch[key].to(torch.device(f"xpu:{local_rank}"))
-                            else:
-                                batch[key] = batch[key].to(local_rank)
-                        else:
-                            if is_xpu_available():
-                                batch[key] = batch[key].to('xpu:0')
-                            elif torch.cuda.is_available():
-                                batch[key] = batch[key].to('cuda:0')
-                    with autocast():
+        # Prep save path first for robustness under time constraint
+        save_path = saver.prepare_checkpoint_directory()
 
-                        device = torch.device("cuda")
-                        # Joseph's modification # TODO: [Joseph/Suhong] - need to make this more generic
-                        label_to_token_id = [319,350,315,360,382,383,402,379,306,435] # hacky solution for llama-2 tokenizer
-                        # this is each token_id (ex. 319, 350, 315, ...) respresents token ' A', ' B', ' C', ...
+        timer.report(f"training epoch {epoch + 1} prepped save path")
 
-                        outputs = model(
-                            input_ids = batch['input_ids'],
-                            attention_mask = batch['attention_mask'],
-                        ) # forward path
-                        logits = outputs.logits.float().contiguous() # shape = batch_size * max(seq_length) * vocab_size
-                        batch_size, _, _ = logits.shape
-                        probs = F.softmax(logits, dim=-1)
-                        target_token_prob = probs[torch.arange(batch_size), batch['target_token_position']-1 , :]
-                        # -1 coming from that logits at position i is logit for next token (i+1-th)
-
-                        target_token_prob = target_token_prob[:, label_to_token_id] # shape = batch_size * max_options
-                        target_token_prob /= target_token_prob.sum(dim=-1, keepdim=True)
-
-                        # calculate ce loss
-                        resp_dist = batch['response_distribution'].float() # shape = batch_size * max_options
-                        ce_loss = -torch.sum(resp_dist * torch.log(target_token_prob + 1e-8), dim=-1)
-                        ce_loss_mean = ce_loss.mean().detach().float()
-                        # calculate wd loss
-                        ordinal_info = batch['ordinal_info'].float()
-                        wd_loss_list = []
-                        for data_idx in range(batch_size):
-                            emd_value = ordinal_emd(resp_dist[data_idx], target_token_prob[data_idx], ordinal_info[data_idx])
-                            wd_loss_list.append(emd_value.to(device))
-                        wd_loss = torch.stack(wd_loss_list)
-                        wd_loss_mean = wd_loss.mean().detach().float()
-                        # save loss
-                        if train_config.loss_function_type == 'ce':
-                            loss = ce_loss.mean()
-                        elif train_config.loss_function_type == 'wd':
-                            loss = wd_loss.mean()
-                        else:
-                            raise ValueError(f"Unknown loss function type: {train_config.loss_function_type}")
-
-                    loss = loss / gradient_accumulation_steps
-                    if train_config.save_metrics:
-                        train_step_loss.append(loss.detach().float().item())
-                        train_step_perplexity.append(float(torch.exp(loss.detach().float())))
-                    total_loss += loss.detach().float()
-                    if train_config.use_fp16:
-                        # if fp16 is enabled, use gradient scaler to handle gradient update
-                        scaler.scale(loss).backward()
-                        if (step + 1) % gradient_accumulation_steps == 0 or step == len(train_dataloader) - 1:
-                            if train_config.gradient_clipping and train_config.gradient_clipping_threshold > 0.0:
-                                scaler.unscale_(optimizer)
-                                if train_config.enable_fsdp:
-                                    model.clip_grad_norm_(train_config.gradient_clipping_threshold)
-                                else:
-                                    torch.nn.utils.clip_grad_norm_(model.parameters(), train_config.gradient_clipping_threshold)
-                            scaler.step(optimizer)
-                            scaler.update()
-                            optimizer.zero_grad()
-                            pbar.update(1)
-                    else:
-                        # regular backpropagation when fp16 is not used
-                        loss.backward()
-                        if (step + 1) % gradient_accumulation_steps == 0 or step == len(train_dataloader) - 1:
-                            if train_config.gradient_clipping and train_config.gradient_clipping_threshold > 0.0:
-                                if train_config.enable_fsdp:
-                                    model.clip_grad_norm_(train_config.gradient_clipping_threshold)
-                                else:
-                                    torch.nn.utils.clip_grad_norm_(model.parameters(), train_config.gradient_clipping_threshold)
-                            optimizer.step()
-                            optimizer.zero_grad()
-                            pbar.update(1)
-                    if train_config.use_profiler or train_config.flop_counter:
-                        profile_context.step()
-                    if train_config.flop_counter and profile_context.is_done():
-                        TFlops = profile_context.get_flops_per_sec() / 1e12
-                    if wandb_run:
-                        if not train_config.enable_fsdp or rank==0:
-                            wandb_run.log({
-                                'train/epoch': epoch + 1,
-                                'train/step': epoch * len(train_dataloader) + step,
-                                'train/loss': loss.detach().float(),
-                                'train/learning_rate': optimizer.param_groups[0]['lr'],
-                                'train/ce_loss': ce_loss_mean,
-                                'train/wd_loss': wd_loss_mean,
-                            })
-
-                    pbar.set_description(f"Training Epoch: {epoch+1}/{train_config.num_epochs}, step {step}/{len(train_dataloader)} completed (loss: {loss.detach().float()})")
-
-                    if train_config.save_metrics:
-                        save_to_json(metrics_filename, train_step_loss, train_loss, train_step_perplexity, train_prep, val_step_loss, val_loss, val_step_perplexity, val_prep)
-                pbar.close()
-
-                # run evaluation every evaluation_freq steps
-                if train_config.run_validation and (step+1) % evaluation_freq == 0:
-                    pass # TODO: IMPLEMENT FREQUENT EVALAUTION IN LLAMA_RECIPES (ALONG WITH TEST EVALUATION)
-
-        epoch_end_time = time.perf_counter()-epoch_start_time
-        epoch_times.append(epoch_end_time)
-        # Reducing total_loss across all devices if there's more than one CUDA device
-        if is_xpu_available() and (torch.xpu.device_count() > 1 and train_config.enable_fsdp):
-            dist.all_reduce(total_loss, op=dist.ReduceOp.SUM)
-        elif torch.cuda.device_count() > 1 and train_config.enable_fsdp:
-            dist.all_reduce(total_loss, op=dist.ReduceOp.SUM)
-        train_epoch_loss = total_loss / len(train_dataloader)
-        if train_config.enable_fsdp:
-            train_epoch_loss = train_epoch_loss/world_size
-        train_perplexity = torch.exp(train_epoch_loss)
-
-        train_prep.append(float(train_perplexity))
-        train_loss.append(float(train_epoch_loss))
-
-        if not train_config.enable_fsdp or rank==0:
-            memtrace.print_stats()
-
-        # Update the learning rate as needed
-        lr_scheduler.step()
-        should_save_model = train_config.save_model
-        if train_config.run_validation:
-            eval_ppl, eval_epoch_loss, temp_val_loss, temp_step_perplexity = evaluation(model, train_config, eval_dataloader, local_rank, tokenizer, wandb_run)
-            if train_config.save_metrics:
-                val_step_loss.extend(temp_val_loss)
-                val_step_perplexity.extend(temp_step_perplexity)
-            should_save_model = train_config.save_model and eval_epoch_loss < best_val_loss
-        
-        checkpoint_start_time = time.perf_counter()
-        if should_save_model:
+        for key in batch.keys():
             if train_config.enable_fsdp:
-                dist.barrier()
-            if train_config.use_peft:
-                if train_config.enable_fsdp:
-                    if rank==0:
-                        print(f"we are about to save the PEFT modules")
-                else:
-                    print(f"we are about to save the PEFT modules")
-                save_peft_checkpoint(model, train_config.output_dir)
-                if train_config.enable_fsdp:
-                    if rank==0:
-                        print(f"PEFT modules are saved in {train_config.output_dir} directory")
-                else:
-                    print(f"PEFT modules are saved in {train_config.output_dir} directory")
-
+                batch[key] = batch[key].to(int(os.environ["LOCAL_RANK"]))
             else:
-                if not train_config.enable_fsdp:
-                    save_model_checkpoint(model, train_config.output_dir)
-                    
-                elif fsdp_config.checkpoint_type == StateDictType.FULL_STATE_DICT:
-                    print(" Saving the FSDP model checkpoint using FULL_STATE_DICT")
-                    print("=====================================================")
-                    save_fsdp_model_checkpoint_full(
-                        model, optimizer, rank, train_config, epoch=epoch
-                    )
-                    
-                    if train_config.save_optimizer:
-                        print(" Saving the FSDP optimizer using FULL_STATE_DICT")
-                        print("=====================================================")
-                        save_optimizer_checkpoint(
-                            model, optimizer, rank, train_config, epoch=epoch
-                        )
-                    
-                elif fsdp_config.checkpoint_type == StateDictType.SHARDED_STATE_DICT:
+                batch[key] = batch[key].to('cuda:0')
+        
+        timer.report(f"batch {step + 1} data to device")
 
-                    if train_config.save_optimizer:
-                        print(" Saving the FSDP model checkpoints using SHARDED_STATE_DICT")
-                        print("=====================================================")
-                        save_model_and_optimizer_sharded(model, rank, train_config, optim=optimizer)
-                    else:
-                        print(" Saving the FSDP model checkpoints and optimizer using SHARDED_STATE_DICT")
-                        print("=====================================================")
-                        save_model_and_optimizer_sharded(model, rank, train_config)
+        with autocast():
+            device = torch.device("cuda")
+            # Joseph's modification # TODO: [Joseph/Suhong] - need to make this more generic
+            label_to_token_id = [319,350,315,360,382,383,402,379,306,435] # hacky solution for llama-2 tokenizer
+            # this is each token_id (ex. 319, 350, 315, ...) respresents token ' A', ' B', ' C', ...
 
-                    
-            if train_config.enable_fsdp:
-                dist.barrier()
-        checkpoint_end_time = time.perf_counter() - checkpoint_start_time
-        checkpoint_times.append(checkpoint_end_time)
+            outputs = model(
+                input_ids = batch['input_ids'],
+                attention_mask = batch['attention_mask'],
+            ) # forward path
+            logits = outputs.logits.float().contiguous() # shape = batch_size * max(seq_length) * vocab_size
+            batch_size, _, _ = logits.shape
+            probs = F.softmax(logits, dim=-1)
+            target_token_prob = probs[torch.arange(batch_size), batch['target_token_position']-1 , :]
+            # -1 coming from that logits at position i is logit for next token (i+1-th)
 
-        if train_config.run_validation:
-            if eval_epoch_loss < best_val_loss:
-                best_val_loss = eval_epoch_loss
-                if train_config.enable_fsdp:
-                    if rank==0:
-                        print(f"best eval loss on epoch {epoch+1} is {best_val_loss}")
-                else:
-                        print(f"best eval loss on epoch {epoch+1} is {best_val_loss}")
-            val_loss.append(float(best_val_loss))
-            val_prep.append(float(eval_ppl))
-        if train_config.enable_fsdp:
-            if rank==0:
-                print(f"Epoch {epoch+1}: train_perplexity={train_perplexity:.4f}, train_epoch_loss={train_epoch_loss:.4f}, epoch time {epoch_end_time}s")
+            target_token_prob = target_token_prob[:, label_to_token_id] # shape = batch_size * max_options
+            target_token_prob /= target_token_prob.sum(dim=-1, keepdim=True)
+
+            # calculate ce loss
+            resp_dist = batch['response_distribution'].float() # shape = batch_size * max_options
+            ce_loss = -torch.sum(resp_dist * torch.log(target_token_prob + 1e-8), dim=-1)
+            ce_loss_mean = ce_loss.mean().detach().float()
+            # calculate wd loss
+            ordinal_info = batch['ordinal_info'].float()
+            wd_loss_list = []
+            for data_idx in range(batch_size):
+                emd_value = ordinal_emd(resp_dist[data_idx], target_token_prob[data_idx], ordinal_info[data_idx])
+                wd_loss_list.append(emd_value.to(device))
+            wd_loss = torch.stack(wd_loss_list)
+            wd_loss_mean = wd_loss.mean().detach().float()
+            # save loss
+            if train_config.loss_function_type == 'ce':
+                loss = ce_loss.mean()
+            elif train_config.loss_function_type == 'wd':
+                loss = wd_loss.mean()
+            else:
+                raise ValueError(f"Unknown loss function type: {train_config.loss_function_type}")
+        loss = loss / gradient_accumulation_steps
+
+        timer.report(f"batch {step + 1} rank 0 loss: {loss.item():.4f}")
+        
+        if train_config.use_fp16:
+            # if fp16 is enabled, use gradient scaler to handle gradient update
+            scaler.scale(loss).backward()
+            if (step + 1) % gradient_accumulation_steps == 0 or (step + 1) == len(train_dataloader):
+                scaler.step(optimizer)
+                scaler.update()
+                optimizer.zero_grad()
+
         else:
-            print(f"Epoch {epoch+1}: train_perplexity={train_perplexity:.4f}, train_epoch_loss={train_epoch_loss:.4f}, epoch time {epoch_end_time}s")
+            # regular backpropagation when fp16 is not used
+            loss.backward()
+            if (step + 1) % gradient_accumulation_steps == 0 or (step + 1) == len(train_dataloader):
+                optimizer.step()
+                optimizer.zero_grad()
 
-        # Saving the results every epoch to plot later
-        if train_config.save_metrics:
-            save_to_json(metrics_filename, train_step_loss, train_loss, train_step_perplexity, train_prep, val_step_loss, val_loss, val_step_perplexity, val_prep)
+        timer.report(f"batch {step + 1} backward")
 
-    avg_epoch_time = sum(epoch_times)/ len(epoch_times)
-    avg_checkpoint_time = sum(checkpoint_times)/ len(checkpoint_times) if len(checkpoint_times) > 0 else 0
-    avg_train_prep = sum(train_prep)/len(train_prep)
-    avg_train_loss = sum(train_loss)/len(train_loss)
-    if train_config.run_validation:
-        avg_eval_prep = sum(val_prep)/len(val_prep)
-        avg_eval_loss = sum(val_loss)/len(val_loss)
+        metrics["train"].update({"processed": train_dataloader.batch_size, "loss": loss.detach().float()})
+        metrics["train"].reduce()
+        batch_loss = metrics["train"].local["loss"] / metrics["train"].local["processed"]
+        timer.report(f"Training Epoch: {epoch+1}/{train_config.num_epochs}, step {step + 1}/{len(train_dataloader)} batch (loss: {batch_loss:.4f})")
+        metrics["train"].reset_local()
 
-    results['avg_train_prep'] = avg_train_prep
-    results['avg_train_loss'] = avg_train_loss
-    if train_config.run_validation:
-        results['avg_eval_prep'] = avg_eval_prep
-        results['avg_eval_loss'] = avg_eval_loss
-    results["avg_epoch_time"] = avg_epoch_time
-    results["avg_checkpoint_time"] = avg_checkpoint_time
-    if train_config.save_metrics:
-        results["metrics_filename"] = metrics_filename
-    if train_config.flop_counter:
-        results["model_tflops"]= TFlops
-    #saving the training params including fsdp setting for reference.
-    if train_config.enable_fsdp and not train_config.use_peft and rank==0:
-        save_train_params(train_config, fsdp_config, rank)
+        # Advance sampler and measure progress
+        train_dataloader.sampler.advance(train_dataloader.batch_size)
+        step = train_dataloader.sampler.progress // train_dataloader.batch_size
 
-    return results
+        if int(os.environ["RANK"]) == 0:
+            total_progress = epoch * total_steps + step
 
-def evaluation(model,train_config, eval_dataloader, local_rank, tokenizer, wandb_run):
-    """
-    Evaluates the model on the given dataloader
+        if step == total_steps:
+            lr_scheduler.step()
+            metrics["train"].end_epoch()
 
-    Args:
-        model: The model to evaluate
-        eval_dataloader: The dataloader containing the evaluation data
-        local_rank: The rank of the current node in a distributed setting
-        tokenizer: The tokenizer used to decode predictions
+        save_checkpoint(save_path, model, optimizer, scaler, train_dataloader, eval_dataloader, lr_scheduler, metrics, timer, saver)
 
-    Returns: eval_ppl, eval_epoch_loss
-    """
-    if train_config.enable_fsdp:
-        world_size = int(os.environ["WORLD_SIZE"])
+
+def evaluation(epoch, model, train_dataloader, eval_dataloader, optimizer, lr_scheduler, scaler, metrics, kwargs, timer, train_config, saver):
+
     model.eval()
-    eval_preds = []
-    val_step_loss = []
-    val_step_perplexity = []
-    eval_loss = 0.0  # Initialize evaluation loss
-    eval_ce_loss = 0.0
-    eval_wd_loss = 0.0
-    total_eval_steps = 0
-    with MemoryTrace() as memtrace:
-        for step, batch in enumerate(tqdm(eval_dataloader,colour="green", desc="evaluating Epoch", dynamic_ncols=True)):
-            total_eval_steps += 1
-            # stop when the maximum number of eval steps is reached
-            if train_config.max_eval_step > 0 and total_eval_steps > train_config.max_eval_step:
-                if not train_config.enable_fsdp or local_rank==0:
-                    print("max eval steps reached, stopping evaluation, total_eval_steps: ", total_eval_steps - 1)
-                break
-            for key in batch.keys():
-                if train_config.enable_fsdp:
-                    batch[key] = batch[key].to(local_rank)
-                else:
-                    if is_xpu_available():
-                        batch[key] = batch[key].to('xpu:0')
-                    else:
-                        batch[key] = batch[key].to('cuda:0')
-            # Ensure no gradients are computed for this scope to save memory
-            with torch.no_grad():
 
-                device = torch.device("cuda")
-                # Joseph's modification # TODO: [Joseph/Suhong] - need to make this more generic
-                label_to_token_id = [319,350,315,360,382,383,402,379,306,435] # hacky solution for llama-2 tokenizer
+    step = eval_dataloader.sampler.progress // eval_dataloader.batch_size
+    total_steps = len(eval_dataloader)
 
-                # this is each token_id (ex. 319, 350, 315, ...) respresents token ' A', ' B', ' C', ...
-                outputs = model(
-                    input_ids = batch['input_ids'],
-                    attention_mask = batch['attention_mask'],
-                ) # forward path
-                logits = outputs.logits.float().contiguous() # shape = batch_size * max(seq_length) * vocab_size
-                batch_size, _, _ = logits.shape
-                probs = F.softmax(logits, dim=-1)
-                target_token_prob = probs[torch.arange(batch_size), batch['target_token_position']-1 , :]
+    timer.report(f"evaluation epoch {epoch + 1} start from step {step + 1}")
 
-                # -1 coming from that logits at position i is logit for next token (i+1-th)
-                target_token_prob = target_token_prob[:, label_to_token_id]
-                target_token_prob /= target_token_prob.sum(dim=-1, keepdim=True)
+    for batch in eval_dataloader:
 
-                resp_dist = batch['response_distribution'].float() # shape = batch_size * max_options
-                # cross-entropy loss
-                ce_loss = -torch.sum(resp_dist * torch.log(target_token_prob + 1e-8), dim=-1)
-                # Wasserstein distance loss
-                ordinal_info = batch['ordinal_info'].float()
-                wd_loss_list = []
-                for data_idx in range(batch_size):
-                    emd_value = ordinal_emd(resp_dist[data_idx], target_token_prob[data_idx], ordinal_info[data_idx])
-                    wd_loss_list.append(emd_value.to(device))
-                wd_loss = torch.stack(wd_loss_list)
+        # Prep save path first for robustness under time constraint
+        save_path = saver.prepare_checkpoint_directory()
 
-                eval_ce_loss += ce_loss.mean().detach().float()
-                eval_wd_loss += wd_loss.mean().detach().float()
-                if train_config.loss_function_type == 'ce':
-                    loss = ce_loss.mean()
-                elif train_config.loss_function_type == 'wd':
-                    loss = wd_loss.mean()
-                else:
-                    raise ValueError(f"Unknown loss function type: {train_config.loss_function_type}")
+        for key in batch.keys():
+            if train_config.enable_fsdp:
+                batch[key] = batch[key].to(int(os.environ["LOCAL_RANK"]))
+            else:
+                batch[key] = batch[key].to('cuda:0')
 
-                if train_config.save_metrics:
-                    val_step_loss.append(loss.detach().float().item())
-                    val_step_perplexity.append(float(torch.exp(loss.detach().float())))
+        timer.report(f"batch {step + 1} data to device")
 
-                eval_loss += loss.detach().float()
-            # Decode predictions and add to evaluation predictions list
-            preds = torch.argmax(outputs.logits, -1)
-            eval_preds.extend(
-                tokenizer.batch_decode(preds.detach().cpu().numpy(), skip_special_tokens=True)
-            )
+        # Ensure no gradients are computed for this scope to save memory
+        with torch.no_grad():
+            # Forward pass and compute loss
+            outputs = model(**batch)
+            loss = outputs.loss
+        
+        timer.report(f"batch {step + 1} loss")
 
-    # If there's more than one CUDA device, reduce evaluation loss across all devices
-    if is_xpu_available() and (torch.xpu.device_count() > 1 and train_config.enable_fsdp):
-        dist.all_reduce(eval_loss, op=dist.ReduceOp.SUM)
-        dist.all_reduce(eval_ce_loss, op=dist.ReduceOp.SUM)
-        dist.all_reduce(eval_wd_loss, op=dist.ReduceOp.SUM)
-    if torch.cuda.device_count() > 1 and train_config.enable_fsdp:
-        dist.all_reduce(eval_loss, op=dist.ReduceOp.SUM)
-        dist.all_reduce(eval_ce_loss, op=dist.ReduceOp.SUM)
-        dist.all_reduce(eval_wd_loss, op=dist.ReduceOp.SUM)
+        metrics["eval"].update({"processed": eval_dataloader.batch_size, "loss": loss.detach().float()})
+        metrics["eval"].reduce()
 
-    # Compute average loss and perplexity
-    eval_epoch_loss = eval_loss / len(eval_dataloader)
-    eval_epoch_ce_loss = eval_ce_loss / len(eval_dataloader)
-    eval_epoch_wd_loss = eval_wd_loss / len(eval_dataloader)
-    if train_config.enable_fsdp:
-        eval_epoch_loss = eval_epoch_loss/world_size
-        eval_epoch_ce_loss = eval_epoch_ce_loss/world_size
-        eval_epoch_wd_loss = eval_epoch_wd_loss/world_size
-    eval_ppl = torch.exp(eval_epoch_loss)
+        # Advance sampler and measure progress
+        eval_dataloader.sampler.advance(eval_dataloader.batch_size)
+        step = eval_dataloader.sampler.progress // eval_dataloader.batch_size
 
-    # Print evaluation metrics
-    if train_config.enable_fsdp:
-        if local_rank==0:
-            print(f" {eval_ppl=} {eval_epoch_loss=}")
-    else:
-        print(f" {eval_ppl=} {eval_epoch_loss=}")
+        if step == total_steps:
+            epoch_loss = metrics["eval"].local["loss"] / metrics["eval"].local["processed"]
+            timer.report(f"Evaluation Epoch: {epoch+1}/{train_config.num_epochs}, epoch loss: {epoch_loss:.4f}")
+            metrics["eval"].end_epoch()
 
-    if wandb_run:
-        wandb_run.log({
-                        'eval/perplexity': eval_ppl,
-                        'eval/loss': eval_epoch_loss,
-                        'eval/ce_loss': eval_epoch_ce_loss,
-                        'eval/wd_loss': eval_epoch_wd_loss
-                    }, commit=False)
+            if int(os.environ["RANK"]) == 0:
+                writer.add_scalar('Eval/Loss', epoch_loss, epoch)
 
-    return eval_ppl, eval_epoch_loss, val_step_loss, val_step_perplexity
+        save_checkpoint(save_path, model, optimizer, scaler, train_dataloader, eval_dataloader, lr_scheduler, metrics, timer, saver)
+
 
 def freeze_transformer_layers(model, num_layer):
    for i, layer in enumerate(model.model.layers):
@@ -572,24 +278,36 @@ def check_frozen_layers_peft_model(model):
 
 def setup():
     """Initialize the process group for distributed training"""
-    if is_ccl_available():
-        # distributed training on xpus
-        dist.init_process_group("ccl")
-    else:
-        dist.init_process_group("nccl")
+    dist.init_process_group("nccl")
 
 
 def setup_environ_flags(rank):
     """Set environment flags for debugging purposes"""
     os.environ["TORCH_SHOW_CPP_STACKTRACES"] = str(1)
-    os.environ["NCCL_ASYNC_ERROR_HANDLING"] = str(1)
+    # os.environ["NCCL_ASYNC_ERROR_HANDLING"] = str(1)
+    os.environ["TORCH_NCCL_ASYNC_ERROR_HANDLING"] = str(1)
     # os.environ["TORCH_DISTRIBUTED_DEBUG"] = "DETAIL"
     # This flag will help with CUDA memory fragmentations that can lead into OOM in some cases.
-    # Note this is only available in PyTorch Nighlies (as of July 30 2023)
+    # Note this is only availble in PyTorch Nighlies (as of July 30 2023)
     # os.environ['PYTORCH_CUDA_ALLOC_CONF']='expandable_segments:True'
     if rank == 0:
         print(f"--> Running with torch dist debug set to detail")
 
+def get_lr_scheduler(optimizer, train_config):
+    """Get the learning rate scheduler"""
+    if train_config.lr_scheduler == "cosine":
+        lr_scheduler = get_cosine_schedule_with_warmup(
+            optimizer,
+            num_warmup_steps=train_config.warmup_steps,
+            num_training_steps=train_config.max_train_step,
+        )
+        update_freq = "step"
+    elif train_config.lr_scheduler == "step":
+        lr_scheduler = StepLR(optimizer, step_size=train_config.step_size, gamma=train_config.gamma)
+        update_freq = "epoch"
+    else:
+        raise ValueError(f"Unknown learning rate scheduler: {train_config.lr_scheduler}")
+    return lr_scheduler, update_freq
 
 def cleanup():
     """Clean up the process group after training"""
@@ -600,10 +318,7 @@ def clear_gpu_cache(rank=None):
     """Clear the GPU cache for all ranks"""
     if rank == 0:
         print(f"Clearing GPU cache for all ranks")
-    if is_xpu_available():
-        torch.xpu_empty_cache()
-    else:
-        torch.cuda.empty_cache()
+    torch.cuda.empty_cache()
 
 
 def get_parameter_dtypes(model):
@@ -635,15 +350,13 @@ def print_model_size(model, config, rank: int = 0) -> None:
 def get_policies(cfg, rank):
     """Get the policies for mixed precision and fsdp wrapping"""
 
-
-    verify_bfloat_support = ((
+    verify_bfloat_support = (
     torch.version.cuda
     and torch.cuda.is_bf16_supported()
-    and torch.version.cuda >= "11.0"
+    and packaging.version.parse(torch.version.cuda).release >= (11, 0)
     and dist.is_nccl_available()
     and nccl.version() >= (2, 10)
-    ) or
-    (is_xpu_available()))
+    )
 
 
     mixed_precision_policy = None
@@ -704,17 +417,3 @@ def save_train_params(train_config, fsdp_config, rank):
             f.write(config_yaml)
         if rank==0:
             print(f"training params are saved in {file_name}")
-
-def save_to_json(output_filename, train_step_loss, train_epoch_loss, train_step_ppl, train_epoch_ppl, val_step_loss, val_epoch_loss, val_step_ppl, val_epoch_ppl):
-    metrics_data = {
-        "train_step_loss": train_step_loss,
-        "train_epoch_loss": train_epoch_loss,
-        "train_step_perplexity": train_step_ppl,
-        "train_epoch_perplexity": train_epoch_ppl,
-        "val_step_loss": val_step_loss,
-        "val_epoch_loss": val_epoch_loss,
-        "val_step_perplexity": val_step_ppl,
-        "val_epoch_perplexity": val_epoch_ppl
-    }
-    with open(output_filename, "w") as f:
-        json.dump(metrics_data, f)

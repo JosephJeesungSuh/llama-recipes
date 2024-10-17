@@ -1,6 +1,12 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # This software may be used and distributed according to the terms of the Llama 2 Community License Agreement.
 
+## ADDED
+from cycling_utils import TimestampedTimer
+from cycling_utils import InterruptableDistributedSampler, MetricsTracker, AtomicDirectory
+
+timer = TimestampedTimer()
+
 from collections import Counter
 import os
 
@@ -9,23 +15,20 @@ import fire
 import random
 import torch
 import torch.optim as optim
+import torch.distributed as dist  
 from peft import get_peft_model, PeftModel
 from torch.distributed.fsdp import (
     FullyShardedDataParallel as FSDP,
-    ShardingStrategy
+    ShardingStrategy,
 )
 from torch.distributed.fsdp.fully_sharded_data_parallel import CPUOffload
-from torch.optim.lr_scheduler import StepLR
+from torch.distributed.fsdp.sharded_grad_scaler import ShardedGradScaler
 from transformers import (
     AutoConfig,
     AutoTokenizer,
-    BitsAndBytesConfig,
-    AutoProcessor, 
     LlamaForCausalLM,
-    MllamaForConditionalGeneration,
 )
 from transformers.models.llama.modeling_llama import LlamaDecoderLayer
-from transformers.models.mllama.modeling_mllama import  MllamaSelfAttentionDecoderLayer,MllamaCrossAttentionDecoderLayer,MllamaVisionEncoderLayer
 
 from llama_recipes.configs import fsdp_config as FSDP_CONFIG
 from llama_recipes.configs import train_config as TRAIN_CONFIG
@@ -50,11 +53,14 @@ from llama_recipes.utils.train_utils import (
     setup,
     setup_environ_flags,
     clear_gpu_cache,
-    print_model_size,
+    # print_model_size,
     get_policies,
+    get_lr_scheduler,
 )
 from accelerate.utils import is_xpu_available
 from warnings import warn, simplefilter
+
+timer.report("imports")
 
 simplefilter(action='ignore', category=FutureWarning)
 
@@ -90,7 +96,7 @@ def main(**kwargs):
         # torchrun specific
         local_rank = int(os.environ["LOCAL_RANK"])
         rank = int(os.environ["RANK"])
-        world_size = int(os.environ["WORLD_SIZE"])
+        # world_size = int(os.environ["WORLD_SIZE"]) # not used
 
     if torch.distributed.is_initialized():
         if is_xpu_available():
@@ -99,12 +105,15 @@ def main(**kwargs):
             torch.cuda.set_device(local_rank)
         clear_gpu_cache(local_rank)
         setup_environ_flags(rank)
+    
+    timer.report("init distributed environment")
 
     wandb_run = None
 
     if train_config.use_wandb:
         if not train_config.enable_fsdp or rank==0:
             wandb_run = setup_wandb(train_config, fsdp_config, **kwargs)
+        timer.report("init wandb")
     
     #setting quantization configs
     bnb_config = None
@@ -119,25 +128,15 @@ def main(**kwargs):
         quant_config = QUANTIZATION_CONFIG()
         update_config(quant_config, **kwargs)
         bnb_config = quant_config.create_bnb_config(train_config.quantization)
+        timer.report("init quantization")
 
     # Load the pre-trained model and setup its configuration
     use_cache = False if train_config.enable_fsdp else None
+    timer.report(f"use_cache: {use_cache}")
+
     config = AutoConfig.from_pretrained(train_config.model_name)
-    if config.model_type == "mllama":
-        is_vision = True
-        model = MllamaForConditionalGeneration.from_pretrained(
-        train_config.model_name,
-        quantization_config=bnb_config,
-        attn_implementation="sdpa" if train_config.use_fast_kernels else None,
-        device_map="auto" if train_config.quantization and not train_config.enable_fsdp else None,
-        torch_dtype=torch.float16 if train_config.use_fp16 else torch.bfloat16,
-    )
-        processor = AutoProcessor.from_pretrained(train_config.model_name if train_config.tokenizer_name is None else train_config.tokenizer_name)
-        processor.tokenizer.padding_side='right'
-        model.supports_gradient_checkpointing = True
-        model.language_model.supports_gradient_checkpointing = True
-    elif config.model_type == "llama":
-        is_vision = False
+    if config.model_type == "llama":
+        timer.report(f"loading LlamaForCausalLM.from_pretrained")
         model = LlamaForCausalLM.from_pretrained(
             train_config.model_name,
             quantization_config=bnb_config,
@@ -146,12 +145,16 @@ def main(**kwargs):
             device_map="auto" if train_config.quantization and not train_config.enable_fsdp else None,
             torch_dtype=torch.float16 if train_config.use_fp16 else torch.bfloat16,
         )
+        timer.report("loaded LlamaForCausalLM.from_pretrained")
     else:
         raise ValueError(f"Model type {config.model_type} is not supported. Please use llama or mllama model.")
+
     # Load the tokenizer and add special tokens
+    timer.report("Load tokenizer")
     tokenizer = AutoTokenizer.from_pretrained(train_config.model_name if train_config.tokenizer_name is None else train_config.tokenizer_name)
     if not tokenizer.pad_token_id: 
         tokenizer.pad_token_id = tokenizer.eos_token_id
+    timer.report("loaded tokenizer")
         
     # If there is a mismatch between tokenizer vocab size and embedding matrix,
     # throw a warning and then expand the embedding matrix
@@ -159,24 +162,33 @@ def main(**kwargs):
         print("WARNING: Resizing the embedding matrix to match the tokenizer vocab size.")
         model.resize_token_embeddings(len(tokenizer))
 
-    print_model_size(model, train_config, rank if train_config.enable_fsdp else 0)
-
     # Convert the model to bfloat16 if fsdp and pure_bf16 is enabled
     if train_config.enable_fsdp and fsdp_config.pure_bf16 and not train_config.quantization:
+        timer.report("model to torch.bfloat16")
         model.to(torch.bfloat16)
+        timer.report("Finished model to torch.bfloat16")
         
     if train_config.use_peft:
-        # Load the pre-trained peft model checkpoint and setup its configuration
-        if train_config.from_peft_checkpoint:
-            model = PeftModel.from_pretrained(model, train_config.from_peft_checkpoint, is_trainable=True)
-            peft_config = model.peft_config['default']
+        latest_sym_path = os.path.join(kwargs["dist_checkpoint_root_folder"], "latest_pt")
+        if os.path.exists(latest_sym_path):
+            latest_path = os.readlink(latest_sym_path)
+            peft_path = os.path.join(latest_path, "peft")
+            dist.barrier()
+            model = PeftModel.from_pretrained(model, peft_path, is_trainable=True)
+            if rank == 0:
+                print("RESUMED SAVED PEFT MODULES")
+            dist.barrier()
         # Generate the peft config and start fine-tuning from original model
         else:
             peft_config = generate_peft_config(train_config, kwargs)
             model = get_peft_model(model, peft_config)
-        if wandb_run:
-            wandb_run.config.update(peft_config)
-        model.print_trainable_parameters()
+            if rank == 0:
+                print("BUILT NEW PEFT MODULES")
+            if wandb_run:
+                wandb_run.config.update(peft_config)
+        if rank == 0:
+            model.print_trainable_parameters()
+        timer.report("peft modules inserted")
 
     hsdp_device_mesh_plan = None
     if fsdp_config.hsdp and fsdp_config.sharding_strategy == ShardingStrategy.HYBRID_SHARD:
@@ -192,11 +204,7 @@ def main(**kwargs):
 
         mixed_precision_policy, wrapping_policy = get_policies(fsdp_config, rank)
         # Create the FSDP wrapper for MllamaSelfAttentionDecoderLayer,MllamaSelfAttentionDecoderLayer,MllamaVisionEncoderLayer in vision models
-        if is_vision:
-            my_auto_wrapping_policy = fsdp_auto_wrap_policy(model, [MllamaSelfAttentionDecoderLayer,MllamaSelfAttentionDecoderLayer,MllamaVisionEncoderLayer])
-        else:
-        # Create the FSDP wrapper for LlamaDecoderLayer in text models
-            my_auto_wrapping_policy = fsdp_auto_wrap_policy(model, [LlamaDecoderLayer])
+        my_auto_wrapping_policy = fsdp_auto_wrap_policy(model, [LlamaDecoderLayer])
         device_id = 0
         if is_xpu_available():
             device_id = torch.xpu.current_device()
@@ -215,20 +223,21 @@ def main(**kwargs):
             param_init_fn=(lambda module: module.to_empty(device=torch.device("cuda"), recurse=False))
             if train_config.low_cpu_fsdp and rank != 0 else None,
         )
+        timer.report("FSDP wrapping done")
         if fsdp_config.fsdp_activation_checkpointing:            
             model.enable_input_require_grads()
             model.gradient_checkpointing_enable()
-            apply_fsdp_checkpointing(model)                      
+            apply_fsdp_checkpointing(model)
+            timer.report("FSDP activation checkpointing enabled")                      
     elif not train_config.quantization and not train_config.enable_fsdp:
         if is_xpu_available():
             model.to("xpu:0")
         elif torch.cuda.is_available():
             model.to("cuda")
     dataset_config = generate_dataset_config(train_config, kwargs)
-    if is_vision:
-        dataset_processer = processor
-    else:
-        dataset_processer = tokenizer
+    dataset_processer = tokenizer
+
+    timer.report("FSDP applied")
 
     # Load and preprocess the dataset for training and validation
 
@@ -249,13 +258,15 @@ def main(**kwargs):
         print(f"--> Validation Set Length = {len(dataset_val)}")
 
     if train_config.batching_strategy == "packing":
-        if is_vision:
-            raise ValueError("Packing is not supported for vision datasets")
-        else:
-            dataset_train = ConcatDataset(dataset_train, chunk_size=train_config.context_length)
+        dataset_train = ConcatDataset(dataset_train, chunk_size=train_config.context_length)
 
     train_dl_kwargs = get_dataloader_kwargs(train_config, dataset_train, dataset_processer, "train")
     print("length of dataset_train", len(dataset_train))
+
+    ## -- INSERT INTERRUPTIBLE DISTRIBUTED SAMPLER -- ##
+    train_sampler = InterruptableDistributedSampler(dataset_train)
+    train_dl_kwargs["sampler"] = train_sampler
+
     custom_data_collator = get_custom_data_collator(dataset_processer,dataset_config)
     if custom_data_collator:
         print("custom_data_collator is used")
@@ -267,20 +278,28 @@ def main(**kwargs):
         pin_memory=True,
         **train_dl_kwargs,
     )
+    # compute the total number of steps for training (num_epochs * len(train_dataloader))
+    if train_config.max_train_step > 0:
+        train_config.num_epochs = train_config.max_train_step // len(train_dataloader) + 1
+    else:
+        train_config.max_train_step = train_config.num_epochs * len(train_dataloader)
+
     print(f"--> Num of Training Set Batches loaded = {len(train_dataloader)}")
 
     eval_dataloader = None
     if train_config.run_validation:
         if train_config.batching_strategy == "packing":
-            if is_vision:
-                raise ValueError("Packing is not supported for vision datasets")
-            else:
-                dataset_val = ConcatDataset(dataset_val, chunk_size=train_config.context_length)
+            dataset_val = ConcatDataset(dataset_val, chunk_size=train_config.context_length)
 
         val_dl_kwargs = get_dataloader_kwargs(train_config, dataset_val, dataset_processer, "val")
+
+        ## -- INSERT INTERRUPTIBLE DISTRIBUTED SAMPLER -- ##
+        val_sampler = InterruptableDistributedSampler(dataset_val)
+        val_dl_kwargs["sampler"] = val_sampler
+
         if custom_data_collator:
             val_dl_kwargs["collate_fn"] = custom_data_collator
-
+    
         eval_dataloader = torch.utils.data.DataLoader(
             dataset_val,
             num_workers=train_config.num_workers_dataloader,
@@ -292,6 +311,8 @@ def main(**kwargs):
             raise ValueError("The eval set size is too small for dataloader to load even one batch. Please increase the size of eval set.")
         else:
             print(f"--> Num of Validation Set Batches loaded = {len(eval_dataloader)}")
+
+    timer.report("datasets and dataloaders")
 
     # Initialize the optimizer and learning rate scheduler
     if fsdp_config.pure_bf16 and fsdp_config.optimizer == "anyprecision":
@@ -309,26 +330,71 @@ def main(**kwargs):
             lr=train_config.lr,
             weight_decay=train_config.weight_decay,
         )
-    scheduler = StepLR(optimizer, step_size=1, gamma=train_config.gamma)
-    results = train(
-        model,
-        train_dataloader,
-        eval_dataloader,
-        tokenizer,
-        optimizer,
-        scheduler,
-        train_config.gradient_accumulation_steps,
-        train_config,
-        fsdp_config if train_config.enable_fsdp else None,
-        local_rank if train_config.enable_fsdp else None,
-        rank if train_config.enable_fsdp else None,
-        wandb_run,
-    )
-    if not train_config.enable_fsdp or rank==0:
-        [print(f'Key: {k}, Value: {v}') for k, v in results.items()]
-        if train_config.use_wandb:
-            for k,v in results.items():
-                wandb_run.summary[k] = v
+    lr_scheduler, update_freq = get_lr_scheduler(optimizer, train_config)
+
+    ## -- MOVED OUTSIDE TRAINING LOOP -- ##
+    # Create a gradient scaler for fp16
+    if train_config.use_fp16 and train_config.enable_fsdp:
+        scaler = ShardedGradScaler()
+    elif train_config.use_fp16 and not train_config.enable_fsdp:
+        scaler = torch.amp.GradScaler()
+    
+    # Init metric trackerb and saver
+    metrics = {'train': MetricsTracker(), 'eval': MetricsTracker()}
+    saver = AtomicDirectory(kwargs["dist_checkpoint_root_folder"])
+
+    timer.report("optimizer, scaler, metrics, and saver")
+
+    ## -- LOAD SAVED OPTIMIZER AND SCHEDULER IF SAVED PREVIOUSLY -- ##
+    start_epoch = 0
+
+    latest_sym_path = os.path.join(kwargs["dist_checkpoint_root_folder"], saver.symlink_name)
+    if os.path.exists(latest_sym_path):
+        latest_path = os.readlink(latest_sym_path)
+        peft_path = os.path.join(latest_path, "peft")
+        osd_path = os.path.join(latest_path, "optimizer.pt")
+        other_checkpoint_path = os.path.join(latest_path, "other_checkpoint.pt")
+
+        if rank == 0:
+            print("RESUMING FROM CHECKPOINTS")
+
+        full_osd = None
+        if rank == 0:
+            full_osd = torch.load(osd_path)
+        sharded_osd = FSDP.scatter_full_optim_state_dict(full_optim_state_dict=full_osd, model=model, optim=optimizer)
+        optimizer.load_state_dict(sharded_osd)
+
+        checkpoint = torch.load(other_checkpoint_path)       
+        scaler.load_state_dict(checkpoint["scaler"])
+        train_dataloader.sampler.load_state_dict(checkpoint["train_sampler"])
+        eval_dataloader.sampler.load_state_dict(checkpoint["eval_sampler"])
+        lr_scheduler.load_state_dict(checkpoint["lr_scheduler"])
+        metrics = checkpoint["metrics"]
+        start_epoch = train_dataloader.sampler.epoch
+
+    timer.report("checkpoint retrieval")
+
+    ## -- MOVE TRAINING LOOP OUTSIDE TRAIN FUNCTION -- ##
+    for epoch in range(start_epoch, train_config.num_epochs):
+        if rank == 0:
+            print(f"\nEPOCH :: {epoch + 1}\n")
+        
+        with train_dataloader.sampler.in_epoch(epoch):
+            # Start the training process
+            train(
+                epoch,
+                model,
+                train_dataloader,
+                eval_dataloader,
+                optimizer,
+                lr_scheduler,
+                scaler, ## ADDED
+                metrics, ## ADDED
+                timer, ## ADDED
+                train_config.gradient_accumulation_steps,
+                train_config,
+                saver ## ADDED
+            )
 
 if __name__ == "__main__":
     fire.Fire(main)
