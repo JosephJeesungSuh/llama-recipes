@@ -245,12 +245,14 @@ def main(**kwargs):
         dataset_config,
         split="valid",
     )
+    print(f"--> Validation Set Length = {len(dataset_val)}")
 
     dataset_test = get_preprocessed_dataset(
         dataset_processer,
         dataset_config,
         split="test",
     )
+    print(f"--> Test Set Length = {len(dataset_test)}")
 
     if not train_config.enable_fsdp or rank == 0:
         print(f"--> Validation Set Length = {len(dataset_val)}")

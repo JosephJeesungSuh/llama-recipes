@@ -1,0 +1,405 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+RACESURV14_W43,"Question: Would you say President Trump has
+A. Made progress toward improving race relations
+B. Tried but failed to make progress toward improving race relations
+C. Not addressed race relations
+D. Made race relations worse
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' D', ' A', ' A', ' D', ' A', ' D', ' C', ' A', ' D', ' D', ' B', ' D', ' D', ' D', ' B', ' A', ' C', ' D', ' D', ' A', ' C', ' B', ' C', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' B', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' A', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' D', ' A', ' A', ' A', ' D', ' D', ' B', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' C', ' D', ' D', ' D', ' A', ' D']","[0.12780673, 0.12219673, 0.12106923, 0.62892731, 0.0096819231156025]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_d_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are poor?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' E', ' A', ' B', ' D', ' A', ' B', ' D', ' A', ' A', ' D', ' D', ' D', ' C', ' D', ' A', ' D', ' A', ' D', ' C', ' D', ' A', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' B', ' D', ' B', ' B', ' A', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' B', ' D', ' D', ' C', ' A', ' D', ' E', ' C', ' D', ' D', ' D', ' D', ' D', ' A', ' C', ' E', ' D', ' D', ' D', ' C', ' B', ' D', ' B', ' B', ' D', ' D', ' D', ' B', ' B', ' D', ' B', ' A', ' B', ' D', ' B', ' D', ' C', ' E', ' D', ' D', ' B', ' D', ' E', ' D', ' A', ' B', ' B', ' D', ' B', ' D', ' D', ' F', ' D']","[0.10606725, 0.16097686, 0.18206403, 0.48078019, 0.07011167, 0.0077253112298563]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV47a_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A sports team using Native American tribal names or images as mascots
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' D', ' B', ' D', ' E', ' B', ' C', ' C', ' E', ' D', ' D', ' B', ' B', ' C', ' B', ' E', ' E', ' D', ' B', ' A', ' B', ' D', ' D', ' D', ' A', ' C', ' D', ' D', ' D', ' D', ' A', ' C', ' A', ' C', ' A', ' E', ' C', ' D', ' C', ' B', ' D', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' C', ' E', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' D', ' E', ' B', ' D', ' E', ' D', ' C', ' B', ' D', ' A', ' E', ' B', ' B', ' A', ' A', ' C', ' D', ' D', ' D', ' D', ' B', ' C', ' A', ' A', ' D', ' D', ' E', ' A', ' D', ' C', ' E', ' A', ' C', ' B', ' D', ' A', ' C', ' D', ' A']","[0.25896617, 0.27964977, 0.20386379, 0.25752027, 0.1515732315441649]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_m_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think reducing the spread of infectious diseases should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A']","[0.72791178, 0.26027582, 0.0118124, 0.0155912887610329]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+RACESURV29d_W43,"Question: In your daily life, how much interaction, if any, would you say you have with people who are asian
+A. A lot of interaction
+B. Some interaction
+C. Not much interaction
+D. No interaction at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' D', ' A', ' C', ' B', ' B', ' A', ' B', ' D', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' B']","[0.17480511, 0.4353851, 0.3168266, 0.07298319, 0.0054507538232798]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV40_W50,"Question: In the past 12 months, how much financial help, if any, did you receive from a parent?
+A. A lot
+B. Some
+C. Only a little
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' B', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' A', ' E', ' C', ' A', ' D', ' D', ' A', ' A', ' D', ' B', ' B', ' D', ' D', ' A', ' D', ' D', ' D', ' C', ' C', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' C', ' A', ' B', ' A', ' B', ' D', ' D', ' D', ' C', ' B', ' B', ' C', ' A', ' C', ' D', ' C', ' D', ' D', ' B', ' A', ' D', ' C', ' D', ' A', ' B', ' B', ' D', ' C', ' D', ' A', ' C', ' A', ' B', ' B', ' D', ' D', ' D', ' D', ' A', ' D', ' C', ' B', ' D', ' C', ' C', ' D', ' A', ' D']","[0.15390381, 0.1861544, 0.21419449, 0.4457473, 0.0019736246067914]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+WHYNOTBIZF2B_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women in business face gender discrimination
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B']","[0.59679251, 0.27979907, 0.12340842, 0.0033252860662932]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+ELDFINANCEF2_W41,"Question: Who do you think should be mostly responsible for paying for the long-term care older Americans may need?
+A. Family members
+B. Government
+C. Older Americans themselves
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' D', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C']","[0.16161398, 0.48406391, 0.35432211, 0.0309231060998598]",EDUCATION,College graduate/some postgrad,"[1, 1, 1]"
+GOPDIRCT_W29,"Question: Thinking about the future of the Republican Party, would you say that you are
+A. Very optimistic
+B. Somewhat optimistic
+C. Somewhat pessimistic
+D. Very pessimistic
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' A', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' A', ' D', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' D', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' D', ' C', ' B', ' B', ' B', ' D', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' D', ' D', ' B', ' C', ' B', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' D', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' D', ' C']","[0.08481895, 0.37105624, 0.39644632, 0.14767849, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV28b_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in stores or restaurants situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A']","[0.52687291, 0.00683962, 0.46628747, 0.0142692562204061]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+EVOTHREE_W34,"Question: Which of these statements comes closer to your own views, even if neither is exactly right?
+A. Humans have evolved over time due to processes such as natural selection; God or a higher power had no role in this proc
+B. Humans have evolved over time due to processes that were guided or allowed by God or a higher power
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A']","[0.65650264, 0.34349736, 0.0021305466472523]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"
+FEM2_W29,"Question: Now thinking about how you see yourself, would you describe yourself as
+A. Very womanly or feminine
+B. Somewhat womanly or feminine
+C. Not too womanly or feminine
+D. Not at all womanly or feminine
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B']","[0.27295129, 0.62219869, 0.10208095, 0.00276906, 0.0009155656104444]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+WHADVANT_W32,"Question: On a different subject how much, if at all, do white people benefit from advantages in society that black people do not have?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' D', ' A', ' C', ' D', ' B', ' E', ' C', ' B', ' B', ' D', ' A', ' B', ' C', ' B', ' B', ' A', ' D', ' D', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' D', ' A', ' B', ' C', ' B', ' A', ' B', ' D', ' D', ' B', ' C', ' D', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' D', ' C', ' D', ' A', ' C', ' B', ' B', ' D', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' D', ' C']","[0.36360779, 0.29320777, 0.2416099, 0.10157454, 0.0088623567534933]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+ECON1_W54,"Question: Thinking about the nation's economy, how would you rate economic conditions in this country today?
+A. Excellent
+B. Good
+C. Only fair
+D. Poor
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' D', ' B', ' A', ' C', ' B', ' B', ' B', ' D', ' A', ' C', ' A', ' B', ' C', ' B', ' D', ' B', ' C', ' B', ' D', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' D', ' A', ' D', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C']","[0.1134249, 0.51126878, 0.33013614, 0.04517017, 0.0009614843267208]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+E5MOD_W50,"Question: Is your spouse/partner now employed full-time, part-time or not employed?
+A. Full-time
+B. Part-time
+C. Not employed
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' C']","[0.60868366, 0.11705484, 0.2742615, 0.0005900378280595]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+ESSENPOLF1H_W36,"Question: In general, how important, if at all, is it to you for someone in high political office to maintain a tone of civility and respect in politics?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.70231663, 0.27769429, 0.01998908, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GOVPRIOgF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing the number of undocumented immigrants coming into the U.S.?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' C', ' A', ' C', ' C', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' D', ' A', ' A', ' D', ' B', ' C', ' A', ' D', ' D', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' D', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' D', ' A', ' A', ' D', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' D', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B']","[0.33781125, 0.29048484, 0.24537403, 0.12632988, 0.0012035207554184]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q17_W82,"Question: In making international policy decisions, to what extent, if at all, do you think the US takes into account the interests of other countries around the world?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' B', ' C', ' B', ' D', ' B', ' A', ' B', ' C', ' D', ' D', ' C', ' B', ' B', ' D', ' B', ' C', ' B', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' E', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' A', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' B']","[0.11927015, 0.50978372, 0.34200585, 0.02894027, 0.006288905427941]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+WHYNOTPOLF1L_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Sexual harassment creates an environment that makes it harder for women to succeed in politics
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' C']","[0.32340418, 0.4520593, 0.22453651, 0.0022321977372914]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+FUD22_W34,"Question: How much of the food you eat is organic?
+A. Most of it
+B. Some of it
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' A', ' C', ' D', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' A', ' D', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' B', ' C', ' A', ' B', ' B', ' D', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' D', ' D', ' A', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' C', ' A']","[0.07784789, 0.39827021, 0.44906415, 0.07481775, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+BETTERPOL2F1A_W36,"Question: And thinking about some specific policy areas, in general, do you think men or women in high political offices are better at handling economic conditions?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' C', ' C', ' C']","[0.09700632, 0.09236904, 0.81062463, 0.0052698322153506]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+SMLIKESb_W45,"Question: How much is each of the following a reason why you click on links to news stories on social media? A friend recommended the story
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' C']","[0.25451227, 0.49905971, 0.24642802, 0.0010397448198273]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+CONCERNCO_W49,"Question: How concerned are you, if at all, about how companies are using the data they collect about you?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not at all concerned
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' C', ' D', ' B', ' B', ' A', ' D', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' D', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' D', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' D', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A']","[0.35661931, 0.45965226, 0.16622358, 0.01750485, 0.0023258022659219]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_a_W82,"Question: Do you have a favorable or unfavorable opinion of the United States
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' B', ' B', ' A', ' C', ' D', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' D', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' D', ' C', ' D', ' B', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' D', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' D', ' C', ' D', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' B']","[0.25526764, 0.45897194, 0.22787613, 0.05788428, 0.006867960529165]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNTYPEOWNC_W26,"Question: Do you currently or have you ever owned a shotgun?
+A. Yes, I currently own
+B. Yes, I have owned in the past but do not currently own
+C. No, I have never owned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' D', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' D', ' A']","[0.41531082, 0.18966425, 0.39502493, 0.01315069942143]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+CONCERNGRPc_W49,"Question: How concerned are you, if at all, about how much personal information your employer might know about you?
+A. Concerned a lot
+B. Concerned a little
+C. Not concerned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' C']","[0.19308758, 0.3661253, 0.44078712, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+SMARTAPP_W49,"Question: How do you typically update the apps on your smartphone?
+A. Set them to update automatically
+B. Update them yourself as soon as you are notified a new version is available
+C. Update them yourself whenever it's convenient
+D. Never install app updates
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' D', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' D', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' D', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' C', ' A', ' D', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' D', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' D', ' D', ' B', ' A', ' A', ' D', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' C']","[0.43715696, 0.19313504, 0.32135248, 0.04835552, 0.0047805758754767]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+MAN1E_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be emotionally strong?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A']","[0.36602681, 0.49071186, 0.11288762, 0.03037371, 0.006959819216757]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+WHYNOTBIZF2J_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women aren't encouraged to pursue leadership positions from an early age
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A']","[0.44182665, 0.35644144, 0.20173191, 0.0095515962418061]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+FAMSURV9c_W50,"Question: How important, if at all, do you think it is for a person to buy a house before getting married?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' B', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' C', ' D', ' A', ' C', ' D', ' C', ' B', ' C', ' C', ' B', ' D', ' C', ' D', ' C', ' B', ' C', ' D', ' C', ' C', ' A', ' D', ' C', ' D', ' B', ' C', ' B', ' B', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' B', ' B', ' C', ' C', ' B', ' D', ' D', ' C', ' C', ' C', ' D', ' B', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' A', ' C', ' B', ' B', ' D', ' D', ' C', ' D', ' B', ' C', ' D', ' B', ' D', ' C', ' B', ' B', ' B']","[0.03820081, 0.17130066, 0.45951573, 0.33098279, 0.0005766909630043]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+REASONGUNC_W26,"Question: Please indicate whether the following is a major reason, a minor reason, or not a reason why you own a gun. For sport shooting, including target shooting and trap and skeet
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C']","[0.35686331, 0.4102099, 0.23292679, 0.0010995787413767]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+INEQ8_i_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Expanding government benefits for the poor
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' A', ' D', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' D', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' D', ' A', ' C', ' D', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' B', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' C']","[0.2246943, 0.32076663, 0.28173111, 0.17280797, 0.0047931789452841]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+ETHNCMAJMOD_W41,"Question: According to the U.S. Census Bureau, by the year 2050, a majority of the population will be made up of blacks, Asians, Hispanics, and other racial minorities. In terms of its impact on the country, do you think this will be
+A. A very good thing
+B. A somewhat good thing
+C. A somewhat bad thing
+D. A very bad thing
+E. Neither a good nor bad thing
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' E', ' E', ' B', ' E', ' A', ' E', ' E', ' B', ' B', ' E', ' B', ' E', ' E', ' B', ' E', ' A', ' E', ' A', ' E', ' B', ' E', ' E', ' C', ' E', ' B', ' B', ' C', ' B', ' E', ' A', ' E', ' E', ' E', ' E', ' E', ' A', ' A', ' A', ' E', ' E', ' A', ' E', ' E', ' E', ' B', ' E', ' A', ' C', ' E', ' C', ' E', ' B', ' E', ' C', ' A', ' E', ' E', ' C', ' E', ' E', ' D', ' E', ' B', ' E', ' E', ' E', ' E', ' B', ' C', ' B', ' C', ' E', ' E', ' E', ' B', ' B', ' A', ' E', ' E', ' E', ' E', ' A', ' E', ' E', ' C', ' E', ' B', ' A', ' A', ' E', ' C', ' D', ' E', ' B', ' E', ' E', ' B', ' D']","[0.20904565, 0.19383224, 0.10448623, 0.0622772, 0.43035868, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+MAN1D_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be willing to throw a punch if provoked?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' B', ' C', ' D', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' E', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' D', ' B', ' A', ' B', ' D', ' B', ' D', ' D', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' D', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' D', ' B', ' D', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B']","[0.10011748, 0.44522425, 0.35688753, 0.09777074, 0.007458988885249]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+MARRYPREF1_W50,"Question: Thinking about the future, would you say you
+A. Want to get married someday
+B. Don't want to get married
+C. Are not sure if you want to get married
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A']","[0.54012923, 0.0963531, 0.36351767, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+RQ2_F1A_W42,"Question: How much, if anything, do you know about what medical research scientists do?
+A. A lot
+B. A little
+C. Nothing at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B']","[0.20820951, 0.66763906, 0.12415143, 0.002258884077557]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+FAMSURV23d_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was wanted to have children someday a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' C']","[0.13751702, 0.15537221, 0.70711077, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+TRAITPOLWF1F_W36,"Question: In general, how do you think showing emotions impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B']","[0.09305712, 0.59505633, 0.31188655, 0.0010551357369538]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+RQ5_F1B_W42,"Question: Overall, do you think research misconduct by environmental research scientists is
+A. A very big problem
+B. A moderately big problem
+C. A small problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' C', ' A', ' B', ' B', ' D', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' D', ' D', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' B', ' B', ' C', ' B', ' C', ' D', ' C', ' B', ' A', ' D', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' E', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' D', ' A', ' A', ' D', ' A', ' B', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C']","[0.1059614, 0.23293913, 0.55538732, 0.10571215, 0.0084391894508296]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOjF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to avoiding tax increases?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' B', ' D', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' D', ' B', ' A', ' D', ' C', ' A', ' D', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' D', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' D', ' A', ' B', ' B', ' D', ' D', ' B', ' A', ' B', ' C', ' A', ' B', ' D', ' D', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A']","[0.34786985, 0.36502313, 0.17987882, 0.1072282, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q24_W82,"Question: How concerned are you, if at all, that global climate change will harm you personally at some point in your lifetime?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not at all concerned
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' D', ' C', ' C', ' A', ' A', ' B', ' D', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' D', ' D', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' D', ' A', ' B', ' B', ' A', ' B', ' D', ' C', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' D', ' A', ' D']","[0.32925384, 0.31803141, 0.17001234, 0.18270241, 0.0028135817080679]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOhF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing spending on Social Security, Medicare and Medicaid?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' A', ' C', ' A', ' B', ' D', ' B', ' C', ' B', ' A', ' D', ' A', ' C', ' A', ' C', ' D', ' B', ' D', ' B', ' D', ' C', ' A', ' A', ' D', ' C', ' C', ' B', ' B', ' D', ' C', ' D', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' D', ' B', ' A', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' C', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' A', ' D', ' C', ' D', ' D', ' C', ' A', ' C', ' D', ' D', ' A', ' D', ' C', ' A', ' D', ' D', ' D', ' A', ' D', ' B', ' D', ' B', ' D', ' D', ' A', ' C', ' D', ' A', ' C', ' C']","[0.14716896, 0.27655811, 0.13069545, 0.44557748, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+MOVEURBAN_W32,"Question: If you could move to a different community, would you want to
+A. Stay in an urban area
+B. Move to a suburban area
+C. Move to a rural area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' C']","[0.34567731, 0.41204033, 0.24228236, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GAP21Q19_b_W82,"Question: How much confidence do you have in chinese President Xi Jinping to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' E', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' B', ' C', ' C', ' B', ' D', ' D', ' C', ' B', ' C', ' C', ' B', ' D', ' D', ' B', ' D', ' C', ' D', ' D', ' B', ' C', ' C', ' C', ' C', ' E', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' E', ' D', ' C', ' B', ' D', ' C', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' B', ' D', ' C', ' C']","[0.00814677, 0.12443731, 0.39767927, 0.46973665, 0.0211128556984578]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+WHYNOTPOLF1J_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Women aren't encouraged to pursue leadership positions from an early age
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B']","[0.47086962, 0.37809714, 0.15103325, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+RACESURV34b_W43,"Question: Overall, how much has being a man/Being a woman/Your gender helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' B', ' C', ' E', ' B', ' C', ' E', ' C', ' E', ' A', ' E', ' E', ' E', ' B', ' B', ' B', ' C', ' A', ' E', ' E', ' D', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' E', ' E', ' C', ' B', ' B', ' E', ' D', ' E', ' E', ' E', ' E', ' E', ' C', ' B', ' A', ' E', ' C', ' C', ' B', ' C', ' D', ' E', ' B', ' D', ' C', ' C', ' C', ' B', ' D', ' E', ' A', ' C', ' C', ' C', ' A', ' B', ' E', ' B', ' C', ' E', ' A', ' C', ' B', ' E', ' B', ' E', ' B', ' C', ' B', ' C', ' F', ' C', ' B', ' C', ' E', ' E', ' E', ' D', ' C', ' C', ' C', ' A', ' B', ' D', ' D', ' E', ' C', ' A', ' C']","[0.12818449, 0.22014972, 0.23915206, 0.05361166, 0.35890207, 0.0064486190252815]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+MOTHER_W50,"Question: Is your mother living?
+A. Yes
+B. No
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A']","[0.67655948, 0.32344052, 0.0019632120473258]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"

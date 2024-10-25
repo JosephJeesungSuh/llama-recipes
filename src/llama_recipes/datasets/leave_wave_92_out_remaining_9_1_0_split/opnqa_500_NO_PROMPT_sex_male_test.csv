@@ -1,0 +1,213 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+UNIMMIGCOMM_W92,"Question: When it comes to people who have immigrated to the U.S illegally, do you think they generally make the communities they live in
+A. A lot better
+B. A little better
+C. A little worse
+D. A lot worse
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' A', ' A', ' B', ' C', ' D', ' C', ' B', ' C', ' D', ' B', ' D', ' B', ' B', ' B', ' D', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' D', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' B', ' D', ' C', ' A', ' C', ' C', ' B', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' B', ' D', ' C', ' D', ' E', ' C', ' A', ' C', ' B', ' D', ' D', ' B', ' C', ' D', ' C', ' B', ' B', ' D', ' D', ' A', ' C', ' D', ' B', ' B', ' D', ' A', ' B']","[0.11226879, 0.35665554, 0.33642726, 0.19464842, 0.0217953881567743]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+USEXCEPT_W92,"Question: Which of these statements best describes your opinion about the United States?
+A. The U.S. stands above all other countries in the world
+B. The U.S. is one of the greatest countries in the world, along with some others
+C. There are other countries that are better than the U.S.
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B']","[0.26293722, 0.53047293, 0.20658985, 0.004574219623694]",SEX,Male,"[1.0, 2.0, 3.0]"
+REPRSNTREP_W92,"Question: How well does the Republican party represent the interests of people like you?
+A. Very well
+B. Somewhat well
+C. Not too well
+D. Not at all well
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' C', ' A', ' C', ' D', ' E', ' C', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' E', ' E', ' E', ' B', ' C', ' B', ' D', ' D', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' E', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' D', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' D', ' C', ' D', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' D', ' D', ' B', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' B', ' C', ' B', ' A', ' C', ' B', ' E', ' D', ' C']","[0.08522924, 0.34601641, 0.26855216, 0.30020219, 0.0174044509284165]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+ELECT_CONF3_PRVFR_W92,"Question: Still thinking about elections in the country, how confident, if at all, are you that people who are not legally qualified to vote are prevented from casting a ballot
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' A', ' C', ' B', ' D', ' B', ' B', ' A', ' A', ' B', ' D', ' B', ' C', ' B', ' B', ' C', ' A', ' D', ' B', ' B', ' C', ' D', ' D', ' A', ' A', ' B', ' D', ' A', ' C', ' D', ' A', ' D', ' A', ' D', ' D', ' A', ' C', ' D', ' D', ' B', ' C', ' C', ' C', ' C', ' A', ' D', ' C', ' A', ' C', ' B', ' A', ' D', ' C', ' B', ' A', ' D', ' A', ' A', ' A', ' D', ' A', ' B', ' B', ' A', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' D', ' D', ' A', ' D', ' B', ' C', ' D', ' D', ' B', ' B', ' B', ' C', ' A', ' D', ' D', ' C', ' B', ' A', ' B', ' B', ' D', ' A', ' D', ' D']","[0.26828138, 0.28585386, 0.25000799, 0.19585677, 0.0081817307545554]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+BILLION_W92,"Question: Do you think the fact that there are some people in this country who have personal fortunes of a billion dollars or more is
+A. A good thing for the country
+B. A bad thing for the country
+C. Neither a good thing or a bad thing
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' D', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' C']","[0.179662, 0.29233201, 0.52800599, 0.00597010020623]",SEX,Male,"[1.0, 2.0, 1.5]"
+WHADVANT_W92,"Question: In general, how much do White people benefit from advantages in society that Black people do not have?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' D', ' B', ' B', ' C', ' A', ' C', ' E', ' B', ' B', ' D', ' D', ' A', ' B', ' C', ' A', ' D', ' D', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' D', ' B', ' C', ' B', ' C', ' D', ' B', ' A', ' D', ' B', ' B', ' A', ' D', ' D', ' B', ' D', ' A', ' B', ' C', ' C', ' D', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' D', ' A', ' B', ' D', ' A', ' D', ' B', ' C', ' D', ' C', ' A', ' B', ' A', ' D', ' C', ' C', ' D', ' B', ' B', ' D', ' B', ' D', ' A', ' E', ' A', ' C', ' A', ' A', ' C', ' B', ' D', ' C', ' D', ' C', ' A', ' B', ' D', ' B', ' A', ' A', ' C']","[0.26582305, 0.27006116, 0.2504384, 0.21367739, 0.0104144963353696]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_SSM_W92,"Question: Do you think same-sex marriages being legal in the U.S. is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' A', ' A', ' A', ' B', ' D', ' C', ' E', ' C', ' B', ' A', ' E', ' C', ' A', ' C', ' E', ' C', ' C', ' C', ' E', ' D', ' C', ' A', ' E', ' E', ' C', ' C', ' D', ' D', ' A', ' D', ' B', ' A', ' A', ' B', ' B', ' B', ' D', ' D', ' B', ' E', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' E', ' D', ' C', ' A', ' E', ' A', ' E', ' E', ' D', ' C', ' D', ' B', ' C', ' D', ' D', ' C', ' C', ' A', ' B', ' B', ' D', ' C', ' E', ' A', ' E', ' B', ' D', ' A', ' E', ' C', ' E', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' D', ' B', ' E', ' E', ' C', ' C']","[0.23580043, 0.1072575, 0.31654411, 0.12317995, 0.21721801, 0.0052140635756346]",SEX,Male,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+FREECOLL_W92,"Question: Would you favor or oppose making tuition at public colleges and universities free for all American students?
+A. Strongly favor
+B. Somewhat favor
+C. Somewhat oppose
+D. Strongly oppose
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' D', ' B', ' B', ' D', ' C', ' B', ' B', ' B', ' A', ' D', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' D', ' B', ' C', ' A', ' D', ' D', ' C', ' A', ' B', ' D', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' D', ' D', ' D', ' C', ' D', ' B', ' A', ' C', ' A', ' D', ' A', ' B', ' B', ' A', ' B', ' A', ' D', ' D', ' C', ' B', ' D', ' B', ' D', ' D', ' A', ' C', ' B', ' B', ' C', ' B', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' D', ' B', ' A', ' A', ' B', ' D', ' C', ' A', ' B', ' A', ' B', ' C']","[0.3001141, 0.27766937, 0.16634906, 0.25586747, 0.003495521582224]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+USMILSIZ_W92,"Question: Thinking about the size of America's military, do you think it should be
+A. Reduced a great deal
+B. Reduced somewhat
+C. Kept about as is
+D. Increased somewhat
+E. Increased a great deal
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' D', ' C', ' C', ' D', ' D', ' B', ' B', ' D', ' D', ' D', ' B', ' E', ' C', ' C', ' D', ' E', ' C', ' D', ' B', ' E', ' C', ' C', ' E', ' D', ' C', ' D', ' D', ' C', ' C', ' E', ' F', ' D', ' C', ' E', ' C', ' D', ' C', ' F', ' B', ' D', ' C', ' E', ' D', ' D', ' A', ' C', ' C', ' D', ' B', ' B', ' C', ' E', ' B', ' E', ' C', ' D', ' B', ' C', ' A', ' D', ' C', ' E', ' D', ' C', ' D', ' C', ' C', ' B', ' A', ' C', ' B', ' D', ' A', ' C', ' C', ' C', ' C', ' C', ' E', ' D', ' C', ' B', ' C', ' D', ' D', ' C', ' C', ' D', ' B', ' E', ' D', ' B', ' D', ' E', ' C', ' C', ' B', ' E', ' C']","[0.07379722, 0.13963354, 0.39143777, 0.27052895, 0.12460252, 0.0131738935208497]",SEX,Male,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV52MOD_W92,"Question: How much, if at all, would it bother you to regularly hear people speak a language other than English in public places in your community?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' D', ' D', ' C', ' A', ' D', ' C', ' D', ' E', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' A', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' A', ' C', ' C', ' D', ' B', ' C', ' B', ' C', ' D', ' B', ' D', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' A', ' C', ' A', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' D', ' D', ' D', ' C', ' C', ' B', ' D', ' C', ' D', ' C', ' A', ' D', ' D', ' D', ' D', ' A', ' C', ' D', ' D', ' A', ' A', ' D', ' D', ' D', ' A', ' D', ' C', ' C', ' C', ' A']","[0.14617909, 0.20135615, 0.26103517, 0.39142959, 0.002008199649322]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+GODMORALIMP_W92,"Question: Regardless of your own religious beliefs, how important, if at all, do you think it is for a person to believe in God in order to be considered good and moral?
+A. Essential
+B. Important, but not essential
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' B', ' B', ' B', ' D', ' B', ' D', ' D', ' A', ' D', ' B', ' C', ' D', ' D', ' C', ' D', ' B', ' C', ' D', ' B', ' B', ' C', ' D', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' D', ' A', ' A', ' B', ' A', ' C', ' D', ' B', ' D', ' B', ' A', ' B', ' A', ' D', ' C', ' B', ' C', ' A', ' B', ' D', ' B', ' D', ' D', ' C', ' B', ' B', ' D', ' B', ' B', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' B', ' B', ' B', ' A', ' D', ' A', ' B', ' D', ' B', ' B', ' D', ' B', ' D', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' D', ' C', ' A', ' B']","[0.19248558, 0.32096588, 0.17537583, 0.31117271, 0.0093570946469781]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+ELECT_IMPT3_PRVFR_W92,"Question: Thinking about elections in the country, how important, if at all, is people who are not legally qualified to vote are prevented from casting a ballot?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' C', ' A', ' D', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' D', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A']","[0.65466286, 0.19415151, 0.09466138, 0.05652424, 0.0057096724254154]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+REPRSNTDEM_W92,"Question: How well does the Democratic party represent the interests of people like you?
+A. Very well
+B. Somewhat well
+C. Not too well
+D. Not at all well
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' C', ' D', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' D', ' E', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' D', ' B', ' C', ' A', ' A', ' B', ' D', ' B', ' B', ' D', ' D', ' B', ' B', ' D', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' C', ' B', ' D', ' C', ' D', ' C', ' D', ' C', ' A', ' B', ' C', ' D', ' A', ' B', ' C', ' D', ' A', ' B', ' B', ' B', ' D', ' D', ' B', ' D', ' B', ' D', ' C', ' B', ' D', ' B', ' A', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' A', ' D', ' A', ' D', ' C', ' C', ' D', ' D', ' C', ' B']","[0.08355328, 0.34168117, 0.22758752, 0.34717804, 0.0179421385754733]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_RELG_W92,"Question: Do you think a decline in the share of Americans belonging to an organized religion is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' D', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' D', ' E', ' D', ' C', ' A', ' D', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' C', ' E', ' C', ' A', ' E', ' E', ' E', ' E', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' C', ' E', ' E', ' B', ' E', ' A', ' E', ' C', ' C', ' E', ' C', ' E', ' C', ' D', ' D', ' A', ' D', ' C', ' D', ' D', ' C', ' C', ' D', ' D', ' B', ' D', ' C', ' D', ' C', ' D', ' D', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' D', ' C', ' C', ' D', ' D', ' C', ' E', ' B', ' C', ' E', ' C', ' B', ' C', ' A', ' D', ' E', ' D', ' C', ' E', ' B', ' C', ' A']","[0.13214826, 0.11455628, 0.31612849, 0.25312134, 0.18404563, 0.0029724573453205]",SEX,Male,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+ELECT_CONF3_PRVSUP_W92,"Question: Still thinking about elections in the country, how confident, if at all, are you that people who are legally qualified and want to vote are able to cast a ballot
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' D', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' E', ' D', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' E', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' D', ' E', ' C', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' C']","[0.43463166, 0.35475812, 0.15826404, 0.05234618, 0.0085598873126606]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+CANDEXP_W92,"Question: How important is it, if at all, that candidates running for high levels of political office have prior government experience?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' B', ' D', ' C', ' A', ' C', ' D', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' D', ' B', ' D', ' B', ' D', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' D', ' D', ' B', ' B', ' B', ' C', ' A', ' D', ' D', ' D', ' B', ' B', ' D', ' C', ' C', ' B', ' D', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' D', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' C', ' C']","[0.21799082, 0.39750224, 0.25135056, 0.13315638, 0.0063592777165813]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_GUNS_W92,"Question: Do you think an increase in the number of guns in the U.S. is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' B', ' E', ' E', ' A', ' C', ' A', ' C', ' C', ' C', ' E', ' E', ' D', ' B', ' B', ' C', ' E', ' E', ' E', ' C', ' C', ' D', ' E', ' E', ' E', ' E', ' C', ' C', ' A', ' D', ' C', ' A', ' A', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' D', ' E', ' E', ' C', ' C', ' A', ' B', ' A', ' C', ' E', ' E', ' C', ' D', ' C', ' B', ' D', ' C', ' E', ' C', ' D', ' D', ' B', ' E', ' D', ' E', ' B', ' A', ' C', ' A', ' E', ' A', ' D', ' E', ' E', ' E', ' E', ' C', ' C', ' C', ' E', ' C', ' A', ' C', ' B', ' E', ' D', ' A', ' D', ' E', ' C', ' E', ' C', ' C', ' C', ' C', ' C', ' C']","[0.12617632, 0.12626897, 0.27039747, 0.19208825, 0.28506899, 0.0028425370327504]",SEX,Male,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SOCIETY_RHIST_W92,"Question: Do you think increased public attention to the history of slavery and racism in America is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' D', ' B', ' C', ' A', ' E', ' C', ' D', ' B', ' A', ' D', ' D', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' D', ' A', ' B', ' B', ' A', ' B', ' A', ' E', ' D', ' D', ' B', ' E', ' C', ' D', ' C', ' A', ' E', ' C', ' B', ' C', ' D', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' D', ' E', ' A', ' B', ' E', ' E', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' E', ' C', ' D', ' A', ' B', ' E', ' A', ' B', ' D', ' B', ' B', ' B', ' B', ' D', ' A', ' D', ' D', ' A', ' B', ' D', ' B', ' D', ' C', ' A', ' C', ' C', ' E', ' A', ' B']","[0.28132773, 0.23142168, 0.21086266, 0.16099322, 0.11539471, 0.0031762480343451]",SEX,Male,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SOCIETY_TRANS_W92,"Question: Do you think greater social acceptance of people who are transgender (people who identify as a gender that is different from the sex they were assigned at birth) is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' A', ' A', ' A', ' A', ' E', ' A', ' C', ' E', ' C', ' C', ' E', ' A', ' C', ' C', ' B', ' B', ' E', ' C', ' C', ' C', ' B', ' C', ' E', ' E', ' E', ' B', ' E', ' C', ' D', ' C', ' A', ' E', ' D', ' A', ' A', ' E', ' C', ' C', ' A', ' C', ' C', ' D', ' E', ' E', ' C', ' E', ' C', ' D', ' C', ' E', ' C', ' E', ' D', ' D', ' A', ' E', ' A', ' C', ' B', ' E', ' C', ' C', ' B', ' E', ' D', ' D', ' C', ' C', ' E', ' D', ' D', ' B', ' E', ' B', ' D', ' D', ' B', ' B', ' C', ' C', ' C', ' E', ' D', ' C', ' E', ' B', ' A', ' E', ' E', ' D', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' E']","[0.20226842, 0.14798096, 0.29022865, 0.14599812, 0.21352384, 0.0052144590712806]",SEX,Male,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+POLINTOL2_a_W92,"Question: In general, how comfortable do you think Republicans in this country are to freely and openly express their political views?
+A. Very comfortable
+B. Somewhat comfortable
+C. Not too comfortable
+D. Not at all comfortable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' C', ' A', ' B', ' B', ' D', ' D', ' A', ' D', ' E', ' A', ' C', ' C', ' D', ' A', ' B', ' C', ' A', ' D', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' D', ' D', ' B', ' B', ' A', ' A', ' D', ' A', ' A', ' A', ' D', ' A', ' B', ' D', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' D', ' C', ' C', ' A', ' B', ' D', ' C', ' A', ' A', ' A', ' C', ' D', ' B', ' C', ' A', ' A', ' C', ' D', ' C', ' A', ' B', ' B', ' A', ' D', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' C', ' B']","[0.32887057, 0.30668946, 0.24422884, 0.12021113, 0.0054189039843818]",SEX,Male,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_WHT_W92,"Question: Do you think white people declining as a share of the U.S. population is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' E', ' C', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' E', ' C', ' A', ' A', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' C', ' A', ' C', ' D', ' E', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' E', ' C', ' B', ' C', ' C', ' C', ' D', ' C']","[0.06916849, 0.07666451, 0.63985715, 0.12508791, 0.08922193, 0.0039374689683242]",SEX,Male,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+PROG_RNEED_W92,"Question: How much more, if anything, needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?
+A. A lot
+B. A little
+C. Nothing at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C']","[0.45419509, 0.35772959, 0.18807532, 0.0069967013189729]",SEX,Male,"[1.0, 2.0, 3.0]"
+LEGALIMMIGAMT_W92,"Question: Do you think the number of legal immigrants the U.S. admits should
+A. Increase a lot
+B. Increase a little
+C. Stay about the same
+D. Decrease a little
+E. Decrease a lot
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' E', ' D', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' F', ' B', ' C', ' D', ' A', ' D', ' F', ' E', ' E', ' C', ' E', ' B', ' D', ' A', ' A', ' C', ' D', ' C', ' C', ' C', ' B', ' D', ' C', ' A', ' D', ' E', ' C', ' D', ' B', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' E', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' D', ' A', ' C', ' C', ' C', ' E', ' C', ' C', ' B', ' C', ' E', ' A', ' A', ' D', ' C', ' C', ' C', ' C', ' D', ' E', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C']","[0.11551976, 0.18771997, 0.43971976, 0.12682046, 0.13022005, 0.0129079399891083]",SEX,Male,"[1.0, 2.0, 3.0, 4.0, 5.0]"

@@ -14,15 +14,11 @@ DATASET_PREPROC = {
     # "samsum_dataset": get_samsum_dataset,
     "custom_dataset": get_custom_dataset,
     # "llamaguard_toxicchat_dataset": get_llamaguard_toxicchat_dataset,
-    "custom_dataset_celoss_testing": get_custom_dataset,
-    "custom_dataset_wdloss_testing": get_custom_dataset,
-    "custom_dataset_leave_wave_34_testing": get_custom_dataset,
-    "custom_dataset_leave_wave_34_testing_all_steering_method": get_custom_dataset,
+    "opnqa_steering_dataset": get_custom_dataset,
+    "opnqa_single_demographic_dataset": get_custom_dataset,
 }
 DATALOADER_COLLATE_FUNC = {
     "custom_dataset": get_data_collator,
-    "custom_dataset_celoss_testing": custom_collator_no_labels,
-    "custom_dataset_wdloss_testing": custom_collator_no_labels,
-    "custom_dataset_leave_wave_34_testing": custom_collator_no_labels,
-    "custom_dataset_leave_wave_34_testing_all_steering_method": custom_collator_no_labels,
+    "opnqa_steering_dataset": custom_collator_no_labels,
+    "opnqa_single_demographic_dataset": custom_collator_no_labels,
 }

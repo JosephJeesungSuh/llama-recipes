@@ -1,0 +1,213 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+UNIMMIGCOMM_W92,"Question: When it comes to people who have immigrated to the U.S illegally, do you think they generally make the communities they live in
+A. A lot better
+B. A little better
+C. A little worse
+D. A lot worse
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' E', ' B', ' C', ' D', ' C', ' C', ' A', ' C', ' C', ' E', ' C', ' D', ' B', ' C', ' D', ' A', ' C', ' B', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' A', ' D', ' C', ' E', ' B', ' B', ' C', ' B', ' D', ' C', ' C', ' D', ' B', ' C', ' C', ' A', ' B', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' B', ' E', ' C', ' B', ' B', ' C', ' A', ' D', ' B', ' C', ' E', ' C', ' C', ' A', ' E']","[0.07427298, 0.32376105, 0.37203952, 0.22992645, 0.0501664101977398]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+USEXCEPT_W92,"Question: Which of these statements best describes your opinion about the United States?
+A. The U.S. stands above all other countries in the world
+B. The U.S. is one of the greatest countries in the world, along with some others
+C. There are other countries that are better than the U.S.
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' D', ' B', ' B', ' B']","[0.30914772, 0.53148062, 0.15937165, 0.0115090288554218]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+REPRSNTREP_W92,"Question: How well does the Republican party represent the interests of people like you?
+A. Very well
+B. Somewhat well
+C. Not too well
+D. Not at all well
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' D', ' B', ' D', ' B', ' A', ' D', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' D', ' C', ' B', ' E', ' D', ' A', ' B', ' A', ' B', ' C', ' B', ' D', ' D', ' B', ' B', ' A', ' D', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' D', ' D', ' C', ' A', ' B', ' D', ' B', ' B', ' D', ' D', ' B', ' D', ' D', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' D', ' B', ' A', ' D', ' E', ' B', ' B', ' B', ' D', ' D', ' D', ' D', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' B', ' B']","[0.12581852, 0.41032452, 0.24821515, 0.21564181, 0.0352844154142151]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+ELECT_CONF3_PRVFR_W92,"Question: Still thinking about elections in the country, how confident, if at all, are you that people who are not legally qualified to vote are prevented from casting a ballot
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' D', ' B', ' D', ' C', ' D', ' B', ' A', ' B', ' C', ' B', ' A', ' D', ' D', ' A', ' A', ' C', ' D', ' D', ' C', ' C', ' D', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' D', ' A', ' C', ' D', ' C', ' A', ' D', ' A', ' D', ' B', ' B', ' A', ' B', ' D', ' B', ' A', ' D', ' A', ' A', ' D', ' B', ' B', ' B', ' A', ' C', ' C', ' D', ' C', ' C', ' A', ' D', ' B', ' A', ' D', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' B', ' D', ' C', ' A', ' A', ' D', ' D', ' A', ' D', ' A', ' C', ' A', ' B', ' A', ' D', ' A', ' A', ' D', ' D', ' C', ' C']","[0.20958121, 0.26397444, 0.29813496, 0.22830939, 0.0222559763513266]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+BILLION_W92,"Question: Do you think the fact that there are some people in this country who have personal fortunes of a billion dollars or more is
+A. A good thing for the country
+B. A bad thing for the country
+C. Neither a good thing or a bad thing
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' C']","[0.1652754, 0.19624279, 0.63848181, 0.0072362223652418]",RELIG,Protestant,"[1.0, 2.0, 1.5]"
+WHADVANT_W92,"Question: In general, how much do White people benefit from advantages in society that Black people do not have?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' D', ' B', ' C', ' D', ' C', ' B', ' B', ' D', ' D', ' A', ' D', ' C', ' A', ' C', ' D', ' B', ' B', ' A', ' A', ' D', ' D', ' C', ' D', ' B', ' A', ' A', ' C', ' D', ' B', ' D', ' A', ' C', ' C', ' D', ' D', ' B', ' A', ' B', ' A', ' D', ' C', ' B', ' C', ' D', ' A', ' A', ' B', ' D', ' A', ' D', ' C', ' D', ' D', ' D', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' D', ' A', ' C', ' A', ' B', ' D', ' D', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' D', ' A', ' A', ' A', ' D', ' A', ' D', ' D', ' D', ' C']","[0.27881202, 0.23807193, 0.26719898, 0.21591707, 0.0138517259679916]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_SSM_W92,"Question: Do you think same-sex marriages being legal in the U.S. is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' C', ' A', ' D', ' D', ' C', ' E', ' C', ' E', ' D', ' B', ' E', ' B', ' D', ' A', ' A', ' D', ' C', ' C', ' A', ' C', ' E', ' C', ' D', ' C', ' E', ' C', ' C', ' F', ' D', ' C', ' C', ' B', ' E', ' C', ' E', ' E', ' C', ' E', ' C', ' E', ' A', ' C', ' F', ' D', ' A', ' C', ' D', ' E', ' A', ' C', ' E', ' C', ' E', ' E', ' B', ' A', ' E', ' D', ' A', ' E', ' C', ' E', ' E', ' C', ' E', ' D', ' C', ' A', ' C', ' E', ' F', ' E', ' E', ' E', ' C', ' E', ' C', ' C', ' C', ' C', ' A', ' C', ' E', ' E', ' C', ' C', ' D', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' E', ' B', ' E', ' E']","[0.13293209, 0.07861998, 0.33466103, 0.14130527, 0.31248164, 0.0129927748654265]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+FREECOLL_W92,"Question: Would you favor or oppose making tuition at public colleges and universities free for all American students?
+A. Strongly favor
+B. Somewhat favor
+C. Somewhat oppose
+D. Strongly oppose
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' D', ' A', ' B', ' B', ' D', ' A', ' B', ' C', ' A', ' B', ' A', ' D', ' B', ' B', ' A', ' B', ' D', ' C', ' C', ' A', ' E', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' D', ' D', ' A', ' C', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' D', ' C', ' A', ' A', ' B', ' A', ' A', ' D', ' C', ' D', ' A', ' B', ' D', ' B', ' D', ' D', ' B', ' B', ' C', ' D', ' D', ' B', ' D', ' A', ' D', ' B', ' C', ' B', ' D', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' D', ' A', ' A', ' B', ' B', ' B']","[0.28553029, 0.2687973, 0.17480969, 0.27086272, 0.005134982661986]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+USMILSIZ_W92,"Question: Thinking about the size of America's military, do you think it should be
+A. Reduced a great deal
+B. Reduced somewhat
+C. Kept about as is
+D. Increased somewhat
+E. Increased a great deal
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' E', ' E', ' C', ' D', ' D', ' C', ' B', ' C', ' D', ' C', ' D', ' A', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' C', ' C', ' E', ' C', ' D', ' C', ' B', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' C', ' C', ' B', ' D', ' D', ' C', ' C', ' C', ' E', ' E', ' F', ' C', ' D', ' E', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' E', ' C', ' C', ' E', ' C', ' D', ' C', ' E', ' E', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' D']","[0.02575235, 0.07809557, 0.43295955, 0.30449218, 0.15870036, 0.030603532111854]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV52MOD_W92,"Question: How much, if at all, would it bother you to regularly hear people speak a language other than English in public places in your community?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' D', ' C', ' D', ' D', ' A', ' B', ' B', ' B', ' D', ' C', ' C', ' B', ' D', ' B', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' A', ' A', ' D', ' D', ' C', ' D', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' A', ' C', ' D', ' D', ' A', ' D', ' C', ' A', ' C', ' A', ' A', ' D', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' D', ' B', ' D', ' B', ' B', ' D', ' D', ' D', ' C', ' D', ' C', ' A', ' B', ' B', ' D', ' C', ' C', ' D', ' B', ' B', ' A', ' A', ' C', ' A', ' D', ' C', ' B', ' D', ' C', ' D', ' C', ' A', ' D']","[0.19136644, 0.24458351, 0.26368906, 0.30036099, 0.0032855722718541]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+GODMORALIMP_W92,"Question: Regardless of your own religious beliefs, how important, if at all, do you think it is for a person to believe in God in order to be considered good and moral?
+A. Essential
+B. Important, but not essential
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' E', ' B', ' B', ' E', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' A', ' B', ' A', ' A', ' A', ' D', ' D', ' B', ' B', ' D', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' D', ' B', ' D', ' B', ' D', ' A', ' B', ' C', ' E', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' E', ' B', ' E', ' B', ' D', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' B', ' A', ' C', ' B', ' B', ' B']","[0.31794616, 0.43181679, 0.13261735, 0.11761971, 0.0189203568860852]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+ELECT_IMPT3_PRVFR_W92,"Question: Thinking about elections in the country, how important, if at all, is people who are not legally qualified to vote are prevented from casting a ballot?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' D', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' E', ' A', ' A', ' B', ' A', ' C', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' D', ' A', ' A']","[0.69983313, 0.17437557, 0.07547581, 0.05031549, 0.0222670110558458]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+REPRSNTDEM_W92,"Question: How well does the Democratic party represent the interests of people like you?
+A. Very well
+B. Somewhat well
+C. Not too well
+D. Not at all well
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' E', ' D', ' B', ' D', ' C', ' B', ' D', ' C', ' B', ' D', ' B', ' C', ' B', ' B', ' D', ' D', ' B', ' D', ' A', ' A', ' A', ' C', ' B', ' D', ' B', ' B', ' D', ' A', ' D', ' D', ' D', ' B', ' B', ' D', ' A', ' B', ' B', ' D', ' E', ' D', ' B', ' B', ' C', ' D', ' C', ' B', ' A', ' A', ' A', ' D', ' A', ' B', ' B', ' B', ' C', ' D', ' D', ' C', ' D', ' B', ' E', ' B', ' C', ' B', ' D', ' D', ' D', ' B', ' B', ' C', ' D', ' B', ' C', ' D', ' D', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' D', ' B', ' B', ' D', ' D', ' D', ' C', ' C', ' D']","[0.08924102, 0.31326303, 0.21905532, 0.37844063, 0.0349572938803176]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_RELG_W92,"Question: Do you think a decline in the share of Americans belonging to an organized religion is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' E', ' E', ' C', ' D', ' D', ' C', ' A', ' C', ' E', ' E', ' D', ' C', ' D', ' E', ' E', ' C', ' D', ' C', ' D', ' C', ' E', ' E', ' D', ' D', ' C', ' E', ' E', ' B', ' C', ' C', ' D', ' E', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' E', ' C', ' C', ' E', ' A', ' C', ' E', ' C', ' D', ' E', ' D', ' E', ' C', ' C', ' B', ' D', ' E', ' D', ' D', ' C', ' D', ' D', ' E', ' A', ' E', ' C', ' E', ' C', ' E', ' A', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' A', ' C', ' B', ' E', ' D', ' E', ' C', ' E', ' C', ' C', ' C', ' D', ' D']","[0.03731822, 0.05558798, 0.29416477, 0.32189196, 0.29103707, 0.0150945696040037]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+ELECT_CONF3_PRVSUP_W92,"Question: Still thinking about elections in the country, how confident, if at all, are you that people who are legally qualified and want to vote are able to cast a ballot
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' D', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' B', ' E', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' D', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A']","[0.4700761, 0.35809793, 0.12726895, 0.04455702, 0.0223530360470227]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+CANDEXP_W92,"Question: How important is it, if at all, that candidates running for high levels of political office have prior government experience?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' A', ' B', ' D', ' D', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' D', ' B', ' C', ' C', ' B', ' E', ' E', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' D', ' A', ' A', ' D', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' A', ' B', ' A', ' A', ' C', ' A', ' D', ' C', ' C', ' C', ' D', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' C']","[0.26084127, 0.37593888, 0.23943008, 0.12378978, 0.0133697293827612]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_GUNS_W92,"Question: Do you think an increase in the number of guns in the U.S. is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' D', ' D', ' D', ' E', ' B', ' F', ' D', ' A', ' E', ' D', ' C', ' E', ' E', ' E', ' E', ' E', ' C', ' C', ' D', ' C', ' E', ' C', ' C', ' E', ' E', ' E', ' C', ' D', ' D', ' E', ' D', ' B', ' B', ' C', ' D', ' B', ' B', ' E', ' A', ' D', ' B', ' E', ' F', ' E', ' E', ' D', ' C', ' C', ' C', ' A', ' A', ' D', ' C', ' E', ' C', ' E', ' A', ' B', ' E', ' D', ' E', ' D', ' E', ' E', ' A', ' B', ' E', ' B', ' C', ' E', ' A', ' B', ' E', ' D', ' C', ' A', ' C', ' B', ' C', ' E', ' C', ' E', ' C', ' E', ' C', ' B', ' F', ' C', ' C', ' B', ' C', ' D', ' B', ' D', ' C', ' C', ' A', ' E']","[0.12467447, 0.12634585, 0.28980497, 0.18466739, 0.27450732, 0.0078309843998009]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SOCIETY_RHIST_W92,"Question: Do you think increased public attention to the history of slavery and racism in America is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' D', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' D', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' D', ' A', ' E', ' B', ' A', ' D', ' A', ' C', ' C', ' C', ' D', ' B', ' B', ' E', ' C', ' B', ' B', ' D', ' A', ' E', ' A', ' E', ' A', ' B', ' C', ' B', ' D', ' C', ' A', ' D', ' D', ' B', ' E', ' D', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' A', ' E', ' D', ' C', ' B', ' A', ' E', ' D', ' D', ' B', ' B', ' A', ' B', ' B', ' C', ' D', ' D', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' B', ' E', ' B', ' C', ' C', ' E', ' D', ' B', ' E', ' B', ' A']","[0.23931923, 0.2245529, 0.22938563, 0.16599974, 0.1407425, 0.0079347577335768]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SOCIETY_TRANS_W92,"Question: Do you think greater social acceptance of people who are transgender (people who identify as a gender that is different from the sex they were assigned at birth) is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' D', ' E', ' C', ' A', ' A', ' C', ' A', ' E', ' D', ' C', ' C', ' B', ' C', ' C', ' E', ' C', ' D', ' E', ' B', ' C', ' B', ' B', ' E', ' C', ' C', ' C', ' B', ' E', ' B', ' D', ' E', ' E', ' C', ' C', ' A', ' A', ' A', ' C', ' E', ' E', ' E', ' A', ' D', ' C', ' E', ' E', ' E', ' B', ' C', ' A', ' E', ' B', ' E', ' E', ' C', ' C', ' B', ' D', ' C', ' D', ' A', ' C', ' E', ' C', ' E', ' C', ' A', ' E', ' E', ' A', ' E', ' D', ' C', ' C', ' C', ' E', ' E', ' B', ' C', ' D', ' E', ' E', ' E', ' A', ' E', ' C', ' D', ' C', ' E', ' E', ' A', ' B', ' C', ' D', ' E', ' E', ' E', ' C', ' B']","[0.12493757, 0.11111105, 0.3081039, 0.17607221, 0.27977527, 0.0159523956747878]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+POLINTOL2_a_W92,"Question: In general, how comfortable do you think Republicans in this country are to freely and openly express their political views?
+A. Very comfortable
+B. Somewhat comfortable
+C. Not too comfortable
+D. Not at all comfortable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' B', ' D', ' A', ' A', ' C', ' D', ' D', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' D', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' D', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' D', ' A', ' C', ' B', ' A', ' E', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' D', ' C', ' A', ' C', ' A', ' C', ' A', ' D', ' C', ' B', ' D', ' C', ' A', ' C']","[0.32636127, 0.28990625, 0.24927532, 0.13445716, 0.0180057482759711]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_WHT_W92,"Question: Do you think white people declining as a share of the U.S. population is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' A', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' C', ' E', ' B', ' C', ' D', ' E', ' C', ' C', ' C', ' C', ' D', ' E', ' E', ' C', ' E', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' E', ' F', ' C', ' C', ' C', ' C', ' E', ' B', ' D', ' C', ' D', ' C', ' C', ' E', ' E', ' C', ' E', ' C', ' C', ' C', ' C', ' E', ' D', ' E', ' D', ' D', ' C', ' C', ' E', ' C', ' C', ' C', ' C', ' B', ' C', ' E', ' C', ' A', ' E', ' C', ' E', ' C', ' C', ' C', ' D', ' E', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' E', ' C']","[0.04832189, 0.05998872, 0.60819979, 0.163787, 0.1197026, 0.0145346039233765]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+PROG_RNEED_W92,"Question: How much more, if anything, needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?
+A. A lot
+B. A little
+C. Nothing at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' A', ' A']","[0.45028903, 0.35199418, 0.19771678, 0.0104250928378489]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+LEGALIMMIGAMT_W92,"Question: Do you think the number of legal immigrants the U.S. admits should
+A. Increase a lot
+B. Increase a little
+C. Stay about the same
+D. Decrease a little
+E. Decrease a lot
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' B', ' E', ' E', ' C', ' E', ' C', ' C', ' C', ' C', ' C', ' E', ' A', ' D', ' A', ' D', ' C', ' E', ' B', ' D', ' B', ' C', ' E', ' E', ' B', ' B', ' D', ' C', ' C', ' E', ' E', ' C', ' D', ' A', ' C', ' F', ' E', ' B', ' C', ' E', ' C', ' C', ' C', ' C', ' F', ' C', ' E', ' E', ' D', ' D', ' B', ' A', ' E', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' F', ' C', ' C', ' C', ' E', ' D', ' C', ' D', ' E', ' F', ' C', ' D', ' C', ' C', ' D', ' C', ' E', ' C', ' A', ' D', ' C', ' C', ' D', ' E', ' B', ' D', ' D', ' D', ' A', ' C', ' B', ' B', ' D', ' E', ' D', ' D', ' C', ' A']","[0.0720289, 0.15634978, 0.46671271, 0.140725, 0.16418362, 0.031494850071327]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0, 5.0]"

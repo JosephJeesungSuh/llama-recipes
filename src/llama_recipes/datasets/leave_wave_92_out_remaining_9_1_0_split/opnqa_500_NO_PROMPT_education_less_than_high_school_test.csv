@@ -1,0 +1,213 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+UNIMMIGCOMM_W92,"Question: When it comes to people who have immigrated to the U.S illegally, do you think they generally make the communities they live in
+A. A lot better
+B. A little better
+C. A little worse
+D. A lot worse
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' E', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' E', ' B', ' D', ' C', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' D', ' B', ' B', ' C', ' C', ' D', ' A', ' A', ' D', ' E', ' C', ' C', ' B', ' A', ' C', ' B', ' D', ' D', ' A', ' C', ' D', ' B', ' B', ' C', ' B', ' D', ' C', ' B', ' B', ' B', ' C', ' B', ' D', ' A', ' C', ' C', ' C', ' B', ' D', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' D', ' D', ' B', ' C', ' B', ' B']","[0.13754208, 0.32614326, 0.38501333, 0.15130133, 0.0331716543549044]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+USEXCEPT_W92,"Question: Which of these statements best describes your opinion about the United States?
+A. The U.S. stands above all other countries in the world
+B. The U.S. is one of the greatest countries in the world, along with some others
+C. There are other countries that are better than the U.S.
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' D', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' D', ' B', ' C', ' A', ' A', ' B', ' D', ' A', ' B', ' A', ' C', ' C', ' A', ' B']","[0.28422704, 0.55263653, 0.16313643, 0.023399930404705]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0]"
+REPRSNTREP_W92,"Question: How well does the Republican party represent the interests of people like you?
+A. Very well
+B. Somewhat well
+C. Not too well
+D. Not at all well
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' E', ' C', ' B', ' B', ' C', ' B', ' D', ' D', ' D', ' D', ' E', ' A', ' D', ' E', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' D', ' B', ' E', ' D', ' A', ' D', ' B', ' B', ' D', ' D', ' B', ' E', ' B', ' D', ' B', ' C', ' D', ' C', ' D', ' D', ' E', ' A', ' B', ' D', ' B', ' E', ' D', ' D', ' B', ' D', ' D', ' C', ' D', ' B', ' A', ' C', ' B', ' B', ' E', ' B', ' D', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' D', ' D', ' C', ' D', ' D', ' D', ' B', ' B', ' B', ' D', ' B', ' E', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' E', ' B', ' B', ' D', ' B', ' D']","[0.11514605, 0.33580075, 0.2890075, 0.2600457, 0.0713138598407453]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+ELECT_CONF3_PRVFR_W92,"Question: Still thinking about elections in the country, how confident, if at all, are you that people who are not legally qualified to vote are prevented from casting a ballot
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' D', ' D', ' B', ' C', ' C', ' A', ' A', ' D', ' C', ' B', ' C', ' B', ' C', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' D', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' D', ' D', ' D', ' E', ' A', ' A', ' B', ' B', ' A', ' E', ' D', ' C', ' D', ' C', ' A', ' D', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' D', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' D', ' B', ' C', ' D', ' C', ' B', ' A', ' A', ' D']","[0.21378279, 0.34455666, 0.26614737, 0.17551317, 0.0237975281805538]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+BILLION_W92,"Question: Do you think the fact that there are some people in this country who have personal fortunes of a billion dollars or more is
+A. A good thing for the country
+B. A bad thing for the country
+C. Neither a good thing or a bad thing
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A']","[0.1495368, 0.27341612, 0.57704708, 0.0042577566370271]",EDUCATION,Less than high school,"[1.0, 2.0, 1.5]"
+WHADVANT_W92,"Question: In general, how much do White people benefit from advantages in society that Black people do not have?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' D', ' C', ' E', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' D', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' E', ' A', ' D', ' C', ' A', ' A', ' B', ' B', ' C', ' D', ' A', ' A', ' A', ' D', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' A']","[0.3092413, 0.34496779, 0.21649033, 0.12930057, 0.0152057259639033]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_SSM_W92,"Question: Do you think same-sex marriages being legal in the U.S. is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' D', ' D', ' C', ' A', ' B', ' C', ' C', ' E', ' C', ' E', ' C', ' C', ' C', ' D', ' E', ' C', ' E', ' D', ' E', ' E', ' E', ' C', ' C', ' C', ' D', ' D', ' C', ' E', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' D', ' C', ' C', ' C', ' E', ' C', ' C', ' E', ' A', ' D', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' E', ' C', ' E', ' E', ' E', ' C', ' E', ' D', ' B', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' B', ' F', ' B', ' D', ' F', ' B', ' C', ' C', ' C', ' E', ' C', ' E', ' C', ' C', ' B', ' C']","[0.09719604, 0.0926775, 0.41901965, 0.11471672, 0.27639009, 0.0129050656987769]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+FREECOLL_W92,"Question: Would you favor or oppose making tuition at public colleges and universities free for all American students?
+A. Strongly favor
+B. Somewhat favor
+C. Somewhat oppose
+D. Strongly oppose
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' E', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' D', ' C', ' B', ' A', ' B', ' A', ' B', ' D', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' D', ' B', ' A', ' D', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' D', ' C', ' A', ' C', ' B', ' C', ' C']","[0.47039404, 0.29993224, 0.14463322, 0.0850405, 0.0073935417864361]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+USMILSIZ_W92,"Question: Thinking about the size of America's military, do you think it should be
+A. Reduced a great deal
+B. Reduced somewhat
+C. Kept about as is
+D. Increased somewhat
+E. Increased a great deal
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' B', ' C', ' F', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' F', ' D', ' D', ' D', ' C', ' F', ' C', ' D', ' D', ' D', ' C', ' D', ' E', ' C', ' E', ' C', ' D', ' D', ' C', ' E', ' A', ' C', ' D', ' E', ' B', ' C', ' E', ' D', ' C', ' E', ' A', ' C', ' C', ' D', ' E', ' F', ' D', ' C', ' D', ' E', ' C', ' E', ' E', ' C', ' E', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' E', ' E', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' A', ' D', ' C', ' C', ' B', ' D', ' C', ' C', ' C', ' E', ' E', ' E', ' E', ' D', ' E', ' E', ' C', ' D', ' D', ' E', ' C', ' C']","[0.03818788, 0.11771433, 0.37897223, 0.27011812, 0.19500743, 0.0197543040833321]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV52MOD_W92,"Question: How much, if at all, would it bother you to regularly hear people speak a language other than English in public places in your community?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' E', ' B', ' D', ' D', ' B', ' B', ' D', ' C', ' A', ' A', ' C', ' A', ' D', ' A', ' D', ' E', ' B', ' D', ' A', ' C', ' D', ' A', ' D', ' D', ' A', ' E', ' A', ' D', ' D', ' A', ' C', ' B', ' B', ' D', ' A', ' C', ' B', ' A', ' C', ' B', ' D', ' C', ' A', ' D', ' B', ' B', ' D', ' B', ' B', ' D', ' D', ' B', ' D', ' D', ' A', ' C', ' C', ' D', ' B', ' B', ' A', ' B', ' C', ' D', ' B', ' C', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' A', ' A', ' B', ' A', ' D', ' A', ' B', ' B', ' B', ' D', ' A', ' B', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' A', ' D', ' D']","[0.19291999, 0.21691059, 0.23719704, 0.35297238, 0.0121193083454187]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+GODMORALIMP_W92,"Question: Regardless of your own religious beliefs, how important, if at all, do you think it is for a person to believe in God in order to be considered good and moral?
+A. Essential
+B. Important, but not essential
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' D', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' D', ' C', ' B', ' A', ' C', ' A', ' D', ' B', ' D', ' C', ' C', ' B', ' D', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' D', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' D', ' A', ' A', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' D', ' D', ' C', ' D', ' B', ' A']","[0.31679049, 0.34328715, 0.17529611, 0.16462625, 0.0102111788333864]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+ELECT_IMPT3_PRVFR_W92,"Question: Thinking about elections in the country, how important, if at all, is people who are not legally qualified to vote are prevented from casting a ballot?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' C', ' B', ' C', ' B', ' D', ' D', ' D', ' B', ' A', ' C', ' D', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' D', ' C', ' A', ' A', ' A', ' A', ' D', ' D', ' A', ' E', ' A', ' A', ' A', ' B', ' B', ' E', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' D', ' D', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' D', ' A', ' D', ' A', ' A', ' C', ' D', ' E', ' A', ' C', ' C', ' B', ' A', ' B', ' A']","[0.50205995, 0.25490454, 0.13563872, 0.10739678, 0.0232981125258604]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+REPRSNTDEM_W92,"Question: How well does the Democratic party represent the interests of people like you?
+A. Very well
+B. Somewhat well
+C. Not too well
+D. Not at all well
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' B', ' C', ' B', ' A', ' E', ' D', ' C', ' B', ' B', ' C', ' B', ' D', ' B', ' E', ' B', ' D', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' D', ' A', ' A', ' A', ' D', ' E', ' D', ' C', ' B', ' E', ' A', ' B', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' C', ' A', ' B', ' B', ' C', ' A', ' D', ' B', ' A', ' B', ' A', ' D', ' B', ' B', ' A', ' D', ' C', ' C', ' B', ' E', ' B', ' A', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' B', ' C', ' D', ' B', ' E', ' D', ' A', ' C', ' C', ' D', ' B', ' B', ' C', ' C', ' B', ' A']","[0.14431215, 0.39518631, 0.23788798, 0.22261355, 0.0671332245199642]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_RELG_W92,"Question: Do you think a decline in the share of Americans belonging to an organized religion is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' F', ' D', ' C', ' E', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' E', ' C', ' B', ' A', ' C', ' E', ' D', ' E', ' F', ' E', ' C', ' C', ' C', ' B', ' E', ' C', ' C', ' D', ' D', ' E', ' C', ' B', ' F', ' B', ' E', ' D', ' C', ' D', ' A', ' C', ' C', ' B', ' E', ' C', ' E', ' D', ' E', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' D', ' D', ' C', ' E', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' E', ' D', ' C', ' C', ' D', ' F', ' E', ' E', ' F', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' E', ' C', ' D', ' D', ' C', ' D', ' C']","[0.09809982, 0.13085048, 0.4188444, 0.19619824, 0.15600706, 0.0203860470365635]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+ELECT_CONF3_PRVSUP_W92,"Question: Still thinking about elections in the country, how confident, if at all, are you that people who are legally qualified and want to vote are able to cast a ballot
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' D', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' D', ' B', ' A', ' C', ' B', ' B', ' D', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' E', ' A', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' E', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' D', ' A', ' A', ' B', ' C']","[0.42648588, 0.3825438, 0.11982425, 0.07114608, 0.0258172511588037]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+CANDEXP_W92,"Question: How important is it, if at all, that candidates running for high levels of political office have prior government experience?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' D', ' B', ' D', ' A', ' A', ' B', ' A', ' A', ' B', ' D', ' D', ' B', ' C', ' A', ' D', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' D', ' A', ' A', ' A', ' D', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' B', ' D', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' D', ' A', ' B', ' B', ' B', ' C', ' A', ' E', ' E', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' D', ' B', ' A', ' B', ' B']","[0.39483821, 0.36420002, 0.14194194, 0.09901983, 0.02412010760555]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_GUNS_W92,"Question: Do you think an increase in the number of guns in the U.S. is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' B', ' E', ' C', ' E', ' D', ' B', ' A', ' C', ' E', ' D', ' E', ' D', ' E', ' E', ' C', ' D', ' E', ' D', ' D', ' B', ' B', ' B', ' C', ' E', ' E', ' B', ' E', ' C', ' D', ' E', ' A', ' E', ' F', ' A', ' E', ' C', ' D', ' E', ' A', ' D', ' E', ' E', ' C', ' D', ' E', ' E', ' C', ' E', ' E', ' D', ' C', ' B', ' F', ' D', ' C', ' C', ' C', ' E', ' E', ' C', ' C', ' E', ' E', ' C', ' D', ' C', ' A', ' E', ' E', ' C', ' E', ' E', ' E', ' E', ' E', ' C', ' E', ' B', ' D', ' B', ' E', ' D', ' C', ' C', ' E', ' C', ' C', ' A', ' D', ' E', ' C', ' D', ' E', ' D', ' C', ' C', ' B', ' D']","[0.06853694, 0.09814519, 0.28792931, 0.20421113, 0.34117744, 0.0124869801927991]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SOCIETY_RHIST_W92,"Question: Do you think increased public attention to the history of slavery and racism in America is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' D', ' E', ' D', ' C', ' A', ' B', ' B', ' B', ' E', ' C', ' C', ' C', ' B', ' B', ' D', ' E', ' D', ' B', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' E', ' E', ' C', ' B', ' A', ' C', ' C', ' A', ' E', ' C', ' E', ' E', ' D', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' E', ' C', ' B', ' A', ' A', ' C', ' A', ' F', ' B', ' C', ' A', ' F', ' A', ' C', ' C', ' B', ' E', ' C', ' E', ' B', ' B', ' C', ' E', ' A', ' C', ' E', ' B', ' E', ' E', ' E', ' B', ' C', ' C', ' A', ' C', ' D', ' C', ' A', ' A', ' D', ' D', ' C', ' E', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' E', ' B', ' A']","[0.19426712, 0.25172535, 0.24833505, 0.13682701, 0.16884547, 0.0156732812190801]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SOCIETY_TRANS_W92,"Question: Do you think greater social acceptance of people who are transgender (people who identify as a gender that is different from the sex they were assigned at birth) is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' C', ' D', ' E', ' C', ' D', ' B', ' C', ' C', ' C', ' E', ' E', ' D', ' E', ' C', ' C', ' C', ' C', ' C', ' E', ' E', ' E', ' B', ' C', ' E', ' E', ' D', ' B', ' A', ' E', ' C', ' C', ' A', ' F', ' C', ' C', ' A', ' C', ' D', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' D', ' B', ' E', ' C', ' B', ' B', ' F', ' B', ' E', ' C', ' D', ' D', ' E', ' B', ' C', ' E', ' B', ' C', ' D', ' C', ' D', ' B', ' A', ' C', ' C', ' B', ' E', ' C', ' F', ' C', ' C', ' C', ' E', ' A', ' C', ' C', ' C', ' D', ' E', ' E', ' E', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' E', ' E']","[0.14339241, 0.09439954, 0.35769733, 0.1884904, 0.21602031, 0.013461303468073]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+POLINTOL2_a_W92,"Question: In general, how comfortable do you think Republicans in this country are to freely and openly express their political views?
+A. Very comfortable
+B. Somewhat comfortable
+C. Not too comfortable
+D. Not at all comfortable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' D', ' D', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' B', ' D', ' D', ' D', ' A', ' B', ' A', ' B', ' D', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' D', ' B', ' C', ' D', ' C', ' B', ' A', ' D', ' A', ' B', ' B', ' D', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' E', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' D', ' B', ' C', ' B']","[0.28115975, 0.363519, 0.19779883, 0.15752242, 0.0172690162926473]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_WHT_W92,"Question: Do you think white people declining as a share of the U.S. population is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' B', ' E', ' C', ' C', ' E', ' E', ' C', ' E', ' B', ' D', ' E', ' E', ' D', ' C', ' F', ' F', ' C', ' E', ' C', ' B', ' B', ' C', ' E', ' E', ' D', ' C', ' C', ' D', ' D', ' C', ' E', ' E', ' C', ' D', ' C', ' A', ' D', ' D', ' C', ' D', ' D', ' F', ' C', ' B', ' A', ' D', ' C', ' C', ' C', ' A', ' E', ' D', ' D', ' D', ' E', ' C', ' E', ' C', ' D', ' C', ' D', ' E', ' E', ' E', ' C', ' B', ' B', ' C', ' E', ' C', ' C', ' D', ' E', ' B', ' C', ' C', ' E', ' B', ' C', ' C', ' F', ' C', ' C', ' E', ' C', ' C', ' D', ' C', ' C', ' C', ' C']","[0.0339756, 0.09096183, 0.54302047, 0.17732755, 0.15471455, 0.0273582275112655]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+PROG_RNEED_W92,"Question: How much more, if anything, needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?
+A. A lot
+B. A little
+C. Nothing at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' C', ' D', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' B', ' C', ' B', ' B', ' D', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' A']","[0.52617388, 0.35992486, 0.11390125, 0.0141195748453288]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0]"
+LEGALIMMIGAMT_W92,"Question: Do you think the number of legal immigrants the U.S. admits should
+A. Increase a lot
+B. Increase a little
+C. Stay about the same
+D. Decrease a little
+E. Decrease a lot
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' E', ' C', ' A', ' C', ' E', ' C', ' E', ' E', ' C', ' C', ' E', ' E', ' D', ' C', ' C', ' C', ' B', ' D', ' A', ' D', ' C', ' E', ' C', ' A', ' E', ' C', ' D', ' C', ' C', ' D', ' B', ' C', ' D', ' B', ' C', ' C', ' B', ' C', ' C', ' D', ' E', ' C', ' C', ' D', ' C', ' E', ' C', ' E', ' E', ' E', ' E', ' B', ' C', ' D', ' B', ' C', ' C', ' E', ' D', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' C', ' C', ' D', ' E', ' E', ' E', ' E', ' D', ' E', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' A', ' C', ' D', ' C', ' B', ' A', ' E', ' D', ' C', ' C', ' D', ' D', ' C', ' A', ' E']","[0.06691714, 0.10822325, 0.44612676, 0.188699, 0.19003384, 0.0229335840782157]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"
