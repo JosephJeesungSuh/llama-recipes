@@ -1,0 +1,361 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+AUTOLKLY_W41,"Question: Within the next 30 years, how likely do you think it is that the type of work that you do will be done by robots or computers? Do you think this will
+A. Definitely happen
+B. Probably happen
+C. Probably not happen
+D. Definitely not happen
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' D', ' D', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' D', ' B', ' A', ' D', ' B', ' B', ' D', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' D', ' B', ' D', ' B', ' C', ' C', ' B', ' B', ' D', ' C', ' B', ' D', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' D', ' C', ' D', ' D', ' B', ' B', ' B', ' A', ' D', ' C', ' D', ' C', ' B', ' A', ' C', ' B', ' D', ' B', ' C', ' D', ' C', ' B', ' A', ' C', ' D', ' C', ' B', ' A', ' D', ' B', ' C', ' C', ' A', ' C', ' D', ' B', ' D', ' D', ' C', ' D', ' A', ' B', ' B', ' D', ' B', ' D', ' D', ' B', ' D', ' A', ' C', ' A', ' C', ' A', ' A', ' C']","[0.14103274, 0.22752621, 0.35833756, 0.27310349, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+FTRWORRYe_W41,"Question: Still thinking about the future of our country, how worried are you, if at all, about the moral values of Americans?
+A. Very worried
+B. Fairly worried
+C. Not too worried
+D. Not at all worried
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A']","[0.53538252, 0.37044503, 0.09417245, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+AUTOWKPLC_W41,"Question: Overall, has the automation of jobs through new technology in the workplace
+A. Mostly helped American workers
+B. Mostly hurt American workers
+C. Neither helped nor hurt
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B']","[0.20262911, 0.53644394, 0.26092695, 0.0]",RELIG,Muslim,"[1.0, 2.0, 1.5]"
+GOVPRIOc_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to providing high-quality, affordable health care to all Americans?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' A']","[0.58315651, 0.29845318, 0.11839031, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+HARASS3NOWRKF2_W41,"Question: Do you think the increased focus on sexual harassment and assault has made it easier or harder for men to know how to interact with women, or hasn't it made much difference?
+A. Has made it easier for men
+B. Has made it harder for men
+C. Hasn't made much difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C']","[0.0, 0.49529288, 0.50470712, 0.0]",RELIG,Muslim,"[1.0, 2.0, 1.5]"
+LEGALIMG_W41,"Question: In order to maintain the strength of the U.S. economy over the next 30 years, do you think that legal immigration will need to be
+A. Increased
+B. Maintained at current levels
+C. Decreased
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' B', ' B', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' D', ' C', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' D', ' B', ' A']","[0.30587523, 0.4960632, 0.19806157, 0.0383416875402659]",RELIG,Muslim,"[1.0, 2.0, 3.0]"
+ETHNCMAJMOD_W41,"Question: According to the U.S. Census Bureau, by the year 2050, a majority of the population will be made up of blacks, Asians, Hispanics, and other racial minorities. In terms of its impact on the country, do you think this will be
+A. A very good thing
+B. A somewhat good thing
+C. A somewhat bad thing
+D. A very bad thing
+E. Neither a good nor bad thing
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' E', ' A', ' E', ' A', ' B', ' C', ' C', ' E', ' B', ' E', ' C', ' D', ' C', ' B', ' A', ' B', ' E', ' E', ' C', ' E', ' E', ' E', ' B', ' E', ' E', ' E', ' E', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' E', ' C', ' E', ' C', ' A', ' B', ' C', ' E', ' C', ' E', ' B', ' E', ' A', ' A', ' E', ' E', ' A', ' E', ' B', ' B', ' E', ' E', ' B', ' E', ' E', ' E', ' C', ' E', ' B', ' E', ' C', ' E', ' C', ' E', ' E', ' E', ' C', ' B', ' C', ' B', ' C', ' E', ' B', ' A', ' A', ' E', ' C', ' E', ' C', ' E', ' B', ' C', ' C', ' E', ' A', ' B', ' E', ' D', ' E', ' C', ' E', ' E', ' B', ' A']","[0.13045348, 0.17360536, 0.19746314, 0.02255975, 0.47591827, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+WRKTRN1F2_W41,"Question: Over the next 30 years, who should be most responsible for making sure young adults have the right skills and training to get a good job?
+A. Government
+B. Employers
+C. The education system
+D. Individuals themselves
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' D', ' C', ' C', ' A', ' D', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A']","[0.3317569, 0.14510963, 0.49148128, 0.03165219, 0.0]",RELIG,Muslim,"[1, 1, 1, 1]"
+FUTR_DIV_W41,"Question: By 2050, do you expect that people who are married will be
+A. More likely to get divorced than people are now
+B. Less likely to get divorced than people are now
+C. About as likely to get divorced as people are now
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' D', ' C', ' C', ' C', ' A', ' C', ' D', ' C', ' A', ' C', ' C', ' D', ' B', ' D', ' C', ' D', ' A', ' C', ' A', ' D', ' D', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' D', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' D', ' A', ' A', ' C', ' A', ' D', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' C']","[0.4973975, 0.1255792, 0.3770233, 0.1352525066320644]",RELIG,Muslim,"[1.0, 2.0, 1.5]"
+HARASS1NOWRKF2d_W41,"Question: When it comes to sexual harassment and sexual assault today, how much of a problem, if at all, would you say women not being believed when they claim that they have experienced sexual harassment or assault is?
+A. Major problem
+B. Minor problem
+C. Not a problem
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' A']","[0.41264258, 0.44224779, 0.14510963, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0]"
+SOLVPROBa_W41,"Question: In the future, what kind of an impact do you think science and technology will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' A', ' B', ' C', ' A', ' D', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' D', ' A', ' D', ' C', ' A', ' A', ' D', ' B', ' B', ' D', ' B', ' B', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' D', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' D', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' D', ' A', ' A', ' B', ' B', ' D', ' A', ' B', ' B', ' A', ' A', ' B', ' D', ' A']","[0.4595973, 0.31657821, 0.03834169, 0.1854828, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+INTRMAR_W41,"Question: According to the U.S. Census Bureau, more people of different races are marrying each other these days than in the past. In terms of its impact on the country, do you think this is
+A. A very good thing
+B. A somewhat good thing
+C. A somewhat bad thing
+D. A very bad thing
+E. Neither a good nor bad thing
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' B', ' B', ' E', ' E', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' D', ' B', ' E', ' D', ' A', ' B', ' E', ' B', ' A', ' E', ' E', ' A', ' A', ' C', ' E', ' E', ' A', ' E', ' B', ' E', ' A', ' A', ' B', ' C', ' E', ' E', ' E', ' B', ' C', ' E', ' D', ' A', ' A', ' A', ' C', ' A', ' E', ' B', ' E', ' E', ' C', ' A', ' E', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' E', ' E', ' E', ' E', ' B', ' A', ' B', ' E', ' A', ' E', ' A', ' E', ' B', ' E', ' E', ' A', ' A', ' E', ' E', ' A', ' E', ' C', ' A', ' A', ' E', ' E', ' A', ' A', ' A', ' A', ' A', ' E']","[0.21357694, 0.27610127, 0.13727934, 0.0616512, 0.31139126, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+GOVPRIOhF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing spending on Social Security, Medicare and Medicaid?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' C', ' C', ' B', ' D', ' A', ' A', ' A', ' D', ' C', ' A', ' B', ' C', ' D', ' C', ' C', ' D', ' B', ' D', ' B', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' C', ' C', ' A', ' D', ' C', ' C', ' B', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' A', ' A', ' B', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' B', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' A', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' A', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' D', ' D', ' A']","[0.15429007, 0.0919504, 0.36372998, 0.39002955, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBf_W41,"Question: In the future, what kind of an impact do you think the news media will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' D', ' D', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' D', ' C', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B']","[0.28052448, 0.43258817, 0.26432761, 0.02255975, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOjF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to avoiding tax increases?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' C']","[0.18542712, 0.59405677, 0.22051611, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+FUTRCLASSb_W41,"Question: Over the next 30 years, do you think the share of Americans who are in Middle Class will increase, decrease, or stay about the same?
+A. Increase
+B. Decrease
+C. Stay about the same
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' D', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' D', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' A']","[0.47235944, 0.22782178, 0.29981877, 0.013447731635644]",RELIG,Muslim,"[1.0, 2.0, 1.5]"
+ELDFINANCEF2_W41,"Question: Who do you think should be mostly responsible for paying for the long-term care older Americans may need?
+A. Family members
+B. Government
+C. Older Americans themselves
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B']","[0.0, 0.57623278, 0.42376722, 0.0]",RELIG,Muslim,"[1, 1, 1]"
+WRKTRN1F1_W41,"Question: Over the next 30 years, who should be most responsible for making sure American workers have the right skills and training to get a good job?
+A. Government
+B. Employers
+C. The education system
+D. Individuals themselves
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' D', ' D', ' D', ' C', ' B', ' C', ' C', ' D', ' D', ' B', ' D', ' D', ' A', ' B', ' A', ' C', ' A', ' D', ' A', ' D', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' A', ' D', ' C', ' A', ' A', ' D', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' A', ' D', ' D', ' D', ' A', ' D', ' D', ' C', ' D', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' D', ' D', ' D', ' C', ' C', ' A', ' C', ' D', ' A', ' D', ' A', ' C', ' B', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' A', ' C', ' D', ' D', ' D', ' D', ' A', ' A', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' A', ' C', ' D', ' C', ' D']","[0.21476492, 0.03552785, 0.29923627, 0.45047096, 0.0]",RELIG,Muslim,"[1, 1, 1, 1]"
+GOVPRIOmF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing spending on Social Security, Medicare and Medicaid?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B']","[0.69432095, 0.19518816, 0.11049088, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBb_W41,"Question: In the future, what kind of an impact do you think major corporations will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' D', ' C', ' A', ' D', ' D', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A']","[0.32856392, 0.40492993, 0.24394641, 0.02255975, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+FTRWORRYf_W41,"Question: Still thinking about the future of our country, how worried are you, if at all, about climate change?
+A. Very worried
+B. Fairly worried
+C. Not too worried
+D. Not at all worried
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B']","[0.48016748, 0.44651462, 0.07331791, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBdF1_W41,"Question: In the future, what kind of an impact do you think the government in Washington will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' D', ' B', ' C', ' A', ' A', ' A', ' D', ' A', ' C', ' D', ' C', ' B', ' A', ' A', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' D', ' A', ' C', ' B', ' C', ' C', ' D', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' D', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' D', ' B', ' A', ' D', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' D', ' A', ' A', ' D', ' A', ' B', ' B', ' B', ' A', ' A', ' B']","[0.32711467, 0.3438724, 0.17472286, 0.15429007, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+ELDFINANCEF1_W41,"Question: Who do you think will be mostly responsible for paying for the long-term care older Americans may need?
+A. Family members
+B. Government
+C. Older Americans themselves
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' C']","[0.46559946, 0.23516427, 0.29923627, 0.0]",RELIG,Muslim,"[1, 1, 1]"
+HARASS1F1d_W41,"Question: When it comes to sexual harassment and sexual assault in the workplace today, how much of a problem, if at all, would you say women not being believed when they claim that they have experienced sexual harassment or ass is?
+A. Major problem
+B. Minor problem
+C. Not a problem
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B']","[0.8754866, 0.1245134, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0]"
+GOVPRIOb_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing spending for education?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' A']","[0.6413911, 0.33604915, 0.02255975, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+FUTRCLASSc_W41,"Question: Over the next 30 years, do you think the share of Americans who are lower class will increase, decrease, or stay about the same?
+A. Increase
+B. Decrease
+C. Stay about the same
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A']","[0.75291389, 0.0, 0.24708611, 0.0]",RELIG,Muslim,"[1.0, 2.0, 1.5]"
+GOVPRIOgF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing the number of undocumented immigrants coming into the U.S.?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' D', ' D', ' D', ' B', ' D', ' B', ' B', ' B', ' D', ' D', ' D', ' D', ' D', ' B', ' B', ' D', ' B', ' D', ' B', ' B', ' D', ' B', ' B', ' B', ' D', ' B', ' B', ' D', ' B', ' B', ' B', ' D', ' B', ' D', ' D', ' B', ' D', ' D', ' D', ' B', ' B', ' B', ' B', ' D', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' D', ' B', ' D', ' D', ' B', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' B', ' D', ' B', ' B', ' B', ' D', ' B', ' D', ' B', ' D', ' B', ' B', ' D']","[0.0, 0.53801554, 0.0, 0.46198446, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+HAPPEN2b_W41,"Question: How likely do you think it is that the following will happen in the next 30 years? The world will face a major energy crisis
+A. Will definitely happen
+B. Will probably happen
+C. Will probably not happen
+D. Will definitely not happen
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C']","[0.0469431, 0.54749319, 0.40556371, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBh_W41,"Question: In the future, what kind of an impact do you think colleges and universities will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' B']","[0.3884959, 0.4876725, 0.1238316, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBg_W41,"Question: In the future, what kind of an impact do you think the military will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' D', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' D', ' C', ' C', ' D', ' A', ' A', ' C', ' D', ' C', ' C', ' B', ' A', ' A', ' D', ' D', ' A', ' B', ' A', ' A', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' B']","[0.39891479, 0.14859894, 0.39158484, 0.06090143, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+HAPPEN2f_W41,"Question: How likely do you think it is that the following will happen in the next 30 years? A Hispanic person will be elected U.S. president
+A. Will definitely happen
+B. Will probably happen
+C. Will probably not happen
+D. Will definitely not happen
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' C', ' B', ' B', ' C', ' B', ' B', ' D', ' B', ' B', ' B', ' D', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' D', ' B']","[0.0, 0.7683469, 0.10782149, 0.1238316, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOlF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to who come here legally? Allowing more immigrants into the U.S.
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A']","[0.63825508, 0.14510963, 0.21663529, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOiF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing spending for roads, bridges and other infrastructure?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A']","[0.44147108, 0.23516427, 0.32336465, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOe_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing the gap between the rich and the poor?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A']","[0.67292737, 0.26492412, 0.06214851, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOfF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing military spending?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' D', ' A', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' A', ' C', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C']","[0.16266761, 0.23257137, 0.56923318, 0.03552785, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBc_W41,"Question: In the future, what kind of an impact do you think religious groups will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' B', ' A', ' C', ' B', ' D', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' D', ' B', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C']","[0.20881047, 0.35665722, 0.38164791, 0.0528844, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOoF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to dealing with climate change?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B']","[0.63825508, 0.36174492, 0.0, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+FTRWORRYc_W41,"Question: Still thinking about the future of our country, how worried are you, if at all, about the way the government in Washington works?
+A. Very worried
+B. Fairly worried
+C. Not too worried
+D. Not at all worried
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B']","[0.28111893, 0.53074417, 0.18813691, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+HARASS1F1b_W41,"Question: When it comes to sexual harassment and sexual assault in the workplace today, how much of a problem, if at all, would you say employers firing men who have been accused of sexual harassment or assault before finding ou is?
+A. Major problem
+B. Minor problem
+C. Not a problem
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A']","[0.65047932, 0.23075846, 0.11876222, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0]"
+GOVPRIOnF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing spending for roads, bridges and other infrastructure?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' D', ' C', ' D', ' B', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' D', ' D', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' A', ' B', ' C', ' D', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' A', ' D', ' D', ' C', ' A', ' D', ' B', ' B', ' B', ' D', ' A', ' C', ' A', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' D', ' A', ' B', ' D', ' C', ' C', ' D', ' A', ' C', ' A', ' D', ' D', ' B', ' B', ' A', ' D', ' B', ' D', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' C', ' A']","[0.14510963, 0.21745442, 0.42080066, 0.21663529, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOkF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing military spending?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' B', ' B', ' A', ' D', ' B', ' B', ' D', ' B', ' D', ' B', ' B', ' B', ' C', ' D', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' D', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' B']","[0.21745442, 0.58433664, 0.14510963, 0.05309931, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"

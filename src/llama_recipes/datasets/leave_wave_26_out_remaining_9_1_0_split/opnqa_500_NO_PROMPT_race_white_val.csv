@@ -1,0 +1,392 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+GAP21Q4_d_W82,"Question: Do you have a favorable or unfavorable opinion of the European Union
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' E', ' B', ' B', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' D', ' C', ' B', ' E', ' E', ' C', ' B', ' C', ' B', ' A', ' A', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' D', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' E', ' B', ' B', ' C', ' B', ' B', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' B']","[0.07411505, 0.55270088, 0.27686727, 0.09631681, 0.0312114023782371]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+MADEUPOFT_W45,"Question: How often do you come across made-up news and information that is intended to mislead the public?
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B']","[0.40325491, 0.50549096, 0.0808846, 0.01036954, 0.0071533130145637]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+MADEUPTOPICb_W45,"Question: How much made-up news and information do you think is created about entertainment and celebrities topics?
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A']","[0.61943103, 0.32958572, 0.05098325, 0.0, 0.0046198272696672]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+PROG_RNEED_W92,"Question: How much more, if anything, needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?
+A. A lot
+B. A little
+C. Nothing at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A']","[0.44729595, 0.36601134, 0.18669271, 0.0074650861298719]",RACE,White,"[1.0, 2.0, 3.0]"
+ECON4_e_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does real estate values in your area affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' C', ' D', ' A', ' B', ' D', ' A', ' A', ' A', ' A', ' C', ' D', ' A', ' B', ' D', ' B', ' C', ' A', ' C', ' D', ' D', ' C', ' D', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' D', ' B', ' C', ' A', ' C', ' D', ' C', ' A', ' B', ' C', ' D', ' C', ' C', ' B', ' A', ' A', ' D', ' B', ' D', ' C', ' D', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' D', ' C', ' C', ' A', ' D', ' A', ' C', ' B', ' B', ' D', ' D', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' B']","[0.26340906, 0.3240941, 0.28284858, 0.12964826, 0.0060445524757897]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q47_W82,"Question: When it comes to whether or not to limit Chinese students studying in the US, do you
+A. Strongly support limiting Chinese students
+B. Somewhat support limiting Chinese students
+C. Somewhat oppose limiting Chinese students
+D. Strongly oppose limiting Chinese students
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' B', ' D', ' C', ' B', ' E', ' A', ' A', ' A', ' A', ' D', ' C', ' D', ' D', ' C', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' D', ' C', ' E', ' B', ' A', ' B', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' D', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' A', ' D', ' D', ' B', ' C', ' D', ' B', ' A', ' C', ' C', ' A', ' D', ' A', ' B', ' D', ' B', ' C', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' D', ' D', ' B', ' B', ' A']","[0.24031706, 0.34424982, 0.25300374, 0.16242937, 0.02046330055217]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+FUD37C_W34,"Question: How likely is it that genetically modified foods will create problems for the environment
+A. Very likely
+B. Fairly likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' D', ' B', ' D', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' D', ' A', ' B', ' A', ' B', ' C', ' D', ' C', ' B', ' C', ' C', ' D', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' D', ' C', ' C', ' B', ' C']","[0.19671741, 0.33078165, 0.40359072, 0.06891022, 0.013918442643335]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOgF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing the number of undocumented immigrants coming into the U.S.?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' D', ' A', ' D', ' D', ' A', ' C', ' C', ' D', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' D', ' C', ' D', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C']","[0.39834088, 0.28090806, 0.23104632, 0.08970473, 0.0029039181512791]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ESSENBIZF2J_W36,"Question: In general, how important, if at all, is it to you for someone in a top executive business position to provide guidance or mentorship to young employees?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' D', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B']","[0.61794003, 0.34218543, 0.03987454, 0.0038418574835102]",RACE,White,"[1.0, 2.0, 3.0]"
+EVOBIOB_W34,"Question: Even if you are not sure, from what you have heard or read, which of these statements about the development of human life on Earth comes closest to what most biological scientists say?
+A. Humans have evolved over time due to processes such as natural selection
+B. Humans have existed in their present form since the beginning of time
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.6538123, 0.3461877, 0.0987694011135188]",RACE,White,"[1.0, 2.0]"
+WHYNOTPOLF1E_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Fewer women have the experience required for higher office
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' D', ' A', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' A']","[0.20105419, 0.45398819, 0.34495762, 0.0032957300397334]",RACE,White,"[1.0, 2.0, 3.0]"
+RACESURV45_W43,"Question: How many black people in our country do you think would confront a black friend or family member if they made a racist or racially insensitive comment or joke about people who are white?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' E', ' C', ' C', ' E', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' E', ' E', ' C', ' B', ' E', ' C', ' C', ' B', ' C', ' C', ' C', ' E', ' C', ' B', ' C', ' C', ' C', ' C', ' E', ' B', ' E', ' C', ' E', ' B', ' E', ' B', ' B', ' E', ' C', ' B', ' C', ' E', ' E', ' E', ' B', ' C', ' B', ' C', ' E', ' E', ' C', ' C', ' B', ' E', ' C', ' C', ' B', ' B', ' C', ' E', ' B', ' E', ' E', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' B', ' C', ' C', ' C', ' E', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' E', ' C', ' B']","[0.03315221, 0.38169853, 0.58514925, 0.0, 0.2650929116127674]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+MOTHER_W50,"Question: Is your mother living?
+A. Yes
+B. No
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A']","[0.57273673, 0.42726327, 0.0010909507901208]",RACE,White,"[1.0, 2.0]"
+PQ8_F2B_W42,"Question: How often, if at all, do you think environmental health specialists face serious consequences if they engage in professional misconduct?
+A. All or most of the time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' D', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' D', ' C', ' D', ' B', ' B', ' D', ' C', ' C', ' B', ' C', ' E', ' C', ' B', ' E', ' E', ' A', ' B', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' B', ' D', ' B', ' C', ' A', ' D', ' E', ' B', ' E', ' D', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' A', ' D', ' B', ' E', ' B', ' C', ' B', ' B', ' B', ' A']","[0.10100668, 0.43626157, 0.34974105, 0.1129907, 0.0363936376406724]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+RQ1_F1B_W42,"Question: In general, would you say your view of environmental research scientists is
+A. Mostly positive
+B. Mostly negative
+C. Neither positive nor negative
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' D', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C']","[0.57279606, 0.1433029, 0.28390104, 0.0065075809318046]",RACE,White,"[1.0, 2.0, 1.5]"
+FUTRCLASSc_W41,"Question: Over the next 30 years, do you think the share of Americans who are lower class will increase, decrease, or stay about the same?
+A. Increase
+B. Decrease
+C. Stay about the same
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A']","[0.64704127, 0.16061542, 0.19234331, 0.0041700811475244]",RACE,White,"[1.0, 2.0, 1.5]"
+ELECT_CONF3_PRVFR_W92,"Question: Still thinking about elections in the country, how confident, if at all, are you that people who are not legally qualified to vote are prevented from casting a ballot
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' C', ' A', ' D', ' C', ' B', ' C', ' C', ' D', ' A', ' E', ' C', ' B', ' D', ' C', ' D', ' A', ' B', ' A', ' A', ' A', ' D', ' C', ' B', ' A', ' B', ' D', ' A', ' D', ' D', ' A', ' B', ' A', ' A', ' D', ' B', ' B', ' C', ' B', ' A', ' D', ' B', ' B', ' D', ' A', ' D', ' E', ' A', ' B', ' D', ' B', ' C', ' D', ' A', ' A', ' B', ' C', ' D', ' B', ' D', ' A', ' D', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' A', ' A', ' B', ' D', ' B', ' B', ' A', ' D', ' B', ' A', ' C', ' D', ' A', ' D', ' B', ' C', ' B', ' D', ' D', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B']","[0.24031133, 0.28630889, 0.26578616, 0.20759363, 0.0135697403233719]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+FUTRCLASSb_W41,"Question: Over the next 30 years, do you think the share of Americans who are in Middle Class will increase, decrease, or stay about the same?
+A. Increase
+B. Decrease
+C. Stay about the same
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' D', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' D', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B']","[0.25739092, 0.49613821, 0.24647087, 0.0049255329306627]",RACE,White,"[1.0, 2.0, 1.5]"
+WHYNOTBIZF2G_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women are held to higher standards than men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' D', ' A', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' A', ' A']","[0.30872416, 0.336848, 0.35442784, 0.0126819690878793]",RACE,White,"[1.0, 2.0, 3.0]"
+CONFc_W42,"Question: How much confidence, if any, do you have in the military to act in the best interests of the public?
+A. A great deal of confidence
+B. A fair amount of confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' B', ' A', ' D', ' B', ' C', ' D', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' D', ' B', ' A', ' B', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A']","[0.38410896, 0.4463716, 0.13519204, 0.03432739, 0.0026170761914241]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+WORRY2d_W54,"Question: How often, if ever, do you worry about the cost of health care for you and your family?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' C', ' C', ' C', ' B', ' E', ' C', ' C', ' C', ' C', ' E', ' D', ' A', ' E', ' E', ' A', ' B', ' A', ' A', ' C', ' A', ' D', ' C', ' C', ' C', ' E', ' B', ' E', ' D', ' E', ' A', ' D', ' B', ' C', ' C', ' C', ' C', ' D', ' D', ' B', ' D', ' C', ' A', ' C', ' D', ' A', ' E', ' D', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' D', ' B', ' E', ' C', ' C', ' A', ' B', ' D', ' B', ' C', ' B', ' D', ' D', ' D', ' C', ' E', ' C', ' C', ' C', ' E', ' D', ' E', ' A', ' B', ' C', ' D', ' D', ' C', ' A', ' D', ' B', ' B', ' D', ' A', ' C', ' A', ' E', ' B', ' C']","[0.19896446, 0.17324293, 0.37073548, 0.16418289, 0.09287424, 0.0069777802720653]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+FAMSURV23f_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was it was convenient a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' B']","[0.34552869, 0.31902029, 0.33545102, 0.0]",RACE,White,"[1.0, 2.0, 3.0]"
+TRACKGOV1b_W49,"Question: As far as you know, how much of what you do offline like where you are or who you are talking to is being tracked by the government?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' E', ' D', ' E', ' E', ' D', ' B', ' B', ' B', ' D', ' A', ' C', ' A', ' E', ' C', ' E', ' E', ' E', ' A', ' C', ' D', ' C', ' D', ' C', ' D', ' E', ' D', ' D', ' E', ' C', ' A', ' D', ' A', ' C', ' E', ' B', ' C', ' C', ' B', ' E', ' D', ' D', ' C', ' D', ' B', ' D', ' E', ' B', ' A', ' C', ' D', ' D', ' C', ' E', ' D', ' A', ' E', ' A', ' D', ' E', ' C', ' A', ' D', ' B', ' C', ' E', ' C', ' C', ' C', ' D', ' D', ' B', ' D', ' C', ' B', ' C', ' C', ' C', ' C', ' D', ' D', ' E', ' D', ' E', ' E', ' C', ' E', ' E', ' C', ' D', ' E', ' B', ' D', ' C', ' D', ' D', ' C', ' E', ' E']","[0.08145575, 0.11757656, 0.3395956, 0.30389662, 0.15747547, 0.0036764277863921]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+CLASS_W32,"Question: If you were asked to use one of these commonly used names for the social classes, which would you say you belong in?
+A. Upper class
+B. Upper-middle class
+C. Middle class
+D. Lower-middle class
+E. Lower class
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' E', ' D', ' C', ' B', ' C', ' B', ' D', ' C', ' B', ' D', ' B', ' C', ' B', ' C', ' C', ' D', ' D', ' D', ' D', ' C', ' B', ' E', ' C', ' C', ' D', ' B', ' D', ' C', ' D', ' C', ' E', ' C', ' D', ' D', ' B', ' C', ' E', ' C', ' D', ' C', ' C', ' A', ' C', ' C', ' D', ' D', ' C', ' B', ' D', ' D', ' B', ' F', ' C', ' E', ' C', ' D', ' D', ' D', ' B', ' B', ' D', ' D', ' D', ' B', ' D', ' D', ' C', ' B', ' C', ' C', ' D', ' B', ' D', ' D', ' E', ' C', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' D', ' B', ' C', ' D', ' B', ' C', ' B', ' C', ' D', ' C', ' D', ' B', ' C', ' D']","[0.01112641, 0.1727946, 0.46711954, 0.26720909, 0.08175036, 0.0069467385644179]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+FAMSURV44_W50,"Question: In the past 12 months, how much financial help, if any, did you provide for your adult child(ren) ages 18 to 29?
+A. A lot
+B. Some
+C. Only a little
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' D', ' D', ' A', ' D', ' C', ' C', ' A', ' D', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' D', ' C', ' B', ' B', ' C', ' B', ' D', ' B', ' B', ' C', ' A', ' C', ' C', ' D', ' B', ' B', ' C', ' A', ' D', ' B', ' B', ' D', ' B', ' A', ' C', ' A', ' C', ' D', ' C', ' B', ' D', ' C', ' D', ' B', ' D', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' D', ' D', ' A', ' B', ' A', ' D', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' D', ' D', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' D', ' C', ' B', ' D', ' D', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' A']","[0.2546598, 0.31015935, 0.24962403, 0.18555683, 0.0019934659521608]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ROMRELSER_W50,"Question: How serious would you say your current romantic relationship is?
+A. Very serious
+B. Somewhat serious
+C. Not too serious
+D. Not at all serious
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' D', ' C', ' D', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A']","[0.62604805, 0.2828691, 0.05831894, 0.0327639, 0.0039806424948705]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+FUD22_W34,"Question: How much of the food you eat is organic?
+A. Most of it
+B. Some of it
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' D', ' B', ' C', ' A', ' B', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' E', ' C', ' D', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' D', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' D', ' C', ' D', ' C', ' A', ' B', ' D', ' A', ' D', ' C', ' D', ' C', ' D', ' C', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' D', ' C', ' A', ' D']","[0.06592511, 0.31010482, 0.44000454, 0.18396553, 0.0050438045413364]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+TRAITBIZWF2C_W36,"Question: In general, how do you think being ambitious impacts a woman's chances of getting a top executive business position?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' D', ' A', ' C', ' D', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B']","[0.60601539, 0.19217009, 0.20181452, 0.0244499698196422]",RACE,White,"[1.0, 2.0, 1.5]"
+INEQ8_b_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Making college tuition free at both public two-year and four-year colleges
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' B', ' B', ' C', ' D', ' B', ' C', ' A', ' A', ' A', ' D', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' D', ' C', ' C', ' A', ' D', ' B', ' C', ' D', ' D', ' D', ' C', ' A', ' B', ' D', ' C', ' D', ' D', ' D', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' D', ' A', ' B', ' C', ' C', ' D', ' C', ' D', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' D', ' A', ' A', ' B', ' B', ' C', ' C']","[0.32261414, 0.27909207, 0.2109816, 0.1873122, 0.0060408467101128]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+COMMIMPF_W32,"Question: How important is it to you, personally, to live in a community where you have family nearby
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' D', ' A', ' D', ' A', ' C', ' B', ' B', ' D', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' C', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' D', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' D', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' D', ' B', ' A', ' D', ' C', ' A', ' D', ' B', ' D', ' C', ' B', ' C', ' A', ' A', ' A', ' D', ' B', ' B', ' A']","[0.36858202, 0.38361537, 0.1796093, 0.06819331, 0.0025475282479423]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q15_b_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Colleges and universities
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' D', ' D', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' E', ' A', ' B', ' B', ' C', ' C', ' D', ' C', ' C', ' B', ' D', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' D']","[0.13597591, 0.34656263, 0.35822118, 0.12953159, 0.02970869, 0.009843356132842]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RQ2_F1A_W42,"Question: How much, if anything, do you know about what medical research scientists do?
+A. A lot
+B. A little
+C. Nothing at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B']","[0.16867469, 0.6804376, 0.15088771, 0.0015026666287058]",RACE,White,"[1.0, 2.0, 3.0]"
+EAT5B_W34,"Question: How much health risk, if any, does eating meat from animals that have been given antibiotics or hormones have for the average person over the course of their lifetime?
+A. A great deal of health risk
+B. Some health risk
+C. Not too much health risk
+D. No health risk at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' D', ' B', ' B', ' B', ' A', ' D', ' B', ' A', ' B', ' D', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' D', ' B']","[0.2814375, 0.49922643, 0.17744886, 0.04188721, 0.0017245459198868]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+WORRY2b_W54,"Question: How often, if ever, do you worry about losing your job?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' C', ' A', ' C', ' D', ' D', ' D', ' C', ' C', ' D', ' A', ' A', ' C', ' E', ' D', ' E', ' D', ' E', ' C', ' D', ' A', ' D', ' A', ' C', ' D', ' D', ' D', ' D', ' E', ' A', ' E', ' E', ' D', ' B', ' E', ' D', ' A', ' A', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' B', ' E', ' C', ' B', ' E', ' E', ' A', ' C', ' C', ' D', ' C', ' D', ' D', ' E', ' A', ' E', ' E', ' C', ' D', ' E', ' D', ' D', ' D', ' C', ' E', ' D', ' C', ' E', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' C', ' A', ' E', ' A', ' D', ' D', ' A', ' E', ' D', ' D', ' B', ' E', ' D', ' D', ' A', ' D']","[0.10416118, 0.06790341, 0.28888106, 0.31101098, 0.22804337, 0.0122656300135759]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV28d_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in dealing with the police situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' D', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' D']","[0.63546567, 0.02324673, 0.3412876, 0.0042738712920497]",RACE,White,"[1.0, 2.0, 1.5]"
+INEQ8_a_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Increasing the federal minimum wage
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' D', ' C', ' D', ' A', ' A', ' D', ' A', ' B', ' D', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' D', ' C', ' D', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' D', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' D', ' B', ' D', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' D', ' C', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' E', ' B', ' B', ' D', ' C', ' A', ' D', ' A', ' D', ' A', ' A', ' C', ' A', ' C']","[0.33093205, 0.28651107, 0.22717131, 0.15538556, 0.0039186258096481]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+WHYNOTBIZF2F_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women don't make as good managers as men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B']","[0.08125939, 0.18249913, 0.73624147, 0.0037005504611825]",RACE,White,"[1.0, 2.0, 3.0]"
+RACESURV28c_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when applying for a loan or mortgage situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' D', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A']","[0.38534622, 0.03359852, 0.58105526, 0.016634232708879]",RACE,White,"[1.0, 2.0, 1.5]"
+RQ4_F1Bc_W42,"Question: Thinking about environmental research scientists, how often would you say they admit mistakes and take responsibility for them
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' D', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' D', ' C', ' A', ' B', ' B', ' D', ' A', ' C', ' D', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' E', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' E', ' A', ' A', ' D', ' B', ' E', ' B', ' C', ' B', ' B', ' D', ' D', ' C', ' B', ' B', ' E', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' C']","[0.158865, 0.49892417, 0.24711726, 0.09509357, 0.0171778201118294]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_RHIST_W92,"Question: Do you think increased public attention to the history of slavery and racism in America is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' D', ' E', ' E', ' A', ' C', ' C', ' A', ' A', ' E', ' B', ' D', ' F', ' A', ' A', ' E', ' B', ' B', ' D', ' C', ' D', ' D', ' C', ' B', ' A', ' C', ' A', ' C', ' E', ' E', ' C', ' E', ' B', ' A', ' A', ' E', ' D', ' A', ' D', ' B', ' A', ' D', ' A', ' D', ' C', ' C', ' A', ' C', ' E', ' D', ' E', ' C', ' D', ' C', ' B', ' D', ' A', ' D', ' A', ' C', ' C', ' A', ' B', ' E', ' A', ' D', ' A', ' C', ' B', ' D', ' D', ' C', ' B', ' E', ' E', ' B', ' D', ' E', ' C', ' D', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' D', ' B', ' E', ' C', ' D', ' A', ' C', ' D', ' C', ' A']","[0.25351655, 0.22655807, 0.21877349, 0.17004001, 0.13111187, 0.0072970409369966]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RQ4_F1Ab_W42,"Question: Thinking about medical research scientists, how often would you say they provide fair and accurate information when making statements about their research
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' D', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B']","[0.3415413, 0.53247149, 0.10159728, 0.02438993, 0.0067145039733331]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+HIGHEDWRNGC_W36,"Question: Please indicate whether this is a reason why you think the higher education system in the U.S. is going in the wrong direction. Colleges and universities are too concerned about protecting students from views they might find offensive
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' A']","[0.58318334, 0.25943061, 0.15738606, 0.0027837947214907]",RACE,White,"[1.0, 2.0, 3.0]"
+GOVPRIOlF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to who come here legally? Allowing more immigrants into the U.S.
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' D', ' B', ' B', ' A', ' B', ' C', ' B', ' D', ' B', ' D', ' B', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' D', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' D', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' D', ' D', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' D', ' C', ' C', ' B', ' D', ' A']","[0.14376812, 0.39119776, 0.34644506, 0.11858906, 0.0025786483132746]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+DATAUSEd_W49,"Question: Do you think the following uses of data/information are acceptable or unacceptable? Makers of a fitness tracking app sharing their users' data with medical researchers seeking to better understand the link between exercise and heart disease
+A. Acceptable
+B. Unacceptable
+C. Not sure
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C']","[0.51710927, 0.48289073, 0.2145372863839295]",RACE,White,"[1.0, 2.0]"
+INEQ11_W54,"Question: In order to address economic inequality in this country, do you think the government
+A. Should raise taxes on people like you
+B. Should not raise taxes on people like you
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B']","[0.10372829, 0.89627171, 0.0191983342978344]",RACE,White,"[1.0, 2.0]"

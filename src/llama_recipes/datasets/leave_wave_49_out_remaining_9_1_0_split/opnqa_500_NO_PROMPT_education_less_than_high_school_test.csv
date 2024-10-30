@@ -1,0 +1,175 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+CONTROLGRPc_W49,"Question: How much control, if any, do you think you have over who can access the purchases you've made, either online or in person?
+A. A lot of control
+B. A little control
+C. No control
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B']","[0.13502728, 0.4716015, 0.39337121, 0.0035793557588728]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0]"
+SMARTAPP_W49,"Question: How do you typically update the apps on your smartphone?
+A. Set them to update automatically
+B. Update them yourself as soon as you are notified a new version is available
+C. Update them yourself whenever it's convenient
+D. Never install app updates
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' D', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' D', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' D', ' B', ' C', ' A', ' A', ' C', ' D', ' A', ' B', ' A', ' D', ' C', ' A', ' B']","[0.49580831, 0.24877712, 0.2023328, 0.05308178, 0.0066676050891446]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+TRACKGOV1b_W49,"Question: As far as you know, how much of what you do offline like where you are or who you are talking to is being tracked by the government?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' A', ' B', ' B', ' D', ' C', ' D', ' E', ' B', ' E', ' C', ' B', ' E', ' D', ' E', ' C', ' E', ' C', ' D', ' A', ' D', ' B', ' A', ' B', ' C', ' C', ' D', ' A', ' C', ' E', ' C', ' B', ' C', ' D', ' E', ' A', ' A', ' E', ' E', ' C', ' E', ' B', ' A', ' C', ' B', ' E', ' E', ' A', ' D', ' E', ' B', ' C', ' D', ' B', ' E', ' C', ' B', ' C', ' C', ' D', ' B', ' E', ' A', ' C', ' D', ' D', ' C', ' E', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' D', ' E', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' D', ' B', ' C', ' C', ' D', ' C', ' E', ' E', ' B', ' D', ' C', ' A']","[0.16502662, 0.15761547, 0.22893475, 0.19553455, 0.25288861, 0.0]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+HOMEASSIST4_W49,"Question: How important is it that your smart speaker takes your personal interests and preferences into account when responding to your questions or commands?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not important at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' B', ' D', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' D', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' D', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' A']","[0.28561386, 0.4751064, 0.2173708, 0.02190894, 0.0]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+CONCERNGRPa_W49,"Question: How concerned are you, if at all, about how much personal information law enforcement agencies might know about you?
+A. Concerned a lot
+B. Concerned a little
+C. Not concerned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' D', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' D', ' A', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' A']","[0.29601969, 0.31740155, 0.38657876, 0.0180119828649489]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0]"
+CONCERNCO_W49,"Question: How concerned are you, if at all, about how companies are using the data they collect about you?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not at all concerned
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' C', ' C', ' B', ' C', ' B', ' D', ' D', ' D', ' B', ' A', ' C', ' D', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' C', ' D', ' D', ' A', ' A', ' A', ' B', ' D', ' D', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' D', ' D', ' B', ' B', ' B', ' D', ' B', ' D', ' A', ' A', ' A', ' C', ' B', ' D', ' D', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' D', ' A', ' D', ' A', ' A', ' C', ' D', ' D', ' B', ' C', ' C', ' B', ' A', ' B', ' A']","[0.32259452, 0.3624791, 0.15301531, 0.16191106, 0.0]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+FACE3c_W49,"Question: How much, if at all, do you trust the following groups to use facial recognition technology responsibly? Law enforcement agencies
+A. A great deal
+B. Somewhat
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' C', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' E', ' D', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' D', ' C', ' E', ' B', ' B', ' D', ' D', ' C', ' B', ' A', ' D', ' B', ' B', ' A', ' E', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' D', ' B', ' B', ' B', ' E', ' A', ' D', ' B', ' C', ' C', ' D', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' E', ' B', ' B', ' B', ' D', ' A', ' B', ' B', ' B', ' C', ' D', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' D']","[0.1666846, 0.45824152, 0.22425629, 0.15081759, 0.0204031233539103]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+GOVREGV1_W49,"Question: How much government regulation of what companies can do with their customers' personal information do you think there should be?
+A. More regulation
+B. Less regulation
+C. About the same amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' D', ' B', ' A', ' C', ' A', ' A', ' A']","[0.68845887, 0.09493696, 0.21660417, 0.0245534072725806]",EDUCATION,Less than high school,"[1.0, 2.0, 1.5]"
+PWMAN2_W49,"Question: What is the main reason you do not use a password manager?
+A. Don't know what that is
+B. My passwords are secure enough
+C. Don't need it
+D. Too expensive
+E. Too complicated
+F. Don't trust them
+G. Don't think they are effective
+H. Other reason
+I. Offline: does not have internet
+J. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.,H.,I.,J.
+
+Answer:","[' E', ' F', ' H', ' I', ' A', ' G', ' H', ' I', ' A', ' A', ' I', ' C', ' I', ' I', ' H', ' H', ' C', ' B', ' I', ' F', ' A', ' I', ' A', ' I', ' A', ' G', ' I', ' A', ' G', ' C', ' C', ' I', ' H', ' F', ' C', ' I', ' B', ' C', ' H', ' B', ' H', ' F', ' I', ' C', ' H', ' F', ' A', ' F', ' A', ' H', ' A', ' I', ' B', ' I', ' A', ' G', ' A', ' E', ' I', ' H', ' C', ' A', ' F', ' C', ' G', ' E', ' F', ' J', ' I', ' J', ' B', ' I', ' I', ' I', ' F', ' F', ' I', ' A', ' I', ' A', ' C', ' F', ' B', ' J', ' A', ' G', ' H', ' I', ' G', ' I', ' J', ' A', ' A', ' H', ' C', ' I', ' B', ' I', ' I', ' E']","[0.16786916, 0.06853242, 0.09052069, 0.0, 0.0304024, 0.17051385, 0.08008262, 0.13418433, 0.25789452, 0.0114967219086122]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 4.5]"
+DATAUSEd_W49,"Question: Do you think the following uses of data/information are acceptable or unacceptable? Makers of a fitness tracking app sharing their users' data with medical researchers seeking to better understand the link between exercise and heart disease
+A. Acceptable
+B. Unacceptable
+C. Not sure
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B']","[0.60882688, 0.39117312, 0.3571477977644678]",EDUCATION,Less than high school,"[1.0, 2.0]"
+TRACKGOV1a_W49,"Question: As far as you know, how much of what you do online or on your cellphone is being tracked by the government?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' E', ' B', ' A', ' B', ' E', ' C', ' E', ' E', ' B', ' C', ' E', ' E', ' D', ' A', ' B', ' B', ' A', ' D', ' A', ' C', ' B', ' E', ' A', ' A', ' E', ' A', ' D', ' B', ' B', ' D', ' A', ' B', ' D', ' A', ' B', ' C', ' A', ' A', ' B', ' D', ' E', ' B', ' C', ' D', ' B', ' E', ' B', ' E', ' E', ' E', ' E', ' A', ' A', ' D', ' A', ' C', ' C', ' E', ' D', ' C', ' B', ' B', ' C', ' E', ' B', ' B', ' A', ' B', ' D', ' E', ' E', ' E', ' E', ' D', ' E', ' C', ' D', ' C', ' B', ' B', ' A', ' C', ' A', ' D', ' A', ' C', ' C', ' B', ' A', ' A', ' E', ' C', ' C', ' B', ' C', ' D', ' A', ' A', ' E']","[0.29709215, 0.18339512, 0.20280488, 0.10985251, 0.20685534, 0.0037202044080294]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+CONTROLCO_W49,"Question: How much control do you think you have over the data that companies collect about you?
+A. A great deal of control
+B. Some control
+C. Very little control
+D. No control
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' C', ' D', ' D', ' D', ' B', ' C', ' C', ' D', ' A', ' D', ' B', ' D', ' D', ' D', ' C', ' D', ' E', ' C', ' C', ' D', ' D', ' C', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' B', ' E', ' D', ' D', ' C', ' D', ' B', ' D', ' E', ' D', ' D', ' C', ' D', ' C', ' D', ' B', ' D', ' C', ' D', ' B', ' B', ' A', ' D', ' B', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' B', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' D', ' C', ' C', ' C', ' B', ' D', ' D', ' C', ' D', ' D', ' D', ' D']","[0.03758951, 0.12784547, 0.39155757, 0.44300745, 0.0305064853571261]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+HOMEASSIST3_W49,"Question: Do you ever say ""please"" when speaking to your smart speaker?
+A. Yes, frequently
+B. Yes, on occasion
+C. No
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' A']","[0.20941949, 0.32432949, 0.46625102, 0.0]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0]"
+TRACKCO1b_W49,"Question: As far as you know, how much of what you do offline like where you are or who you are talking to is being tracked by advertisers, technology firms or other companies?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' C', ' A', ' C', ' C', ' D', ' E', ' B', ' B', ' E', ' E', ' D', ' E', ' E', ' B', ' B', ' E', ' E', ' D', ' E', ' C', ' E', ' C', ' E', ' E', ' D', ' D', ' D', ' D', ' A', ' B', ' B', ' B', ' A', ' B', ' D', ' E', ' C', ' E', ' C', ' E', ' E', ' C', ' C', ' C', ' B', ' B', ' E', ' D', ' D', ' D', ' C', ' B', ' E', ' E', ' E', ' E', ' A', ' B', ' D', ' D', ' B', ' E', ' E', ' E', ' E', ' E', ' B', ' E', ' C', ' D', ' D', ' D', ' D', ' A', ' D', ' B', ' C', ' C', ' B', ' A', ' E', ' D', ' E', ' A', ' C', ' C', ' E', ' E', ' C', ' E', ' D', ' E', ' E', ' D', ' D', ' A', ' A', ' E']","[0.06583525, 0.11885229, 0.23368444, 0.21923004, 0.36239799, 0.0]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+HOMEASSIST2_W49,"Question: How concerned are you, if at all, about how much data your smart speaker collects about you?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not concerned at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' D', ' B', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' D', ' B', ' C', ' B', ' D', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' D', ' B', ' A', ' B', ' D', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' D', ' A', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' D', ' D', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' A', ' C', ' C']","[0.10091712, 0.39829345, 0.40998301, 0.09080641, 0.0]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+PP5e_W49,"Question: How confident are you, if at all, that companies will be held accountable by the government if they misuse or compromise your data?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not confident at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' C', ' B', ' D', ' D', ' A', ' B', ' B', ' E', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' D', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' D', ' D', ' C', ' B', ' D', ' B', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' B', ' A', ' D', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' D', ' B', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' D', ' C', ' C', ' C', ' C', ' D', ' B', ' A', ' C', ' D', ' C', ' B', ' C', ' D', ' C', ' B', ' C', ' B', ' C', ' D', ' D', ' D', ' D', ' C', ' B']","[0.07782785, 0.23432521, 0.39187379, 0.29597316, 0.0142728025517632]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+CONCERNGRPc_W49,"Question: How concerned are you, if at all, about how much personal information your employer might know about you?
+A. Concerned a lot
+B. Concerned a little
+C. Not concerned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' D', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B']","[0.10985462, 0.43515325, 0.45499213, 0.0077669048129038]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0]"
+BENEFITGOV_W49,"Question: How much do you feel you personally benefit from the data the government collects about you?
+A. A great deal
+B. Some
+C. Very little
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' E', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C']","[0.11785007, 0.44622405, 0.43592588, 0.0, 0.0137345188622067]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0]"
+TRACKCO1a_W49,"Question: As far as you know, how much of what you do online or on your cellphone is being tracked by advertisers, technology firms or other companies?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' A', ' B', ' A', ' D', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' D', ' C', ' E', ' E', ' A', ' C', ' A', ' C', ' D', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' D', ' C', ' A', ' C', ' D', ' A', ' C', ' D', ' C', ' E', ' E', ' E', ' A', ' B', ' A', ' C', ' E', ' B', ' A', ' A', ' D', ' A', ' C', ' A', ' B', ' A', ' B', ' D', ' A', ' C', ' B', ' A', ' A', ' B', ' E', ' C', ' D', ' E', ' C', ' B', ' A', ' E', ' A', ' C', ' B', ' E', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' D', ' A', ' C', ' A', ' D', ' E', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' E', ' B', ' D', ' C']","[0.26052424, 0.212584, 0.23710309, 0.11289387, 0.1768948, 0.0]",EDUCATION,Less than high school,"[1.0, 2.0, 3.0, 4.0, 5.0]"

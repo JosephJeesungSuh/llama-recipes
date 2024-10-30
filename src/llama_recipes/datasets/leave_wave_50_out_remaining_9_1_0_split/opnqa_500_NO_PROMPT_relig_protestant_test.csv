@@ -1,0 +1,371 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+FAMSURV23d_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was wanted to have children someday a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' C']","[0.18097528, 0.18237925, 0.63664547, 0.0]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+HAVEKIDS1_W50,"Question: Thinking about the future, how likely, if at all, is it that you will have children someday?
+A. Very likely
+B. Somewhat likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' D', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' D', ' D', ' B', ' A', ' B', ' C', ' D', ' A', ' C', ' A', ' B', ' A', ' D', ' D', ' C', ' B', ' A', ' C', ' D', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' D', ' A', ' A', ' D', ' A', ' A', ' D', ' A', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' D', ' B', ' C', ' A', ' B', ' B', ' D', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' D', ' B', ' C', ' A', ' D', ' A', ' A', ' A', ' B', ' B']","[0.37871578, 0.20423115, 0.19630582, 0.22074725, 0.0005176719064809]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV2Mc_W50,"Question: In general, how important, if at all, is having children in order for a man to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B']","[0.16597753, 0.63359265, 0.20042982, 0.0096632708417562]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+FAMSURV26c_W50,"Question: How much pressure, if any, do you feel from your friends to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' A', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' E', ' E', ' B', ' D', ' B', ' B', ' A', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' A', ' D', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' B', ' D', ' B', ' D', ' A', ' D', ' B', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' B', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' A', ' B', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D']","[0.05714293, 0.11976278, 0.14855625, 0.67453805, 0.0189724051478519]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV26d_W50,"Question: How much pressure, if any, do you feel from society to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' D', ' D', ' D', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' C', ' D', ' A', ' B', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' D', ' C', ' D', ' C', ' A', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' D', ' E', ' B', ' C', ' D', ' B', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' E', ' D', ' C', ' C', ' C', ' A', ' C', ' D', ' D', ' A', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C']","[0.07765948, 0.20070032, 0.15314099, 0.56849921, 0.0236896344362483]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+DNA2b_W50,"Question: Was to get information about your health or family medical history a reason you used a mail-in DNA testing service?
+A. Yes, a reason
+B. No, not a reason
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A']","[0.3159019, 0.6840981, 0.0026551205752194]",RELIG,Protestant,"[1.0, 2.0]"
+FAMSURV43_W50,"Question: In general, how much, if at all, would you say that your adult child(ren) ages 18 to 29 rely on you for emotional support?
+A. A lot
+B. Some
+C. Only a little
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' B', ' B', ' D', ' B', ' C', ' C', ' A', ' C', ' B', ' D', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' D', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' D', ' C', ' A', ' A', ' A', ' D', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' D', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B']","[0.366648, 0.40196589, 0.19562691, 0.0357592, 0.0002376886395343]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV23e_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was it made sense financially a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' A']","[0.38723001, 0.25228614, 0.36048386, 0.0]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+E5MOD_W50,"Question: Is your spouse/partner now employed full-time, part-time or not employed?
+A. Full-time
+B. Part-time
+C. Not employed
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A']","[0.53491789, 0.1070294, 0.3580527, 0.0028116499352941]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+FAMSURV16_W50,"Question: Which of the following best describes your current situation? Would you say you
+A. Would like to be in a romantic relationship
+B. Don't want to be in a romantic relationship
+C. Doesn't make much difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' A']","[0.40037998, 0.22769682, 0.3719232, 0.0022211891353703]",RELIG,Protestant,"[1.0, 2.0, 1.5]"
+FAMSURV17_W50,"Question: Thinking about the adults in your life, who is the person you feel closest to?
+A. Your spouse
+B. Your partner or boyfriend or girlfriend
+C. An adult child
+D. A sibling
+E. Your mother
+F. Your father
+G. A friend
+H. Another A family member
+I. Someone else
+J. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.,H.,I.,J.
+
+Answer:","[' C', ' B', ' A', ' H', ' G', ' C', ' G', ' B', ' B', ' D', ' A', ' E', ' C', ' A', ' D', ' H', ' C', ' A', ' A', ' A', ' E', ' G', ' A', ' C', ' D', ' A', ' D', ' H', ' G', ' I', ' H', ' A', ' A', ' E', ' A', ' A', ' G', ' A', ' A', ' C', ' H', ' I', ' A', ' A', ' A', ' A', ' E', ' C', ' A', ' A', ' A', ' D', ' A', ' F', ' A', ' A', ' A', ' D', ' A', ' I', ' B', ' I', ' A', ' A', ' A', ' A', ' G', ' E', ' A', ' G', ' D', ' C', ' D', ' A', ' A', ' E', ' I', ' H', ' E', ' A', ' B', ' A', ' E', ' H', ' H', ' G', ' J', ' E', ' C', ' A', ' G', ' B', ' D', ' F', ' G', ' I', ' A', ' A', ' C', ' A']","[0.43351141, 0.06884992, 0.07421804, 0.09582925, 0.10683615, 0.01650119, 0.1106742, 0.07265253, 0.0209273, 0.0033677944749589]",RELIG,Protestant,"[1, 1, 1, 1, 1, 1, 1, 1, 1]"
+SATLIFEc_W50,"Question: Please tell us whether you are satisfied or dissatisfied with your personal financial situation.
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' D', ' C', ' B', ' B', ' A', ' B', ' B', ' D', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' D', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' D', ' D', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' D', ' D', ' A', ' C', ' B', ' C', ' C', ' D', ' B', ' B', ' A', ' D', ' A', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' D', ' B', ' A', ' C', ' D', ' A', ' D', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' D', ' C', ' D', ' A', ' D', ' B', ' C', ' B', ' D', ' C', ' A', ' A', ' B', ' B', ' D', ' D', ' D', ' B', ' B']","[0.18075407, 0.41779884, 0.2353382, 0.16610889, 0.0017920422770033]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV6_W50,"Question: How do you feel about allowing unmarried couples to enter into legal agreements that would give them the same rights as married couples when it comes to things like health insurance, inheritance or tax benefits?
+A. Strongly favor
+B. Somewhat favor
+C. Somewhat oppose
+D. Strongly oppose
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' C', ' E', ' A', ' D', ' A', ' A', ' B', ' B', ' B', ' D', ' C', ' B', ' D', ' B', ' B', ' A', ' A', ' A', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' A', ' C', ' A', ' C', ' B', ' D', ' B', ' D', ' C', ' D', ' C', ' D', ' A', ' B', ' D', ' E', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' E', ' C', ' D', ' C', ' D', ' B', ' A', ' D', ' B', ' C', ' C', ' A', ' C', ' D', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' D', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' D', ' C', ' B', ' A', ' D', ' C', ' C', ' C']","[0.21423041, 0.30824292, 0.23576027, 0.2417664, 0.0095778189500248]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV20_W50,"Question: When you started living with your partner did you think about it as a step toward marriage?
+A. Yes, thought of it as a step toward marriage
+B. No, did not think of it as a step toward marriage
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A']","[0.47177249, 0.52822751, 0.0070283229690122]",RELIG,Protestant,"[1.0, 2.0]"
+DNA5_W50,"Question: Did your DNA test results change the way you think about your racial or ethnic identity?
+A. Yes, changed
+B. No, did not change
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A']","[0.10096551, 0.89903449, 0.0033825259804196]",RELIG,Protestant,"[1.0, 2.0]"
+FAMSURV10c_W50,"Question: If a person decides to move in with a partner without being married, how important, if at all, do you think it is for that person to buy a house before moving in with their partner?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' B', ' D', ' D', ' A', ' A', ' C', ' D', ' B', ' D', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' C', ' A', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' C', ' D', ' A']","[0.09982923, 0.22908555, 0.38784093, 0.28324429, 0.005294368120886]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+COHABDUR_W50,"Question: Now thinking about the partner you are currently living with how long have you and your partner been living together?
+A. Less than one year
+B. 1 year to less than 3 years
+C. 3 years to less than 5 years
+D. 5 years to less than 10 years
+E. 10 years to less than 20 years
+F. 20 years or more
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' E', ' F', ' F', ' C', ' E', ' E', ' D', ' A', ' E', ' A', ' D', ' F', ' D', ' C', ' A', ' D', ' C', ' B', ' B', ' D', ' C', ' E', ' C', ' D', ' B', ' D', ' F', ' E', ' C', ' D', ' A', ' D', ' E', ' D', ' C', ' B', ' D', ' D', ' C', ' E', ' F', ' D', ' C', ' E', ' D', ' F', ' A', ' F', ' A', ' B', ' E', ' C', ' A', ' D', ' D', ' C', ' F', ' B', ' B', ' D', ' E', ' D', ' C', ' C', ' E', ' D', ' B', ' F', ' D', ' D', ' E', ' A', ' D', ' C', ' D', ' A', ' D', ' C', ' E', ' F', ' D', ' D', ' D', ' E', ' A', ' B', ' F', ' F', ' B', ' E', ' A', ' D', ' A', ' F', ' C', ' A', ' F', ' F', ' A', ' A']","[0.1371411, 0.18586939, 0.1749755, 0.1906895, 0.150813, 0.16051151, 0.0]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+ROMRELSER_W50,"Question: How serious would you say your current romantic relationship is?
+A. Very serious
+B. Somewhat serious
+C. Not too serious
+D. Not at all serious
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A']","[0.57658884, 0.30150501, 0.09560899, 0.02629716, 0.0083166799171035]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV2Wa_W50,"Question: In general, how important, if at all, is being married in order for a woman to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B']","[0.18786715, 0.59252188, 0.21961096, 0.0106030384862885]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+FAMSURV23g_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was wanted to test your relationship a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' A', ' C']","[0.22544712, 0.25976206, 0.51479082, 0.0053580722367373]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+FAMSURV44_W50,"Question: In the past 12 months, how much financial help, if any, did you provide for your adult child(ren) ages 18 to 29?
+A. A lot
+B. Some
+C. Only a little
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' A', ' B', ' D', ' B', ' A', ' C', ' D', ' D', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' D', ' B', ' A', ' A', ' D', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' D', ' A', ' C', ' B', ' A', ' E', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' D', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' D', ' D', ' A', ' C', ' A', ' C', ' A', ' D', ' C', ' B', ' D', ' D', ' B', ' D']","[0.2414555, 0.30854867, 0.27443002, 0.17556581, 0.0008707222733513]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV40_W50,"Question: In the past 12 months, how much financial help, if any, did you receive from a parent?
+A. A lot
+B. Some
+C. Only a little
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' A', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' C', ' C', ' D', ' A', ' D', ' A', ' D', ' C', ' D', ' A', ' D', ' A', ' C', ' D', ' D', ' A', ' A', ' D', ' C', ' B', ' D', ' D', ' B', ' D', ' A', ' C', ' D', ' D', ' A', ' D', ' D', ' B', ' B', ' C', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' A', ' A', ' D', ' D', ' A', ' D', ' A', ' C', ' A', ' C', ' C', ' D', ' C', ' C', ' B', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' B', ' D', ' C', ' A', ' D', ' C', ' B', ' D', ' D', ' A', ' D', ' D', ' D', ' A', ' C', ' B', ' B', ' D', ' D', ' D', ' D', ' C', ' A']","[0.17875921, 0.21585232, 0.2277826, 0.37760587, 0.0]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV29_W50,"Question: How often, if ever, do you and your partner talk about getting married?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' C', ' D', ' C', ' B', ' B', ' C', ' D', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' D', ' D', ' D', ' D', ' A', ' C', ' B', ' B', ' D', ' D', ' C', ' B', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' B', ' D', ' B', ' C', ' D', ' D', ' D', ' D', ' C', ' B', ' C', ' D', ' A', ' B', ' D', ' A', ' D', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' A', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' D', ' D', ' B', ' B', ' D', ' B', ' D', ' B']","[0.06867974, 0.27428541, 0.33254758, 0.32448726, 0.0]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV1_W50,"Question: At this point in your life, which of the following would be best for you personally?
+A. Working full-time for pay
+B. Working part-time for pay
+C. Not working for pay at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' D', ' A', ' C', ' B']","[0.4562946, 0.26596507, 0.27774034, 0.0099116092511165]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+MOTHER_W50,"Question: Is your mother living?
+A. Yes
+B. No
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B']","[0.53082797, 0.46917203, 0.0010564694947986]",RELIG,Protestant,"[1.0, 2.0]"
+PAR2_W50,"Question: In general, do you think your parents do mother does father does
+A. Too much for you
+B. Too little for you
+C. About the right amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C']","[0.13953446, 0.19649351, 0.66397202, 0.0]",RELIG,Protestant,"[1.0, 2.0, 1.5]"
+FAMSURV26b_W50,"Question: How much pressure, if any, do you feel from family members to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' A', ' C', ' D', ' B', ' D', ' D', ' C', ' B', ' D', ' B', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' A', ' B', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' B', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' C', ' B', ' D', ' B', ' B', ' B', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' A', ' D', ' A', ' D', ' B', ' D', ' D', ' D', ' B', ' C', ' D', ' B', ' C', ' B', ' D', ' B', ' D', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' D', ' D', ' D']","[0.08537837, 0.19334729, 0.12403314, 0.5972412, 0.0189724051478519]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+MARRDUR_W50,"Question: Now thinking about your spouse how long have you and your spouse been married?
+A. Less than one year
+B. 1 year to less than 3 years
+C. 3 years to less than 5 years
+D. 5 years to less than 10 years
+E. 10 years to less than 20 years
+F. 20 years or more
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' F', ' F', ' C', ' C', ' B', ' F', ' D', ' F', ' D', ' E', ' D', ' F', ' F', ' F', ' F', ' F', ' F', ' E', ' E', ' F', ' F', ' D', ' F', ' F', ' C', ' F', ' F', ' F', ' F', ' C', ' A', ' F', ' F', ' F', ' F', ' E', ' C', ' E', ' F', ' F', ' F', ' F', ' D', ' F', ' F', ' F', ' F', ' E', ' D', ' E', ' D', ' F', ' F', ' E', ' F', ' F', ' A', ' B', ' E', ' F', ' D', ' F', ' F', ' F', ' F', ' F', ' B', ' C', ' D', ' E', ' E', ' F', ' F', ' E', ' F', ' E', ' F', ' C', ' E', ' F', ' F', ' E', ' F', ' E', ' E', ' E', ' F', ' F', ' C', ' E', ' F', ' D', ' B', ' E', ' F', ' C', ' F', ' F', ' F', ' F']","[0.0263624, 0.05000507, 0.06173846, 0.11876958, 0.20080382, 0.54232066, 0.0010012730473379]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+PAR1_W50,"Question: In general, do you think you do
+A. Too much for your adult child(ren) ages 18 to 29
+B. Too little for your adult child(ren) ages 18 to 29
+C. About the right amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' D', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' C']","[0.26526473, 0.07747322, 0.65726206, 0.009282785973729]",RELIG,Protestant,"[1.0, 2.0, 1.5]"
+MARRYPREF2_W50,"Question: Thinking about the future, would you say you
+A. Want to get married again someday
+B. Don't want to get married again
+C. Are not sure if you want to get married again
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' A']","[0.19475052, 0.45439988, 0.3508496, 0.007269612244123]",RELIG,Protestant,"[1.0, 2.0, 1.5]"
+FAMSURV9c_W50,"Question: How important, if at all, do you think it is for a person to buy a house before getting married?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' C', ' A', ' C', ' C', ' C', ' D', ' B', ' C', ' C', ' B', ' D', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' C', ' E', ' C', ' B', ' B', ' B', ' C', ' B', ' D', ' D', ' B', ' D', ' B', ' D', ' A', ' B', ' D', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' D', ' C', ' D', ' D', ' B', ' A', ' C', ' C', ' A', ' D', ' C', ' D', ' D', ' B', ' D', ' C', ' C', ' A', ' B', ' D', ' E', ' D', ' C', ' D', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' D', ' D', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' D', ' D']","[0.09363578, 0.26077846, 0.41989054, 0.22569523, 0.0037076439497812]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV2Wc_W50,"Question: In general, how important, if at all, is having children in order for a woman to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' D', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' D', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' B']","[0.23079147, 0.60802566, 0.16118287, 0.0089480064013419]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+ROMRELDUR_W50,"Question: How long have you been in your current romantic relationship?
+A. Less than 3 months
+B. 3 months to less than 6 months
+C. 6 months to less than 1 year
+D. 1 year to less than 3 years
+E. 3 years to less than 5 years
+F. 5 years or more
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' D', ' D', ' F', ' A', ' D', ' D', ' F', ' C', ' D', ' E', ' C', ' D', ' A', ' F', ' D', ' D', ' A', ' D', ' F', ' E', ' D', ' A', ' G', ' D', ' A', ' D', ' C', ' D', ' D', ' E', ' D', ' A', ' F', ' F', ' C', ' E', ' D', ' D', ' E', ' F', ' D', ' D', ' D', ' E', ' A', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' B', ' D', ' D', ' D', ' F', ' D', ' C', ' C', ' D', ' B', ' C', ' F', ' E', ' F', ' A', ' D', ' F', ' D', ' F', ' F', ' D', ' D', ' D', ' F', ' F', ' D', ' F', ' A', ' F', ' D', ' E', ' D', ' F', ' A', ' B', ' A', ' D', ' D', ' D', ' C', ' D', ' D', ' F', ' C', ' D', ' D', ' D', ' D']","[0.11724257, 0.0335459, 0.11326599, 0.34741015, 0.10738615, 0.28114924, 0.0059798663945801]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+FAMSURV39_W50,"Question: In general, how much, if at all, would you say that you rely on a parent for emotional support?
+A. A lot
+B. Some
+C. Only a little
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' D', ' B', ' A', ' B', ' C', ' D', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' D', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' D', ' B', ' B', ' D', ' A', ' C', ' D', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' D', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' D', ' C', ' C', ' D', ' A', ' D', ' A', ' C', ' A', ' D', ' C', ' C', ' B', ' A', ' B', ' D', ' B', ' C', ' D', ' D', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' B', ' D', ' C', ' D', ' C', ' B', ' C']","[0.19488274, 0.31922062, 0.28831647, 0.19758018, 0.0]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV23f_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was it was convenient a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' C']","[0.34678401, 0.25379612, 0.39941987, 0.0]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+FAMSURV3_W50,"Question: Do you think it is ever acceptable for an unmarried couple to live together?
+A. Yes, even if they don't plan to get married
+B. Yes, but only if they plan to get married
+C. No, never acceptable
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' D', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A']","[0.51922423, 0.21539643, 0.26537934, 0.0074199016256002]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+MARRYPREF1_W50,"Question: Thinking about the future, would you say you
+A. Want to get married someday
+B. Don't want to get married
+C. Are not sure if you want to get married
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' C']","[0.58804662, 0.11643736, 0.29551602, 0.0035552274062999]",RELIG,Protestant,"[1.0, 2.0, 1.5]"
+FAMSURV2Ma_W50,"Question: In general, how important, if at all, is being married in order for a man to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' D', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' D', ' B', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B']","[0.18237979, 0.60256658, 0.21505363, 0.0105611897253111]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+FAMSURV23b_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was companionship a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A']","[0.65093811, 0.23055406, 0.11850783, 0.0]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+FAMSURV26a_W50,"Question: How much pressure, if any, do you feel from your partner to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' E', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' A', ' D', ' B', ' D', ' C', ' C', ' A', ' C', ' C', ' D', ' D', ' B', ' D', ' A', ' D', ' E', ' B', ' A', ' D', ' C', ' D', ' C', ' C', ' D', ' B', ' D', ' C', ' D', ' E', ' B', ' D', ' E', ' C', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' E', ' D', ' B', ' C', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' E', ' C', ' D', ' C', ' B', ' C', ' D', ' D', ' D', ' C', ' B', ' C', ' B', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' A', ' D', ' C', ' B', ' B', ' E', ' D', ' D', ' C', ' D', ' A']","[0.04427075, 0.12866238, 0.15843128, 0.66863558, 0.0314632926553467]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+FATHER_W50,"Question: Is your father living?
+A. Yes
+B. No
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A']","[0.41318252, 0.58681748, 0.0025859838851765]",RELIG,Protestant,"[1.0, 2.0]"
+FAMSURV23c_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was you or your partner were pregnant a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C']","[0.15764182, 0.03987928, 0.8024789, 0.0]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+FAMSURV32e_W50,"Question: How do you feel about your spouse's/partner's approach to parenting?
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' D', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A']","[0.52251122, 0.36206877, 0.08243242, 0.03298758, 0.00982303141823]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"

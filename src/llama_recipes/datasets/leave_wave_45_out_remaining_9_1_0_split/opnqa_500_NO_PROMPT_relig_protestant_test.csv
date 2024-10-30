@@ -1,0 +1,117 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+MADEUPTOPICb_W45,"Question: How much made-up news and information do you think is created about entertainment and celebrities topics?
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' E', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B']","[0.6173159, 0.32878564, 0.05389846, 0.0, 0.0071631283164335]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+MADEUPTOPICd_W45,"Question: How much made-up news and information do you think is created about Health and medicine topics?
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' B']","[0.26904774, 0.54694939, 0.18400288, 0.0, 0.0075253713805634]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+NEWSPROBe_W45,"Question: How much of a problem is journalists inserting their own views when it comes to how the public stays informed about the basic facts of current issues and events?
+A. A very big problem
+B. A moderately big problem
+C. A small problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' D', ' A', ' A', ' C', ' C', ' D', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' E', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' D', ' B', ' B', ' C', ' C', ' A', ' C']","[0.43179436, 0.31674084, 0.20998595, 0.04147885, 0.006748610913623]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+NEWS_PLATFORMg_W45,"Question: Thinking about news (by news we mean information about events and issues that involve more than just your friends and family), how often do you get news from a social media site (such as Facebook, Twitter, or Snapchat)
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' A', ' D', ' B', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' D', ' D', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' A', ' A', ' D', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' D', ' C', ' D', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' D', ' B', ' B', ' C', ' A', ' D', ' B', ' D', ' B', ' C', ' B', ' D', ' B', ' C', ' B', ' B', ' B']","[0.24604053, 0.29869913, 0.22102876, 0.23423157, 0.0007211898611116]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+INFOCHALa_W45,"Question: How much of a challenge do you think political divides are in addressing made-up news and information?
+A. A very big challenge
+B. A moderately big challenge
+C. A small challenge
+D. Not a challenge at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' E', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' E']","[0.64988122, 0.26447389, 0.06426086, 0.02138404, 0.0164225213522048]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+INFOCREATEa_W45,"Question: How much made-up news and information do you think is created by journalists
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' B']","[0.44373526, 0.39847205, 0.15779269, 0.0, 0.0050616149861518]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+NEWSPROBd_W45,"Question: How much of a problem is too much news to keep up with when it comes to how the public stays informed about the basic facts of current issues and events?
+A. A very big problem
+B. A moderately big problem
+C. A small problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' B', ' E', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' D', ' B', ' B', ' A', ' A', ' A', ' D', ' D', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' D', ' C', ' D', ' C', ' C', ' A', ' B', ' C', ' E', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' D', ' C', ' D', ' B', ' D', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' B', ' D', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' D', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' D', ' C', ' B', ' A', ' C', ' C', ' B', ' C']","[0.19430253, 0.41123727, 0.28121225, 0.11324795, 0.0060698680644295]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+MADEUPSHAREWHY_W45,"Question: What is the main reason why you shared news and information that you knew at the time was made-up?
+A. I thought it was surprising or entertaining
+B. I liked what it said
+C. I wanted to create a discussion about it
+D. I wanted to tell others it was inaccurate
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' D', ' C', ' D', ' A', ' A', ' D', ' D', ' B', ' A', ' D', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' D', ' A', ' C', ' D', ' D', ' A', ' D', ' B', ' A', ' D', ' A', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' A', ' D', ' A', ' D', ' A', ' C', ' D', ' C', ' D', ' D', ' A', ' D', ' D', ' C', ' D', ' D', ' D', ' A', ' A', ' C', ' D', ' D', ' A', ' A', ' A', ' D', ' D', ' D', ' C', ' A', ' D', ' D', ' D', ' C', ' C', ' A', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' D', ' D', ' B', ' D', ' B', ' A']","[0.2525646, 0.08360778, 0.18059747, 0.48323015, 0.0]",RELIG,Protestant,"[1, 1, 1, 1]"
+MADEUPTOPICc_W45,"Question: How much made-up news and information do you think is created about science and technology topics?
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B']","[0.18137549, 0.56018115, 0.25844336, 0.0, 0.0042850606885823]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+SMLIKESf_W45,"Question: How much is each of the following a reason why you click on links to news stories on social media? The story was surprising or entertaining
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B']","[0.46763376, 0.42584494, 0.1065213, 0.0061695893347225]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+NEWSPREFV2_W45,"Question: Which of the following would you say you prefer for getting news?
+A. A print newspaper
+B. Radio
+C. Television
+D. A social media site (such as Facebook, Twitter or Snapchat)
+E. A news website or app
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' E', ' C', ' D', ' E', ' D', ' A', ' E', ' B', ' C', ' F', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' E', ' E', ' C', ' C', ' A', ' D', ' E', ' C', ' C', ' C', ' C', ' C', ' C', ' E', ' E', ' C', ' C', ' E', ' C', ' E', ' B', ' E', ' A', ' C', ' E', ' C', ' B', ' C', ' C', ' C', ' E', ' C', ' C', ' C', ' E', ' C', ' C', ' C', ' E', ' C', ' C', ' E', ' C', ' C', ' E', ' A', ' C', ' C', ' D', ' A', ' C', ' C', ' E', ' E', ' C', ' C', ' C', ' E', ' A', ' C', ' E', ' E', ' B', ' E', ' B', ' C', ' A', ' E', ' C', ' B', ' E', ' E', ' A', ' B']","[0.07385837, 0.07688788, 0.49651641, 0.1070073, 0.24573004, 0.0037831256153187]",RELIG,Protestant,"[1, 1, 1, 1, 1]"
+SMLIKESb_W45,"Question: How much is each of the following a reason why you click on links to news stories on social media? A friend recommended the story
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' D', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B']","[0.26058471, 0.48555683, 0.25385846, 0.0159495317488439]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+MADEUPOFT_W45,"Question: How often do you come across made-up news and information that is intended to mislead the public?
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B']","[0.40108081, 0.50288869, 0.08272051, 0.01330999, 0.0064068210048945]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"

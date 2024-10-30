@@ -1,0 +1,215 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+NEIGHINTERB_W32,"Question: In general, how often, if ever, would you say you talk on the phone with any of your neighbors
+A. Every day
+B. Several times a week
+C. About once a week
+D. About once a month
+E. Less than once a month
+F. Never
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' E', ' F', ' F', ' E', ' F', ' F', ' F', ' D', ' D', ' F', ' F', ' E', ' D', ' F', ' F', ' F', ' F', ' F', ' F', ' F', ' F', ' F', ' F', ' F', ' F', ' B', ' F', ' F', ' F', ' F', ' F', ' F', ' E', ' D', ' E', ' F', ' F', ' F', ' E', ' E', ' F', ' F', ' D', ' D', ' F', ' E', ' F', ' F', ' F', ' F', ' F', ' F', ' F', ' F', ' F', ' D', ' B', ' F', ' F', ' D', ' E', ' F', ' F', ' F', ' E', ' F', ' E', ' F', ' F', ' F', ' D', ' B', ' F', ' F', ' F', ' D', ' F', ' F', ' E', ' F', ' E', ' F', ' F', ' F', ' D', ' E', ' F', ' E', ' C', ' D', ' F', ' E', ' F', ' F', ' F', ' D', ' F', ' D', ' F', ' F']","[0.0, 0.04546482, 0.01943251, 0.05748126, 0.23842443, 0.63919699, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+COMMIMPG_W32,"Question: How important is it to you, personally, to live in a community with a strong sense of community
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' C', ' C', ' B', ' A', ' D', ' B', ' C', ' B', ' A', ' D', ' D', ' B', ' C', ' B', ' C', ' C', ' D', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' D', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' D', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' D', ' D', ' B', ' C', ' B', ' D', ' C', ' B', ' A']","[0.17731474, 0.49258988, 0.2454147, 0.08468068, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+CLASS_W32,"Question: If you were asked to use one of these commonly used names for the social classes, which would you say you belong in?
+A. Upper class
+B. Upper-middle class
+C. Middle class
+D. Lower-middle class
+E. Lower class
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' D', ' D', ' C', ' B', ' C', ' D', ' B', ' E', ' D', ' B', ' C', ' E', ' D', ' B', ' C', ' D', ' E', ' C', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' B', ' B', ' C', ' B', ' D', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' E', ' E', ' E', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' B', ' C', ' D', ' D', ' D', ' D', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' C', ' B', ' D', ' C', ' B', ' D', ' D', ' C', ' E', ' B', ' C', ' C', ' D', ' B', ' D', ' E', ' C', ' D']","[0.01615665, 0.25970426, 0.32706408, 0.29599349, 0.10108152, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SATLIFED_W32,"Question: Please tell us whether you are satisfied or dissatisfied with your current job or career.
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' D', ' A', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' D', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' D', ' B', ' B', ' C', ' D', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' D', ' A', ' A', ' B', ' C', ' C', ' D', ' C', ' A', ' B', ' A', ' C', ' D', ' A', ' C', ' A', ' C', ' C']","[0.32065111, 0.38141062, 0.17450291, 0.12343537, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+SOCTRUST2_W32,"Question: Generally speaking, would you say that
+A. Most people can be trusted
+B. Most people cannot be trusted
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B']","[0.77999731, 0.22000269, 0.0161103200615102]",RELIG,Atheist,"[1.0, 2.0]"
+MOVESUBURB_W32,"Question: If you could move to a different community, would you want to
+A. Stay in a suburban area
+B. Move to an urban area
+C. Move to a rural area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' A']","[0.26800428, 0.55518162, 0.1768141, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+VALUERURAL_W32,"Question: In general, do you think most people who live in rural areas have values that are
+A. Very similar to your values
+B. Somewhat similar to your values
+C. Somewhat different from your values
+D. Very different from your values
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' B', ' A', ' B', ' C', ' D', ' C', ' C', ' D', ' B', ' C', ' D', ' D', ' A', ' C', ' B', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' D', ' C', ' D', ' B', ' D', ' D', ' B', ' D', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' B', ' D', ' D', ' A', ' C', ' C', ' B', ' C', ' B', ' C']","[0.05444776, 0.19639875, 0.41805357, 0.33109993, 0.0004592324031452]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+COMMIMPF_W32,"Question: How important is it to you, personally, to live in a community where you have family nearby
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' A', ' C', ' D', ' B', ' C', ' A', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' D', ' D', ' D', ' C', ' C', ' B', ' C', ' C', ' B', ' D', ' C', ' A', ' C', ' D', ' D', ' B', ' D', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' D', ' B', ' D', ' D', ' B', ' C', ' B', ' A', ' D', ' C', ' A', ' B', ' C', ' B', ' B', ' D', ' D', ' D', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' B', ' D', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' A']","[0.16441817, 0.29961028, 0.35240144, 0.18357011, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+COMMIMPH_W32,"Question: How important is it to you, personally, to live in a community where most people share your religious views
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' C', ' C', ' D', ' D', ' C', ' D', ' A', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' C']","[0.01676392, 0.0808656, 0.26169096, 0.64067952, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+MOVERURAL_W32,"Question: If you could move to a different community, would you want to
+A. Stay in a rural area
+B. Move to an urban area
+C. Move to a suburban area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B']","[0.18867968, 0.45041883, 0.36090149, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+NEIGHKIDS_W32,"Question: Do you have any neighbors you would feel comfortable asking to watch your children for half an hour in a pinch?
+A. Yes
+B. No
+C. Does not apply
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A']","[0.36517604, 0.10050885, 0.53431511, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+COMMIMPC_W32,"Question: How important is it to you, personally, to live in a community that is racially and ethnically diverse
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' A', ' C', ' D', ' D', ' C', ' A', ' C', ' A', ' D', ' D', ' B', ' A', ' C', ' D', ' B', ' A', ' A', ' D', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' D', ' E', ' D', ' B', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' C', ' D', ' A', ' D', ' C', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' D', ' A', ' B', ' B', ' C', ' B', ' B', ' D', ' A', ' B', ' B', ' D', ' A', ' D', ' D', ' B', ' D', ' C', ' B', ' B', ' D', ' B', ' B', ' B', ' B']","[0.29273613, 0.39869066, 0.17570492, 0.13286829, 0.0117259086630289]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+NEIGHINTERA_W32,"Question: In general, how often, if ever, would you say you have face-to-face conversations with any of your neighbors
+A. Every day
+B. Several times a week
+C. About once a week
+D. About once a month
+E. Less than once a month
+F. Never
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' E', ' E', ' B', ' E', ' B', ' C', ' D', ' B', ' C', ' D', ' D', ' B', ' B', ' C', ' D', ' D', ' F', ' B', ' C', ' D', ' E', ' C', ' C', ' E', ' E', ' E', ' B', ' C', ' E', ' B', ' F', ' D', ' C', ' E', ' B', ' B', ' E', ' D', ' B', ' D', ' E', ' C', ' E', ' B', ' D', ' D', ' E', ' C', ' C', ' C', ' D', ' C', ' D', ' B', ' F', ' E', ' D', ' E', ' D', ' D', ' C', ' D', ' E', ' B', ' E', ' C', ' E', ' D', ' A', ' B', ' D', ' C', ' E', ' D', ' B', ' C', ' B', ' E', ' B', ' F', ' B', ' B', ' E', ' E', ' B', ' D', ' B', ' C', ' E', ' E', ' D', ' B', ' C', ' C', ' E', ' C', ' B', ' E', ' B', ' D']","[0.03023319, 0.22105215, 0.19192258, 0.2599678, 0.25212906, 0.0446952, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+COMMIMPA_W32,"Question: How important is it to you, personally, to live in a community with access to art, music and theater
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' D', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' D', ' A', ' C', ' A', ' A', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' D', ' A', ' C', ' A', ' D', ' B', ' B', ' B', ' D', ' B', ' B', ' A', ' A', ' B', ' D', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' D', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' D', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' D', ' C', ' B', ' A', ' B']","[0.41956279, 0.38487073, 0.12845765, 0.06710882, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+COMMYRS_W32,"Question: About how many years have you lived in your local community?
+A. Less than 1 year
+B. 1-5 years
+C. 6-10 years
+D. 11-20 years
+E. More than 20 years
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' B', ' A', ' C', ' B', ' E', ' B', ' C', ' E', ' B', ' B', ' B', ' D', ' C', ' D', ' B', ' E', ' B', ' A', ' C', ' B', ' A', ' E', ' A', ' E', ' A', ' E', ' D', ' E', ' A', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' D', ' C', ' E', ' C', ' A', ' B', ' E', ' B', ' E', ' B', ' C', ' E', ' C', ' B', ' E', ' B', ' D', ' B', ' B', ' B', ' D', ' D', ' B', ' B', ' C', ' B', ' B', ' E', ' A', ' B', ' B', ' E', ' C', ' A', ' A', ' E', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' E', ' C', ' B', ' D', ' B', ' B', ' D', ' E', ' B', ' C', ' B', ' E', ' B', ' E']","[0.10730406, 0.39387484, 0.13437794, 0.16135227, 0.20309089, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+IMMIMPACT_W32,"Question: Thinking about the immigrants who live in your local community, in general, would you say their impact on the community has been
+A. Mostly positive
+B. Mostly negative
+C. Neither positive nor negative
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A']","[0.61966485, 0.0233777, 0.35695745, 0.0005358788640873]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+NEIGHSAMEA_W32,"Question: As far as you know, how many of your neighbors are the same race or ethnicity as you
+A. All of them
+B. Most of them
+C. About half
+D. Only some of them
+E. None of them
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' D', ' B', ' E', ' D', ' B', ' C', ' B', ' D', ' B', ' D', ' B', ' B', ' A', ' B', ' D', ' D', ' B', ' B', ' E', ' B', ' B', ' D', ' B', ' B', ' D', ' A', ' D', ' B', ' C', ' B', ' E', ' C', ' B', ' D', ' B', ' D', ' D', ' E', ' B', ' A', ' B', ' B', ' A', ' B', ' D', ' C', ' A', ' B', ' D', ' D', ' B', ' A', ' B', ' B', ' B', ' D', ' D', ' B', ' B', ' B', ' C', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' D', ' B']","[0.10254627, 0.47858336, 0.16700498, 0.19775649, 0.05410891, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+ETHNCMAJ_W32,"Question: According to the U.S. Census Bureau, in the next 25 to 30 years, African Americans, Latinos, and people of Asian descent will make up a majority of the population. In general, do you think that this is
+A. Good for the country
+B. Bad for the country
+C. Neither good nor bad for the country
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' D', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C']","[0.38881816, 0.07187714, 0.53930471, 0.0016595476580343]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+MOVEURBAN_W32,"Question: If you could move to a different community, would you want to
+A. Stay in an urban area
+B. Move to a suburban area
+C. Move to a rural area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' A']","[0.49860927, 0.14320609, 0.35818464, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHADVANT_W32,"Question: On a different subject how much, if at all, do white people benefit from advantages in society that black people do not have?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' D', ' A', ' D', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' D', ' A', ' A', ' D', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' D', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' D', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' D', ' D', ' A', ' C', ' A', ' C', ' C', ' C', ' D', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' A']","[0.54706272, 0.26839817, 0.10212454, 0.08241457, 0.0028875087290148]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+GAYMARR2_W32,"Question: As you may know, same-sex marriage is now legal in the U.S. Do you think this is a good thing or a bad thing for our society?
+A. Very good thing
+B. Somewhat good thing
+C. Somewhat bad thing
+D. Very bad thing
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.81774081, 0.14224432, 0.03482498, 0.00518988, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+WILLMOVE_W32,"Question: Regardless of whether you would want to move, how likely is it that you will move to a different community at some point in the future?
+A. Very likely
+B. Somewhat likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' D', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' C', ' D', ' D', ' D', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' D', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' D', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' D', ' A', ' C', ' B', ' B', ' C', ' D', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C']","[0.39921003, 0.23061333, 0.24800913, 0.12216751, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+HARASS2F1_W32,"Question: In the long run, do you think the increased focus on sexual harassment and assault will lead to
+A. More opportunities for women in the workplace
+B. Fewer opportunities for women in the workplace
+C. Won't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' C']","[0.60576785, 0.09922608, 0.29500607, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+COMMIMPB_W32,"Question: How important is it to you, personally, to live in a community that is a good place to raise children
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' B', ' D', ' C', ' C', ' D', ' C', ' D', ' A', ' C', ' B', ' D', ' A', ' D', ' C', ' A', ' D', ' D', ' A', ' C', ' D', ' A', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' D', ' A', ' A', ' B', ' D', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' D', ' A', ' D', ' D', ' A', ' C', ' D', ' A', ' D', ' A', ' A', ' A', ' A', ' D', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' D', ' A', ' D', ' C', ' A', ' D', ' B', ' B', ' D', ' D', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B']","[0.41763211, 0.25193347, 0.11921257, 0.21122184, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"

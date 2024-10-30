@@ -1,0 +1,549 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+WHYNOTBIZF2F_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women don't make as good managers as men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' A']","[0.0710855, 0.226921, 0.7019935, 0.0010364325738773]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+ESSENPOLF1A_W36,"Question: In general, how important, if at all, is it to you for someone in high political office to be honest and ethical?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.90782282, 0.06526653, 0.02691065, 0.0004461377985597]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2O_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Sexual harassment creates an environment that makes it harder for women to succeed in business
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B']","[0.43424543, 0.41040582, 0.15534875, 0.0]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITBIZMF2D_W36,"Question: In general, how do you think being approachable impacts a man's chances of getting a top executive business position?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' D', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' D', ' B', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C']","[0.55041354, 0.0690689, 0.38051756, 0.0226009530568181]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+ESSENPOLF1G_W36,"Question: In general, how important, if at all, is it to you for someone in high political office to be persuasive?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' D', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A']","[0.45506895, 0.49347079, 0.05146026, 0.0032651287263667]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+BETTERBIZ2F2C_W36,"Question: In general, do you think men or women would do a better job running a large bank or financial institution types of companies?
+A. Men would do a better job
+B. Women would do a better job
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C']","[0.13388249, 0.16124257, 0.70487494, 0.0051957338168459]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+BETTERBIZ1F2H_W36,"Question: In general, do you think men or women in top executive business positions are better at negotiating profitable deals?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' D', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' D', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A']","[0.32685454, 0.07504137, 0.59810409, 0.0220712103738133]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+BETTERPOL2F1C_W36,"Question: And thinking about some specific policy areas, in general, do you think men or women in high political offices are better at dealing with immigration policy?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C']","[0.12553597, 0.25707412, 0.61738991, 0.0024935921915924]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+TRAITBIZWF2C_W36,"Question: In general, how do you think being ambitious impacts a woman's chances of getting a top executive business position?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' D', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A']","[0.52543778, 0.22253036, 0.25203186, 0.0122507778304772]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+E5_W36,"Question: This question is about your household is your spouse now employed full-time, part-time or not employed?
+A. Full-time
+B. Part-time
+C. Not employed
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A']","[0.54056785, 0.09968238, 0.35974977, 0.0033708801793961]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+IMPROVE1_W36,"Question: How much, if anything, do you think having more women in top leadership positions in business and government would do to improve the quality of life for women?
+A. A lot
+B. Some
+C. Not much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' E', ' A', ' E', ' D', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' E', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' E', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' D', ' A', ' B', ' A', ' A', ' B', ' D', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' D', ' A', ' C', ' A']","[0.37111147, 0.4473624, 0.12314106, 0.05838508, 0.0087022104180776]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0, 4.0]"
+BETTERPOL2F1A_W36,"Question: And thinking about some specific policy areas, in general, do you think men or women in high political offices are better at handling economic conditions?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' C']","[0.09896234, 0.18503925, 0.71599841, 0.0005261131416011]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+WHYNOTPOLF1J_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Women aren't encouraged to pursue leadership positions from an early age
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' A']","[0.44536239, 0.3962993, 0.15833831, 0.0003788089606921]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2D_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women aren't tough enough for business
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' B']","[0.1122974, 0.27896499, 0.60873761, 0.0127103223700311]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+WHYNOTPOLF1C_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Family responsibilities make it harder for women to run for higher office
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B']","[0.37709824, 0.4441018, 0.17879996, 0.0054369587000838]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+BETTERPOL1F1I_W36,"Question: In general, do you think men or women in high political offices are better at serving as a role model for children?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C']","[0.01441173, 0.43274538, 0.55284289, 0.0008306753515462]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+IMPROVE3_W36,"Question: How much, if anything, do you think having more women in top leadership positions in business and government would do to improve the quality of life for all Americans?
+A. A lot
+B. Some
+C. Not much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' B', ' D', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B']","[0.27230612, 0.45521146, 0.19174969, 0.08073273, 0.0024616505753241]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0, 4.0]"
+ESSENPOLF1D_W36,"Question: In general, how important, if at all, is it to you for someone in high political office to work well under pressure?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B']","[0.74562582, 0.22172872, 0.03264546, 0.0034647919440374]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2G_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women are held to higher standards than men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' D', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' D', ' A', ' C']","[0.30784802, 0.348535, 0.34361698, 0.0192924480182466]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITBIZMF2G_W36,"Question: In general, how do you think being physically attractive impacts a man's chances of getting a top executive business position?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' D', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' D', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A']","[0.58566653, 0.02724962, 0.38708385, 0.0265720898127127]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+BETTERPOL2F1D_W36,"Question: And thinking about some specific policy areas, in general, do you think men or women in high political offices are better at dealing with national security and defense?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C']","[0.35232017, 0.03774541, 0.60993442, 0.0036288914590449]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+TRAITBIZMF2E_W36,"Question: In general, how do you think being assertive impacts a man's chances of getting a top executive business position?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.73019532, 0.05236093, 0.21744375, 0.0246035988094836]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+ESSENPOLF1H_W36,"Question: In general, how important, if at all, is it to you for someone in high political office to maintain a tone of civility and respect in politics?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A']","[0.70886115, 0.2541746, 0.03696425, 0.0034647919440374]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2M_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women have fewer opportunities to interact with people in senior positions outside of work
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' A']","[0.24364352, 0.43562074, 0.32073574, 0.0003627581045045]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITBIZMF2C_W36,"Question: In general, how do you think being ambitious impacts a man's chances of getting a top executive business position?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C']","[0.67862717, 0.05462162, 0.2667512, 0.0102191098125849]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+BETTERBIZ1F2E_W36,"Question: In general, do you think men or women in top executive business positions are better at being willing to take risks?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' D', ' A', ' A', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C']","[0.40851314, 0.12226091, 0.46922596, 0.0216872995560771]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+WHYNOTBIZF2H_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women have to more to prove themselves than men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' D', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B']","[0.67983007, 0.19842479, 0.12174514, 0.0161353692752713]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITPOLMF1F_W36,"Question: In general, how do you think showing emotions impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' D', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B']","[0.23159301, 0.43854388, 0.32986311, 0.0072272099834089]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+POLCHF1_W36,"Question: In general, what do you think is better for a woman who wants to reach high political office?
+A. Having children before she enters politics
+B. Waiting until she is well-established in her political career to have children
+C. Not having children at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' D', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' D', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' D', ' A', ' A', ' C', ' B', ' D', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' D', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A']","[0.54042535, 0.29342218, 0.16615247, 0.0227498958549468]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITPOLMF1D_W36,"Question: In general, how do you think being approachable impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' D', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C']","[0.59836182, 0.03468442, 0.36695375, 0.0067723764629366]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+WHYNOTBIZF2J_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women aren't encouraged to pursue leadership positions from an early age
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' B']","[0.46155996, 0.3562534, 0.18218664, 0.0]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+WHYNOTPOLF1B_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Women in politics face gender discrimination
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A']","[0.50175164, 0.36270314, 0.13554522, 0.0123488573676627]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITPOLMF1G_W36,"Question: In general, how do you think being physically attractive impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C']","[0.53490236, 0.04114261, 0.42395503, 0.0023739329061946]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+ESSENBIZF2E_W36,"Question: In general, how important, if at all, is it to you for someone in a top executive business position to be willing to take risks?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B']","[0.44503885, 0.48990058, 0.06506057, 0.0]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITPOLMF1C_W36,"Question: In general, how do you think being ambitious impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' D', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A']","[0.71660359, 0.03487009, 0.24852632, 0.0130798342079114]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+WHYNOTPOLF1L_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Sexual harassment creates an environment that makes it harder for women to succeed in politics
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A']","[0.34551762, 0.40968121, 0.24480117, 0.0010833671366481]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITPOLMF1E_W36,"Question: In general, how do you think being assertive impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' C']","[0.75695328, 0.061128, 0.18191872, 0.0075271894195013]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+TRAITBIZWF2E_W36,"Question: In general, how do you think being assertive impacts a woman's chances of getting a top executive business position?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' C', ' C', ' D', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' D', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' C']","[0.48261091, 0.26714232, 0.25024677, 0.0210689017872122]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+HIGHEDWRNGC_W36,"Question: Please indicate whether this is a reason why you think the higher education system in the U.S. is going in the wrong direction. Colleges and universities are too concerned about protecting students from views they might find offensive
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B']","[0.48384371, 0.33537613, 0.18078016, 0.016170264766607]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2B_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women in business face gender discrimination
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B']","[0.55868551, 0.32896455, 0.11234994, 0.0020050337308334]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+ESSENPOLF1B_W36,"Question: In general, how important, if at all, is it to you for someone in high political office to be compassionate and empathetic?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A']","[0.70951231, 0.23032272, 0.06016497, 0.0]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+WHYNOTPOLF1I_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Not as many women are interested in holding higher office
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' B']","[0.26472074, 0.46410197, 0.27117729, 0.0016414838014887]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+WHYNOTPOLF1E_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Fewer women have the experience required for higher office
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' A']","[0.23009513, 0.41355246, 0.35635241, 0.0045846843750767]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+BETTERBIZ2F2E_W36,"Question: In general, do you think men or women would do a better job running a major hospital types of companies?
+A. Men would do a better job
+B. Women would do a better job
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C']","[0.05591867, 0.23164407, 0.71243726, 0.0048249256575179]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+BETTERPOL1F1B_W36,"Question: In general, do you think men or women in high political offices are better at being compassionate and empathetic?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C']","[0.03728597, 0.64983982, 0.31287421, 0.0]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+WHYNOTPOLF1G_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Women who run for office are held to higher standards than men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B']","[0.39039042, 0.34525405, 0.26435552, 0.0003788089606921]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITPOLWF1E_W36,"Question: In general, how do you think being assertive impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' D', ' B', ' A', ' D', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' A']","[0.5886894, 0.20540215, 0.20590845, 0.0235501919641647]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+WHYNOTBIZF2N_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women are less likely than men to ask for promotions and raises
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' C']","[0.24438816, 0.39875493, 0.35685691, 0.000212645156348]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITPOLWF1D_W36,"Question: In general, how do you think being approachable impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A']","[0.7277463, 0.0724654, 0.1997883, 0.0071170898979699]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+WHYNOTPOLF1A_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Many Americans aren't ready to elect a woman to higher office
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' A', ' C']","[0.46618377, 0.30719815, 0.22661807, 0.0022063909341116]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+WHYNOTPOLF1K_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Women don't do as good of a job selling their accomplishments
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' B']","[0.09634762, 0.29530019, 0.60835219, 0.0005970075517314]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITBIZWF2D_W36,"Question: In general, how do you think being approachable impacts a woman's chances of getting a top executive business position?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' D', ' A', ' A', ' A', ' A']","[0.64313631, 0.06216514, 0.29469855, 0.0074471064650914]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+TRAITPOLWF1F_W36,"Question: In general, how do you think showing emotions impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B']","[0.15898871, 0.59649402, 0.24451727, 0.0097649157568678]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+IMPROVE2_W36,"Question: How much, if anything, do you think having more women in top leadership positions in business and government would do to improve the quality of life for men?
+A. A lot
+B. Some
+C. Not much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' D', ' B', ' B', ' D', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' D', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' A', ' D', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' A', ' D', ' B', ' A', ' C', ' C', ' D', ' B', ' D']","[0.15061841, 0.43291669, 0.30760207, 0.10886283, 0.0098220931919775]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0, 4.0]"
+ESSENBIZF2J_W36,"Question: In general, how important, if at all, is it to you for someone in a top executive business position to provide guidance or mentorship to young employees?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A']","[0.65809478, 0.30967838, 0.03222684, 0.0]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITPOLWF1G_W36,"Question: In general, how do you think being physically attractive impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A']","[0.63735056, 0.07923027, 0.28341917, 0.0042854206906802]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+TRAITPOLMF1B_W36,"Question: In general, how do you think being compassionate impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' A', ' D', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C']","[0.40665892, 0.16160498, 0.4317361, 0.0046738354749606]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+WMNPRZ1_W36,"Question: Do you think it would be a good thing or a bad thing for the country if a woman was elected president?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' C']","[0.41542794, 0.45284935, 0.10797647, 0.02374623, 0.0073807644490604]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0, 4.0]"
+BETTERPOL2F1F_W36,"Question: And thinking about some specific policy areas, in general, do you think men or women in high political offices are better at dealing with gun policy?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A']","[0.24220102, 0.17943116, 0.57836783, 0.0041862411724581]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+BETTERPOL1F1E_W36,"Question: In general, do you think men or women in high political offices are better at being willing to take risks?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C']","[0.41619018, 0.06393005, 0.51987977, 0.0028168076850725]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+HIGHEDWRNGB_W36,"Question: Please indicate whether this is a reason why you think the higher education system in the U.S. is going in the wrong direction. Professors are bringing their political and social views into the classroom
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' C']","[0.40476917, 0.3429358, 0.25229503, 0.0186270001860617]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2A_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Many businesses are not ready to hire women for top executive positions
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A']","[0.52378934, 0.3624667, 0.11374397, 0.0134083257950634]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 3.0]"
+TRAITPOLWF1A_W36,"Question: In general, how do you think being decisive impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A']","[0.65091926, 0.12002244, 0.2290583, 0.0037813649397515]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+BETTERBIZ2F2F_W36,"Question: In general, do you think men or women would do a better job running a professional sports team types of companies?
+A. Men would do a better job
+B. Women would do a better job
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' D', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A']","[0.48887569, 0.01439764, 0.49672667, 0.0141778898714698]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+MOREWMN1F2_W36,"Question: As you may know, more women are running for U.S. Congress this year than in the past. Do you think this is
+A. A good thing
+B. A bad thing
+C. Neither a good thing nor a bad thing
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' C']","[0.65716301, 0.04317137, 0.29966562, 0.0080483022192615]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+TRAITBIZWF2G_W36,"Question: In general, how do you think being physically attractive impacts a woman's chances of getting a top executive business position?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' D', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' D', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A']","[0.66802052, 0.09700185, 0.23497763, 0.0288003548845448]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+BETTERBIZ1F2D_W36,"Question: In general, do you think men or women in top executive business positions are better at working well under pressure?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C']","[0.23449891, 0.14898708, 0.61651401, 0.0004998561227762]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"
+TRAITPOLWF1C_W36,"Question: In general, how do you think being ambitious impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.58228056, 0.21148267, 0.20623677, 0.0019579404734573]",POLIDEOLOGY,Moderate,"[1.0, 2.0, 1.5]"

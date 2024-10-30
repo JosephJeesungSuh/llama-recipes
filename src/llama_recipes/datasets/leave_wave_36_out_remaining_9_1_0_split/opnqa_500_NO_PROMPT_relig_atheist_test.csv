@@ -1,0 +1,549 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+WHYNOTBIZF2F_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women don't make as good managers as men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C']","[0.01727182, 0.06012594, 0.92260223, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+ESSENPOLF1A_W36,"Question: In general, how important, if at all, is it to you for someone in high political office to be honest and ethical?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.96504151, 0.03495849, 0.0, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2O_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Sexual harassment creates an environment that makes it harder for women to succeed in business
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' C']","[0.51735824, 0.28067143, 0.20197033, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITBIZMF2D_W36,"Question: In general, how do you think being approachable impacts a man's chances of getting a top executive business position?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C']","[0.52088713, 0.01296861, 0.46614427, 0.0020165684571471]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+ESSENPOLF1G_W36,"Question: In general, how important, if at all, is it to you for someone in high political office to be persuasive?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B']","[0.5365623, 0.43563581, 0.02780189, 0.0007570047938707]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+BETTERBIZ2F2C_W36,"Question: In general, do you think men or women would do a better job running a large bank or financial institution types of companies?
+A. Men would do a better job
+B. Women would do a better job
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C']","[0.07423915, 0.18493096, 0.74082989, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+BETTERBIZ1F2H_W36,"Question: In general, do you think men or women in top executive business positions are better at negotiating profitable deals?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C']","[0.20933009, 0.1221004, 0.6685695, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+BETTERPOL2F1C_W36,"Question: And thinking about some specific policy areas, in general, do you think men or women in high political offices are better at dealing with immigration policy?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C']","[0.02325601, 0.26421525, 0.71252874, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+TRAITBIZWF2C_W36,"Question: In general, how do you think being ambitious impacts a woman's chances of getting a top executive business position?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A']","[0.52811455, 0.36570971, 0.10617574, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+E5_W36,"Question: This question is about your household is your spouse now employed full-time, part-time or not employed?
+A. Full-time
+B. Part-time
+C. Not employed
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A']","[0.64715142, 0.13533947, 0.21750911, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+IMPROVE1_W36,"Question: How much, if anything, do you think having more women in top leadership positions in business and government would do to improve the quality of life for women?
+A. A lot
+B. Some
+C. Not much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' D', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' D', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' D', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' A']","[0.52912246, 0.33224558, 0.10426248, 0.03436948, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+BETTERPOL2F1A_W36,"Question: And thinking about some specific policy areas, in general, do you think men or women in high political offices are better at handling economic conditions?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C']","[0.00819795, 0.18108591, 0.81071614, 0.0161901865342788]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+WHYNOTPOLF1J_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Women aren't encouraged to pursue leadership positions from an early age
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A']","[0.71823374, 0.20360338, 0.07816289, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2D_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women aren't tough enough for business
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B']","[0.02777892, 0.08388031, 0.88834077, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHYNOTPOLF1C_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Family responsibilities make it harder for women to run for higher office
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A']","[0.43405433, 0.36058724, 0.20535843, 0.0015440003445943]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+BETTERPOL1F1I_W36,"Question: In general, do you think men or women in high political offices are better at serving as a role model for children?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C']","[0.00676499, 0.43475679, 0.55847822, 0.0012614235716817]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+IMPROVE3_W36,"Question: How much, if anything, do you think having more women in top leadership positions in business and government would do to improve the quality of life for all Americans?
+A. A lot
+B. Some
+C. Not much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A']","[0.40917521, 0.40016205, 0.12597732, 0.06468542, 0.0006529735658995]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+ESSENPOLF1D_W36,"Question: In general, how important, if at all, is it to you for someone in high political office to work well under pressure?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A']","[0.88193652, 0.11806348, 0.0, 0.0097746186646604]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2G_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women are held to higher standards than men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' A']","[0.50747409, 0.27887939, 0.21364653, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITBIZMF2G_W36,"Question: In general, how do you think being physically attractive impacts a man's chances of getting a top executive business position?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' B']","[0.69729875, 0.05119401, 0.25150724, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+BETTERPOL2F1D_W36,"Question: And thinking about some specific policy areas, in general, do you think men or women in high political offices are better at dealing with national security and defense?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C']","[0.17273725, 0.07122688, 0.75603587, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+TRAITBIZMF2E_W36,"Question: In general, how do you think being assertive impacts a man's chances of getting a top executive business position?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.94885798, 0.00904983, 0.04209219, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+ESSENPOLF1H_W36,"Question: In general, how important, if at all, is it to you for someone in high political office to maintain a tone of civility and respect in politics?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.81604967, 0.14387617, 0.04007416, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2M_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women have fewer opportunities to interact with people in senior positions outside of work
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C']","[0.29477286, 0.27132879, 0.43389835, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITBIZMF2C_W36,"Question: In general, how do you think being ambitious impacts a man's chances of getting a top executive business position?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C']","[0.92256397, 0.0, 0.07743603, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+BETTERBIZ1F2E_W36,"Question: In general, do you think men or women in top executive business positions are better at being willing to take risks?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A']","[0.41871501, 0.09121552, 0.49006947, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+WHYNOTBIZF2H_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women have to more to prove themselves than men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A']","[0.68856167, 0.16465216, 0.14678617, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITPOLMF1F_W36,"Question: In general, how do you think showing emotions impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' C']","[0.26081429, 0.46893672, 0.27024899, 0.0043256884121801]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+POLCHF1_W36,"Question: In general, what do you think is better for a woman who wants to reach high political office?
+A. Having children before she enters politics
+B. Waiting until she is well-established in her political career to have children
+C. Not having children at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' C', ' A', ' A', ' D', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' D', ' B', ' D', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' D', ' C', ' D', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B']","[0.54082521, 0.22014023, 0.23903456, 0.0373382188202388]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITPOLMF1D_W36,"Question: In general, how do you think being approachable impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A']","[0.74955641, 0.02515258, 0.22529102, 0.0161901865342788]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+WHYNOTBIZF2J_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women aren't encouraged to pursue leadership positions from an early age
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C']","[0.64793819, 0.19592979, 0.15613201, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHYNOTPOLF1B_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Women in politics face gender discrimination
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C']","[0.71969656, 0.19069148, 0.08961195, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITPOLMF1G_W36,"Question: In general, how do you think being physically attractive impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C']","[0.71442283, 0.01559987, 0.2699773, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+ESSENBIZF2E_W36,"Question: In general, how important, if at all, is it to you for someone in a top executive business position to be willing to take risks?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B']","[0.32001104, 0.66910676, 0.01088221, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITPOLMF1C_W36,"Question: In general, how do you think being ambitious impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' A']","[0.89109546, 0.03765781, 0.07124673, 0.0161901865342788]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+WHYNOTPOLF1L_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Sexual harassment creates an environment that makes it harder for women to succeed in politics
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' B']","[0.4964674, 0.3621253, 0.1414073, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITPOLMF1E_W36,"Question: In general, how do you think being assertive impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.96499626, 0.0, 0.03500374, 0.0012614235716817]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+TRAITBIZWF2E_W36,"Question: In general, how do you think being assertive impacts a woman's chances of getting a top executive business position?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' A']","[0.48313849, 0.47281837, 0.04404314, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+HIGHEDWRNGC_W36,"Question: Please indicate whether this is a reason why you think the higher education system in the U.S. is going in the wrong direction. Colleges and universities are too concerned about protecting students from views they might find offensive
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' A']","[0.41196564, 0.28742915, 0.30060521, 0.0005260598629901]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2B_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women in business face gender discrimination
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' A']","[0.58145583, 0.19818765, 0.22035652, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+ESSENPOLF1B_W36,"Question: In general, how important, if at all, is it to you for someone in high political office to be compassionate and empathetic?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A']","[0.88512633, 0.09031705, 0.02455661, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHYNOTPOLF1I_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Not as many women are interested in holding higher office
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' D', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' B']","[0.2343338, 0.52559895, 0.24006724, 0.007231145825868]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHYNOTPOLF1E_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Fewer women have the experience required for higher office
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' A']","[0.22000574, 0.31472974, 0.46526453, 0.0161901865342788]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+BETTERBIZ2F2E_W36,"Question: In general, do you think men or women would do a better job running a major hospital types of companies?
+A. Men would do a better job
+B. Women would do a better job
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C']","[0.09121552, 0.07567565, 0.83310884, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+BETTERPOL1F1B_W36,"Question: In general, do you think men or women in high political offices are better at being compassionate and empathetic?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C']","[0.0, 0.64843719, 0.35156281, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+WHYNOTPOLF1G_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Women who run for office are held to higher standards than men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A']","[0.53259446, 0.30234094, 0.16506459, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITPOLWF1E_W36,"Question: In general, how do you think being assertive impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A']","[0.44047692, 0.3336436, 0.22587947, 0.0048788933243819]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+WHYNOTBIZF2N_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women are less likely than men to ask for promotions and raises
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' C']","[0.14984106, 0.47417274, 0.3759862, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITPOLWF1D_W36,"Question: In general, how do you think being approachable impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' A']","[0.84679606, 0.03344491, 0.11975903, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+WHYNOTPOLF1A_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Many Americans aren't ready to elect a woman to higher office
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A']","[0.65286612, 0.27233511, 0.07479877, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHYNOTPOLF1K_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Women don't do as good of a job selling their accomplishments
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C']","[0.0345504, 0.3128112, 0.6526384, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITBIZWF2D_W36,"Question: In general, how do you think being approachable impacts a woman's chances of getting a top executive business position?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A']","[0.5040212, 0.20884298, 0.28713582, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+TRAITPOLWF1F_W36,"Question: In general, how do you think showing emotions impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B']","[0.07011979, 0.65758125, 0.27229896, 0.0043256884121801]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+IMPROVE2_W36,"Question: How much, if anything, do you think having more women in top leadership positions in business and government would do to improve the quality of life for men?
+A. A lot
+B. Some
+C. Not much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' D', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' D', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' D', ' B', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' E', ' A', ' A', ' C', ' C', ' C', ' D', ' C', ' A', ' B', ' A', ' C', ' D', ' A', ' C', ' A', ' C', ' C']","[0.26404996, 0.39842386, 0.22598562, 0.11154056, 0.0041070481342543]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+ESSENBIZF2J_W36,"Question: In general, how important, if at all, is it to you for someone in a top executive business position to provide guidance or mentorship to young employees?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' D', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' D', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B']","[0.48082249, 0.49417335, 0.02500416, 0.0342284176777762]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITPOLWF1G_W36,"Question: In general, how do you think being physically attractive impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A']","[0.74564076, 0.05970561, 0.19465363, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+TRAITPOLMF1B_W36,"Question: In general, how do you think being compassionate impacts a man's chances of getting elected to high political office?
+A. Mostly helps a man's chances
+B. Mostly hurts a man's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' D', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' C']","[0.55304135, 0.100963, 0.34599565, 0.0161901865342788]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+WMNPRZ1_W36,"Question: Do you think it would be a good thing or a bad thing for the country if a woman was elected president?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' E', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' E', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' E', ' A', ' B', ' B', ' A', ' B', ' B', ' A']","[0.62230308, 0.29127348, 0.0827796, 0.00364384, 0.0175626585727889]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+BETTERPOL2F1F_W36,"Question: And thinking about some specific policy areas, in general, do you think men or women in high political offices are better at dealing with gun policy?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' D', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B']","[0.16557323, 0.4492694, 0.38515737, 0.0161901865342788]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+BETTERPOL1F1E_W36,"Question: In general, do you think men or women in high political offices are better at being willing to take risks?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A']","[0.30952236, 0.0379035, 0.65257414, 0.0012614235716817]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+HIGHEDWRNGB_W36,"Question: Please indicate whether this is a reason why you think the higher education system in the U.S. is going in the wrong direction. Professors are bringing their political and social views into the classroom
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A']","[0.30915096, 0.19671351, 0.49413553, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+WHYNOTBIZF2A_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Many businesses are not ready to hire women for top executive positions
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B']","[0.77975965, 0.16971619, 0.05052417, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRAITPOLWF1A_W36,"Question: In general, how do you think being decisive impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.69253106, 0.11855596, 0.18891298, 0.0007570047938707]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+BETTERBIZ2F2F_W36,"Question: In general, do you think men or women would do a better job running a professional sports team types of companies?
+A. Men would do a better job
+B. Women would do a better job
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A']","[0.33897377, 0.092448, 0.56857823, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+MOREWMN1F2_W36,"Question: As you may know, more women are running for U.S. Congress this year than in the past. Do you think this is
+A. A good thing
+B. A bad thing
+C. Neither a good thing nor a bad thing
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A']","[0.75564478, 0.04606476, 0.19829047, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+TRAITBIZWF2G_W36,"Question: In general, how do you think being physically attractive impacts a woman's chances of getting a top executive business position?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' A']","[0.71450779, 0.21290246, 0.07258975, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+BETTERBIZ1F2D_W36,"Question: In general, do you think men or women in top executive business positions are better at working well under pressure?
+A. Men are better
+B. Women are better
+C. No difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' B']","[0.14318206, 0.18419508, 0.67262286, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+TRAITPOLWF1C_W36,"Question: In general, how do you think being ambitious impacts a woman's chances of getting elected to high political office?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A']","[0.56290203, 0.38322453, 0.05387344, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"

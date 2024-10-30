@@ -1,0 +1,232 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+CONFg_W42,"Question: How much confidence, if any, do you have in business leaders to act in the best interests of the public?
+A. A great deal of confidence
+B. A fair amount of confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B']","[0.07526718, 0.49516911, 0.37417728, 0.05538642, 0.0011855468771378]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+RQ4_F1Ca_W42,"Question: Thinking about nutrition research scientists, how often would you say they do a good job conducting research
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' E', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' D', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B']","[0.28398825, 0.57141411, 0.11989645, 0.02470118, 0.0262212450826542]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+CONFc_W42,"Question: How much confidence, if any, do you have in the military to act in the best interests of the public?
+A. A great deal of confidence
+B. A fair amount of confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A']","[0.45138583, 0.45641784, 0.07465452, 0.01754182, 0.0020017790102985]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+PQ4_F2Bd_W42,"Question: Thinking about environmental health specialists, how often would you say they are transparent about potential conflicts of interest with industry groups in their work
+A. All or most of the time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' B', ' B', ' C', ' B', ' E', ' C', ' A', ' D', ' C', ' B', ' D', ' C', ' D', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' D', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' D', ' E', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' D', ' B', ' B', ' C', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' D', ' B', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C']","[0.14672878, 0.5322303, 0.24339751, 0.07764341, 0.0359527631382143]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+PQ4_F2Cc_W42,"Question: Thinking about dietitians, how often would you say they admit mistakes and take responsibility for them
+A. All or most of the time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' D', ' C', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' E', ' A', ' A', ' D', ' C', ' B', ' C']","[0.20345716, 0.53291359, 0.20186324, 0.06176602, 0.0334201759662209]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+PQ4_F2Ac_W42,"Question: Thinking about medical doctors, how often would you say they admit mistakes and take responsibility for them
+A. All or most of the time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' A', ' A', ' C', ' B', ' B', ' D', ' D', ' B', ' C', ' A', ' B', ' D', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' E', ' B', ' C', ' D', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' D', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' D', ' D', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' A']","[0.14869636, 0.45966404, 0.31239856, 0.07924104, 0.005915439171518]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+PQ4_F2Ae_W42,"Question: Thinking about medical doctors, how often would you say they care about the best interests of their patients
+A. All or most of the time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' E', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B']","[0.57546746, 0.36727274, 0.05100984, 0.00624995, 0.0055259381461042]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+RQ5_F1B_W42,"Question: Overall, do you think research misconduct by environmental research scientists is
+A. A very big problem
+B. A moderately big problem
+C. A small problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' E', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' D', ' A', ' C', ' A', ' C', ' E', ' B', ' B', ' D', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' D', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' D', ' B', ' A', ' A', ' B', ' C', ' C', ' C', ' B', ' D', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C']","[0.1428692, 0.33406419, 0.4519803, 0.07108631, 0.0141066754339063]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+RQ4_F1Ae_W42,"Question: Thinking about medical research scientists, how often would you say they care about the best interests of the public
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' D', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' E', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' D', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' E', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' E', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' A']","[0.35082481, 0.47506384, 0.14326124, 0.03085011, 0.0076916499276057]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+RQ1_F1B_W42,"Question: In general, would you say your view of environmental research scientists is
+A. Mostly positive
+B. Mostly negative
+C. Neither positive nor negative
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' C']","[0.44720409, 0.17314807, 0.37964784, 0.0112169936216376]",RELIG,Protestant,"[1.0, 2.0, 1.5]"
+RQ5_F1C_W42,"Question: Overall, do you think research misconduct by nutrition research scientists is
+A. A very big problem
+B. A moderately big problem
+C. A small problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' D', ' A', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' D', ' B', ' C', ' D', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' D', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' E', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B']","[0.12122539, 0.31402006, 0.45836949, 0.10638506, 0.0228639338612429]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+PQ4_F2Bb_W42,"Question: Thinking about environmental health specialists, how often would you say they provide fair and accurate information when making recommendations
+A. All or most of the time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' C', ' D', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' E', ' B', ' B', ' B']","[0.29653338, 0.56227049, 0.11633416, 0.02486197, 0.0211104321694344]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+RQ1_F1C_W42,"Question: In general, would you say your view of nutrition research scientists is
+A. Mostly positive
+B. Mostly negative
+C. Neither positive nor negative
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C']","[0.48123852, 0.10969283, 0.40906866, 0.0041656093377548]",RELIG,Protestant,"[1.0, 2.0, 1.5]"
+RQ4_F1Ba_W42,"Question: Thinking about environmental research scientists, how often would you say they do a good job conducting research
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' E', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' D', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' D', ' A', ' A', ' A', ' C', ' C', ' D', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B']","[0.3220504, 0.53246079, 0.12027717, 0.02521164, 0.0223647361477465]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+RQ4_F1Be_W42,"Question: Thinking about environmental research scientists, how often would you say they care about the best interests of the public
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' E', ' B', ' A', ' A', ' A', ' B', ' B', ' D', ' C', ' A', ' C', ' A', ' D', ' A', ' A', ' E', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' C', ' D', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' D', ' A', ' D', ' B', ' B', ' A', ' B', ' C', ' E', ' C', ' B', ' D', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' C']","[0.3003613, 0.48053125, 0.16803179, 0.05107567, 0.0213972365844727]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+CONFe_W42,"Question: How much confidence, if any, do you have in religious leaders to act in the best interests of the public?
+A. A great deal of confidence
+B. A fair amount of confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' D', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' D', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B']","[0.20054363, 0.5538908, 0.20906869, 0.03649688, 0.0009638090253183]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+PQ4_F2Aa_W42,"Question: Thinking about medical doctors, how often would you say they do a good job providing diagnoses and treatment recommendations
+A. All or most of the time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A']","[0.51362619, 0.42180491, 0.05267506, 0.01189383, 0.004936213611687]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+RQ2_F1A_W42,"Question: How much, if anything, do you know about what medical research scientists do?
+A. A lot
+B. A little
+C. Nothing at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' B']","[0.11884192, 0.68477559, 0.19638249, 0.0015608858978112]",RELIG,Protestant,"[1.0, 2.0, 3.0]"
+RQ4_F1Bc_W42,"Question: Thinking about environmental research scientists, how often would you say they admit mistakes and take responsibility for them
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' E', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' D', ' C', ' C', ' B', ' B', ' D', ' A', ' C', ' A', ' C', ' C', ' D', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' D', ' C', ' B', ' B', ' D', ' C', ' A', ' D', ' C', ' D', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' D', ' D', ' C', ' B', ' B', ' B', ' E', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' D', ' B', ' C', ' A', ' E']","[0.13841976, 0.42423069, 0.32227801, 0.11507154, 0.0223184963574495]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+RQ4_F1Cb_W42,"Question: Thinking about nutrition research scientists, how often would you say they provide fair and accurate information when making statements about their research
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' D', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' B', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' D', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A']","[0.23248543, 0.5717882, 0.15924662, 0.03647974, 0.0225031349816799]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+RQ4_F1Ab_W42,"Question: Thinking about medical research scientists, how often would you say they provide fair and accurate information when making statements about their research
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' D', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' C']","[0.28920082, 0.56953956, 0.12162384, 0.01963577, 0.0107095623534799]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+RQ4_F1Bd_W42,"Question: Thinking about environmental research scientists, how often would you say they are transparent about potential conflicts of interest with industry groups in their research
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' D', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' D', ' A', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' D', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B']","[0.14910601, 0.47910118, 0.28627508, 0.08551773, 0.0252285774365722]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+CONFb_W42,"Question: How much confidence, if any, do you have in the news media to act in the best interests of the public?
+A. A great deal of confidence
+B. A fair amount of confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' C', ' A', ' B', ' B', ' A', ' D', ' C', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' D', ' D', ' B', ' B', ' A', ' A', ' B', ' C', ' C', ' D', ' D', ' A', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' B', ' D', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' D', ' C', ' A', ' D', ' D', ' B', ' D', ' C', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' D', ' C', ' D', ' A', ' D', ' B', ' C', ' C', ' D', ' C', ' B', ' B', ' B', ' C', ' D', ' D', ' D', ' C', ' B']","[0.08272461, 0.34401758, 0.36554156, 0.20771625, 0.0030317110538247]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+PQ4_F2Bc_W42,"Question: Thinking about environmental health specialists, how often would you say they admit mistakes and take responsibility for them
+A. All or most of the time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' E', ' B', ' B', ' E', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' E', ' B', ' B', ' A', ' A', ' B', ' D', ' D', ' C', ' B', ' D', ' B', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' D', ' C', ' E', ' C', ' D', ' B', ' B', ' C', ' E', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' E', ' C', ' E', ' B', ' D', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' D', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' D', ' C', ' B', ' A', ' C', ' C', ' B', ' C']","[0.11632663, 0.50384698, 0.27091644, 0.10890996, 0.0305304821247811]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+PQ8_F2B_W42,"Question: How often, if at all, do you think environmental health specialists face serious consequences if they engage in professional misconduct?
+A. All or most of the time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' B', ' E', ' D', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' D', ' B', ' C', ' C', ' C', ' E', ' E', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' A', ' B', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' D', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C']","[0.11867049, 0.45210142, 0.34424525, 0.08498285, 0.0332305774980828]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"
+RQ4_F1Cd_W42,"Question: Thinking about nutrition research scientists, how often would you say they are transparent about potential conflicts of interest with industry groups in their research
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' E', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' D', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' D', ' B', ' B', ' D', ' A', ' C', ' D', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' E', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' D', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' E', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' D', ' B', ' C', ' D', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' D', ' C', ' B', ' C']","[0.12393452, 0.47002327, 0.2983767, 0.10766552, 0.0261576424047217]",RELIG,Protestant,"[1.0, 2.0, 3.0, 4.0]"

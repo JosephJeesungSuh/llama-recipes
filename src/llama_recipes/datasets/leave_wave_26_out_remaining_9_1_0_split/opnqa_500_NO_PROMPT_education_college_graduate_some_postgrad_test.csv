@@ -1,0 +1,372 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+NOCARRYGUN_W26,"Question: And would you say you never carry a handgun or pistol because you don't want to or for some other reason?
+A. Don't want to carry
+B. Some other reason
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A']","[0.54081306, 0.45918694, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"
+GUNRESPNOKIDSA_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Keep all of their guns in a locked place
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B']","[0.65099902, 0.2317903, 0.10541611, 0.01179458, 0.0033257089389022]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+SHOOTFREQ_W26,"Question: How often, if ever, do you go shooting or to a gun range?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' C', ' C', ' B', ' B', ' B', ' D', ' D', ' D', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' C', ' B', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' B', ' D', ' C', ' C', ' C', ' B', ' B', ' D', ' C', ' B', ' A', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' D', ' C', ' B', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' A', ' A', ' D', ' B', ' C', ' C', ' B', ' D', ' D', ' C', ' D']","[0.04478923, 0.19032524, 0.34110147, 0.42378405, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+REASONGUNE_W26,"Question: Please indicate whether the following is a major reason, a minor reason, or not a reason why you own a gun. For my job
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C']","[0.06865561, 0.0627937, 0.86855069, 0.0058160002698595]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+REASONGUNA_W26,"Question: Please indicate whether the following is a major reason, a minor reason, or not a reason why you own a gun. For protection
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' A']","[0.59174794, 0.28028935, 0.12796271, 0.0013472826298067]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GUNLOCKED1_W26,"Question: In general, as far as you know, how many of the guns in your home would you say are kept in a locked place?
+A. All are kept in a locked place
+B. Some are kept in a locked place and some are not
+C. None are kept in a locked place
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' A', ' C', ' D', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C']","[0.40246931, 0.3435194, 0.2540113, 0.0202888736186098]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GROWUPGUN4_W26,"Question: Thinking about the people in the community where you spent the majority of time when you were growing up, as far as you know, how many people owned guns?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C']","[0.17376069, 0.47792812, 0.34831119, 0.0, 0.002734176977516]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+WORRYF_W26,"Question: How much, if at all, do you worry about the following happening to you? Being the victim of a mass shooting
+A. Worry a lot
+B. Worry a little
+C. Do not worry at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' B']","[0.08283473, 0.31682499, 0.60034028, 0.0006266305114146]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GUNSAFETYKIDS_W26,"Question: For this question, please think about your child or children who are under 18. Have you ever talked with your child or children about gun safety?
+A. Yes
+B. No
+C. I do not have children under 18
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A']","[0.58567942, 0.41312569, 0.0011949, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+GUNRESPNOKIDSE_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Advise visitors with children that there are guns in the house
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' D', ' C', ' E', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' D', ' C', ' A', ' C']","[0.50087615, 0.27101256, 0.17614082, 0.05197048, 0.0051176625251434]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+IMPREASONGUN_W26,"Question: Which of the following is the most important reason why you own a gun?
+A. For protection
+B. For hunting
+C. For sport shooting, including target shooting and trap and skeet
+D. As part of a gun collection
+E. For my job
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' B', ' E', ' F', ' C', ' B', ' A', ' E', ' C', ' D', ' D', ' C', ' E', ' B', ' B', ' E', ' A', ' A', ' A', ' A', ' A', ' D', ' E', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' E', ' A', ' A', ' B', ' B', ' D', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' D', ' B', ' B', ' A', ' E', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' D', ' B', ' A', ' C', ' B', ' C', ' E', ' D', ' B', ' D', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' E', ' F', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A']","[0.40130366, 0.25432664, 0.18914642, 0.07086042, 0.08436285, 0.00294582786746]",EDUCATION,College graduate/some postgrad,"[1, 1, 1, 1, 1]"
+GUNCONTRIBA_W26,"Question: How much, if at all, do you think the ease with which people can legally obtain guns contributes to gun violence in the country today?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' D', ' D', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' D', ' D', ' A', ' D', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' D', ' B', ' B', ' C', ' D', ' D', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' D', ' A', ' C', ' A', ' C', ' B', ' A', ' D', ' D', ' B', ' B', ' A', ' A', ' B', ' A']","[0.38296297, 0.23420704, 0.24997937, 0.13285061, 0.0034973641967098]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNACTIVITYA_W26,"Question: How often, if ever, do you visit websites about guns, hunting or other shooting sports
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' A', ' B', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' A', ' B', ' D', ' D', ' D', ' B', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' B', ' C', ' D', ' C', ' D', ' D', ' C', ' D']","[0.01595132, 0.09938278, 0.17006711, 0.71459878, 0.0010484218298928]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GROWUPVIOL_W26,"Question: How much of a problem was gun violence in the community where you spent the majority of time when you were growing up?
+A. A very big problem
+B. A moderately big problem
+C. A small problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' C', ' D', ' C', ' A', ' D', ' D', ' D', ' D', ' D', ' C', ' A', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' A', ' D', ' B', ' B', ' D', ' D', ' B', ' B', ' D', ' D', ' D', ' C', ' A', ' D', ' D', ' C', ' D', ' B', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' B', ' C', ' B', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' D', ' B', ' A', ' D', ' D', ' D', ' D', ' C', ' B', ' C', ' C']","[0.02441787, 0.07989143, 0.22674035, 0.66895035, 0.0018526926516134]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNCONTRIBE_W26,"Question: How much, if at all, do you think the amount of gun violence in video games contributes to gun violence in the country today?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' D', ' B', ' A', ' D', ' B', ' B', ' A', ' D', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' D', ' D', ' A', ' D', ' A', ' B', ' B', ' C', ' D', ' B', ' D', ' C', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' D', ' B', ' C', ' D', ' C', ' B', ' D', ' A', ' C', ' C', ' C', ' B', ' D', ' B', ' C', ' A', ' A', ' A', ' D', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' B']","[0.23035751, 0.31394938, 0.32264763, 0.13304548, 0.0055900844120598]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+CARRYGUN_W26,"Question: How often, if ever, do you carry a handgun or pistol outside your home, not including times when you are transporting it?
+A. All of the time
+B. Most of the time
+C. Only some of the time
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' D', ' A', ' B', ' D', ' A', ' B', ' D', ' A', ' A', ' C', ' D', ' C', ' C', ' D', ' A', ' C', ' A', ' D', ' C', ' D', ' A', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' B', ' D', ' B', ' C', ' A', ' D', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' B', ' D', ' D', ' B', ' D', ' D', ' C', ' A', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' A', ' C', ' D', ' D', ' D', ' D', ' C', ' B', ' D', ' C', ' C', ' D', ' C', ' D', ' B', ' B', ' C', ' B', ' A', ' B', ' D', ' B', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' A', ' B', ' B', ' D', ' C', ' D', ' D', ' E', ' C']","[0.10525951, 0.13989823, 0.32218216, 0.4326601, 0.0063764718311837]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNACCESS_W26,"Question: Thinking about when you're at home, would you say there is a gun that is both loaded and easily accessible to you
+A. All of the time
+B. Most of the time
+C. Only some of the time
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' D', ' A', ' B', ' A', ' A', ' E', ' A', ' A', ' D', ' B', ' C', ' A', ' D', ' D', ' A', ' A', ' A', ' B', ' B', ' D', ' C', ' D', ' D', ' A', ' D', ' D', ' C', ' A', ' A', ' C', ' D', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' B', ' A', ' A', ' B', ' D', ' B', ' D', ' D', ' A', ' A', ' B', ' B', ' A', ' B', ' D', ' A', ' C', ' D', ' D', ' D', ' A', ' A', ' A', ' D', ' A', ' D', ' D', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' D', ' B', ' A', ' A', ' D', ' D', ' B', ' D', ' B', ' C', ' A', ' D', ' C', ' D', ' A', ' A', ' D', ' A', ' A', ' B', ' A', ' A']","[0.3764341, 0.15755714, 0.09142874, 0.37458003, 0.0081358678050803]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNRESPKIDSE_W26,"Question: Thinking about gun owners who have children in their home, how important do you think it is for them to: Advise visitors with children that there are guns in the house
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' A', ' D', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' A', ' B', ' D', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' D', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' B', ' B']","[0.36077241, 0.34829615, 0.22346971, 0.06746174, 0.0041361233789668]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNIDENTITY_W26,"Question: How important, if at all, is being a gun owner to your overall identity?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' B', ' D', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' D', ' D', ' D', ' C', ' C', ' A', ' C', ' D', ' C', ' C', ' A', ' C', ' D', ' D', ' D', ' C', ' A', ' D', ' B', ' B', ' D', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' D', ' A', ' D', ' A', ' C', ' B', ' D', ' C', ' A', ' C', ' C', ' D', ' A', ' A', ' B', ' D', ' D', ' D', ' A', ' B', ' C', ' A', ' A', ' D', ' C', ' D', ' A', ' A', ' A', ' C', ' C', ' B', ' D', ' D', ' D', ' A', ' C', ' C', ' C', ' D', ' C', ' A', ' A', ' D', ' A', ' A', ' C', ' C', ' A', ' C', ' D', ' D', ' D', ' B', ' B', ' D', ' C', ' C']","[0.21268121, 0.18842332, 0.33885974, 0.26003573, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+REASONGUNB_W26,"Question: Please indicate whether the following is a major reason, a minor reason, or not a reason why you own a gun. For hunting
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B']","[0.34740276, 0.19243686, 0.46016037, 0.0010995787413767]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GUNRESPNOKIDSF_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Store guns and ammunition separately
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B']","[0.43213429, 0.35088653, 0.18327798, 0.03370121, 0.0029160389839197]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNRESPNOKIDSC_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Take gun safety courses
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.78654436, 0.17144956, 0.04045232, 0.00155376, 0.0073105820378125]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+REASONGUND_W26,"Question: Please indicate whether the following is a major reason, a minor reason, or not a reason why you own a gun. As part of a gun collection
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' A']","[0.11491265, 0.19115903, 0.69392832, 0.0092948519644414]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+WORRYB_W26,"Question: How much, if at all, do you worry about the following happening to you? Being the victim of a terrorist attack
+A. Worry a lot
+B. Worry a little
+C. Do not worry at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' B', ' A', ' C', ' B', ' D', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' C']","[0.06301548, 0.38107003, 0.5559145, 0.0018944423268789]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GROWUPGUN7_W26,"Question: How often, if ever, did you use air guns, such as paintball, BB or pellet guns when you were growing up?
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' D', ' D', ' D', ' B', ' D', ' B', ' B', ' D', ' B', ' D', ' D', ' D', ' B', ' A', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' B', ' B', ' A', ' D', ' D', ' C', ' A', ' B', ' C', ' C', ' C', ' D', ' D', ' A', ' D', ' D', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' A', ' D', ' C', ' C', ' C', ' A', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' C', ' D', ' B', ' A', ' D', ' C', ' A', ' D', ' D', ' B', ' A', ' D', ' C', ' C', ' C', ' D', ' C']","[0.15629527, 0.20812872, 0.23745463, 0.39812139, 0.0030551119732529]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNLOCKED2_W26,"Question: In general, is the gun in your home kept in a locked place, or not?
+A. Yes, kept in a locked place
+B. No, not kept in a locked place
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B']","[0.37335239, 0.62664761, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"
+WORRYD_W26,"Question: How much, if at all, do you worry about the following happening to you? Not being able to pay your bills
+A. Worry a lot
+B. Worry a little
+C. Do not worry at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' B']","[0.27098489, 0.38945117, 0.33956394, 0.0019426868643235]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GUNRESPNOKIDSD_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Advise visitors that there are guns in the house
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' A', ' B', ' A', ' C', ' D', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' D', ' B', ' C', ' A', ' A', ' C', ' D', ' A', ' B', ' D', ' C', ' C', ' D', ' D', ' C', ' A', ' A', ' B', ' C', ' D', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' C', ' C', ' A', ' B', ' C', ' D', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' D', ' D', ' B', ' C', ' B', ' B', ' D', ' B', ' A', ' A', ' D', ' A', ' A', ' B', ' C', ' D', ' B', ' B', ' C', ' D', ' C']","[0.17570984, 0.20635218, 0.41617211, 0.20176586, 0.0065938001236226]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNSAFE_W26,"Question: Does having a gun in your household make you feel
+A. Safer than you would feel without a gun in your household
+B. Less safe than you would feel without a gun in your household
+C. No more or less safe
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C']","[0.61219688, 0.03431568, 0.35348744, 0.0025320650279852]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+WORRYE_W26,"Question: How much, if at all, do you worry about the following happening to you? Being the victim of a violent crime
+A. Worry a lot
+B. Worry a little
+C. Do not worry at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B']","[0.08045758, 0.4768623, 0.44268013, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+REASONGUNC_W26,"Question: Please indicate whether the following is a major reason, a minor reason, or not a reason why you own a gun. For sport shooting, including target shooting and trap and skeet
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' C']","[0.35686331, 0.4102099, 0.23292679, 0.0010995787413767]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GROWUPGUN2B_W26,"Question: Would you say the following was a reason or was not a reason why there were guns in your household when you were growing up? For hunting
+A. Yes, was a reason
+B. No, was not a reason
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A']","[0.61401038, 0.38598962, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"
+GUNRESPKIDSD_W26,"Question: Thinking about gun owners who have children in their home, how important do you think it is for them to: Advise visitors that there are guns in the house
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' D', ' D', ' C', ' C', ' D', ' A', ' B', ' C', ' B', ' C', ' D', ' A', ' C', ' C', ' A', ' C', ' B', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' D', ' C', ' C', ' B', ' D', ' A', ' B', ' B', ' D', ' B', ' D', ' B', ' A', ' C', ' A', ' D', ' C', ' C', ' D', ' B', ' C', ' D', ' C', ' D', ' C', ' B', ' A', ' B', ' B', ' D', ' C', ' A', ' C', ' D', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' D']","[0.11680484, 0.26162933, 0.36819366, 0.25337216, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNCONTRIBF_W26,"Question: How much, if at all, do you think family instability contributes to gun violence in the country today?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' D', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A']","[0.33882097, 0.44846203, 0.19975846, 0.01295854, 0.0042090943207024]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNCONTRIBC_W26,"Question: How much, if at all, do you think the amount of gun violence in movies and television contributes to gun violence in the country today?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' D', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' D', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' D']","[0.1778408, 0.40166023, 0.35703754, 0.06346143, 0.0047478099251789]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GROWUPGUN2A_W26,"Question: Would you say the following was a reason or was not a reason why there were guns in your household when you were growing up? For protection
+A. Yes, was a reason
+B. No, was not a reason
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B']","[0.56419429, 0.43580571, 0.004760024697286]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"
+GROWUPGUN6_W26,"Question: How often, if ever, did you go shooting or to a gun range when you were growing up?
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' D', ' C', ' B', ' D', ' D', ' D', ' B', ' B', ' D', ' C', ' A', ' D', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' A', ' B', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' A', ' C', ' C', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' B', ' B', ' D', ' C', ' D', ' D', ' D', ' B', ' B', ' B', ' D', ' B', ' B', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D']","[0.05492925, 0.2001545, 0.26429944, 0.48061681, 0.0013406804932249]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNACTIVITYB_W26,"Question: How often, if ever, do you watch TV programs about guns or watch gun-oriented videos
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' B', ' D', ' B', ' B', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' B', ' B', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' B', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' B', ' C', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' C', ' D', ' B', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' C', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' C', ' D', ' C', ' C', ' B', ' D', ' D']","[0.0388572, 0.16403884, 0.25137003, 0.54573393, 0.0032033043016659]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNLOADED1_W26,"Question: In general, as far as you know, how many of the guns in your home would you say are kept loaded?
+A. All are kept loaded
+B. Some are kept loaded and some are not
+C. None are kept loaded
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' D', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C']","[0.11713688, 0.36922853, 0.5136346, 0.0159440961285291]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GUNTYPEOWNC_W26,"Question: Do you currently or have you ever owned a shotgun?
+A. Yes, I currently own
+B. Yes, I have owned in the past but do not currently own
+C. No, I have never owned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' D', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' C', ' A', ' C']","[0.41531082, 0.18966425, 0.39502493, 0.01315069942143]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GROWUPGUN2C_W26,"Question: Would you say the following was a reason or was not a reason why there were guns in your household when you were growing up? For sport shooting, including target shooting and trap and skeet
+A. Yes, was a reason
+B. No, was not a reason
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B']","[0.45517975, 0.54482025, 0.002391877957256]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"
+GUNRESPNOKIDSB_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Keep all of their guns unloaded
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' B', ' B', ' D', ' B', ' C', ' B', ' D', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' D', ' D', ' A', ' D', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C']","[0.5016895, 0.28652141, 0.17193447, 0.03985462, 0.0069399907766105]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNFRIEND_W26,"Question: As far as you know, how many of your friends, if any, own guns?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' B']","[0.19589324, 0.4866108, 0.31749596, 0.0, 0.0056875465345047]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GUNLOADED2_W26,"Question: In general, is the gun in your home kept loaded, or not?
+A. Yes, kept loaded
+B. No, not kept loaded
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B']","[0.27279888, 0.72720112, 0.005470778881097]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"

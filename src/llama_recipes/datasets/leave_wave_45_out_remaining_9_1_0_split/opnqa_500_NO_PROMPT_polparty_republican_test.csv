@@ -1,0 +1,117 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+MADEUPTOPICb_W45,"Question: How much made-up news and information do you think is created about entertainment and celebrities topics?
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A']","[0.60499704, 0.33462506, 0.0603779, 0.0, 0.0012427695488932]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+MADEUPTOPICd_W45,"Question: How much made-up news and information do you think is created about Health and medicine topics?
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A']","[0.27164284, 0.52573497, 0.20262219, 0.0, 0.002732526986377]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+NEWSPROBe_W45,"Question: How much of a problem is journalists inserting their own views when it comes to how the public stays informed about the basic facts of current issues and events?
+A. A very big problem
+B. A moderately big problem
+C. A small problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' E', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' D', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A']","[0.60731983, 0.2675631, 0.10542305, 0.01969402, 0.0031890092728273]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+NEWS_PLATFORMg_W45,"Question: Thinking about news (by news we mean information about events and issues that involve more than just your friends and family), how often do you get news from a social media site (such as Facebook, Twitter, or Snapchat)
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' B', ' D', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' D', ' A', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' D', ' B', ' D', ' D', ' B', ' A', ' C', ' A', ' C', ' C', ' D', ' D', ' C', ' D', ' A', ' C', ' C', ' C', ' D', ' A', ' B', ' A', ' D', ' A', ' A', ' D', ' B', ' D', ' B', ' A', ' D', ' C', ' B', ' D', ' D', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' D', ' D', ' A', ' B', ' D', ' C', ' A', ' D', ' A', ' A', ' C', ' B', ' D', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' D', ' C']","[0.24042411, 0.2661977, 0.22966161, 0.26371658, 0.0015073167550887]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+INFOCHALa_W45,"Question: How much of a challenge do you think political divides are in addressing made-up news and information?
+A. A very big challenge
+B. A moderately big challenge
+C. A small challenge
+D. Not a challenge at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' E', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' A']","[0.70941181, 0.23265695, 0.04109729, 0.01683395, 0.0152699414130065]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+INFOCREATEa_W45,"Question: How much made-up news and information do you think is created by journalists
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A']","[0.61551086, 0.32083456, 0.06365458, 0.0, 0.0055749611732981]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+NEWSPROBd_W45,"Question: How much of a problem is too much news to keep up with when it comes to how the public stays informed about the basic facts of current issues and events?
+A. A very big problem
+B. A moderately big problem
+C. A small problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' D', ' B', ' A', ' B', ' A', ' A', ' D', ' A', ' C', ' B', ' D', ' C', ' C', ' D', ' D', ' C', ' B', ' D', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' A', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' B', ' D', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' D', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' D', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' B']","[0.15763255, 0.44278032, 0.27994958, 0.11963755, 0.0045883767469907]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+MADEUPSHAREWHY_W45,"Question: What is the main reason why you shared news and information that you knew at the time was made-up?
+A. I thought it was surprising or entertaining
+B. I liked what it said
+C. I wanted to create a discussion about it
+D. I wanted to tell others it was inaccurate
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' A', ' C', ' A', ' B', ' A', ' D', ' D', ' D', ' A', ' D', ' D', ' C', ' D', ' D', ' B', ' D', ' A', ' C', ' D', ' D', ' D', ' A', ' D', ' A', ' D', ' A', ' D', ' A', ' C', ' D', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' E', ' D', ' D', ' D', ' C', ' D', ' A', ' B', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' C', ' D', ' D', ' A', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' A', ' D', ' D', ' D', ' A', ' A', ' D', ' D', ' C', ' A', ' B', ' D', ' A', ' A', ' D', ' D', ' C', ' C', ' D', ' A']","[0.22422062, 0.04146546, 0.12852713, 0.60578678, 0.0083095034491093]",POLPARTY,Republican,"[1, 1, 1, 1]"
+MADEUPTOPICc_W45,"Question: How much made-up news and information do you think is created about science and technology topics?
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' E', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' E', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' C']","[0.15673766, 0.59160389, 0.25165845, 0.0, 0.0042411713773245]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+SMLIKESf_W45,"Question: How much is each of the following a reason why you click on links to news stories on social media? The story was surprising or entertaining
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A']","[0.50031286, 0.41797504, 0.08171209, 0.0064896261363566]",POLPARTY,Republican,"[1.0, 2.0, 3.0]"
+NEWSPREFV2_W45,"Question: Which of the following would you say you prefer for getting news?
+A. A print newspaper
+B. Radio
+C. Television
+D. A social media site (such as Facebook, Twitter or Snapchat)
+E. A news website or app
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' D', ' A', ' C', ' B', ' C', ' E', ' C', ' D', ' A', ' B', ' C', ' D', ' E', ' C', ' E', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' C', ' B', ' C', ' D', ' E', ' A', ' D', ' E', ' A', ' C', ' E', ' C', ' C', ' E', ' C', ' E', ' C', ' E', ' C', ' C', ' D', ' B', ' D', ' E', ' C', ' E', ' C', ' C', ' E', ' A', ' C', ' C', ' C', ' E', ' E', ' E', ' E', ' C', ' C', ' E', ' C', ' C', ' C', ' D', ' C', ' C', ' E', ' B', ' C', ' D', ' E', ' E', ' C', ' E', ' E', ' B', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' C', ' E', ' C', ' A']","[0.06835284, 0.08550838, 0.48216189, 0.09792723, 0.26604965, 0.0015260683149763]",POLPARTY,Republican,"[1, 1, 1, 1, 1]"
+SMLIKESb_W45,"Question: How much is each of the following a reason why you click on links to news stories on social media? A friend recommended the story
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' D', ' C', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' D', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' D', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' A']","[0.25900591, 0.48500582, 0.25598827, 0.0232419004009224]",POLPARTY,Republican,"[1.0, 2.0, 3.0]"
+MADEUPOFT_W45,"Question: How often do you come across made-up news and information that is intended to mislead the public?
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.51466978, 0.42983459, 0.05056639, 0.00492924, 0.0053072412017254]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"

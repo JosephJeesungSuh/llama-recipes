@@ -1,0 +1,215 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+NEIGHINTERB_W32,"Question: In general, how often, if ever, would you say you talk on the phone with any of your neighbors
+A. Every day
+B. Several times a week
+C. About once a week
+D. About once a month
+E. Less than once a month
+F. Never
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' E', ' F', ' F', ' F', ' E', ' E', ' E', ' B', ' F', ' E', ' F', ' E', ' E', ' F', ' F', ' F', ' F', ' F', ' F', ' F', ' E', ' F', ' F', ' F', ' G', ' F', ' F', ' F', ' E', ' F', ' F', ' F', ' F', ' E', ' F', ' F', ' F', ' G', ' F', ' D', ' F', ' F', ' E', ' E', ' E', ' E', ' F', ' F', ' D', ' F', ' F', ' E', ' F', ' B', ' E', ' E', ' C', ' E', ' F', ' F', ' F', ' C', ' B', ' F', ' E', ' F', ' F', ' E', ' F', ' F', ' D', ' F', ' E', ' F', ' E', ' F', ' E', ' F', ' F', ' F', ' E', ' C', ' F', ' B', ' F', ' F', ' F', ' F', ' D', ' F', ' F', ' F', ' F', ' E', ' C', ' F', ' F', ' F', ' E', ' E']","[0.00783888, 0.10028277, 0.08986357, 0.06995908, 0.18796695, 0.54408875, 0.0141550061073062]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+COMMIMPG_W32,"Question: How important is it to you, personally, to live in a community with a strong sense of community
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' E', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' D', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' D', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A']","[0.25789216, 0.57889446, 0.14597774, 0.01723563, 0.0078374393070849]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+CLASS_W32,"Question: If you were asked to use one of these commonly used names for the social classes, which would you say you belong in?
+A. Upper class
+B. Upper-middle class
+C. Middle class
+D. Lower-middle class
+E. Lower class
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' C', ' F', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' E', ' D', ' D', ' C', ' C', ' E', ' F', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' B', ' E', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' D', ' B', ' C', ' C', ' D', ' C', ' E', ' D', ' D', ' E', ' D', ' D', ' D', ' D', ' C', ' D', ' E', ' E', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' E', ' D', ' D', ' C', ' C', ' D', ' C', ' D', ' F', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' D', ' D', ' C', ' E', ' C', ' D', ' D']","[0.00122424, 0.05254069, 0.43152632, 0.45140466, 0.06330409, 0.0206218511431846]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SATLIFED_W32,"Question: Please tell us whether you are satisfied or dissatisfied with your current job or career.
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' A', ' D', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' D', ' A', ' B', ' B', ' D', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' D', ' A', ' B', ' D', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' D', ' B', ' B', ' C', ' C', ' A', ' B', ' D', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' B']","[0.20945593, 0.50570345, 0.14571723, 0.13912339, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+SOCTRUST2_W32,"Question: Generally speaking, would you say that
+A. Most people can be trusted
+B. Most people cannot be trusted
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A']","[0.4007648, 0.5992352, 0.0]",RACE,Hispanic,"[1.0, 2.0]"
+MOVESUBURB_W32,"Question: If you could move to a different community, would you want to
+A. Stay in a suburban area
+B. Move to an urban area
+C. Move to a rural area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' D', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' D', ' D', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' C', ' D', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' D', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' D', ' A', ' A', ' C', ' B']","[0.48761056, 0.17146945, 0.34091999, 0.0893805358215516]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+VALUERURAL_W32,"Question: In general, do you think most people who live in rural areas have values that are
+A. Very similar to your values
+B. Somewhat similar to your values
+C. Somewhat different from your values
+D. Very different from your values
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' E', ' C', ' D', ' A', ' B', ' C', ' A', ' D', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' D', ' C', ' D', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' D', ' B', ' C', ' D', ' C', ' C', ' B', ' D', ' B', ' C', ' B', ' C']","[0.20123112, 0.37296016, 0.2932332, 0.13257551, 0.0362552669257212]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+COMMIMPF_W32,"Question: How important is it to you, personally, to live in a community where you have family nearby
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' D', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' E', ' A', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B']","[0.54834696, 0.26236812, 0.15973889, 0.02954603, 0.0078374393070849]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+COMMIMPH_W32,"Question: How important is it to you, personally, to live in a community where most people share your religious views
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' D', ' B', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' D', ' B', ' B', ' C', ' D', ' D', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' D', ' C', ' B', ' D', ' A', ' B', ' B', ' C', ' B', ' C', ' D', ' C', ' B', ' A', ' D', ' B', ' C', ' A', ' B', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' C', ' D', ' D', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' D', ' D', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' D', ' E', ' D', ' B', ' C', ' A', ' B', ' B', ' B']","[0.121777, 0.23995252, 0.38010533, 0.25816516, 0.0193365979642273]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+MOVERURAL_W32,"Question: If you could move to a different community, would you want to
+A. Stay in a rural area
+B. Move to an urban area
+C. Move to a suburban area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' A']","[0.41412963, 0.35380305, 0.23206732, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+NEIGHKIDS_W32,"Question: Do you have any neighbors you would feel comfortable asking to watch your children for half an hour in a pinch?
+A. Yes
+B. No
+C. Does not apply
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' C']","[0.34185871, 0.29764129, 0.3605, 0.0154743237813035]",RACE,Hispanic,"[1.0, 2.0, 1.5]"
+COMMIMPC_W32,"Question: How important is it to you, personally, to live in a community that is racially and ethnically diverse
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' E', ' A', ' B', ' B', ' A', ' B', ' E', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' D', ' D', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' D', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' D', ' A', ' A', ' B', ' C', ' D', ' C', ' A', ' A', ' B', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' B', ' B', ' B']","[0.31023093, 0.39896932, 0.19243723, 0.09836252, 0.0103960524461597]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+NEIGHINTERA_W32,"Question: In general, how often, if ever, would you say you have face-to-face conversations with any of your neighbors
+A. Every day
+B. Several times a week
+C. About once a week
+D. About once a month
+E. Less than once a month
+F. Never
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' A', ' F', ' C', ' C', ' C', ' E', ' D', ' C', ' C', ' D', ' C', ' E', ' C', ' C', ' C', ' C', ' E', ' E', ' B', ' B', ' B', ' B', ' B', ' E', ' C', ' D', ' B', ' B', ' D', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' E', ' E', ' E', ' E', ' E', ' D', ' E', ' B', ' B', ' C', ' E', ' E', ' E', ' G', ' F', ' B', ' C', ' B', ' D', ' C', ' D', ' D', ' D', ' F', ' D', ' E', ' E', ' D', ' C', ' D', ' C', ' B', ' B', ' C', ' B', ' E', ' F', ' A', ' C', ' E', ' F', ' E', ' E', ' B', ' E', ' A', ' C', ' C', ' D', ' B', ' F', ' E', ' E', ' E', ' C', ' B', ' C', ' E', ' F', ' E', ' C', ' E', ' E', ' B']","[0.06784081, 0.24697062, 0.20788668, 0.16179431, 0.2502729, 0.06523468, 0.0090560605430896]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+COMMIMPA_W32,"Question: How important is it to you, personally, to live in a community with access to art, music and theater
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' D', ' B', ' B', ' A', ' A', ' A', ' D', ' A', ' C', ' B', ' D', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' D', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' C', ' C', ' D', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' A', ' D', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C']","[0.33759937, 0.41033931, 0.18516924, 0.06689208, 0.0078374393070849]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+COMMYRS_W32,"Question: About how many years have you lived in your local community?
+A. Less than 1 year
+B. 1-5 years
+C. 6-10 years
+D. 11-20 years
+E. More than 20 years
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' D', ' D', ' E', ' E', ' B', ' B', ' A', ' C', ' E', ' E', ' E', ' B', ' D', ' E', ' B', ' D', ' B', ' D', ' B', ' B', ' C', ' A', ' D', ' E', ' A', ' C', ' B', ' D', ' E', ' C', ' B', ' D', ' D', ' B', ' E', ' D', ' B', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' E', ' D', ' B', ' C', ' A', ' E', ' D', ' E', ' D', ' E', ' A', ' D', ' B', ' E', ' B', ' B', ' B', ' C', ' D', ' A', ' B', ' E', ' E', ' B', ' E', ' B', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' B', ' D', ' B', ' E', ' B', ' B', ' E', ' B', ' B', ' B', ' D', ' B', ' E', ' B', ' B', ' B', ' D', ' B', ' E']","[0.06542103, 0.2967634, 0.15515159, 0.24498664, 0.23767734, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+IMMIMPACT_W32,"Question: Thinking about the immigrants who live in your local community, in general, would you say their impact on the community has been
+A. Mostly positive
+B. Mostly negative
+C. Neither positive nor negative
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' D', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C']","[0.50897525, 0.04013577, 0.45088897, 0.0156335325355834]",RACE,Hispanic,"[1.0, 2.0, 1.5]"
+NEIGHSAMEA_W32,"Question: As far as you know, how many of your neighbors are the same race or ethnicity as you
+A. All of them
+B. Most of them
+C. About half
+D. Only some of them
+E. None of them
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' D', ' D', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' D', ' D', ' D', ' D', ' C', ' D', ' E', ' C', ' C', ' D', ' E', ' D', ' D', ' F', ' D', ' D', ' D', ' E', ' B', ' B', ' D', ' E', ' D', ' A', ' C', ' B', ' B', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' B', ' B', ' B', ' E', ' D', ' A', ' D', ' A', ' A', ' E', ' B', ' E', ' F', ' B', ' E', ' B', ' B', ' C', ' C', ' B', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' D', ' E', ' B', ' B', ' B', ' E', ' B', ' D', ' B', ' D', ' D', ' D', ' E', ' A', ' B', ' D', ' C', ' B', ' E']","[0.10285972, 0.2899016, 0.14243815, 0.36550506, 0.09929547, 0.0206593140053792]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+ETHNCMAJ_W32,"Question: According to the U.S. Census Bureau, in the next 25 to 30 years, African Americans, Latinos, and people of Asian descent will make up a majority of the population. In general, do you think that this is
+A. Good for the country
+B. Bad for the country
+C. Neither good nor bad for the country
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' D', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' D', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C']","[0.53983748, 0.06165297, 0.39850955, 0.0235721971937373]",RACE,Hispanic,"[1.0, 2.0, 1.5]"
+MOVEURBAN_W32,"Question: If you could move to a different community, would you want to
+A. Stay in an urban area
+B. Move to a suburban area
+C. Move to a rural area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A']","[0.41982899, 0.44510017, 0.13507084, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+WHADVANT_W32,"Question: On a different subject how much, if at all, do white people benefit from advantages in society that black people do not have?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' E', ' A', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' D', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' D', ' A', ' A', ' B', ' A', ' B', ' E', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' D', ' E', ' D', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' D', ' A']","[0.43888009, 0.32449362, 0.15931237, 0.07731392, 0.0286865809683944]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+GAYMARR2_W32,"Question: As you may know, same-sex marriage is now legal in the U.S. Do you think this is a good thing or a bad thing for our society?
+A. Very good thing
+B. Somewhat good thing
+C. Somewhat bad thing
+D. Very bad thing
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' D', ' A', ' A', ' B', ' B', ' A', ' C', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' E', ' A', ' A', ' C', ' D', ' B', ' D', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' E', ' D', ' A', ' C', ' A', ' A', ' B', ' D', ' E', ' D', ' B', ' B', ' D', ' A', ' B', ' A', ' B', ' C', ' D', ' C', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' D', ' D', ' B', ' A', ' A', ' C', ' A', ' D', ' B', ' A', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' D', ' B', ' E', ' A', ' B']","[0.29348735, 0.36428578, 0.15522796, 0.18699891, 0.0241977284411825]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+WILLMOVE_W32,"Question: Regardless of whether you would want to move, how likely is it that you will move to a different community at some point in the future?
+A. Very likely
+B. Somewhat likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' A', ' C', ' D', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' E', ' D', ' B', ' C', ' A', ' A', ' D', ' C', ' C', ' B', ' B', ' B', ' B', ' D', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' D', ' D', ' C', ' A', ' D', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' D', ' A', ' D', ' D', ' E', ' C', ' C', ' D', ' C', ' B', ' D', ' B', ' D', ' A', ' B', ' A', ' D', ' A', ' B', ' B', ' B', ' A', ' B', ' D', ' B']","[0.28855954, 0.30974526, 0.22538459, 0.17631061, 0.0299519005573972]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+HARASS2F1_W32,"Question: In the long run, do you think the increased focus on sexual harassment and assault will lead to
+A. More opportunities for women in the workplace
+B. Fewer opportunities for women in the workplace
+C. Won't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' D', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' D', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' D', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' D', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' D', ' B', ' C', ' C', ' B', ' D', ' C', ' C']","[0.31641762, 0.21224547, 0.47133691, 0.0310704393644041]",RACE,Hispanic,"[1.0, 2.0, 1.5]"
+COMMIMPB_W32,"Question: How important is it to you, personally, to live in a community that is a good place to raise children
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' D', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' D', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' E', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A']","[0.66047019, 0.2561951, 0.05938616, 0.02394855, 0.0085068295746394]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"

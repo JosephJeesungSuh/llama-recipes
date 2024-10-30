@@ -1,0 +1,175 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+CONTROLGRPc_W49,"Question: How much control, if any, do you think you have over who can access the purchases you've made, either online or in person?
+A. A lot of control
+B. A little control
+C. No control
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' C']","[0.37755771, 0.25157915, 0.37086314, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0]"
+SMARTAPP_W49,"Question: How do you typically update the apps on your smartphone?
+A. Set them to update automatically
+B. Update them yourself as soon as you are notified a new version is available
+C. Update them yourself whenever it's convenient
+D. Never install app updates
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' D', ' C', ' A', ' C']","[0.38557217, 0.28369615, 0.31090696, 0.01982472, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+TRACKGOV1b_W49,"Question: As far as you know, how much of what you do offline like where you are or who you are talking to is being tracked by the government?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' E', ' E', ' C', ' E', ' D', ' D', ' E', ' C', ' E', ' E', ' E', ' D', ' B', ' C', ' E', ' E', ' E', ' D', ' D', ' E', ' C', ' A', ' C', ' D', ' A', ' E', ' E', ' A', ' C', ' C', ' B', ' D', ' E', ' A', ' E', ' E', ' B', ' C', ' D', ' C', ' E', ' C', ' D', ' E', ' D', ' C', ' D', ' D', ' E', ' D', ' E', ' C', ' D', ' C', ' D', ' E', ' E', ' C', ' D', ' E', ' C', ' E', ' D', ' C', ' D', ' C', ' C', ' D', ' E', ' A', ' C', ' D', ' E', ' D', ' C', ' D', ' C', ' B', ' E', ' E', ' E', ' B', ' E', ' D', ' E', ' E', ' B', ' E', ' E', ' E', ' D', ' D', ' D', ' A', ' D', ' D', ' C', ' C', ' C']","[0.02648158, 0.06567554, 0.27661989, 0.30552232, 0.32570066, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+HOMEASSIST4_W49,"Question: How important is it that your smart speaker takes your personal interests and preferences into account when responding to your questions or commands?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not important at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' D', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' D', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' D', ' A', ' A', ' C', ' D', ' C', ' D', ' B', ' D', ' D', ' D', ' B', ' C', ' C', ' A', ' C', ' D', ' D', ' B', ' B', ' D', ' C', ' A', ' B', ' C', ' B', ' D', ' C', ' C', ' A', ' C', ' B', ' A', ' D', ' C', ' B', ' A', ' B', ' D', ' C', ' A', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' A']","[0.20568521, 0.32271599, 0.35071901, 0.12087979, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+CONCERNGRPa_W49,"Question: How concerned are you, if at all, about how much personal information law enforcement agencies might know about you?
+A. Concerned a lot
+B. Concerned a little
+C. Not concerned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' A']","[0.28979367, 0.53925598, 0.17095035, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0]"
+CONCERNCO_W49,"Question: How concerned are you, if at all, about how companies are using the data they collect about you?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not at all concerned
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' B', ' B', ' A', ' D', ' B', ' B', ' D', ' B', ' D', ' B', ' B', ' B', ' D', ' D', ' C', ' D', ' A', ' C', ' B', ' D', ' A', ' B', ' D', ' B', ' A', ' B', ' A', ' B', ' B', ' D', ' A', ' D', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' D', ' B', ' B', ' B', ' A', ' D', ' D', ' D', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' D', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' D', ' B', ' D', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' D', ' D', ' A', ' B', ' B', ' A', ' A']","[0.38173658, 0.39920021, 0.03549255, 0.18357065, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+FACE3c_W49,"Question: How much, if at all, do you trust the following groups to use facial recognition technology responsibly? Law enforcement agencies
+A. A great deal
+B. Somewhat
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' D', ' A', ' B', ' B', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' D', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' D', ' A', ' D', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' D', ' B', ' A', ' B', ' C', ' C', ' D', ' A', ' C', ' A', ' C', ' C', ' D', ' A']","[0.2683806, 0.33757352, 0.23500866, 0.15903721, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+GOVREGV1_W49,"Question: How much government regulation of what companies can do with their customers' personal information do you think there should be?
+A. More regulation
+B. Less regulation
+C. About the same amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C']","[0.50910203, 0.03478563, 0.45611233, 0.0]",RELIG,Muslim,"[1.0, 2.0, 1.5]"
+PWMAN2_W49,"Question: What is the main reason you do not use a password manager?
+A. Don't know what that is
+B. My passwords are secure enough
+C. Don't need it
+D. Too expensive
+E. Too complicated
+F. Don't trust them
+G. Don't think they are effective
+H. Other reason
+I. Offline: does not have internet
+J. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.,H.,I.,J.
+
+Answer:","[' G', ' H', ' H', ' H', ' F', ' C', ' A', ' H', ' G', ' C', ' A', ' H', ' A', ' C', ' A', ' F', ' B', ' G', ' G', ' G', ' F', ' B', ' C', ' G', ' G', ' E', ' H', ' G', ' F', ' C', ' G', ' F', ' C', ' C', ' H', ' H', ' H', ' H', ' F', ' F', ' G', ' F', ' C', ' C', ' B', ' I', ' H', ' F', ' G', ' A', ' C', ' B', ' C', ' G', ' C', ' G', ' C', ' I', ' G', ' C', ' F', ' F', ' B', ' G', ' A', ' C', ' G', ' F', ' G', ' G', ' G', ' F', ' F', ' G', ' H', ' A', ' H', ' G', ' F', ' G', ' F', ' H', ' B', ' H', ' C', ' B', ' A', ' G', ' C', ' I', ' C', ' F', ' A', ' F', ' G', ' D', ' H', ' B', ' H', ' E']","[0.10892393, 0.07946375, 0.27887261, 0.03646955, 0.01600681, 0.10972482, 0.19245699, 0.15386785, 0.0242137, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 4.5]"
+DATAUSEd_W49,"Question: Do you think the following uses of data/information are acceptable or unacceptable? Makers of a fitness tracking app sharing their users' data with medical researchers seeking to better understand the link between exercise and heart disease
+A. Acceptable
+B. Unacceptable
+C. Not sure
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A']","[0.2691804, 0.7308196, 0.487096169951823]",RELIG,Muslim,"[1.0, 2.0]"
+TRACKGOV1a_W49,"Question: As far as you know, how much of what you do online or on your cellphone is being tracked by the government?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' E', ' E', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' E', ' B', ' A', ' E', ' B', ' B', ' E', ' D', ' C', ' D', ' B', ' B', ' B', ' C', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' E', ' C', ' B', ' E', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' E', ' C', ' E', ' E', ' B', ' B', ' B', ' A', ' D', ' B', ' E', ' B', ' B', ' A', ' C', ' B', ' D', ' B', ' B', ' E', ' B', ' B', ' A', ' B', ' E', ' C', ' B', ' A', ' D', ' B', ' B', ' C', ' A', ' C', ' D', ' B', ' E', ' E', ' B', ' E', ' A', ' B', ' B', ' E', ' B', ' D', ' E', ' B', ' E', ' A', ' C', ' A', ' C', ' A', ' A', ' C']","[0.14093476, 0.46184153, 0.07152304, 0.12114298, 0.20455769, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+CONTROLCO_W49,"Question: How much control do you think you have over the data that companies collect about you?
+A. A great deal of control
+B. Some control
+C. Very little control
+D. No control
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' B', ' D', ' D', ' E', ' C', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' B', ' E', ' D', ' C', ' E', ' D', ' B', ' E', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' E', ' B', ' C', ' B', ' E', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' E', ' C', ' D', ' C', ' B', ' C', ' C', ' C', ' D', ' E', ' C', ' B', ' C', ' D', ' C', ' C', ' B', ' E', ' B', ' B', ' E', ' C', ' D', ' C', ' B', ' E', ' C', ' D', ' C', ' C', ' C', ' E', ' C']","[0.0, 0.20290876, 0.54486715, 0.25222409, 0.1835706545153963]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+HOMEASSIST3_W49,"Question: Do you ever say ""please"" when speaking to your smart speaker?
+A. Yes, frequently
+B. Yes, on occasion
+C. No
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' A']","[0.28261993, 0.25365838, 0.46372169, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0]"
+TRACKCO1b_W49,"Question: As far as you know, how much of what you do offline like where you are or who you are talking to is being tracked by advertisers, technology firms or other companies?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' D', ' B', ' D', ' D', ' A', ' E', ' A', ' B', ' E', ' B', ' D', ' C', ' B', ' C', ' A', ' E', ' D', ' E', ' D', ' D', ' A', ' C', ' C', ' D', ' B', ' D', ' D', ' D', ' C', ' D', ' E', ' C', ' E', ' D', ' A', ' C', ' E', ' D', ' D', ' E', ' D', ' D', ' C', ' A', ' E', ' D', ' A', ' B', ' A', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' C', ' B', ' A', ' B', ' B', ' D', ' A', ' C', ' E', ' E', ' A', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' A', ' E', ' B', ' D', ' D', ' A', ' D', ' B', ' C', ' E', ' A', ' C', ' D', ' D', ' E', ' A', ' D', ' D', ' A', ' A', ' D', ' E', ' C']","[0.14272813, 0.11713204, 0.13013223, 0.42643694, 0.18357065, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+HOMEASSIST2_W49,"Question: How concerned are you, if at all, about how much data your smart speaker collects about you?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not concerned at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C']","[0.16878329, 0.46481076, 0.36640595, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+PP5e_W49,"Question: How confident are you, if at all, that companies will be held accountable by the government if they misuse or compromise your data?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not confident at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' B', ' D', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' D', ' D', ' C', ' B', ' D', ' C', ' D', ' C', ' B', ' B', ' B', ' C', ' C', ' D', ' C', ' B', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' D', ' B', ' D', ' C', ' B', ' D', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' C', ' D', ' B', ' D', ' D']","[0.00936796, 0.22543072, 0.37020479, 0.39499653, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+CONCERNGRPc_W49,"Question: How concerned are you, if at all, about how much personal information your employer might know about you?
+A. Concerned a lot
+B. Concerned a little
+C. Not concerned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B']","[0.12867979, 0.79465415, 0.07666606, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0]"
+BENEFITGOV_W49,"Question: How much do you feel you personally benefit from the data the government collects about you?
+A. A great deal
+B. Some
+C. Very little
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B']","[0.0, 0.47837394, 0.52162606, 0.0, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0]"
+TRACKCO1a_W49,"Question: As far as you know, how much of what you do online or on your cellphone is being tracked by advertisers, technology firms or other companies?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' B', ' E', ' C', ' E', ' A', ' B', ' C', ' B', ' D', ' C', ' B', ' C', ' E', ' E', ' B', ' B', ' C', ' A', ' C', ' E', ' B', ' A', ' A', ' B', ' E', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' D', ' D', ' A', ' D', ' E', ' B', ' A', ' E', ' A', ' B', ' B', ' E', ' A', ' B', ' A', ' B', ' D', ' B', ' E', ' E', ' C', ' D', ' D', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' E', ' A', ' A', ' E', ' D', ' D', ' E', ' A', ' D', ' A', ' E', ' E', ' A', ' A', ' A', ' E', ' A', ' E', ' C', ' A', ' C', ' B', ' B', ' D', ' A', ' B', ' B', ' E', ' B', ' B', ' A']","[0.25065977, 0.27500245, 0.12857179, 0.16219533, 0.18357065, 0.0]",RELIG,Muslim,"[1.0, 2.0, 3.0, 4.0, 5.0]"

@@ -1,0 +1,186 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+SEENFEM_W29,"Question: On a different topic how important is it to you, personally, to be seen by others as womanly or feminine?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' B', ' B', ' C', ' A', ' D', ' C', ' B', ' E', ' B', ' A', ' E', ' C', ' C', ' A', ' B', ' C', ' A', ' E', ' B', ' B', ' C', ' C', ' B', ' E', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' D', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' D', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' E', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' D', ' C', ' B', ' D', ' C', ' E', ' C', ' A', ' C', ' C', ' E', ' A', ' D', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' D', ' A', ' C', ' C', ' C']","[0.17208372, 0.23056481, 0.48640614, 0.11094534, 0.048877858019688]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+GIRLSF2C_W29,"Question: When it comes to raising girls, would you say there is too much emphasis or too little emphasis on encouraging girls to stand up for themselves these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' C']","[0.04868956, 0.47038365, 0.48092678, 0.0052421959421308]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+WORRYBILL_W29,"Question: How worried are you right now about not having enough to pay your normal monthly bills?
+A. Very worried
+B. Moderately worried
+C. Not too worried
+D. Not worried at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' D', ' B', ' B', ' D', ' A', ' D', ' D', ' B', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' A', ' D', ' A', ' D', ' C', ' D', ' B', ' D', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' D', ' C', ' B', ' D', ' D', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' D', ' C', ' C', ' D', ' B', ' C', ' D', ' B', ' C', ' B', ' D', ' B', ' C', ' D', ' A', ' A', ' C', ' D', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' D', ' A', ' B', ' B', ' A', ' A', ' D', ' D', ' D', ' C', ' C', ' B', ' D', ' B', ' D', ' A', ' B', ' B', ' C', ' D', ' D', ' C', ' B', ' D', ' C', ' B', ' D', ' C', ' C']","[0.12216376, 0.16449149, 0.33092855, 0.3824162, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+MAN1C_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to join in when other men are talking about women in a sexual way?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' A', ' D', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' D', ' A', ' B', ' A', ' B', ' D', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' E', ' B', ' C', ' B', ' B', ' D', ' A', ' B', ' D', ' D', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' D', ' C', ' B', ' B', ' D', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' D', ' B', ' C', ' B', ' B', ' D', ' A', ' A', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' E', ' C', ' B']","[0.09247589, 0.48127859, 0.26429299, 0.16195253, 0.0069255785255831]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+MASC2_W29,"Question: Now thinking about how you see yourself, would you describe yourself as
+A. Very manly or masculine
+B. Somewhat manly or masculine
+C. Not too manly or masculine
+D. Not at all manly or masculine
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B']","[0.12732246, 0.77050503, 0.10217251, 0.0, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+MAN1B_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to have many sexual partners?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' D', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' A', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' D', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' A', ' B', ' D', ' B', ' B', ' D', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' A', ' D', ' D', ' B', ' B', ' D', ' D', ' C', ' D', ' B', ' B', ' A', ' B', ' D', ' C', ' D', ' B', ' C', ' D', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' B', ' C', ' D']","[0.07061513, 0.46996909, 0.24329738, 0.2161184, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+LOCALELECT_W29,"Question: The next question is about local elections, such as for mayor or a school board. Do you
+A. Always vote in local elections
+B. Sometimes vote in local elections
+C. Rarely vote in local elections
+D. Never vote in local elections
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' A', ' A', ' B', ' D', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' C', ' D', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' D', ' A', ' A', ' B', ' B', ' D', ' A', ' B', ' A', ' A', ' B', ' B', ' D', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' A']","[0.40513645, 0.25566987, 0.26403329, 0.07516039, 0.0010504723659132]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+SEENMASC_W29,"Question: On a different topic how important is it to you, personally, to be seen by others as manly or masculine?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' B', ' D', ' B', ' B', ' B', ' B', ' E', ' B', ' D', ' D', ' B', ' B', ' B', ' B', ' A', ' C', ' D', ' D', ' B', ' E', ' B', ' D', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' D', ' C', ' B', ' E', ' B', ' B', ' B', ' C', ' E', ' B', ' B', ' B', ' B', ' D', ' D', ' D', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' D', ' D', ' A', ' D', ' D', ' C', ' C', ' B', ' C', ' A', ' B', ' D', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' D', ' C', ' C', ' D']","[0.11424091, 0.45713825, 0.22489563, 0.20372522, 0.0253611797608471]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+S12_W29,"Question: In the last 12 months, how often did you eat dinner with any of the other members of your household?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' E', ' B', ' A', ' E', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' E', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' F', ' E', ' A', ' C', ' A', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' C']","[0.50732962, 0.16315434, 0.23255161, 0.03708239, 0.04240199, 0.01748006, 0.011553649804978]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+S13_W29,"Question: This next question is about friends and family you do not live with. During the last twelve months, how often did you see or hear from friends or family, whether in-person or not?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' B', ' A', ' C', ' C', ' A', ' A', ' D', ' C', ' D', ' B', ' D', ' A', ' A', ' B', ' D', ' A', ' C', ' D', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' D', ' B', ' A', ' A', ' B', ' B', ' A', ' D', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' D', ' E', ' B', ' C', ' A', ' B', ' D', ' B', ' D', ' D', ' B', ' C', ' C', ' C', ' B', ' D', ' D', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' D', ' A', ' D', ' A', ' A', ' E', ' C', ' E', ' B', ' A', ' B', ' A']","[0.30758847, 0.29966854, 0.23586509, 0.12813889, 0.02873902, 0.0, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+GIRLSF2D_W29,"Question: When it comes to raising girls, would you say there is too much emphasis or too little emphasis on encouraging girls to do well in school these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' D', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' D', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' C']","[0.03876155, 0.27609798, 0.68514048, 0.0246933159781367]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+BOYSF1B_W29,"Question: When it comes to raising boys, would you say there is too much emphasis or too little emphasis on encouraging boys to talk about their feelings when they are sad or upset these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B']","[0.04363767, 0.69239358, 0.26396875, 0.0086843177890586]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+FAVORS_CPS_W29,"Question: In the last 12 months, how often did you and your neighbors do favors for each other?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' A', ' F', ' E', ' E', ' C', ' F', ' F', ' E', ' E', ' D', ' C', ' F', ' D', ' D', ' D', ' C', ' E', ' F', ' D', ' D', ' E', ' C', ' D', ' F', ' D', ' E', ' E', ' E', ' E', ' D', ' E', ' E', ' E', ' F', ' F', ' F', ' F', ' E', ' D', ' C', ' F', ' C', ' F', ' B', ' D', ' C', ' F', ' E', ' F', ' F', ' F', ' F', ' D', ' E', ' D', ' E', ' F', ' D', ' D', ' E', ' C', ' E', ' D', ' C', ' E', ' C', ' F', ' E', ' F', ' F', ' E', ' E', ' E', ' F', ' E', ' C', ' E', ' E', ' F', ' D', ' D', ' C', ' F', ' D', ' F', ' D', ' D', ' C', ' D', ' F', ' D', ' E', ' A', ' F', ' E', ' F', ' F', ' F', ' D', ' F']","[0.02386118, 0.04653784, 0.17056926, 0.23429415, 0.22784398, 0.29689359, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+TALK_CPS_W29,"Question: In the last 12 months, how often did you talk with any of your neighbors?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' B', ' D', ' F', ' C', ' F', ' E', ' E', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' E', ' A', ' B', ' C', ' A', ' C', ' C', ' D', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' D', ' E', ' B', ' A', ' C', ' F', ' D', ' B', ' D', ' C', ' D', ' C', ' F', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' E', ' A', ' B', ' E', ' C', ' B', ' C', ' B', ' B', ' D', ' B', ' B', ' E', ' E', ' A', ' C', ' A', ' E', ' C', ' B', ' B', ' C', ' C', ' D', ' A', ' E', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' D', ' D', ' B', ' D', ' C', ' B', ' E', ' D', ' C', ' C', ' B', ' E', ' D', ' A', ' C']","[0.08251287, 0.37697265, 0.27474652, 0.06698848, 0.14691675, 0.05186274, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+MAN1D_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be willing to throw a punch if provoked?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' D', ' D', ' C', ' A', ' C', ' D', ' C', ' D', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' D', ' B', ' B', ' D', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' D', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' D', ' B', ' A', ' B', ' A', ' C', ' B', ' D', ' C', ' A', ' B', ' D', ' A', ' C', ' C', ' B', ' B', ' B', ' E', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' D', ' A', ' C', ' B', ' D', ' C', ' B', ' B', ' C', ' B', ' A', ' D', ' C', ' B', ' A']","[0.1990215, 0.31480981, 0.37732991, 0.10883878, 0.0087165776463982]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+HOOD_NHISB_W29,"Question: How much do you agree or disagree with the following statements about your neighborhood? People in this neighborhood can be trusted
+A. Definitely agree
+B. Somewhat agree
+C. Somewhat disagree
+D. Definitely disagree
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' C', ' B', ' A', ' D', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' D', ' B', ' B', ' B', ' C']","[0.39825787, 0.44320297, 0.15492082, 0.00361833, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+MAN1A_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be interested in sports?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' E', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' E', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' E', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' A']","[0.24162973, 0.57851489, 0.16191573, 0.01793966, 0.0190288181442182]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+GOPDIRCT_W29,"Question: Thinking about the future of the Republican Party, would you say that you are
+A. Very optimistic
+B. Somewhat optimistic
+C. Somewhat pessimistic
+D. Very pessimistic
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' D', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' D', ' B', ' C', ' A', ' D', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B']","[0.12795621, 0.51997898, 0.28901705, 0.06304776, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+MAN1E_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be emotionally strong?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' E', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' E', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A']","[0.50430247, 0.38471681, 0.11098072, 0.0, 0.0301319774281192]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+FEM2_W29,"Question: Now thinking about how you see yourself, would you describe yourself as
+A. Very womanly or feminine
+B. Somewhat womanly or feminine
+C. Not too womanly or feminine
+D. Not at all womanly or feminine
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' B', ' C', ' C', ' E', ' C', ' B', ' B', ' B', ' B', ' B', ' E', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' E', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B']","[0.21376289, 0.65037224, 0.13586487, 0.0, 0.048877858019688]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"

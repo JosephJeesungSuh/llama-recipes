@@ -1,0 +1,461 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+WORRY2c_W54,"Question: How often, if ever, do you worry about paying your bills?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' D', ' A', ' E', ' A', ' C', ' A', ' A', ' A', ' D', ' C', ' C', ' E', ' E', ' C', ' D', ' C', ' B', ' B', ' A', ' D', ' A', ' E', ' C', ' A', ' E', ' A', ' E', ' C', ' B', ' C', ' A', ' B', ' C', ' D', ' E', ' C', ' B', ' D', ' C', ' C', ' D', ' A', ' C', ' E', ' A', ' D', ' D', ' A', ' C', ' D', ' B', ' C', ' C', ' C', ' C', ' B', ' E', ' D', ' D', ' E', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' D', ' D', ' E', ' C', ' B', ' B', ' A', ' C', ' C', ' D', ' D', ' A', ' B', ' B', ' A', ' C', ' B', ' D', ' D', ' C', ' B', ' A']","[0.21664231, 0.1500005, 0.28875863, 0.20311907, 0.14147949, 0.0074939935407856]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+INEQ5_l_W54,"Question: How much, if at all, do you think the growing number of illegal immigrants working in the U.S. contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' C', ' A', ' C', ' B', ' B', ' D', ' C', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' D', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' A', ' A', ' D', ' A', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' D', ' C', ' A', ' C', ' B', ' A', ' B', ' C', ' D', ' B', ' D', ' A', ' B', ' D', ' A', ' A', ' B', ' D', ' D', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' D', ' A', ' A', ' E', ' D', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' D', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' D', ' A', ' B', ' A', ' D', ' B']","[0.29819272, 0.25385281, 0.30495867, 0.1429958, 0.0100846882734104]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+INEQ8_h_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Reducing illegal immigration
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' C', ' A', ' D', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' D', ' C', ' B', ' C', ' A', ' D', ' E', ' D', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' D', ' D', ' C', ' A', ' C', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' D', ' A', ' B', ' A', ' A', ' D', ' A', ' C', ' A', ' D', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' B', ' A', ' A', ' D', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' D', ' A', ' C', ' E', ' D', ' C', ' B', ' B', ' B', ' D', ' D', ' C', ' A', ' A', ' B', ' A', ' C', ' D', ' C', ' A', ' D']","[0.30984956, 0.23162475, 0.30566688, 0.15285881, 0.0081532075627745]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYf_W54,"Question: How much of a priority should the following be for the federal government to address: Reducing gun violence
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' D', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' A']","[0.52846582, 0.32366467, 0.10709778, 0.04077173, 0.006244559330452]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_e_W54,"Question: How much, if at all, do you think not enough regulation of major corporations contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' D', ' D', ' A', ' D', ' D', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' D', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' D', ' A', ' C', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' D', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' D', ' B', ' A', ' A', ' C', ' D', ' A', ' B', ' B', ' B', ' C', ' D', ' A', ' D', ' D', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' D', ' B', ' A', ' A', ' D', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' D', ' D', ' A', ' B', ' A', ' B', ' A']","[0.35180875, 0.31717712, 0.20830367, 0.12271045, 0.0149397842201406]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+INEQ8_i_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Expanding government benefits for the poor
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' D', ' C', ' B', ' D', ' A', ' B', ' D', ' A', ' C', ' E', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' D', ' C', ' A', ' B', ' C', ' B', ' D', ' D', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' E', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' D', ' A', ' B', ' C', ' B', ' A', ' C', ' D', ' C', ' B', ' D', ' D', ' C', ' C', ' D', ' A', ' B', ' C', ' B', ' D', ' B']","[0.25801085, 0.31343582, 0.26546462, 0.16308871, 0.0084968551993043]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECIMPg_W54,"Question: How much power and influence do you think people who are wealthy have on today's economy?
+A. Too much power and influence
+B. Not enough power and influence
+C. About the right amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A']","[0.81146528, 0.02132882, 0.16720589, 0.0046996693882692]",RACE,White,"[1.0, 2.0, 1.5]"
+ECON4_g_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does the federal budget deficit affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' C', ' C', ' A', ' D', ' A', ' C', ' C', ' A', ' C', ' B', ' D', ' C', ' E', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' E', ' B', ' D', ' A', ' C', ' C', ' D', ' C', ' A', ' A', ' D', ' C', ' B', ' C', ' A', ' D', ' C', ' C', ' C', ' A', ' C', ' D', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' D', ' A', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' A', ' D', ' C', ' C', ' C', ' A', ' B', ' D', ' C', ' C', ' A', ' E', ' A', ' D', ' C', ' B', ' B', ' C', ' C', ' D']","[0.13555334, 0.20853808, 0.41795302, 0.23795556, 0.0124790577512137]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_f_W54,"Question: How much, if at all, do you think some people work harder than others contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' B', ' A', ' E', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' E', ' C', ' A', ' E', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' D', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' D', ' D', ' A', ' A', ' B']","[0.3525097, 0.3263401, 0.21080619, 0.110344, 0.0155845258919473]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_i_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are Hispanic?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' C', ' D', ' B', ' C', ' A', ' E', ' C', ' A', ' C', ' E', ' D', ' B', ' C', ' C', ' E', ' A', ' B', ' E', ' C', ' B', ' D', ' B', ' E', ' C', ' D', ' B', ' E', ' C', ' C', ' B', ' C', ' E', ' A', ' E', ' A', ' B', ' C', ' E', ' C', ' C', ' D', ' D', ' E', ' A', ' D', ' B', ' E', ' E', ' D', ' E', ' C', ' C', ' A', ' E', ' A', ' C', ' E', ' E', ' B', ' D', ' E', ' A', ' D', ' C', ' B', ' B', ' C', ' E', ' A', ' A', ' E', ' C', ' C', ' E', ' A', ' E', ' D', ' E', ' B', ' D', ' C', ' B', ' C', ' A', ' D', ' E', ' E', ' E', ' A', ' E', ' B', ' C', ' A', ' B', ' E', ' B', ' C', ' A', ' E']","[0.15924368, 0.18343083, 0.24078713, 0.19215155, 0.22438681, 0.0161589767705989]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ5_d_W54,"Question: How much, if at all, do you think too much regulation of major corporations contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' A', ' D', ' D', ' C', ' D', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' D', ' D', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' D', ' B', ' B', ' C', ' D', ' A', ' A', ' B', ' B', ' D', ' C', ' D', ' A', ' B', ' A', ' B', ' D', ' D', ' B', ' B', ' C', ' B', ' C', ' C', ' D', ' B', ' A', ' B', ' A', ' D', ' C', ' D', ' A', ' C', ' D', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' D', ' D', ' A']","[0.13602412, 0.2940198, 0.31512299, 0.25483308, 0.0140371544944845]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYb_W54,"Question: How much of a priority should the following be for the federal government to address: Reducing illegal immigration
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' D', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' A']","[0.42704959, 0.32454037, 0.21287464, 0.0355354, 0.0031842461308393]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYc_W54,"Question: How much of a priority should the following be for the federal government to address: Reducing economic inequality
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' D', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' D', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' D', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' D', ' B', ' A', ' C', ' E', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A']","[0.37683897, 0.38758973, 0.15833607, 0.07723522, 0.0098425741382826]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_a_W54,"Question: How much, if at all, do you think the outsourcing of jobs to other countries contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' D', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' B']","[0.4581104, 0.37484127, 0.1327661, 0.03428223, 0.0110404588088581]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+INEQ8_d_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Expanding Medicare so that it covers Americans of all ages
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' B', ' A', ' D', ' C', ' A', ' B', ' C', ' D', ' A', ' E', ' B', ' B', ' C', ' B', ' D', ' A', ' A', ' A', ' A', ' A', ' D', ' C', ' A', ' A', ' A', ' D', ' A', ' D', ' D', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' C', ' B', ' A', ' D', ' B', ' B', ' D', ' A', ' D', ' E', ' A', ' A', ' C', ' A', ' B', ' D', ' A', ' A', ' A', ' C', ' D', ' A', ' D', ' A', ' D', ' B', ' B', ' C', ' D', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' D', ' A', ' D', ' B', ' C', ' B', ' D', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' C', ' B']","[0.35448951, 0.27090645, 0.20604927, 0.16855477, 0.0078391029166397]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON4_f_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does gas prices affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' D', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' D', ' C', ' B', ' B', ' B', ' A', ' B', ' E', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' D', ' B', ' D', ' B', ' B', ' A', ' A', ' B', ' C', ' D', ' D', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' A']","[0.26693549, 0.36599445, 0.27743671, 0.08963335, 0.0031727066823363]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_k_W54,"Question: Do you think the country's current economic conditions are helping or hurting people with college degrees?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' C', ' B', ' A', ' B', ' E', ' B', ' C', ' F', ' C', ' C', ' C', ' B', ' E', ' A', ' B', ' B', ' E', ' E', ' D', ' D', ' A', ' E', ' C', ' A', ' B', ' B', ' E', ' B', ' C', ' C', ' E', ' D', ' C', ' C', ' E', ' C', ' C', ' B', ' B', ' E', ' B', ' E', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' E', ' E', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' D', ' A', ' A', ' A', ' C', ' B', ' E', ' E', ' A', ' E', ' C', ' A', ' B', ' C', ' B', ' D', ' E', ' A', ' B', ' E', ' B', ' B', ' A', ' E', ' C', ' C', ' E', ' B', ' C', ' D', ' E', ' B', ' B', ' B', ' B']","[0.18050603, 0.33629327, 0.21020335, 0.07153628, 0.20146107, 0.0129717151772459]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+JOBTRAIN_W54,"Question: Looking ahead, how important do you think it will be for you to get training and develop new skills throughout your work life in order to keep up with changes in the workplace?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' D', ' C', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' D', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' D', ' A', ' C', ' A', ' C', ' A']","[0.49185711, 0.3109163, 0.19722659, 0.0228091456983028]",RACE,White,"[1.0, 2.0, 3.0]"
+INEQ8_f_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Making college tuition free at public two-year colleges
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' C', ' A', ' A', ' C', ' C', ' D', ' A', ' C', ' A', ' B', ' A', ' D', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' D', ' D', ' C', ' B', ' A', ' B', ' A', ' C', ' D', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' D', ' C', ' C', ' D', ' A', ' A', ' D', ' D', ' A', ' A', ' D', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' A', ' D', ' A', ' C', ' A', ' A', ' D', ' B', ' A']","[0.4073047, 0.30355264, 0.16922396, 0.1199187, 0.008167639344501]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+WORRY2a_W54,"Question: How often, if ever, do you worry about the amount of debt you have?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' C', ' D', ' B', ' D', ' A', ' A', ' B', ' D', ' E', ' C', ' E', ' C', ' B', ' D', ' B', ' C', ' D', ' A', ' C', ' C', ' C', ' C', ' B', ' D', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' D', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' E', ' B', ' D', ' C', ' B', ' C', ' A', ' E', ' B', ' A', ' D', ' C', ' D', ' B', ' C', ' E', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' B', ' A', ' A', ' C', ' C', ' E', ' C', ' E', ' D', ' E', ' C', ' B', ' A', ' C', ' D', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' E', ' C', ' B', ' B', ' B']","[0.21764638, 0.16017245, 0.27053856, 0.16823294, 0.18340967, 0.0085605328528371]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+INEQ8_b_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Making college tuition free at both public two-year and four-year colleges
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' D', ' A', ' D', ' E', ' B', ' A', ' A', ' C', ' D', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' D', ' A', ' A', ' A', ' A', ' D', ' D', ' D', ' C', ' A', ' B', ' A', ' B', ' C', ' D', ' B', ' C', ' A', ' C', ' C', ' A', ' D', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' D', ' D', ' A', ' C', ' A', ' D', ' A', ' B', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' D', ' B', ' D', ' C', ' D', ' D', ' A', ' A', ' A', ' D', ' D', ' D', ' B', ' B', ' D', ' A', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' D', ' B', ' D', ' C', ' C', ' B', ' A', ' D', ' C', ' C']","[0.32261414, 0.27909207, 0.2109816, 0.1873122, 0.0060408467101128]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_j_W54,"Question: Do you think the country's current economic conditions are helping or hurting people without college degrees?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' D', ' C', ' D', ' E', ' C', ' D', ' C', ' E', ' C', ' C', ' C', ' C', ' D', ' E', ' B', ' C', ' B', ' B', ' A', ' A', ' E', ' D', ' E', ' E', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' E', ' E', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' A', ' A', ' D', ' C', ' B', ' A', ' C', ' C', ' D', ' C', ' E', ' C', ' B', ' B', ' E', ' A', ' C', ' D', ' B', ' F', ' C', ' C', ' B', ' E', ' D', ' B', ' C', ' B', ' E', ' C', ' B', ' C', ' A', ' E', ' C', ' A', ' C', ' D', ' C', ' D', ' A', ' D', ' C', ' C', ' D', ' B', ' D', ' C', ' A', ' C', ' C', ' B', ' D', ' A', ' B', ' C']","[0.0956208, 0.15292625, 0.31512422, 0.28501914, 0.15130959, 0.0110062026396384]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ8_j_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Breaking up large corporations
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' D', ' B', ' B', ' B', ' A', ' C', ' D', ' C', ' C', ' C', ' E', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' D', ' C', ' C', ' B', ' C', ' D', ' A', ' C', ' D', ' B', ' B', ' D', ' B', ' B', ' A', ' D', ' B', ' D', ' A', ' D', ' B', ' D', ' A', ' D', ' B', ' C', ' B', ' B', ' B', ' A', ' D', ' B', ' D', ' C', ' A', ' D', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' D', ' D', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' D', ' C', ' C', ' A', ' D', ' C', ' B', ' D', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' D', ' A', ' D']","[0.25729641, 0.3020712, 0.29307213, 0.14756026, 0.0119075521867184]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYd_W54,"Question: How much of a priority should the following be for the federal government to address: Addressing climate change
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' D', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' D', ' A', ' A', ' B', ' C', ' D', ' B', ' B', ' B', ' A', ' A', ' D', ' A', ' B', ' A', ' C', ' A', ' D', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' D', ' C', ' A', ' D', ' B', ' C', ' A', ' C', ' D', ' A', ' D', ' B', ' D', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C']","[0.46119975, 0.27863211, 0.1707853, 0.08938285, 0.0031793033035594]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+WORRY2e_W54,"Question: How often, if ever, do you worry about being able to save enough for your retirement?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' E', ' B', ' D', ' B', ' B', ' D', ' F', ' C', ' B', ' D', ' D', ' C', ' A', ' C', ' F', ' C', ' D', ' A', ' C', ' C', ' C', ' B', ' F', ' C', ' B', ' E', ' C', ' A', ' C', ' C', ' A', ' D', ' C', ' B', ' A', ' E', ' C', ' A', ' C', ' C', ' E', ' E', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' F', ' B', ' C', ' D', ' A', ' C', ' A', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' E', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' E', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' E', ' D', ' A', ' C', ' D']","[0.24219845, 0.18781977, 0.33554567, 0.12546815, 0.10896796, 0.0185425184794174]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+INEQ8_g_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Eliminating college debt
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' C', ' D', ' B', ' A', ' B', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' D', ' C', ' A', ' D', ' E', ' D', ' A', ' D', ' A', ' A', ' A', ' D', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' D', ' D', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' D', ' A', ' C', ' D', ' A', ' B', ' C', ' B', ' A', ' D', ' B', ' D', ' D', ' B', ' C', ' C', ' C', ' D', ' A', ' A', ' B', ' B', ' B', ' B']","[0.34145919, 0.3056932, 0.19690793, 0.15593969, 0.0091103747142002]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_c_W54,"Question: Do you think the country's current economic conditions are helping or hurting the middle class?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' A', ' C', ' B', ' B', ' B', ' D', ' A', ' A', ' A', ' C', ' B', ' D', ' D', ' C', ' B', ' C', ' C', ' C', ' E', ' D', ' D', ' C', ' B', ' A', ' D', ' E', ' C', ' B', ' E', ' E', ' D', ' E', ' D', ' D', ' C', ' A', ' E', ' C', ' C', ' D', ' C', ' C', ' B', ' A', ' D', ' D', ' B', ' E', ' E', ' A', ' A', ' B', ' D', ' B', ' C', ' C', ' C', ' F', ' C', ' C', ' C', ' D', ' D', ' C', ' A', ' E', ' F', ' C', ' B', ' A', ' C', ' D', ' B', ' B', ' B', ' B', ' C', ' E', ' C', ' C', ' A', ' D', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' A', ' C', ' D', ' A', ' D', ' B', ' B', ' C']","[0.11030658, 0.23306591, 0.31600328, 0.24877518, 0.09184906, 0.0086936165035637]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ8_a_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Increasing the federal minimum wage
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' A', ' A', ' B', ' D', ' A', ' A', ' B', ' D', ' A', ' D', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' D', ' D', ' B', ' C', ' D', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' D', ' A', ' A', ' C', ' C', ' A', ' B', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' D', ' B', ' D', ' B', ' D', ' D', ' D', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' B', ' C', ' B']","[0.33093205, 0.28651107, 0.22717131, 0.15538556, 0.0039186258096481]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON4_a_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does the availability of jobs in your area affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' D', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' D', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' B', ' B', ' D', ' C', ' A', ' C', ' A', ' C', ' D', ' B', ' B', ' C', ' A', ' D', ' B', ' C', ' A', ' D', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' D', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' D', ' A', ' B', ' C', ' D', ' B', ' D', ' C', ' D', ' B', ' B', ' C', ' C']","[0.23838367, 0.29746065, 0.29435817, 0.16979751, 0.0044651774473035]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON3_d_W54,"Question: How much, if at all, do you think the cost of health care is contributing to your opinion about how the economy is doing?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' D', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' C', ' E', ' A', ' A', ' D', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' D', ' D', ' B', ' D', ' A', ' A', ' A', ' D', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' D', ' B', ' C', ' B', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' D', ' A', ' C', ' A', ' B', ' A', ' C', ' C', ' B', ' A', ' D', ' D', ' B', ' C', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' A']","[0.40046707, 0.31469805, 0.20726489, 0.07756999, 0.009230602512457]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_g_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are white?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' C', ' A', ' E', ' F', ' A', ' E', ' E', ' A', ' E', ' A', ' B', ' C', ' B', ' A', ' E', ' B', ' B', ' D', ' C', ' B', ' E', ' A', ' E', ' E', ' C', ' B', ' E', ' E', ' C', ' B', ' E', ' A', ' D', ' C', ' B', ' F', ' B', ' E', ' E', ' E', ' B', ' C', ' B', ' E', ' A', ' E', ' B', ' D', ' D', ' E', ' B', ' B', ' B', ' C', ' E', ' A', ' B', ' E', ' B', ' C', ' B', ' E', ' B', ' C', ' D', ' F', ' E', ' B', ' A', ' B', ' E', ' E', ' D', ' A', ' E', ' C', ' E', ' C', ' B', ' A', ' C', ' E', ' E', ' B', ' E', ' B', ' C', ' B', ' E', ' B', ' E', ' B', ' A', ' B', ' B', ' E', ' C', ' B']","[0.17034753, 0.2553025, 0.17867922, 0.07458416, 0.32108658, 0.0145641296130111]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+ECON5_e_W54,"Question: Do you think the country's current economic conditions are helping or hurting older adults?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' E', ' D', ' B', ' C', ' D', ' C', ' E', ' C', ' D', ' C', ' B', ' C', ' B', ' D', ' D', ' C', ' A', ' D', ' B', ' A', ' D', ' C', ' C', ' B', ' A', ' D', ' B', ' D', ' B', ' E', ' A', ' C', ' D', ' A', ' B', ' A', ' C', ' D', ' A', ' D', ' C', ' D', ' D', ' D', ' C', ' A', ' E', ' D', ' D', ' D', ' A', ' D', ' B', ' E', ' D', ' C', ' D', ' C', ' E', ' D', ' C', ' B', ' C', ' D', ' B', ' D', ' C', ' C', ' D', ' A', ' A', ' E', ' D', ' C', ' C', ' D', ' C', ' A', ' C', ' B', ' E', ' D', ' C', ' B', ' D', ' C', ' C', ' E', ' C', ' B', ' C', ' D', ' B', ' D', ' D', ' E', ' B', ' E', ' C']","[0.09537433, 0.18908467, 0.29152906, 0.3154513, 0.10856064, 0.0093536915597894]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ8_c_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Increasing taxes on the wealthiest Americans
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' D', ' D', ' B', ' B', ' B', ' D', ' D', ' A', ' B', ' D', ' C', ' A', ' A', ' B', ' A', ' D', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' D', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' E', ' A', ' B', ' C', ' D', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' D', ' A', ' A', ' B', ' C', ' A', ' A', ' D', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' D', ' A', ' D', ' A', ' D', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' D', ' D', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A']","[0.43391348, 0.24097311, 0.19727764, 0.12783577, 0.0035098765429456]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON4_b_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does how the stock market is doing affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' D', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' D', ' D', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' D', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' D', ' C', ' B', ' D', ' B', ' B', ' D', ' D', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' D', ' B', ' B', ' C', ' A', ' B', ' C', ' D', ' A', ' A', ' B', ' C', ' C', ' D', ' C', ' C', ' B', ' D', ' A', ' C', ' D', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' D']","[0.1607788, 0.28595246, 0.33660647, 0.21666226, 0.007671990067525]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+FIN_SIT_W54,"Question: How would you describe your household's financial situation?
+A. Live comfortably
+B. Meet your basic expenses with a little left over for extras
+C. Just meet your basic expenses
+D. Don't even have enough to meet basic expenses
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' D', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' D', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' A', ' D', ' C', ' D', ' A', ' A', ' B', ' D', ' A', ' B', ' B', ' B', ' A', ' D', ' D', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A']","[0.33622505, 0.40856733, 0.19418109, 0.06102653, 0.0020262646903349]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_h_W54,"Question: How much, if at all, do you think the different life choices people make contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' C', ' B', ' A', ' D', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' E', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' D', ' B', ' D', ' B', ' C', ' B', ' C', ' D', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' D', ' D', ' B', ' B', ' A']","[0.4425411, 0.34728134, 0.16306561, 0.04711195, 0.0113370565362655]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+INEQ4_a_W54,"Question: How much responsibility, if any, should the federal government have in reducing economic inequality in our country?
+A. A lot
+B. Some
+C. Only a little
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A']","[0.64567826, 0.3025335, 0.05178824, 0.0, 0.0025288574024295]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_m_W54,"Question: How much, if at all, do you think the growing number of legal immigrants working in the U.S. contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' D', ' D', ' C', ' C', ' D', ' B', ' A', ' D', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' A', ' C', ' A', ' B', ' D', ' D', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' D', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' E', ' C', ' D', ' C', ' A', ' B', ' B', ' D', ' C', ' C', ' B', ' D', ' D', ' B', ' A', ' B', ' C', ' D', ' A', ' C', ' A', ' A', ' D', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C']","[0.23426214, 0.25044151, 0.3384764, 0.17681995, 0.013230087291953]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON4_e_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does real estate values in your area affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' D', ' C', ' C', ' D', ' B', ' B', ' B', ' D', ' C', ' B', ' A', ' A', ' C', ' C', ' D', ' B', ' D', ' B', ' A', ' B', ' B', ' D', ' B', ' D', ' B', ' C', ' C', ' D', ' B', ' B', ' A', ' D', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' D', ' A', ' B', ' C', ' B', ' C', ' D', ' D', ' C', ' D', ' C', ' B', ' A', ' D', ' A', ' C', ' B', ' B', ' D']","[0.26340906, 0.3240941, 0.28284858, 0.12964826, 0.0060445524757897]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_k_W54,"Question: How much, if at all, do you think discrimination against racial and ethnic minorities contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' D', ' B', ' C', ' C', ' A', ' A', ' C', ' B', ' D', ' A', ' C', ' D', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' C', ' A', ' D', ' B', ' C', ' A', ' B', ' B', ' D', ' D', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' D', ' C', ' B', ' E', ' B', ' A', ' A', ' C', ' C', ' C', ' D', ' B', ' C', ' B', ' C', ' C', ' A', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' D', ' B', ' C', ' D', ' D', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C']","[0.24440444, 0.3087075, 0.28726099, 0.15962707, 0.0164395267831175]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_f_W54,"Question: Do you think the country's current economic conditions are helping or hurting young adults?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' E', ' B', ' D', ' D', ' D', ' C', ' B', ' B', ' B', ' D', ' E', ' C', ' C', ' B', ' D', ' C', ' B', ' A', ' C', ' C', ' E', ' B', ' C', ' E', ' C', ' B', ' E', ' A', ' C', ' C', ' A', ' A', ' C', ' F', ' A', ' C', ' B', ' C', ' B', ' D', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' B', ' D', ' C', ' D', ' C', ' E', ' B', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' B', ' D', ' C', ' D', ' B', ' C', ' A', ' B', ' E', ' A', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' B', ' B', ' C', ' E', ' A', ' C', ' D', ' A', ' B', ' C', ' C', ' B', ' D', ' C', ' B']","[0.12525127, 0.19012152, 0.29673803, 0.28225292, 0.10563626, 0.0161283909321135]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+WORRY2b_W54,"Question: How often, if ever, do you worry about losing your job?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' E', ' D', ' E', ' E', ' C', ' D', ' D', ' C', ' C', ' C', ' E', ' E', ' D', ' D', ' A', ' B', ' C', ' E', ' C', ' E', ' D', ' C', ' D', ' E', ' D', ' D', ' D', ' D', ' E', ' E', ' C', ' B', ' E', ' E', ' A', ' E', ' A', ' B', ' D', ' D', ' C', ' C', ' E', ' B', ' D', ' C', ' C', ' D', ' B', ' D', ' D', ' D', ' E', ' F', ' C', ' D', ' A', ' A', ' C', ' E', ' E', ' D', ' B', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' A', ' E', ' E', ' E', ' C', ' C', ' C', ' E', ' B', ' E', ' C', ' C', ' D', ' E', ' D', ' C', ' C', ' D', ' E', ' C', ' E', ' A', ' C']","[0.10416118, 0.06790341, 0.28888106, 0.31101098, 0.22804337, 0.0122656300135759]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+ECON5_b_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are wealthy?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' E', ' A', ' C', ' B', ' A', ' D', ' E', ' B', ' E', ' A', ' A', ' B', ' A', ' A', ' A', ' E', ' E', ' E', ' C', ' E', ' A', ' A', ' A', ' A', ' A', ' E', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' E', ' A', ' D', ' E', ' E', ' E', ' B', ' C', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' E', ' E', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' B', ' F', ' E', ' A', ' A', ' C', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' E', ' B', ' A', ' E', ' E', ' E', ' A', ' A']","[0.53267222, 0.17331361, 0.06234099, 0.03322646, 0.19844671, 0.010226561254952]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ1_W54,"Question: Thinking about the level of economic inequality in the country these days, would you say there is
+A. Too much economic inequality
+B. Too little economic inequality
+C. About the right amount of economic inequality
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' D', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' D', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' A']","[0.61641453, 0.1129224, 0.27066307, 0.0326922078977641]",RACE,White,"[1.0, 2.0, 1.5]"
+ECON1_W54,"Question: Thinking about the nation's economy, how would you rate economic conditions in this country today?
+A. Excellent
+B. Good
+C. Only fair
+D. Poor
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' B', ' D', ' B', ' B', ' D', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' B', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' C', ' D', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' D', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' A']","[0.11878594, 0.48740527, 0.32293362, 0.07087517, 0.0016410369867989]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_d_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are poor?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' A', ' D', ' D', ' C', ' D', ' D', ' B', ' D', ' C', ' D', ' A', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' A', ' B', ' D', ' E', ' A', ' D', ' D', ' B', ' D', ' C', ' D', ' B', ' D', ' C', ' D', ' F', ' B', ' A', ' B', ' D', ' D', ' B', ' D', ' D', ' B', ' B', ' D', ' B', ' D', ' D', ' D', ' D', ' E', ' C', ' D', ' B', ' E', ' D', ' D', ' D', ' D', ' D', ' C', ' E', ' B', ' A', ' C', ' D', ' A', ' E', ' D', ' D', ' B', ' D', ' D', ' D', ' F', ' E', ' D', ' A', ' D', ' A', ' B', ' D', ' B', ' C', ' C', ' D', ' B', ' C', ' B', ' B', ' C', ' D', ' D', ' D']","[0.12814501, 0.17624917, 0.13871489, 0.47167975, 0.08521118, 0.00731509348037]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ11_W54,"Question: In order to address economic inequality in this country, do you think the government
+A. Should raise taxes on people like you
+B. Should not raise taxes on people like you
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B']","[0.10372829, 0.89627171, 0.0191983342978344]",RACE,White,"[1.0, 2.0]"
+ECON5_h_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are black?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' E', ' E', ' A', ' B', ' E', ' A', ' A', ' E', ' C', ' C', ' D', ' E', ' D', ' F', ' E', ' A', ' D', ' E', ' C', ' A', ' A', ' A', ' E', ' E', ' C', ' E', ' A', ' D', ' B', ' A', ' B', ' C', ' B', ' F', ' D', ' E', ' A', ' A', ' F', ' B', ' A', ' C', ' E', ' A', ' D', ' A', ' E', ' C', ' C', ' E', ' E', ' C', ' D', ' D', ' B', ' A', ' E', ' D', ' E', ' C', ' A', ' A', ' C', ' C', ' D', ' C', ' A', ' C', ' E', ' E', ' B', ' C', ' B', ' D', ' A', ' D', ' E', ' D', ' D', ' B', ' D', ' B', ' D', ' B', ' D', ' E', ' D', ' B', ' A', ' D', ' C', ' A', ' E', ' E', ' E', ' D', ' B', ' D', ' B']","[0.1517753, 0.17540875, 0.23004628, 0.21314846, 0.2296212, 0.0151055280763153]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ5_i_W54,"Question: How much, if at all, do you think some people starting out with more opportunities than others contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' D', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' D', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' D', ' A', ' A', ' D', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' C', ' A', ' A', ' D', ' A']","[0.36319876, 0.39360666, 0.18735095, 0.05584363, 0.0108624958163848]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+WORRY2d_W54,"Question: How often, if ever, do you worry about the cost of health care for you and your family?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' B', ' D', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' E', ' A', ' A', ' A', ' C', ' E', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' E', ' C', ' D', ' C', ' B', ' D', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' E', ' B', ' A', ' D', ' A', ' D', ' D', ' A', ' E', ' A', ' D', ' C', ' C', ' C', ' A', ' D', ' A', ' E', ' C', ' C', ' C', ' C', ' A', ' C', ' E', ' B', ' C', ' E', ' B', ' A', ' D', ' C', ' A', ' C', ' E', ' D', ' D', ' A', ' D', ' F', ' A', ' C', ' E', ' E', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A']","[0.19896446, 0.17324293, 0.37073548, 0.16418289, 0.09287424, 0.0069777802720653]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"

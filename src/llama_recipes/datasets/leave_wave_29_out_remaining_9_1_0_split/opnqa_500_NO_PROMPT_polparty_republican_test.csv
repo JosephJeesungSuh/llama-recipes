@@ -1,0 +1,186 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+SEENFEM_W29,"Question: On a different topic how important is it to you, personally, to be seen by others as womanly or feminine?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' C', ' A', ' A', ' D', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' D', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' D', ' A', ' B', ' A', ' D', ' B', ' C', ' C', ' D', ' C', ' B', ' D', ' A', ' C', ' D', ' D', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' D', ' A', ' A', ' B', ' B', ' A', ' B', ' D', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' D', ' B', ' C', ' A', ' A', ' C', ' B', ' D', ' D', ' C', ' A', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' A']","[0.25238708, 0.31476182, 0.28103469, 0.15181642, 0.0023171083490779]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+GIRLSF2C_W29,"Question: When it comes to raising girls, would you say there is too much emphasis or too little emphasis on encouraging girls to stand up for themselves these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' D', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' A']","[0.05568977, 0.40910479, 0.53520544, 0.015008100167318]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+WORRYBILL_W29,"Question: How worried are you right now about not having enough to pay your normal monthly bills?
+A. Very worried
+B. Moderately worried
+C. Not too worried
+D. Not worried at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' C', ' D', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' D', ' B', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' D', ' B', ' D', ' D', ' B', ' B', ' C', ' B', ' C', ' C', ' D', ' D', ' C', ' D', ' A', ' C', ' C', ' C', ' D', ' A', ' B', ' A', ' D', ' B', ' A', ' D', ' B', ' D', ' B', ' A', ' D', ' C', ' B', ' D', ' D', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' D', ' D', ' A', ' B', ' D', ' C', ' A', ' D', ' B', ' A', ' C', ' C', ' D', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' D', ' C']","[0.15490579, 0.28677129, 0.28111968, 0.27720324, 0.0045445398851999]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+MAN1C_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to join in when other men are talking about women in a sexual way?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' C', ' C', ' D', ' D', ' B', ' B', ' B', ' D', ' D', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' D', ' D', ' D', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' D', ' C', ' C', ' D', ' B', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' A', ' A', ' B', ' C', ' B', ' D', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' D', ' C', ' C', ' B', ' D']","[0.07811045, 0.30918113, 0.41149151, 0.2012169, 0.0054165687591466]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+MASC2_W29,"Question: Now thinking about how you see yourself, would you describe yourself as
+A. Very manly or masculine
+B. Somewhat manly or masculine
+C. Not too manly or masculine
+D. Not at all manly or masculine
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A']","[0.39889641, 0.5233342, 0.07588682, 0.00188257, 0.0034190950804364]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+MAN1B_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to have many sexual partners?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' B', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' B', ' D', ' C', ' B', ' A', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' A', ' C', ' B', ' D', ' C', ' B', ' C', ' C', ' D', ' C', ' D', ' B', ' B', ' A', ' B', ' C', ' B', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' C', ' B', ' A', ' D', ' C', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' D', ' C', ' C', ' B', ' D', ' C', ' D', ' D', ' D', ' C', ' B', ' A', ' D', ' C', ' B', ' C']","[0.07368929, 0.23963664, 0.38662016, 0.3000539, 0.0020215677573363]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+LOCALELECT_W29,"Question: The next question is about local elections, such as for mayor or a school board. Do you
+A. Always vote in local elections
+B. Sometimes vote in local elections
+C. Rarely vote in local elections
+D. Never vote in local elections
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' D', ' B', ' D', ' A', ' B', ' D', ' A', ' B', ' A', ' D', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' D', ' C', ' B', ' E', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' D', ' B', ' A', ' D', ' A', ' C', ' A', ' B', ' A', ' B', ' D', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' E', ' B', ' B', ' C', ' A', ' D', ' B', ' B', ' A', ' D', ' C', ' D']","[0.43607009, 0.31702809, 0.10651396, 0.14038786, 0.0073778439338167]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+SEENMASC_W29,"Question: On a different topic how important is it to you, personally, to be seen by others as manly or masculine?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' D', ' D', ' C', ' B', ' C', ' D', ' C', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' C', ' C', ' D', ' B', ' D', ' C', ' A', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' D', ' D', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C']","[0.10449248, 0.41383091, 0.35033276, 0.13134385, 0.0036487459567096]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+S12_W29,"Question: In the last 12 months, how often did you eat dinner with any of the other members of your household?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' A', ' C', ' A', ' A', ' B', ' A', ' F', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' E', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' E', ' A', ' B', ' D', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' E', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' E', ' A', ' A', ' A', ' A']","[0.66665134, 0.18735463, 0.0805552, 0.01696595, 0.02762373, 0.02084916, 0.0008560261339822]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+S13_W29,"Question: This next question is about friends and family you do not live with. During the last twelve months, how often did you see or hear from friends or family, whether in-person or not?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' C', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' E', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' E', ' B', ' C', ' A', ' C', ' B', ' B', ' E', ' C', ' A', ' B', ' B', ' E', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' E', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' F', ' C', ' C', ' A', ' G', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A']","[0.31541904, 0.36753361, 0.19896431, 0.05407188, 0.05113707, 0.01287407, 0.004568122729369]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+GIRLSF2D_W29,"Question: When it comes to raising girls, would you say there is too much emphasis or too little emphasis on encouraging girls to do well in school these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' C']","[0.03653163, 0.37055188, 0.5929165, 0.0124108698863697]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+BOYSF1B_W29,"Question: When it comes to raising boys, would you say there is too much emphasis or too little emphasis on encouraging boys to talk about their feelings when they are sad or upset these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' D', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' B', ' D', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' D', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' A']","[0.14258347, 0.46566799, 0.39174854, 0.0113530530663957]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+FAVORS_CPS_W29,"Question: In the last 12 months, how often did you and your neighbors do favors for each other?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' F', ' C', ' B', ' C', ' E', ' C', ' F', ' D', ' E', ' E', ' E', ' D', ' C', ' C', ' E', ' B', ' F', ' C', ' B', ' E', ' C', ' C', ' E', ' B', ' B', ' C', ' F', ' C', ' E', ' C', ' B', ' F', ' B', ' B', ' E', ' E', ' F', ' C', ' E', ' F', ' B', ' F', ' F', ' C', ' C', ' A', ' E', ' F', ' F', ' E', ' C', ' C', ' E', ' E', ' F', ' C', ' F', ' E', ' B', ' C', ' F', ' B', ' E', ' B', ' D', ' C', ' F', ' C', ' B', ' E', ' C', ' F', ' E', ' C', ' D', ' F', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' C', ' E', ' C', ' C', ' F', ' D', ' C', ' B', ' E', ' D', ' E', ' E', ' E', ' C']","[0.02107194, 0.12518405, 0.23813918, 0.09389451, 0.29029128, 0.23141903, 0.0046619589871946]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+TALK_CPS_W29,"Question: In the last 12 months, how often did you talk with any of your neighbors?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' F', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' D', ' A', ' D', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' E', ' C', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' E', ' E', ' E', ' C', ' B', ' B', ' C', ' C', ' C', ' F', ' B', ' C', ' D', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' F', ' C', ' C', ' B', ' B', ' E', ' B', ' D', ' B', ' B', ' B', ' A', ' D', ' C', ' B', ' B', ' F', ' E', ' E', ' C', ' C', ' D', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' E', ' B', ' B', ' B', ' E', ' B', ' A', ' C', ' E', ' B', ' B', ' C', ' B']","[0.11802315, 0.41416248, 0.2562859, 0.06457623, 0.10610553, 0.04084671, 0.004732618052469]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+MAN1D_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be willing to throw a punch if provoked?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' C', ' B', ' D', ' C', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' D', ' B', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' D', ' B', ' D', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' D', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' D', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' C']","[0.11074754, 0.41768525, 0.34906682, 0.12250039, 0.0009770795323652]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+HOOD_NHISB_W29,"Question: How much do you agree or disagree with the following statements about your neighborhood? People in this neighborhood can be trusted
+A. Definitely agree
+B. Somewhat agree
+C. Somewhat disagree
+D. Definitely disagree
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' A', ' D', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' E', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' D', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' D', ' B', ' A']","[0.38850163, 0.47388243, 0.08396278, 0.05365315, 0.0065856787499785]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+MAN1A_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be interested in sports?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' D', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' D', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' D', ' A', ' C', ' D', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' D', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B']","[0.23928465, 0.45569004, 0.27405347, 0.03097184, 0.0009770795323652]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+GOPDIRCT_W29,"Question: Thinking about the future of the Republican Party, would you say that you are
+A. Very optimistic
+B. Somewhat optimistic
+C. Somewhat pessimistic
+D. Very pessimistic
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' D', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' D', ' B', ' C', ' A', ' A', ' B', ' C', ' A']","[0.17231865, 0.53991326, 0.22530069, 0.0624674, 0.0041170993623104]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+MAN1E_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be emotionally strong?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' D', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B']","[0.31872547, 0.48726789, 0.1590086, 0.03499804, 0.0012872177191187]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+FEM2_W29,"Question: Now thinking about how you see yourself, would you describe yourself as
+A. Very womanly or feminine
+B. Somewhat womanly or feminine
+C. Not too womanly or feminine
+D. Not at all womanly or feminine
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B']","[0.35948286, 0.55509217, 0.07702411, 0.00840087, 0.0023171083490779]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"

@@ -1,0 +1,361 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+AUTOLKLY_W41,"Question: Within the next 30 years, how likely do you think it is that the type of work that you do will be done by robots or computers? Do you think this will
+A. Definitely happen
+B. Probably happen
+C. Probably not happen
+D. Definitely not happen
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' D', ' D', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' D', ' B', ' D', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' E', ' D', ' C', ' B', ' C', ' D', ' B', ' D', ' C', ' D', ' C', ' B', ' C', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' D', ' B', ' D', ' C', ' A', ' D', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' D', ' D', ' C', ' B', ' B', ' B', ' B', ' C', ' D', ' B', ' C', ' D', ' D', ' C', ' C', ' C', ' B', ' B', ' C', ' C']","[0.11735495, 0.27257813, 0.42567159, 0.18439532, 0.0067996224831183]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+FTRWORRYe_W41,"Question: Still thinking about the future of our country, how worried are you, if at all, about the moral values of Americans?
+A. Very worried
+B. Fairly worried
+C. Not too worried
+D. Not at all worried
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' C', ' B', ' C', ' B', ' A', ' A', ' D', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' D', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' C', ' A', ' C', ' D', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' D', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' D', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C']","[0.36259615, 0.36365245, 0.22456775, 0.04918365, 0.000854567515973]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+AUTOWKPLC_W41,"Question: Overall, has the automation of jobs through new technology in the workplace
+A. Mostly helped American workers
+B. Mostly hurt American workers
+C. Neither helped nor hurt
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C']","[0.25705151, 0.49961544, 0.24333305, 0.0127001413068779]",POLPARTY,Democrat,"[1.0, 2.0, 1.5]"
+GOVPRIOc_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to providing high-quality, affordable health care to all Americans?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A']","[0.86738945, 0.10328773, 0.02731168, 0.00201115, 0.0028143329524137]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+HARASS3NOWRKF2_W41,"Question: Do you think the increased focus on sexual harassment and assault has made it easier or harder for men to know how to interact with women, or hasn't it made much difference?
+A. Has made it easier for men
+B. Has made it harder for men
+C. Hasn't made much difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' C', ' A', ' A', ' C', ' D', ' A', ' C', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B']","[0.16757538, 0.44134892, 0.3910757, 0.0069505078653008]",POLPARTY,Democrat,"[1.0, 2.0, 1.5]"
+LEGALIMG_W41,"Question: In order to maintain the strength of the U.S. economy over the next 30 years, do you think that legal immigration will need to be
+A. Increased
+B. Maintained at current levels
+C. Decreased
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C']","[0.36984797, 0.50390487, 0.12624716, 0.0079692519305368]",POLPARTY,Democrat,"[1.0, 2.0, 3.0]"
+ETHNCMAJMOD_W41,"Question: According to the U.S. Census Bureau, by the year 2050, a majority of the population will be made up of blacks, Asians, Hispanics, and other racial minorities. In terms of its impact on the country, do you think this will be
+A. A very good thing
+B. A somewhat good thing
+C. A somewhat bad thing
+D. A very bad thing
+E. Neither a good nor bad thing
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' A', ' E', ' E', ' E', ' E', ' A', ' E', ' A', ' E', ' A', ' E', ' E', ' E', ' A', ' A', ' E', ' E', ' E', ' A', ' E', ' A', ' A', ' B', ' E', ' A', ' E', ' A', ' E', ' E', ' A', ' A', ' A', ' E', ' B', ' E', ' E', ' E', ' E', ' A', ' B', ' E', ' E', ' A', ' E', ' A', ' B', ' B', ' E', ' B', ' B', ' A', ' A', ' E', ' E', ' E', ' D', ' B', ' E', ' E', ' D', ' A', ' B', ' B', ' A', ' B', ' E', ' A', ' B', ' E', ' B', ' A', ' C', ' A', ' B', ' B', ' D', ' B', ' A', ' E', ' A', ' C', ' A', ' B', ' E', ' B', ' B', ' E', ' A', ' B', ' E', ' E', ' A', ' A', ' A', ' B', ' A', ' A', ' E', ' E']","[0.29126693, 0.22263904, 0.06461382, 0.03854399, 0.38293621, 0.0080299216294107]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+WRKTRN1F2_W41,"Question: Over the next 30 years, who should be most responsible for making sure young adults have the right skills and training to get a good job?
+A. Government
+B. Employers
+C. The education system
+D. Individuals themselves
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' C', ' C', ' C', ' C', ' E', ' C', ' A', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' D', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' A', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' A', ' B', ' A', ' C', ' D', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' D', ' D', ' A', ' A', ' C', ' D', ' D', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' C', ' A', ' D', ' A', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' A']","[0.12818674, 0.04123103, 0.64959221, 0.18099002, 0.0079907956756146]",POLPARTY,Democrat,"[1, 1, 1, 1]"
+FUTR_DIV_W41,"Question: By 2050, do you expect that people who are married will be
+A. More likely to get divorced than people are now
+B. Less likely to get divorced than people are now
+C. About as likely to get divorced as people are now
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' A']","[0.26607, 0.13348351, 0.60044649, 0.008058465631702]",POLPARTY,Democrat,"[1.0, 2.0, 1.5]"
+HARASS1NOWRKF2d_W41,"Question: When it comes to sexual harassment and sexual assault today, how much of a problem, if at all, would you say women not being believed when they claim that they have experienced sexual harassment or assault is?
+A. Major problem
+B. Minor problem
+C. Not a problem
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B']","[0.777541, 0.19829935, 0.02415965, 0.0014458118691842]",POLPARTY,Democrat,"[1.0, 2.0, 3.0]"
+SOLVPROBa_W41,"Question: In the future, what kind of an impact do you think science and technology will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' B', ' B', ' B', ' D', ' A', ' A', ' B', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B']","[0.56820351, 0.34945517, 0.05734532, 0.024996, 0.0152259917912687]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+INTRMAR_W41,"Question: According to the U.S. Census Bureau, more people of different races are marrying each other these days than in the past. In terms of its impact on the country, do you think this is
+A. A very good thing
+B. A somewhat good thing
+C. A somewhat bad thing
+D. A very bad thing
+E. Neither a good nor bad thing
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' A', ' B', ' A', ' B', ' E', ' B', ' A', ' A', ' A', ' E', ' E', ' E', ' B', ' B', ' A', ' E', ' E', ' B', ' B', ' E', ' B', ' E', ' E', ' A', ' B', ' A', ' E', ' E', ' B', ' B', ' A', ' E', ' A', ' B', ' B', ' B', ' D', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' E', ' A', ' A', ' A', ' F', ' C', ' B', ' A', ' E', ' A', ' D', ' E', ' E', ' A', ' E', ' E', ' E', ' B', ' B', ' E', ' E', ' E', ' E', ' D', ' B', ' A', ' A', ' A', ' E', ' E', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' E', ' C', ' E', ' E']","[0.42224889, 0.19421036, 0.04410197, 0.01906397, 0.32037481, 0.0070591680469808]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+GOVPRIOhF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing spending on Social Security, Medicare and Medicaid?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' D', ' C', ' B', ' B', ' D', ' B', ' D', ' C', ' D', ' C', ' C', ' B', ' D', ' D', ' A', ' B', ' B', ' D', ' D', ' B', ' C', ' B', ' B', ' D', ' A', ' D', ' B', ' A', ' D', ' D', ' D', ' B', ' A', ' C', ' C', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' D', ' A', ' D', ' B', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' B', ' C', ' C', ' B', ' C', ' D', ' D', ' D', ' A', ' D', ' D', ' A', ' D', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' B', ' D', ' B', ' D', ' D', ' A', ' D', ' C', ' D', ' B', ' A']","[0.15317332, 0.19890013, 0.15822048, 0.48970608, 0.0032863036755223]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBf_W41,"Question: In the future, what kind of an impact do you think the news media will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' C', ' B', ' B', ' A', ' D', ' A', ' A', ' C', ' D', ' A', ' B', ' B', ' D', ' B', ' A', ' A', ' D', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' D', ' C', ' B', ' D', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' D', ' A', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' C']","[0.15742834, 0.50639581, 0.23657472, 0.09960114, 0.0077190275823319]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOjF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to avoiding tax increases?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' D', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' A', ' D', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' D', ' A', ' A', ' B', ' B', ' D', ' B', ' C', ' B', ' A', ' A', ' D', ' C', ' A', ' C', ' C', ' D', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' D', ' C', ' B', ' D', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' A']","[0.33631716, 0.32273485, 0.23050327, 0.11044472, 0.0]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+FUTRCLASSb_W41,"Question: Over the next 30 years, do you think the share of Americans who are in Middle Class will increase, decrease, or stay about the same?
+A. Increase
+B. Decrease
+C. Stay about the same
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B']","[0.27643332, 0.46798806, 0.25557863, 0.0046447776374701]",POLPARTY,Democrat,"[1.0, 2.0, 1.5]"
+ELDFINANCEF2_W41,"Question: Who do you think should be mostly responsible for paying for the long-term care older Americans may need?
+A. Family members
+B. Government
+C. Older Americans themselves
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' B']","[0.09857382, 0.72518288, 0.1762433, 0.0165277952091182]",POLPARTY,Democrat,"[1, 1, 1]"
+WRKTRN1F1_W41,"Question: Over the next 30 years, who should be most responsible for making sure American workers have the right skills and training to get a good job?
+A. Government
+B. Employers
+C. The education system
+D. Individuals themselves
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' C', ' C', ' C', ' A', ' D', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' D', ' D', ' C', ' C', ' A', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' A', ' B', ' D', ' C', ' A', ' C', ' C', ' A', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' D', ' B', ' C', ' A', ' C', ' D', ' A', ' C', ' C', ' C', ' A', ' C', ' D', ' C', ' C', ' C', ' B', ' A', ' D', ' D', ' A', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' E', ' D', ' A', ' C', ' C', ' D', ' C', ' C', ' B', ' D', ' A', ' C', ' D']","[0.14624353, 0.11614152, 0.52295207, 0.21466288, 0.0033664601356516]",POLPARTY,Democrat,"[1, 1, 1, 1]"
+GOVPRIOmF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing spending on Social Security, Medicare and Medicaid?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' D', ' A', ' B', ' B', ' A', ' A', ' A', ' D', ' B', ' C', ' B', ' B', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A']","[0.58947233, 0.3273608, 0.05871037, 0.0244565, 0.0090814994630348]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBb_W41,"Question: In the future, what kind of an impact do you think major corporations will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' E', ' A', ' B', ' B', ' D', ' B', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' D', ' C', ' A', ' C', ' B', ' C', ' C', ' D', ' D', ' C', ' B', ' D', ' B', ' A', ' D', ' D', ' B', ' A', ' C', ' A', ' A', ' D', ' C', ' B', ' D', ' D', ' C', ' D', ' C', ' C', ' B', ' D', ' C', ' C', ' D', ' B', ' D', ' B', ' B', ' C', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' E', ' C', ' B', ' D', ' A', ' C', ' B', ' A', ' B', ' C', ' D', ' D', ' C']","[0.1003193, 0.37884693, 0.32799185, 0.19284193, 0.0090451274464329]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+FTRWORRYf_W41,"Question: Still thinking about the future of our country, how worried are you, if at all, about climate change?
+A. Very worried
+B. Fairly worried
+C. Not too worried
+D. Not at all worried
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A']","[0.63186661, 0.27785071, 0.07954971, 0.01073297, 0.0017364699358462]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBdF1_W41,"Question: In the future, what kind of an impact do you think the government in Washington will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' E', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' D', ' B', ' D', ' B', ' B', ' D', ' B', ' B', ' B', ' C', ' C', ' D', ' C', ' A', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' D', ' A', ' D', ' B', ' D', ' A', ' B', ' B', ' C', ' E', ' D', ' B', ' B', ' D', ' C', ' D', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' D', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' D', ' C', ' B', ' C']","[0.09710311, 0.40065279, 0.35741134, 0.14483276, 0.0104703870350558]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+ELDFINANCEF1_W41,"Question: Who do you think will be mostly responsible for paying for the long-term care older Americans may need?
+A. Family members
+B. Government
+C. Older Americans themselves
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' A']","[0.38313782, 0.27828456, 0.33857762, 0.0049635244778683]",POLPARTY,Democrat,"[1, 1, 1]"
+HARASS1F1d_W41,"Question: When it comes to sexual harassment and sexual assault in the workplace today, how much of a problem, if at all, would you say women not being believed when they claim that they have experienced sexual harassment or ass is?
+A. Major problem
+B. Minor problem
+C. Not a problem
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A']","[0.78184021, 0.18585479, 0.032305, 0.0033949531194015]",POLPARTY,Democrat,"[1.0, 2.0, 3.0]"
+GOVPRIOb_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing spending for education?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' E', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' A', ' B', ' A', ' A', ' B', ' A']","[0.69959184, 0.27019481, 0.02534686, 0.0048665, 0.0062538729413814]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+FUTRCLASSc_W41,"Question: Over the next 30 years, do you think the share of Americans who are lower class will increase, decrease, or stay about the same?
+A. Increase
+B. Decrease
+C. Stay about the same
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A']","[0.61818603, 0.19259871, 0.18921527, 0.0048011490635424]",POLPARTY,Democrat,"[1.0, 2.0, 1.5]"
+GOVPRIOgF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing the number of undocumented immigrants coming into the U.S.?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' D', ' E', ' C', ' C', ' C', ' D', ' C', ' C', ' A', ' B', ' B', ' D', ' A', ' B', ' B', ' D', ' B', ' C', ' B', ' A', ' D', ' A', ' A', ' D', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' D', ' C', ' B', ' A', ' C', ' A', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' B', ' B', ' E', ' B', ' B', ' D', ' D', ' C', ' A', ' D', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' D', ' B', ' D', ' A', ' D', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' D']","[0.20241511, 0.34688941, 0.28940239, 0.16129308, 0.0068437705629076]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+HAPPEN2b_W41,"Question: How likely do you think it is that the following will happen in the next 30 years? The world will face a major energy crisis
+A. Will definitely happen
+B. Will probably happen
+C. Will probably not happen
+D. Will definitely not happen
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' C']","[0.25610364, 0.52727711, 0.19500642, 0.02161283, 0.0011321863071546]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBh_W41,"Question: In the future, what kind of an impact do you think colleges and universities will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' E', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' C']","[0.37434807, 0.52096291, 0.08533731, 0.0193517, 0.0074146982041982]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBg_W41,"Question: In the future, what kind of an impact do you think the military will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' D', ' B', ' B', ' A', ' A', ' B', ' D', ' A', ' C', ' B', ' C', ' B', ' A', ' C', ' D', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' D', ' D', ' C', ' C', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' E', ' B', ' C', ' A', ' A', ' A', ' D', ' C', ' C']","[0.17134903, 0.49464753, 0.24678839, 0.08721506, 0.0184997188273446]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+HAPPEN2f_W41,"Question: How likely do you think it is that the following will happen in the next 30 years? A Hispanic person will be elected U.S. president
+A. Will definitely happen
+B. Will probably happen
+C. Will probably not happen
+D. Will definitely not happen
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' B', ' C', ' B', ' D', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' D', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' D', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B']","[0.13048828, 0.48433042, 0.33017543, 0.05500588, 0.0036831390600249]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOlF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to who come here legally? Allowing more immigrants into the U.S.
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' D', ' A', ' A', ' C', ' D', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' D', ' A', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' D', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' D', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' D', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' D', ' B']","[0.22743305, 0.48799773, 0.24623003, 0.03833919, 0.0020435279728424]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOiF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing spending for roads, bridges and other infrastructure?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' D', ' B', ' A', ' A', ' B', ' B', ' A', ' B']","[0.44877088, 0.43121006, 0.11860996, 0.0014091, 0.0]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOe_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing the gap between the rich and the poor?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A']","[0.61453845, 0.3322022, 0.04332928, 0.00993007, 0.0044637128523436]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOfF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing military spending?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' D', ' C', ' B', ' B', ' D', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' D', ' B', ' B', ' D', ' B', ' B', ' C', ' A', ' B', ' A', ' D', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' D', ' B', ' A', ' B', ' B', ' D', ' A', ' A', ' B', ' C', ' D', ' B', ' D', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' D', ' C', ' C', ' B', ' D', ' B', ' B', ' B', ' B', ' B']","[0.35286845, 0.38150177, 0.17750495, 0.08812483, 0.0066416296413218]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBc_W41,"Question: In the future, what kind of an impact do you think religious groups will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' D', ' D', ' C', ' D', ' D', ' B', ' B', ' A', ' A', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' A', ' D', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' D', ' C', ' D', ' C', ' B', ' B', ' B', ' B', ' D', ' C', ' D', ' D', ' D', ' C', ' A', ' B', ' C', ' B', ' D', ' B', ' B', ' B', ' D', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' D', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' D', ' D', ' B', ' B', ' D', ' B', ' D', ' B', ' D', ' B', ' C']","[0.13663919, 0.41784986, 0.27374385, 0.1717671, 0.0120590555669409]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOoF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to dealing with climate change?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A']","[0.72906667, 0.2201732, 0.0457528, 0.00500733, 0.0020435279728424]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+FTRWORRYc_W41,"Question: Still thinking about the future of our country, how worried are you, if at all, about the way the government in Washington works?
+A. Very worried
+B. Fairly worried
+C. Not too worried
+D. Not at all worried
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B']","[0.52981897, 0.36695927, 0.09315474, 0.01006703, 0.0023162840888138]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+HARASS1F1b_W41,"Question: When it comes to sexual harassment and sexual assault in the workplace today, how much of a problem, if at all, would you say employers firing men who have been accused of sexual harassment or assault before finding ou is?
+A. Major problem
+B. Minor problem
+C. Not a problem
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' D', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A']","[0.41465194, 0.39788412, 0.18746394, 0.0021103525331676]",POLPARTY,Democrat,"[1.0, 2.0, 3.0]"
+GOVPRIOnF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing spending for roads, bridges and other infrastructure?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' A', ' D', ' A', ' D', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' A', ' C', ' D', ' B', ' A', ' A', ' D', ' B', ' D', ' A', ' B', ' D', ' B', ' C', ' B', ' C', ' D', ' D', ' A', ' B', ' B', ' A', ' D', ' B', ' D', ' C', ' B', ' B', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' A', ' B', ' B', ' D', ' C', ' B', ' D', ' A', ' B', ' D', ' B', ' D', ' D', ' C', ' D', ' A', ' C', ' D', ' B', ' B', ' D', ' C', ' B', ' A', ' B', ' D', ' D', ' C', ' C', ' B', ' B', ' D', ' D', ' D']","[0.1943155, 0.25114608, 0.15946677, 0.39507165, 0.0020435279728424]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOkF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing military spending?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' D', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' D', ' B', ' D', ' D', ' C', ' D', ' B', ' A', ' C', ' A', ' B', ' B', ' D', ' C', ' A', ' B', ' A', ' D', ' D', ' D', ' B', ' C', ' D', ' D', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' D', ' A', ' B', ' B', ' D', ' D', ' C', ' D', ' C', ' A', ' C', ' C', ' C', ' B', ' D', ' A', ' B', ' B', ' A', ' B', ' B', ' D', ' A', ' B', ' B', ' D', ' A', ' C', ' B', ' D', ' B', ' D', ' A']","[0.12909981, 0.36257481, 0.26261664, 0.24570874, 0.0020435279728424]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"

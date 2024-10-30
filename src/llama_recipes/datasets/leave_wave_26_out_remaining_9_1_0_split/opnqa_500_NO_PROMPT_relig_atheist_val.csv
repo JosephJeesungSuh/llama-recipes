@@ -1,0 +1,392 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+GAP21Q4_d_W82,"Question: Do you have a favorable or unfavorable opinion of the European Union
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C']","[0.10975859, 0.54773574, 0.33240878, 0.01009689, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+MADEUPOFT_W45,"Question: How often do you come across made-up news and information that is intended to mislead the public?
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' D', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' E', ' B', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' D', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C']","[0.32358888, 0.58299499, 0.07898544, 0.01443069, 0.0027088358360485]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+MADEUPTOPICb_W45,"Question: How much made-up news and information do you think is created about entertainment and celebrities topics?
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B']","[0.62393797, 0.33790985, 0.03815219, 0.0, 0.0013449117452684]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+PROG_RNEED_W92,"Question: How much more, if anything, needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?
+A. A lot
+B. A little
+C. Nothing at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A']","[0.71330193, 0.23346424, 0.05323383, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+ECON4_e_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does real estate values in your area affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' D', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' D', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' C', ' B', ' D', ' A', ' D', ' C', ' C', ' C', ' A', ' A', ' D', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' D', ' B', ' B', ' C', ' C', ' A', ' B', ' D', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' D', ' B', ' B', ' C', ' C', ' C', ' A', ' D', ' C', ' A', ' C', ' B', ' D', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' B']","[0.21627374, 0.27306839, 0.34248508, 0.16817279, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q47_W82,"Question: When it comes to whether or not to limit Chinese students studying in the US, do you
+A. Strongly support limiting Chinese students
+B. Somewhat support limiting Chinese students
+C. Somewhat oppose limiting Chinese students
+D. Strongly oppose limiting Chinese students
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' D', ' D', ' D', ' B', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' D', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' D', ' B', ' B', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' B', ' D', ' B', ' C', ' C', ' D', ' C', ' B', ' B', ' C', ' D', ' D', ' D', ' B', ' C', ' A', ' C', ' B', ' C', ' D', ' D', ' B', ' D', ' D', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' B', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' A', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' A', ' C', ' C', ' C', ' D', ' D']","[0.05623363, 0.24835865, 0.38560596, 0.30980176, 0.0079444222493597]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+FUD37C_W34,"Question: How likely is it that genetically modified foods will create problems for the environment
+A. Very likely
+B. Fairly likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' D', ' B', ' D', ' B', ' D', ' B', ' C', ' A', ' B', ' B', ' D', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' D', ' C', ' A', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' C']","[0.11190136, 0.32749412, 0.43134761, 0.12925691, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOgF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing the number of undocumented immigrants coming into the U.S.?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' C', ' C', ' C', ' A', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' B', ' D', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' D', ' D', ' C', ' C', ' C', ' C', ' C']","[0.17168609, 0.15665192, 0.48993692, 0.18172508, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+ESSENBIZF2J_W36,"Question: In general, how important, if at all, is it to you for someone in a top executive business position to provide guidance or mentorship to young employees?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' D', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' D', ' A', ' B', ' B', ' B', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A']","[0.48082249, 0.49417335, 0.02500416, 0.0342284176777762]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+EVOBIOB_W34,"Question: Even if you are not sure, from what you have heard or read, which of these statements about the development of human life on Earth comes closest to what most biological scientists say?
+A. Humans have evolved over time due to processes such as natural selection
+B. Humans have existed in their present form since the beginning of time
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[1.0, 0.0, 0.0]",RELIG,Atheist,"[1.0, 2.0]"
+WHYNOTPOLF1E_W36,"Question: Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Fewer women have the experience required for higher office
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' B']","[0.22000574, 0.31472974, 0.46526453, 0.0161901865342788]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+RACESURV45_W43,"Question: How many black people in our country do you think would confront a black friend or family member if they made a racist or racially insensitive comment or joke about people who are white?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' E', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' E', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' E', ' C', ' E', ' B', ' B', ' B', ' E', ' C', ' C', ' B', ' E', ' C', ' C', ' C', ' C', ' E', ' E', ' B', ' B', ' B', ' C', ' E', ' C', ' E', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' E', ' A', ' C', ' C', ' E', ' E', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' E', ' C', ' E', ' E', ' C', ' C', ' B', ' C', ' C', ' E', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' E', ' C', ' E', ' C', ' C', ' C', ' B', ' A', ' C', ' B']","[0.04721481, 0.34979992, 0.60298527, 0.0, 0.2583380140558793]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+MOTHER_W50,"Question: Is your mother living?
+A. Yes
+B. No
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.71773833, 0.28226167, 0.0]",RELIG,Atheist,"[1.0, 2.0]"
+PQ8_F2B_W42,"Question: How often, if at all, do you think environmental health specialists face serious consequences if they engage in professional misconduct?
+A. All or most of the time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' D', ' C', ' B', ' B', ' C', ' D', ' C', ' B', ' D', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' D', ' E', ' C', ' B', ' A', ' D', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' D', ' B', ' A', ' C', ' B', ' D', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' D', ' B']","[0.0881754, 0.44161672, 0.31535435, 0.15485353, 0.0261727666480055]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+RQ1_F1B_W42,"Question: In general, would you say your view of environmental research scientists is
+A. Mostly positive
+B. Mostly negative
+C. Neither positive nor negative
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C']","[0.87179395, 0.02846193, 0.09974412, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+FUTRCLASSc_W41,"Question: Over the next 30 years, do you think the share of Americans who are lower class will increase, decrease, or stay about the same?
+A. Increase
+B. Decrease
+C. Stay about the same
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A']","[0.72060944, 0.13657633, 0.14281423, 0.002122180443539]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+ELECT_CONF3_PRVFR_W92,"Question: Still thinking about elections in the country, how confident, if at all, are you that people who are not legally qualified to vote are prevented from casting a ballot
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' D', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' C', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' D', ' B', ' A', ' A', ' B', ' D', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A']","[0.51381833, 0.31114207, 0.12056808, 0.05447152, 0.0095550037325806]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+FUTRCLASSb_W41,"Question: Over the next 30 years, do you think the share of Americans who are in Middle Class will increase, decrease, or stay about the same?
+A. Increase
+B. Decrease
+C. Stay about the same
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B']","[0.18506486, 0.69225842, 0.12267672, 0.0082578294451693]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+WHYNOTBIZF2G_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women are held to higher standards than men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A']","[0.50747409, 0.27887939, 0.21364653, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+CONFc_W42,"Question: How much confidence, if any, do you have in the military to act in the best interests of the public?
+A. A great deal of confidence
+B. A fair amount of confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' D', ' D', ' B', ' C', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' D', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' D', ' B', ' A', ' A', ' D', ' B', ' B', ' B', ' D', ' B', ' B', ' D', ' B', ' A', ' D', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' D', ' D', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' D', ' C']","[0.07599584, 0.48508746, 0.28804165, 0.15087505, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+WORRY2d_W54,"Question: How often, if ever, do you worry about the cost of health care for you and your family?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' A', ' C', ' A', ' B', ' A', ' E', ' D', ' D', ' C', ' B', ' C', ' E', ' C', ' A', ' A', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' B', ' C', ' E', ' E', ' A', ' C', ' B', ' E', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' A', ' D', ' C', ' C', ' C', ' D', ' D', ' E', ' B', ' C', ' D', ' B', ' C', ' B', ' E', ' C', ' C', ' B', ' A', ' E', ' B', ' C', ' C', ' A', ' A', ' B', ' E', ' C', ' C', ' D', ' B', ' E', ' C', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' D', ' B', ' A', ' C', ' C', ' A', ' D', ' A', ' D', ' D', ' C', ' A', ' A', ' C', ' C', ' C', ' D', ' E', ' D', ' E', ' A']","[0.17387704, 0.18153742, 0.35528895, 0.16749111, 0.12180548, 0.009788317561017]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+FAMSURV23f_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was it was convenient a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A']","[0.59314787, 0.20623868, 0.20061345, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+TRACKGOV1b_W49,"Question: As far as you know, how much of what you do offline like where you are or who you are talking to is being tracked by the government?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' E', ' C', ' B', ' D', ' A', ' C', ' A', ' D', ' C', ' E', ' D', ' D', ' A', ' E', ' E', ' C', ' B', ' D', ' D', ' C', ' D', ' C', ' A', ' E', ' C', ' C', ' D', ' E', ' C', ' E', ' D', ' D', ' A', ' A', ' D', ' D', ' A', ' D', ' E', ' D', ' D', ' D', ' D', ' D', ' D', ' E', ' A', ' A', ' C', ' B', ' D', ' C', ' D', ' A', ' D', ' C', ' E', ' A', ' D', ' E', ' D', ' D', ' D', ' D', ' C', ' C', ' E', ' D', ' D', ' D', ' E', ' C', ' B', ' D', ' D', ' A', ' D', ' D', ' D', ' A', ' D', ' C', ' D', ' A', ' D', ' C', ' E', ' E', ' D', ' D', ' B', ' D', ' E', ' E', ' D', ' D', ' D', ' B', ' D']","[0.08174653, 0.05573576, 0.2730148, 0.40654618, 0.18295673, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+CLASS_W32,"Question: If you were asked to use one of these commonly used names for the social classes, which would you say you belong in?
+A. Upper class
+B. Upper-middle class
+C. Middle class
+D. Lower-middle class
+E. Lower class
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' E', ' B', ' B', ' D', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' E', ' C', ' B', ' E', ' E', ' C', ' E', ' D', ' A', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' B', ' C', ' D', ' B', ' D', ' E', ' A', ' C', ' D', ' A', ' C', ' C', ' E', ' B', ' C', ' C', ' B', ' D', ' B', ' E', ' C', ' C', ' D', ' C', ' E', ' B', ' B', ' D', ' D', ' D', ' D', ' D', ' C', ' B', ' C', ' D', ' D', ' E', ' D', ' C', ' D', ' D', ' B', ' C', ' D', ' E', ' B', ' C', ' D', ' D', ' D', ' D', ' C', ' E', ' E', ' C', ' D', ' D', ' C', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' E']","[0.01615665, 0.25970426, 0.32706408, 0.29599349, 0.10108152, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+FAMSURV44_W50,"Question: In the past 12 months, how much financial help, if any, did you provide for your adult child(ren) ages 18 to 29?
+A. A lot
+B. Some
+C. Only a little
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' C', ' A', ' D', ' A', ' C', ' A', ' A', ' A', ' D', ' D', ' D', ' A', ' A', ' A', ' B', ' C', ' D', ' A', ' C', ' A', ' D', ' C', ' B', ' C', ' C', ' A', ' D', ' B', ' A', ' D', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' D', ' A', ' C', ' C', ' D', ' C', ' A', ' A', ' A', ' D', ' D', ' B', ' D', ' D', ' D', ' C', ' B', ' D', ' B', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' C', ' D', ' C', ' A', ' A', ' A', ' B', ' D', ' D', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' C']","[0.44989166, 0.18183235, 0.18487109, 0.18340489, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+ROMRELSER_W50,"Question: How serious would you say your current romantic relationship is?
+A. Very serious
+B. Somewhat serious
+C. Not too serious
+D. Not at all serious
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' D', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B']","[0.55940403, 0.3995849, 0.01727969, 0.02373138, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+FUD22_W34,"Question: How much of the food you eat is organic?
+A. Most of it
+B. Some of it
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' C', ' D', ' D', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' D', ' D', ' B', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' B', ' B', ' C', ' C', ' D', ' C', ' D', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' C', ' B', ' D', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' D', ' C', ' A', ' C', ' C', ' B', ' C', ' D', ' B', ' D', ' B', ' C', ' C']","[0.04854363, 0.28808875, 0.48887569, 0.17449193, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+TRAITBIZWF2C_W36,"Question: In general, how do you think being ambitious impacts a woman's chances of getting a top executive business position?
+A. Mostly helps a woman's chances
+B. Mostly hurts a woman's chances
+C. Doesn't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A']","[0.52811455, 0.36570971, 0.10617574, 0.0]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+INEQ8_b_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Making college tuition free at both public two-year and four-year colleges
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' D', ' B', ' B', ' D', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B']","[0.39601758, 0.41636593, 0.12855829, 0.05905819, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+COMMIMPF_W32,"Question: How important is it to you, personally, to live in a community where you have family nearby
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' D', ' C', ' B', ' D', ' A', ' D', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' D', ' C', ' D', ' B', ' A', ' C', ' B', ' A', ' D', ' A', ' B', ' A', ' D', ' D', ' A', ' B', ' C', ' C', ' D', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' D', ' C', ' A', ' D', ' D', ' B', ' B', ' D', ' D', ' C', ' A', ' B', ' C', ' B', ' C', ' D', ' A', ' D', ' C', ' C', ' A', ' D', ' B', ' C', ' D', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' D', ' C', ' D', ' B', ' C', ' C', ' D', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' B', ' B', ' C']","[0.16441817, 0.29961028, 0.35240144, 0.18357011, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q15_b_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Colleges and universities
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' A', ' B', ' C', ' B', ' A', ' F', ' D', ' B', ' B', ' B', ' D', ' B', ' B', ' A', ' F', ' F', ' D', ' D', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' E', ' D', ' B', ' C', ' C', ' B', ' A', ' D', ' A', ' C', ' C', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' D', ' C', ' B', ' D', ' F', ' F', ' B', ' D', ' B', ' B', ' B', ' C', ' D', ' A', ' C', ' A', ' C', ' C', ' B', ' D', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' C']","[0.15873575, 0.33151551, 0.39312389, 0.09149923, 0.02512562, 0.0352365962955223]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RQ2_F1A_W42,"Question: How much, if anything, do you know about what medical research scientists do?
+A. A lot
+B. A little
+C. Nothing at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A']","[0.30683551, 0.58316385, 0.11000064, 0.0013765698403739]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+EAT5B_W34,"Question: How much health risk, if any, does eating meat from animals that have been given antibiotics or hormones have for the average person over the course of their lifetime?
+A. A great deal of health risk
+B. Some health risk
+C. Not too much health risk
+D. No health risk at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' D', ' C', ' D', ' D', ' D', ' B', ' C', ' C', ' A', ' B', ' C', ' D', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' D', ' B', ' A', ' A', ' D', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' D', ' B', ' C', ' C', ' D', ' A', ' B', ' A', ' B', ' D', ' C', ' B', ' A', ' B', ' D', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' D', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' C', ' D', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' B']","[0.19217712, 0.45330172, 0.23444434, 0.12007682, 0.0010475774930666]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+WORRY2b_W54,"Question: How often, if ever, do you worry about losing your job?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' E', ' D', ' A', ' E', ' C', ' D', ' C', ' D', ' B', ' E', ' C', ' D', ' F', ' B', ' E', ' D', ' E', ' A', ' C', ' C', ' C', ' B', ' E', ' E', ' D', ' E', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' D', ' A', ' D', ' C', ' E', ' E', ' D', ' E', ' E', ' E', ' E', ' E', ' F', ' F', ' D', ' D', ' B', ' D', ' D', ' A', ' E', ' D', ' E', ' A', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' E', ' E', ' D', ' C', ' D', ' F', ' D', ' B', ' C', ' C', ' C', ' D', ' B', ' D', ' E', ' E', ' D', ' A', ' E', ' D', ' A', ' E', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' E', ' D', ' E', ' A']","[0.0998281, 0.1008326, 0.21634983, 0.33642274, 0.24656674, 0.0232557850909426]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV28d_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in dealing with the police situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A']","[0.87124824, 0.01372388, 0.11502787, 0.0016037983500189]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+INEQ8_a_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Increasing the federal minimum wage
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' D', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' D', ' B', ' A', ' C', ' D', ' B', ' C', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' D', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' D', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' D', ' D', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' D', ' A', ' B', ' D', ' B', ' C', ' C', ' A', ' C', ' D', ' B', ' B', ' B', ' B']","[0.42609389, 0.34817093, 0.15458987, 0.07114531, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+WHYNOTBIZF2F_W36,"Question: For each one of the following, please indicate whether you think it is a reason why there aren't more women in top executive business positions. Women don't make as good managers as men
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C']","[0.01727182, 0.06012594, 0.92260223, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+RACESURV28c_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when applying for a loan or mortgage situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' D', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' C']","[0.72635558, 0.02569057, 0.24795385, 0.0121299128656583]",RELIG,Atheist,"[1.0, 2.0, 1.5]"
+RQ4_F1Bc_W42,"Question: Thinking about environmental research scientists, how often would you say they admit mistakes and take responsibility for them
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' D', ' D', ' A', ' B', ' A', ' A', ' D', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' D', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' D', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' D', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B']","[0.287573, 0.57453953, 0.07807048, 0.059817, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_RHIST_W92,"Question: Do you think increased public attention to the history of slavery and racism in America is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' D', ' B', ' D', ' E', ' D', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' E', ' D', ' A', ' D', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' D', ' A', ' C', ' A', ' B', ' A', ' E', ' A', ' B', ' C', ' A', ' C', ' B', ' A']","[0.61597041, 0.19415935, 0.06668419, 0.09303183, 0.03015423, 0.0021209157369135]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RQ4_F1Ab_W42,"Question: Thinking about medical research scientists, how often would you say they provide fair and accurate information when making statements about their research
+A. All or most of time
+B. Some of the time
+C. Only a little of the time
+D. None of the time
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A']","[0.44006237, 0.47474063, 0.085197, 0.0, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+HIGHEDWRNGC_W36,"Question: Please indicate whether this is a reason why you think the higher education system in the U.S. is going in the wrong direction. Colleges and universities are too concerned about protecting students from views they might find offensive
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' A']","[0.41196564, 0.28742915, 0.30060521, 0.0005260598629901]",RELIG,Atheist,"[1.0, 2.0, 3.0]"
+GOVPRIOlF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to who come here legally? Allowing more immigrants into the U.S.
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' B', ' D', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' D', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' D', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' B']","[0.18912549, 0.46530375, 0.3136695, 0.03190125, 0.0]",RELIG,Atheist,"[1.0, 2.0, 3.0, 4.0]"
+DATAUSEd_W49,"Question: Do you think the following uses of data/information are acceptable or unacceptable? Makers of a fitness tracking app sharing their users' data with medical researchers seeking to better understand the link between exercise and heart disease
+A. Acceptable
+B. Unacceptable
+C. Not sure
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B']","[0.46931144, 0.53068856, 0.1803657555505158]",RELIG,Atheist,"[1.0, 2.0]"
+INEQ11_W54,"Question: In order to address economic inequality in this country, do you think the government
+A. Should raise taxes on people like you
+B. Should not raise taxes on people like you
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C']","[0.27677146, 0.72322854, 0.0188038405500271]",RELIG,Atheist,"[1.0, 2.0]"

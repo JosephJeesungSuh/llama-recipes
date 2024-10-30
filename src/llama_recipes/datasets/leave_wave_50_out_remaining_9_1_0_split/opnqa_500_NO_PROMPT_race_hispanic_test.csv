@@ -1,0 +1,371 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+FAMSURV23d_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was wanted to have children someday a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C']","[0.30531706, 0.06078703, 0.6338959, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+HAVEKIDS1_W50,"Question: Thinking about the future, how likely, if at all, is it that you will have children someday?
+A. Very likely
+B. Somewhat likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' A', ' D', ' C', ' A', ' A', ' D', ' C', ' A', ' A', ' C', ' B', ' A', ' D', ' D', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' D', ' B', ' C', ' C', ' B', ' C', ' D', ' A', ' B', ' B', ' D', ' B', ' A', ' B', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' D', ' D', ' D', ' D', ' A', ' B', ' D', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' D', ' C', ' A', ' A', ' D', ' A', ' D', ' C', ' B', ' B', ' B', ' B']","[0.34010042, 0.25047752, 0.20386072, 0.20556134, 0.0028047371781476]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV2Mc_W50,"Question: In general, how important, if at all, is having children in order for a man to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A']","[0.22646426, 0.51569372, 0.25784202, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+FAMSURV26c_W50,"Question: How much pressure, if any, do you feel from your friends to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' A', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' B', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' C', ' D', ' D', ' C', ' D']","[0.00592299, 0.05444128, 0.26175271, 0.67788303, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV26d_W50,"Question: How much pressure, if any, do you feel from society to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' B', ' D', ' D', ' C', ' B', ' C', ' B', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' B', ' C', ' D', ' D', ' D', ' D', ' D', ' B', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' C']","[0.02945274, 0.12406796, 0.33609192, 0.51038738, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+DNA2b_W50,"Question: Was to get information about your health or family medical history a reason you used a mail-in DNA testing service?
+A. Yes, a reason
+B. No, not a reason
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B']","[0.35715795, 0.64284205, 0.0]",RACE,Hispanic,"[1.0, 2.0]"
+FAMSURV43_W50,"Question: In general, how much, if at all, would you say that your adult child(ren) ages 18 to 29 rely on you for emotional support?
+A. A lot
+B. Some
+C. Only a little
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' E', ' B', ' D', ' A', ' A', ' A', ' E', ' B', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' D', ' A', ' C', ' A', ' D', ' A', ' A', ' E', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A']","[0.49804663, 0.31568653, 0.12957983, 0.05668701, 0.0370583611007802]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV23e_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was it made sense financially a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' A', ' A', ' C', ' C']","[0.32218444, 0.20892248, 0.46889308, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+E5MOD_W50,"Question: Is your spouse/partner now employed full-time, part-time or not employed?
+A. Full-time
+B. Part-time
+C. Not employed
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A']","[0.67055691, 0.09547092, 0.23397216, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+FAMSURV16_W50,"Question: Which of the following best describes your current situation? Would you say you
+A. Would like to be in a romantic relationship
+B. Don't want to be in a romantic relationship
+C. Doesn't make much difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' A']","[0.56586303, 0.1426034, 0.29153357, 0.0017201445378774]",RACE,Hispanic,"[1.0, 2.0, 1.5]"
+FAMSURV17_W50,"Question: Thinking about the adults in your life, who is the person you feel closest to?
+A. Your spouse
+B. Your partner or boyfriend or girlfriend
+C. An adult child
+D. A sibling
+E. Your mother
+F. Your father
+G. A friend
+H. Another A family member
+I. Someone else
+J. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.,H.,I.,J.
+
+Answer:","[' B', ' A', ' G', ' G', ' B', ' D', ' A', ' E', ' F', ' G', ' A', ' G', ' H', ' A', ' B', ' E', ' D', ' E', ' A', ' E', ' A', ' A', ' B', ' A', ' E', ' B', ' H', ' B', ' A', ' A', ' E', ' E', ' G', ' D', ' H', ' D', ' A', ' H', ' G', ' I', ' D', ' B', ' D', ' B', ' E', ' E', ' A', ' G', ' A', ' D', ' E', ' E', ' B', ' F', ' G', ' E', ' B', ' B', ' A', ' A', ' D', ' B', ' H', ' G', ' H', ' D', ' E', ' H', ' E', ' G', ' A', ' E', ' H', ' C', ' A', ' H', ' A', ' A', ' G', ' D', ' D', ' G', ' A', ' A', ' G', ' D', ' I', ' E', ' F', ' J', ' A', ' D', ' H', ' B', ' G', ' A', ' D', ' E', ' A', ' C']","[0.26553838, 0.14132357, 0.03434683, 0.12405662, 0.19023783, 0.0226207, 0.13158936, 0.0648528, 0.02543392, 0.0257260142633766]",RACE,Hispanic,"[1, 1, 1, 1, 1, 1, 1, 1, 1]"
+SATLIFEc_W50,"Question: Please tell us whether you are satisfied or dissatisfied with your personal financial situation.
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' D', ' D', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' D', ' D', ' D', ' C', ' D', ' B', ' B', ' C', ' D', ' C', ' C', ' B', ' D', ' C', ' C', ' D', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' D', ' C', ' B', ' A', ' C', ' B', ' D', ' C', ' B', ' D', ' D', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' D', ' D', ' D', ' B', ' C', ' C', ' C', ' D', ' B', ' B', ' D', ' C', ' D', ' B', ' B']","[0.12615231, 0.34560578, 0.3198942, 0.20834771, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV6_W50,"Question: How do you feel about allowing unmarried couples to enter into legal agreements that would give them the same rights as married couples when it comes to things like health insurance, inheritance or tax benefits?
+A. Strongly favor
+B. Somewhat favor
+C. Somewhat oppose
+D. Strongly oppose
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' B', ' C', ' D', ' C', ' A', ' B', ' B', ' E', ' A', ' B', ' B', ' A', ' B', ' E', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' D', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' D', ' D', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' D', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' D', ' A', ' A', ' B', ' C', ' D', ' D', ' A', ' A', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' B', ' B', ' C']","[0.34311243, 0.28349588, 0.24779287, 0.12559882, 0.0060956144811237]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV20_W50,"Question: When you started living with your partner did you think about it as a step toward marriage?
+A. Yes, thought of it as a step toward marriage
+B. No, did not think of it as a step toward marriage
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B']","[0.50079343, 0.49920657, 0.0]",RACE,Hispanic,"[1.0, 2.0]"
+DNA5_W50,"Question: Did your DNA test results change the way you think about your racial or ethnic identity?
+A. Yes, changed
+B. No, did not change
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B']","[0.2105245, 0.7894755, 0.0]",RACE,Hispanic,"[1.0, 2.0]"
+FAMSURV10c_W50,"Question: If a person decides to move in with a partner without being married, how important, if at all, do you think it is for that person to buy a house before moving in with their partner?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' D', ' B', ' A', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' B', ' D', ' A', ' C', ' B', ' B', ' D', ' C', ' A', ' D', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' D', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' D', ' A', ' A', ' B', ' C', ' D', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' D', ' A', ' C', ' D', ' A', ' C', ' D', ' C', ' C', ' B', ' D', ' B', ' C', ' C', ' C', ' C']","[0.18757792, 0.35467373, 0.29951585, 0.15823249, 0.0017547141910299]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+COHABDUR_W50,"Question: Now thinking about the partner you are currently living with how long have you and your partner been living together?
+A. Less than one year
+B. 1 year to less than 3 years
+C. 3 years to less than 5 years
+D. 5 years to less than 10 years
+E. 10 years to less than 20 years
+F. 20 years or more
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' B', ' C', ' A', ' F', ' A', ' D', ' D', ' E', ' F', ' F', ' B', ' D', ' F', ' B', ' B', ' B', ' E', ' F', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' D', ' E', ' F', ' D', ' A', ' E', ' A', ' B', ' A', ' C', ' B', ' C', ' E', ' C', ' A', ' A', ' F', ' B', ' D', ' A', ' A', ' B', ' C', ' E', ' B', ' C', ' B', ' D', ' C', ' A', ' B', ' D', ' B', ' C', ' A', ' C', ' C', ' E', ' C', ' F', ' D', ' D', ' E', ' A', ' B', ' B', ' B', ' D', ' E', ' F', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' F', ' E', ' B', ' C', ' A', ' E', ' D', ' C', ' B', ' E', ' F', ' E', ' B', ' C', ' A', ' B', ' B', ' B']","[0.247718, 0.14439057, 0.14591173, 0.14766089, 0.20949367, 0.10482514, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+ROMRELSER_W50,"Question: How serious would you say your current romantic relationship is?
+A. Very serious
+B. Somewhat serious
+C. Not too serious
+D. Not at all serious
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' D', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' D', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B']","[0.64603853, 0.28295086, 0.04538077, 0.02562984, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV2Wa_W50,"Question: In general, how important, if at all, is being married in order for a woman to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' D', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' B', ' B', ' C']","[0.20863177, 0.44405775, 0.34731048, 0.0049188629259328]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+FAMSURV23g_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was wanted to test your relationship a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' A', ' A', ' C', ' C']","[0.45928008, 0.14045366, 0.40026626, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+FAMSURV44_W50,"Question: In the past 12 months, how much financial help, if any, did you provide for your adult child(ren) ages 18 to 29?
+A. A lot
+B. Some
+C. Only a little
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' D', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' C', ' A', ' D', ' A', ' A', ' A', ' A', ' A']","[0.50982514, 0.25379665, 0.14260716, 0.09377105, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV40_W50,"Question: In the past 12 months, how much financial help, if any, did you receive from a parent?
+A. A lot
+B. Some
+C. Only a little
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' D', ' D', ' A', ' A', ' D', ' C', ' C', ' B', ' D', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' D', ' A', ' D', ' A', ' A', ' C', ' B', ' A', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' D', ' A', ' A', ' C', ' D', ' D', ' D', ' C', ' C', ' B', ' D', ' D', ' A', ' B', ' C', ' A', ' C', ' D', ' A', ' D', ' C', ' A', ' C', ' B', ' D', ' A', ' A', ' B', ' D', ' B', ' D', ' D', ' B', ' A', ' B', ' C', ' D', ' A', ' D', ' B', ' D', ' D', ' D', ' A', ' C', ' B', ' C', ' D', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' D', ' B', ' D', ' B']","[0.21435176, 0.30849574, 0.17980388, 0.29734862, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV29_W50,"Question: How often, if ever, do you and your partner talk about getting married?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' D', ' B', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' B', ' C', ' C', ' B', ' C', ' D', ' B', ' C', ' B', ' D', ' C', ' D', ' D', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' B', ' D', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C']","[0.09826583, 0.29627632, 0.44756628, 0.15789157, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV1_W50,"Question: At this point in your life, which of the following would be best for you personally?
+A. Working full-time for pay
+B. Working part-time for pay
+C. Not working for pay at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' A']","[0.60246789, 0.27668759, 0.12084452, 0.0067164568664132]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+MOTHER_W50,"Question: Is your mother living?
+A. Yes
+B. No
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B']","[0.76405445, 0.23594555, 0.0]",RACE,Hispanic,"[1.0, 2.0]"
+PAR2_W50,"Question: In general, do you think your parents do mother does father does
+A. Too much for you
+B. Too little for you
+C. About the right amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' C']","[0.24517735, 0.18914855, 0.5656741, 0.0]",RACE,Hispanic,"[1.0, 2.0, 1.5]"
+FAMSURV26b_W50,"Question: How much pressure, if any, do you feel from family members to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' B', ' D', ' C', ' B', ' C', ' D', ' B', ' C', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' B', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' C', ' D', ' B', ' B', ' D', ' D', ' C', ' B', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' B', ' B', ' D', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' D', ' A', ' D', ' D', ' D', ' B', ' D', ' C', ' C', ' B', ' A', ' B', ' B', ' D', ' C', ' D', ' B', ' D', ' B', ' B', ' C', ' D', ' D', ' D']","[0.01462124, 0.22825639, 0.29835929, 0.45876308, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+MARRDUR_W50,"Question: Now thinking about your spouse how long have you and your spouse been married?
+A. Less than one year
+B. 1 year to less than 3 years
+C. 3 years to less than 5 years
+D. 5 years to less than 10 years
+E. 10 years to less than 20 years
+F. 20 years or more
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' E', ' E', ' C', ' E', ' E', ' C', ' D', ' E', ' F', ' E', ' F', ' E', ' F', ' E', ' E', ' E', ' E', ' E', ' E', ' F', ' E', ' E', ' F', ' F', ' D', ' F', ' E', ' C', ' D', ' F', ' F', ' B', ' D', ' E', ' D', ' E', ' F', ' F', ' E', ' F', ' B', ' E', ' F', ' B', ' F', ' E', ' C', ' E', ' D', ' B', ' E', ' E', ' F', ' E', ' E', ' F', ' E', ' D', ' F', ' E', ' F', ' F', ' E', ' E', ' D', ' D', ' D', ' F', ' F', ' E', ' C', ' F', ' D', ' E', ' F', ' F', ' F', ' F', ' E', ' D', ' E', ' E', ' F', ' E', ' E', ' D', ' E', ' E', ' F', ' E', ' F', ' F', ' E', ' F', ' E', ' F', ' E', ' F', ' E', ' F']","[0.00302218, 0.04895595, 0.08155313, 0.09566133, 0.40020763, 0.37059978, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+PAR1_W50,"Question: In general, do you think you do
+A. Too much for your adult child(ren) ages 18 to 29
+B. Too little for your adult child(ren) ages 18 to 29
+C. About the right amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A']","[0.29449187, 0.11517366, 0.59033447, 0.0034104965938864]",RACE,Hispanic,"[1.0, 2.0, 1.5]"
+MARRYPREF2_W50,"Question: Thinking about the future, would you say you
+A. Want to get married again someday
+B. Don't want to get married again
+C. Are not sure if you want to get married again
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' B']","[0.22323178, 0.39331822, 0.38345, 0.0]",RACE,Hispanic,"[1.0, 2.0, 1.5]"
+FAMSURV9c_W50,"Question: How important, if at all, do you think it is for a person to buy a house before getting married?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' D', ' D', ' A', ' C', ' D', ' B', ' C', ' B', ' D', ' B', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' D', ' A', ' A', ' D', ' A', ' C', ' C', ' C', ' B', ' B', ' D', ' D', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' D', ' C', ' D', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' D', ' A', ' D', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' C']","[0.24026979, 0.27626371, 0.36799567, 0.11547083, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV2Wc_W50,"Question: In general, how important, if at all, is having children in order for a woman to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B']","[0.24638195, 0.57001051, 0.18360754, 0.0037250269819031]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+ROMRELDUR_W50,"Question: How long have you been in your current romantic relationship?
+A. Less than 3 months
+B. 3 months to less than 6 months
+C. 6 months to less than 1 year
+D. 1 year to less than 3 years
+E. 3 years to less than 5 years
+F. 5 years or more
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' A', ' D', ' B', ' E', ' F', ' E', ' D', ' D', ' E', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' E', ' A', ' D', ' D', ' F', ' E', ' D', ' E', ' C', ' A', ' F', ' E', ' D', ' D', ' D', ' D', ' D', ' F', ' C', ' C', ' A', ' D', ' D', ' D', ' C', ' D', ' F', ' F', ' E', ' A', ' E', ' A', ' D', ' E', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' C', ' A', ' A', ' A', ' E', ' C', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' D', ' A', ' F', ' A', ' E', ' E', ' F', ' D', ' E', ' E', ' D', ' D', ' E', ' D', ' F', ' C', ' D', ' A', ' E', ' A', ' D', ' D', ' D', ' A', ' D', ' E', ' D']","[0.15661044, 0.01289435, 0.12656384, 0.42336511, 0.1638463, 0.11671996, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+FAMSURV39_W50,"Question: In general, how much, if at all, would you say that you rely on a parent for emotional support?
+A. A lot
+B. Some
+C. Only a little
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' C', ' D', ' D', ' B', ' B', ' A', ' B', ' D', ' D', ' D', ' B', ' C', ' D', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' D', ' A', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' B', ' D', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' D', ' D', ' B', ' B', ' A', ' D', ' D', ' D', ' C', ' D', ' A', ' C', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' D', ' D', ' A', ' D', ' B', ' D', ' C', ' B', ' A', ' C', ' C', ' D', ' C', ' B', ' C', ' B', ' D', ' A', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' D']","[0.1496631, 0.32648506, 0.22652755, 0.29732429, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV23f_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was it was convenient a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A']","[0.45657072, 0.18091872, 0.36251056, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+FAMSURV3_W50,"Question: Do you think it is ever acceptable for an unmarried couple to live together?
+A. Yes, even if they don't plan to get married
+B. Yes, but only if they plan to get married
+C. No, never acceptable
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A']","[0.72039504, 0.21860841, 0.06099655, 0.0090210150385713]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+MARRYPREF1_W50,"Question: Thinking about the future, would you say you
+A. Want to get married someday
+B. Don't want to get married
+C. Are not sure if you want to get married
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C']","[0.60086226, 0.03282849, 0.36630925, 0.0226247582882407]",RACE,Hispanic,"[1.0, 2.0, 1.5]"
+FAMSURV2Ma_W50,"Question: In general, how important, if at all, is being married in order for a man to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C']","[0.13726312, 0.47810865, 0.38462823, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+FAMSURV23b_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was companionship a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B']","[0.62116854, 0.24014958, 0.13868188, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+FAMSURV26a_W50,"Question: How much pressure, if any, do you feel from your partner to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' B', ' C', ' A', ' D', ' D', ' B', ' B', ' A', ' B', ' B', ' D', ' D', ' D', ' C', ' D', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' D', ' B', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' B', ' C', ' D', ' C', ' D', ' B', ' C', ' C', ' B', ' C', ' D', ' D', ' A', ' D', ' C', ' D', ' A', ' D', ' D', ' D', ' B', ' D', ' A', ' A', ' A', ' B', ' D', ' D', ' B', ' A', ' D', ' D', ' C', ' B', ' C', ' D', ' B', ' B', ' D', ' A', ' C', ' D', ' D', ' B', ' C', ' C', ' A', ' C', ' D', ' D', ' B', ' B', ' C', ' D', ' D', ' B', ' B', ' D', ' D']","[0.06892698, 0.22364632, 0.23961564, 0.46781106, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"
+FATHER_W50,"Question: Is your father living?
+A. Yes
+B. No
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B']","[0.61313324, 0.38686676, 0.0043474293171025]",RACE,Hispanic,"[1.0, 2.0]"
+FAMSURV23c_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was you or your partner were pregnant a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C']","[0.21257158, 0.00215612, 0.7852723, 0.0]",RACE,Hispanic,"[1.0, 2.0, 3.0]"
+FAMSURV32e_W50,"Question: How do you feel about your spouse's/partner's approach to parenting?
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' D', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' A', ' D', ' D', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' D', ' A', ' C', ' D', ' D', ' B', ' A', ' D', ' C', ' B', ' D', ' D', ' A', ' B', ' D', ' B', ' B', ' A', ' E', ' D', ' A', ' A', ' B', ' B', ' A', ' D', ' B', ' D', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' E', ' D', ' A', ' C', ' B', ' A', ' B', ' C', ' A', ' D', ' A', ' B', ' B', ' A', ' B', ' D', ' A', ' D', ' B', ' B', ' C', ' A', ' D', ' B', ' B']","[0.36267239, 0.38417282, 0.1242407, 0.12891408, 0.0133916935637854]",RACE,Hispanic,"[1.0, 2.0, 3.0, 4.0]"

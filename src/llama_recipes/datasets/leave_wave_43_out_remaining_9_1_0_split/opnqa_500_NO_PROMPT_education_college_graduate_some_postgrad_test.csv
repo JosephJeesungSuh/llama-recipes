@@ -1,0 +1,514 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+IDIMPORT_W43,"Question: How important is being Hispanic to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' E', ' D', ' B', ' B', ' E', ' D', ' E', ' E', ' E', ' A', ' B', ' C', ' E', ' A', ' E', ' D', ' E', ' E', ' D', ' D', ' B', ' C', ' C', ' E', ' C', ' B', ' E', ' B', ' B', ' D', ' D', ' C', ' A', ' B', ' E', ' A', ' A', ' F', ' E', ' B', ' E', ' D', ' D', ' A', ' A', ' A', ' D', ' A', ' A', ' E', ' A', ' E', ' B', ' D', ' D', ' E', ' C', ' D', ' E', ' A', ' D', ' D', ' B', ' D', ' E', ' E', ' B', ' D', ' D', ' D', ' E', ' A', ' B', ' A', ' E', ' D', ' D', ' D', ' E', ' D', ' D', ' E', ' E', ' D', ' A', ' B', ' E', ' B', ' C', ' C', ' D', ' A', ' A', ' E', ' D', ' E', ' B', ' E']","[0.11879668, 0.15659095, 0.18503201, 0.21289659, 0.32668378, 0.0095024428403776]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV15a_W43,"Question: Since President Trump was elected, do you think it has become more common or less common for people to express racist or racially insensitive views, or is it about as common as it was before?
+A. More common
+B. Less common
+C. About as common
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A']","[0.71316451, 0.04243246, 0.24440303, 0.0100377456586505]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+IDIMPORT_W43,"Question: How important is being Asian to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' E', ' D', ' C', ' E', ' E', ' D', ' C', ' B', ' D', ' E', ' D', ' B', ' B', ' E', ' C', ' A', ' E', ' E', ' D', ' E', ' A', ' E', ' B', ' E', ' C', ' C', ' E', ' E', ' D', ' C', ' B', ' D', ' D', ' B', ' B', ' D', ' D', ' B', ' B', ' A', ' E', ' A', ' E', ' E', ' E', ' A', ' E', ' C', ' E', ' D', ' A', ' D', ' D', ' C', ' E', ' E', ' B', ' A', ' C', ' C', ' E', ' D', ' E', ' D', ' D', ' D', ' D', ' E', ' D', ' B', ' B', ' E', ' E', ' C', ' D', ' E', ' C', ' E', ' E', ' D', ' A', ' C', ' E', ' A', ' E', ' E', ' C', ' D', ' E', ' A', ' B', ' C', ' B', ' E', ' A', ' D', ' C', ' E']","[0.11879668, 0.15659095, 0.18503201, 0.21289659, 0.32668378, 0.0095024428403776]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV28b_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in stores or restaurants situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' C', ' C', ' A', ' A', ' D', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' D', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A']","[0.52687291, 0.00683962, 0.46628747, 0.0142692562204061]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+RACESURV28c_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when applying for a loan or mortgage situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' D', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A']","[0.53447446, 0.01862741, 0.44689813, 0.0259126550264934]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+RACESURV5l_W43,"Question: Overall, how does being wealthy affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' E', ' E', ' A', ' A', ' A', ' E', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' A', ' E', ' A', ' D']","[0.872291939, 0.0768821841, 0.000789809558, 0.0127194315, 0.0373166356, 0.0016047233321456]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV34b_W43,"Question: Overall, how much has being a man/Being a woman/Your gender helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' B', ' A', ' D', ' B', ' D', ' E', ' A', ' B', ' C', ' A', ' B', ' B', ' D', ' E', ' B', ' E', ' A', ' C', ' B', ' C', ' A', ' A', ' E', ' E', ' C', ' B', ' B', ' C', ' C', ' B', ' E', ' A', ' E', ' E', ' C', ' C', ' B', ' C', ' E', ' E', ' B', ' C', ' C', ' C', ' B', ' A', ' E', ' B', ' E', ' B', ' E', ' C', ' E', ' E', ' B', ' E', ' D', ' E', ' E', ' E', ' A', ' E', ' C', ' C', ' B', ' E', ' E', ' C', ' C', ' E', ' A', ' E', ' B', ' C', ' A', ' E', ' A', ' E', ' B', ' B', ' C', ' B', ' C', ' E', ' E', ' D', ' B', ' E', ' C', ' E', ' A', ' E', ' A', ' E', ' B', ' B', ' B', ' C']","[0.12818449, 0.22014972, 0.23915206, 0.05361166, 0.35890207, 0.0064486190252815]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5g_W43,"Question: Overall, how does being Muslim affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' A', ' C', ' E', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' C', ' E', ' D', ' D', ' D', ' D', ' C', ' D', ' E', ' C', ' D', ' C', ' D', ' B', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' E', ' C', ' D', ' D', ' D', ' A', ' C', ' D', ' D', ' D', ' C', ' E', ' C', ' D', ' E', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' E', ' D', ' D', ' D', ' E', ' E', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' A', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' E', ' C', ' C', ' C', ' C', ' D', ' D']","[0.01820576, 0.02794937, 0.4309419, 0.37175989, 0.15114309, 0.0083056158868179]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5f_W43,"Question: Overall, how does being Jewish affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' C', ' A', ' C', ' A', ' E', ' E', ' E', ' A', ' B', ' B', ' E', ' E', ' B', ' E', ' E', ' A', ' B', ' E', ' B', ' C', ' E', ' B', ' D', ' B', ' B', ' C', ' E', ' A', ' B', ' E', ' E', ' E', ' E', ' E', ' E', ' A', ' B', ' B', ' E', ' E', ' C', ' D', ' C', ' E', ' C', ' E', ' E', ' C', ' C', ' E', ' E', ' E', ' C', ' E', ' C', ' E', ' B', ' C', ' D', ' B', ' C', ' E', ' E', ' E', ' E', ' C', ' A', ' E', ' E', ' A', ' C', ' E', ' E', ' C', ' C', ' E', ' D', ' E', ' E', ' C', ' E', ' C', ' B', ' F', ' B', ' A', ' B', ' E', ' B', ' A', ' B', ' E', ' E', ' C', ' C', ' C', ' E', ' E']","[0.08642814, 0.18383321, 0.19833126, 0.02311442, 0.50829297, 0.0125343576315545]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV13_W43,"Question: How likely, if at all, is it that black people in our country will eventually have equal rights with whites?
+A. Very likely
+B. Somewhat likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' C', ' A', ' A', ' B', ' A', ' D', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' C']","[0.20832399, 0.49300245, 0.25366821, 0.04500536, 0.0018806859203086]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV45_W43,"Question: How many black people in our country do you think would confront a black friend or family member if they made a racist or racially insensitive comment or joke about people who are white?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' B', ' C', ' B', ' A', ' E', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' E', ' B', ' B', ' B', ' C', ' C', ' E', ' C', ' E', ' E', ' C', ' E', ' E', ' C', ' B', ' B', ' C', ' C', ' C', ' E', ' B', ' E', ' E', ' C', ' E', ' C', ' C', ' B', ' E', ' C', ' B', ' B', ' C', ' C', ' C', ' E', ' E', ' A', ' B', ' C', ' C', ' C', ' C', ' E', ' B', ' C', ' E', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' E', ' E', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' E', ' C', ' B', ' B', ' E', ' E', ' C', ' E', ' C', ' C', ' B', ' C', ' C', ' E', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B']","[0.03875665, 0.3809369, 0.58030645, 0.0, 0.2560615775266693]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV34a_W43,"Question: Overall, how much has being white/Being black/Being Hispanic/Being Asian/Your racial background helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' D', ' E', ' E', ' D', ' E', ' B', ' A', ' B', ' A', ' B', ' A', ' E', ' B', ' F', ' B', ' B', ' A', ' E', ' B', ' E', ' B', ' A', ' C', ' E', ' E', ' A', ' E', ' E', ' A', ' E', ' E', ' E', ' B', ' C', ' B', ' B', ' A', ' A', ' E', ' A', ' E', ' B', ' F', ' A', ' A', ' E', ' E', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' E', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' E', ' E', ' A', ' B', ' D', ' E', ' E', ' C', ' A', ' E', ' E', ' A', ' E', ' F', ' E', ' B', ' E', ' C', ' D', ' A', ' E', ' B', ' A']","[0.19071001, 0.28264096, 0.0917651, 0.03518637, 0.39969755, 0.0090714509025828]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+IDIMPORT_W43,"Question: How important is your racial background to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' E', ' C', ' A', ' E', ' D', ' E', ' B', ' A', ' E', ' C', ' A', ' E', ' D', ' B', ' C', ' D', ' C', ' C', ' D', ' E', ' C', ' E', ' E', ' E', ' E', ' D', ' D', ' A', ' B', ' E', ' E', ' B', ' D', ' D', ' D', ' D', ' E', ' D', ' D', ' E', ' E', ' A', ' C', ' D', ' E', ' B', ' D', ' D', ' E', ' E', ' E', ' E', ' E', ' D', ' B', ' E', ' C', ' D', ' E', ' E', ' D', ' D', ' C', ' C', ' E', ' D', ' B', ' E', ' E', ' E', ' E', ' D', ' C', ' D', ' D', ' E', ' B', ' B', ' E', ' C', ' E', ' D', ' E', ' B', ' B', ' B', ' D', ' B', ' B', ' E', ' C', ' C', ' E', ' E', ' E', ' E', ' E', ' D']","[0.11879668, 0.15659095, 0.18503201, 0.21289659, 0.32668378, 0.0095024428403776]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV28a_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in hiring, pay and promotions situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' D', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A']","[0.5900625, 0.04974937, 0.36018813, 0.0180605671455041]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+RACESURV19c_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Less access to good quality schools
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A']","[0.61426318, 0.23412088, 0.15161594, 0.0024299338331675]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+RACESURV28e_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in by the criminal justice system situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' D', ' A', ' A', ' A', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' D', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' D', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A']","[0.72421233, 0.0145197, 0.26126797, 0.0200553638535959]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+RACESURV40_W43,"Question: How many white people in our country do you think are prejudiced against black people?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' C', ' B', ' B', ' B', ' B', ' E', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' E', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' E', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' E', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' E', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' E', ' B', ' C', ' E', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B']","[0.0894308, 0.73394662, 0.17662258, 0.0, 0.0704586727316797]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV29d_W43,"Question: In your daily life, how much interaction, if any, would you say you have with people who are asian
+A. A lot of interaction
+B. Some interaction
+C. Not much interaction
+D. No interaction at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' D', ' C', ' A', ' D', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' D', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' E', ' C', ' A', ' C', ' D', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' D', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' C']","[0.17480511, 0.4353851, 0.3168266, 0.07298319, 0.0054507538232798]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV15b_W43,"Question: Since President Trump was elected, do you think it has become more acceptable or less acceptable for people to express racist or racially insensitive views, or is it about as acceptable as it was before?
+A. More acceptable
+B. Less acceptable
+C. About as acceptable
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' D', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' D', ' A', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' C']","[0.53475347, 0.17692963, 0.2883169, 0.0071086419798649]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+RACESURV2_W43,"Question: The U.S. population is made up of people of many different races and ethnicities. Overall, do you think this is
+A. Very good for the country
+B. Somewhat good for the country
+C. Somewhat bad for the country
+D. Very bad for the country
+E. Neither good nor bad for the country
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' E', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' E', ' A', ' B', ' A', ' B', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' E', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' E', ' B', ' A', ' E', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.67777775, 0.18063748, 0.02399414, 0.00730984, 0.11028079, 0.0039851126548267]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5d_W43,"Question: Overall, how does being Asian affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' A', ' E', ' C', ' A', ' C', ' B', ' B', ' E', ' E', ' E', ' B', ' A', ' E', ' B', ' B', ' E', ' C', ' E', ' E', ' B', ' B', ' E', ' E', ' E', ' B', ' B', ' C', ' C', ' E', ' B', ' C', ' B', ' E', ' E', ' A', ' B', ' E', ' E', ' B', ' E', ' B', ' B', ' A', ' C', ' E', ' E', ' E', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' E', ' A', ' C', ' E', ' B', ' B', ' C', ' C', ' E', ' E', ' D', ' E', ' E', ' C', ' C', ' B', ' C', ' E', ' C', ' C', ' B', ' E', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' E', ' E', ' E', ' B', ' C', ' B', ' D', ' B', ' E', ' E', ' C', ' C', ' E']","[0.07239545, 0.31554212, 0.19091047, 0.02813367, 0.39301828, 0.0052767725766524]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV27_W43,"Question: How much, if at all, do you think what happens to Asians in the country overall affects what happens in your own life?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' D', ' B', ' D', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' D', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' D', ' A', ' B', ' D', ' C', ' E', ' D', ' B', ' D', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' B', ' E', ' B', ' B', ' D', ' D', ' B', ' D', ' C', ' D', ' B', ' D', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' B']","[0.06795859, 0.29138248, 0.38847882, 0.25218011, 0.0147210273817719]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV47e_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A person wearing traditional dress from a country or culture other than their own as part of a Halloween costume
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' A', ' B', ' C', ' B', ' E', ' B', ' E', ' B', ' A', ' C', ' C', ' E', ' B', ' D', ' A', ' C', ' B', ' A', ' A', ' D', ' D', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' D', ' E', ' B', ' E', ' B', ' A', ' E', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' D', ' B', ' B', ' B', ' D', ' D', ' B', ' D', ' D', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' D', ' B', ' A', ' D', ' B', ' B', ' B', ' C', ' B']","[0.254666, 0.40394479, 0.17020093, 0.17118828, 0.0706026359471924]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV19e_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Less access to high-paying jobs
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' C']","[0.46586692, 0.27335866, 0.26077443, 0.0032132335970123]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+RACESURV5a_W43,"Question: Overall, how does being white affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' E', ' E', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' E', ' A', ' D', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' E', ' A', ' A', ' E', ' E', ' B', ' A', ' B', ' C', ' E', ' A', ' B', ' E', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' E', ' A', ' B', ' B', ' B', ' A', ' E', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' E', ' B', ' B']","[0.44596641, 0.28088941, 0.06465729, 0.02163332, 0.18685357, 0.0057086752398221]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV51_W43,"Question: Thinking about the community where you live, do you wish your community was
+A. More racially mixed
+B. Less racially mixed
+C. About as racially mixed as it is
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C']","[0.3176767, 0.06776813, 0.61455517, 0.0107839359612185]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+RACESURV34c_W43,"Question: Overall, how much has your family's financial situation when you were growing up helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' E', ' A', ' A', ' D', ' A', ' A', ' E', ' A', ' A', ' B', ' E', ' C', ' B', ' D', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' E', ' C', ' E', ' B', ' E', ' D', ' A', ' A', ' D', ' A', ' B', ' A', ' E', ' C', ' B', ' B', ' D', ' E', ' B', ' C', ' D', ' A', ' D', ' D', ' A', ' C', ' C', ' B', ' A', ' E', ' E', ' B', ' C', ' C', ' B', ' D', ' D', ' A', ' B', ' E', ' D', ' D', ' E', ' B', ' A', ' D', ' B', ' B', ' D', ' C', ' E', ' A', ' A', ' B', ' A', ' A', ' A', ' E', ' A', ' C', ' B', ' E', ' C', ' C', ' A', ' E', ' E', ' C', ' A', ' A', ' A', ' E', ' B', ' C', ' E', ' F', ' C']","[0.24700214, 0.24987465, 0.17411156, 0.09781845, 0.2311932, 0.002891250459572]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+IDIMPORT_W43,"Question: How important is being black to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' B', ' D', ' C', ' A', ' E', ' E', ' D', ' D', ' C', ' B', ' A', ' A', ' C', ' D', ' B', ' D', ' B', ' E', ' D', ' D', ' E', ' C', ' E', ' A', ' E', ' A', ' D', ' A', ' A', ' C', ' E', ' A', ' A', ' D', ' E', ' D', ' B', ' A', ' D', ' E', ' C', ' D', ' A', ' E', ' A', ' A', ' E', ' E', ' E', ' D', ' A', ' B', ' A', ' E', ' E', ' E', ' D', ' B', ' B', ' E', ' E', ' D', ' B', ' C', ' E', ' B', ' E', ' E', ' D', ' E', ' C', ' E', ' D', ' B', ' D', ' B', ' E', ' A', ' D', ' E', ' E', ' A', ' A', ' E', ' E', ' E', ' E', ' D', ' A', ' A', ' E', ' C', ' E', ' D', ' B', ' A', ' A', ' C']","[0.11879668, 0.15659095, 0.18503201, 0.21289659, 0.32668378, 0.0095024428403776]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV52_W43,"Question: How much, if at all, would it bother you to hear people speak a language other than English in a public place?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' A', ' D', ' D', ' B', ' D', ' C', ' D', ' B', ' C', ' D', ' B', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' A', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' A', ' C', ' D', ' D', ' C', ' C', ' B', ' D', ' A', ' C', ' D', ' B', ' D', ' D', ' C', ' B', ' B', ' D', ' D', ' C', ' B', ' C', ' D', ' B', ' B', ' A', ' D', ' A', ' D', ' C', ' B', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' E', ' D', ' D', ' D', ' D', ' D', ' C', ' A', ' A']","[0.06075343, 0.15883878, 0.27936815, 0.50103964, 0.0019725179681556]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV18b_W43,"Question: Thinking again about race and race relations in the U.S. in general, how well, if at all, do you think each of these groups get along with each other in our society these days? Blacks and Hispanics
+A. Very well
+B. Pretty well
+C. Not too well
+D. Not at all well
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' A', ' C', ' E', ' B', ' B', ' C', ' B', ' B', ' B', ' E', ' A', ' C', ' B', ' B', ' C', ' C', ' E', ' C', ' E', ' C', ' E', ' E', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' E', ' E', ' B', ' B', ' C', ' C', ' C', ' B', ' E', ' E', ' B', ' B', ' C', ' C', ' E', ' B', ' C', ' B', ' C', ' B', ' E', ' B', ' E', ' B', ' B', ' E', ' E', ' C', ' D', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' E', ' E', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' E', ' E', ' B', ' E', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' E']","[0.06575809, 0.5964981, 0.29454109, 0.04320271, 0.3086192331247556]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV5j_W43,"Question: Overall, how does being a woman affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' C', ' D', ' E', ' C', ' C', ' C', ' E', ' D', ' D', ' C', ' C', ' C', ' C', ' E', ' E', ' D', ' C', ' A', ' C', ' D', ' D', ' E', ' C', ' C', ' C', ' D', ' D', ' D', ' B', ' C', ' B', ' C', ' B', ' E', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' E', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' E', ' C', ' E', ' E', ' C', ' C', ' C', ' D', ' A', ' E', ' C', ' C', ' B', ' B', ' C', ' D', ' D', ' D', ' E', ' C', ' C', ' B', ' C', ' D', ' D', ' E', ' B', ' E', ' C', ' E', ' B', ' C', ' C', ' D', ' C', ' C', ' D', ' B']","[0.05785371, 0.13161509, 0.51594134, 0.10582882, 0.18876104, 0.0029478026603237]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV21_W43,"Question: How often, if ever, did your family talk to you about challenges you might face because of your race or ethnicity?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' B', ' B', ' D', ' A', ' D', ' D', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' B', ' B', ' B', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' B', ' B', ' D', ' B', ' D', ' C', ' D', ' E', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' A', ' B', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' B', ' C', ' C', ' D', ' D', ' B', ' C', ' A', ' D', ' D', ' D', ' C', ' B', ' A', ' D']","[0.05996177, 0.13407866, 0.16747417, 0.6384854, 0.0064938413084046]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV1b_W43,"Question: For your job or career aspects of your life, would you say that you are, or about where you expected to be at this point in your life?
+A. In a better situation than I expected
+B. In a worse situation than I expected
+C. About where I expected
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' B']","[0.29683021, 0.2751604, 0.42800938, 0.0063861250396139]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+RACESURV28f_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when voting in elections situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' D', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C']","[0.44000296, 0.02172302, 0.53827402, 0.0154470720572591]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+IDIMPORT_W43,"Question: How important is being white to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' D', ' E', ' B', ' E', ' B', ' A', ' C', ' E', ' E', ' E', ' D', ' D', ' D', ' E', ' D', ' E', ' C', ' E', ' D', ' E', ' C', ' D', ' C', ' B', ' A', ' C', ' D', ' D', ' E', ' E', ' C', ' B', ' E', ' C', ' B', ' C', ' A', ' E', ' D', ' D', ' E', ' E', ' B', ' C', ' E', ' A', ' E', ' D', ' C', ' D', ' E', ' B', ' D', ' B', ' C', ' C', ' E', ' B', ' E', ' E', ' E', ' B', ' E', ' B', ' E', ' E', ' E', ' C', ' A', ' E', ' C', ' E', ' D', ' D', ' E', ' F', ' B', ' D', ' E', ' E', ' D', ' C', ' C', ' A', ' E', ' E', ' D', ' E', ' D', ' A', ' F', ' B', ' D', ' C', ' C', ' B', ' D', ' D']","[0.11879668, 0.15659095, 0.18503201, 0.21289659, 0.32668378, 0.0095024428403776]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV5e_W43,"Question: Overall, how does being Native American affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' C', ' A', ' D', ' C', ' F', ' E', ' C', ' D', ' E', ' D', ' E', ' C', ' D', ' E', ' D', ' D', ' D', ' E', ' B', ' D', ' B', ' C', ' C', ' E', ' E', ' D', ' E', ' C', ' A', ' B', ' B', ' E', ' C', ' E', ' E', ' D', ' F', ' E', ' D', ' E', ' D', ' D', ' B', ' D', ' E', ' E', ' E', ' D', ' E', ' B', ' E', ' C', ' C', ' E', ' C', ' D', ' C', ' C', ' E', ' D', ' E', ' C', ' B', ' C', ' E', ' D', ' D', ' C', ' E', ' D', ' D', ' C', ' C', ' E', ' E', ' C', ' D', ' B', ' E', ' C', ' D', ' E', ' E', ' D', ' D', ' B', ' D', ' E', ' A', ' B', ' E', ' B', ' C', ' D', ' D', ' B', ' B', ' E']","[0.0304434, 0.1947732, 0.28179447, 0.20301185, 0.28997707, 0.0092574810326829]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV28g_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when seeking medical treatment situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' D', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' D', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A']","[0.3972521, 0.01511234, 0.58763556, 0.0133362276134697]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+RACESURV17_W43,"Question: How much, if at all, do you think the legacy of slavery affects the position of black people in American society today?
+A. A great deal
+B. A fair amount
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' D', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' E', ' B', ' A', ' D', ' D', ' A', ' A', ' C', ' A', ' A', ' B', ' D', ' A', ' E', ' C', ' D', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' C', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' D', ' B', ' E', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' D', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' D', ' A', ' D']","[0.34010085, 0.33143601, 0.20862816, 0.11983499, 0.0089833345339558]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV5h_W43,"Question: Overall, how does being an evangelical Christian affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' A', ' E', ' A', ' E', ' E', ' C', ' D', ' E', ' D', ' E', ' D', ' C', ' A', ' B', ' E', ' E', ' B', ' B', ' E', ' B', ' D', ' B', ' E', ' E', ' E', ' B', ' A', ' F', ' E', ' E', ' B', ' E', ' E', ' E', ' E', ' C', ' E', ' A', ' E', ' A', ' B', ' B', ' E', ' C', ' E', ' B', ' B', ' E', ' E', ' E', ' B', ' E', ' E', ' D', ' E', ' B', ' B', ' E', ' E', ' E', ' E', ' B', ' B', ' A', ' E', ' C', ' B', ' B', ' B', ' E', ' B', ' E', ' D', ' E', ' A', ' E', ' B', ' B', ' E', ' E', ' E', ' B', ' B', ' E', ' E', ' E', ' E', ' E', ' C', ' C', ' B', ' B', ' B', ' A', ' E', ' A', ' C', ' D']","[0.09235215, 0.21995478, 0.12239152, 0.03979121, 0.52551035, 0.0086656969488602]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV47b_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A black person using the n-word
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' E', ' A', ' B', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' C', ' D', ' A', ' B', ' D', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' D', ' D', ' D', ' A', ' C', ' C', ' D', ' B', ' C', ' D', ' B', ' B', ' A', ' A', ' C', ' D', ' D', ' A', ' C', ' B', ' D', ' B', ' B', ' E', ' C', ' C', ' A', ' A', ' D', ' A', ' B', ' D', ' E', ' A', ' B', ' D', ' D', ' B', ' E', ' D', ' C', ' D', ' E', ' D', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' D', ' D', ' D', ' B', ' B', ' C', ' C', ' B', ' A', ' B']","[0.14933476, 0.2988292, 0.17942042, 0.37241561, 0.1121252164442658]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV47d_W43,"Question: For each, please indicate if you, personally, think it is acceptable. Casting an actor to play a character of a race or ethnicity other than their own
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' A', ' B', ' B', ' A', ' A', ' D', ' B', ' B', ' D', ' A', ' B', ' E', ' C', ' E', ' C', ' A', ' E', ' B', ' D', ' E', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' D', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' E', ' B', ' C', ' A', ' D', ' E', ' B', ' A', ' A', ' A', ' C', ' C', ' D', ' B', ' D', ' A', ' E', ' B', ' A', ' B', ' A', ' B', ' C', ' D', ' A', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' D', ' C', ' B', ' B', ' C', ' D', ' B', ' B', ' D', ' C', ' D', ' B', ' B', ' C', ' B', ' B', ' A', ' D', ' B']","[0.23769876, 0.38500661, 0.2172978, 0.15999683, 0.0583845976940101]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV14_W43,"Question: Would you say President Trump has
+A. Made progress toward improving race relations
+B. Tried but failed to make progress toward improving race relations
+C. Not addressed race relations
+D. Made race relations worse
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' D', ' D', ' C', ' D', ' A', ' D', ' A', ' A', ' B', ' D', ' B', ' D', ' D', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' D', ' A', ' C', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' A', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' A', ' C', ' D', ' C', ' D', ' B', ' D', ' C', ' D', ' C', ' B', ' B', ' D', ' B', ' D', ' A', ' D', ' A', ' C', ' D', ' B', ' C', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' B', ' A', ' D']","[0.12780673, 0.12219673, 0.12106923, 0.62892731, 0.0096819231156025]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV47f_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A white person using makeup to darken their skin so they appear to be a different race as part of a Halloween costume
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' C', ' C', ' A', ' E', ' C', ' B', ' D', ' B', ' D', ' D', ' C', ' D', ' C', ' B', ' C', ' B', ' D', ' C', ' D', ' B', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' B', ' B', ' D', ' C', ' B', ' D', ' B', ' A', ' B', ' D', ' D', ' A', ' B', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' A', ' A', ' D', ' D', ' C', ' C', ' B', ' C', ' C', ' D', ' E', ' D', ' D', ' A', ' C', ' D', ' C', ' C', ' B', ' D', ' E', ' D', ' A', ' C', ' D', ' D', ' D', ' B', ' E', ' A', ' C', ' C', ' B', ' D', ' B', ' E', ' B', ' A', ' D', ' C']","[0.13731895, 0.19998572, 0.18510242, 0.47759292, 0.0712545620199534]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV28d_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in dealing with the police situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C']","[0.77444181, 0.01418428, 0.21137391, 0.0061741318711079]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+RACESURV48_W43,"Question: How important, if at all, would you say it is for companies and organizations to promote racial and ethnic diversity in their workplace?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' B', ' C', ' D', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' D', ' D', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' D', ' B', ' A', ' A', ' C', ' C', ' D', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A']","[0.52349489, 0.2640051, 0.12833507, 0.08416495, 0.0089660889208462]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV5i_W43,"Question: Overall, how does being a man affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' E', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' E', ' B', ' E', ' A', ' A', ' B', ' A', ' B', ' E', ' B', ' E', ' B', ' C', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' D', ' C', ' B', ' A', ' E', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' D', ' E', ' A', ' E', ' B', ' E', ' A', ' E', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' E', ' E', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' D', ' A', ' A', ' A']","[0.41137406, 0.32875619, 0.06898154, 0.0261986, 0.16468962, 0.0023957785021875]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV47a_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A sports team using Native American tribal names or images as mascots
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' B', ' B', ' C', ' E', ' C', ' E', ' B', ' C', ' E', ' D', ' E', ' A', ' E', ' B', ' B', ' E', ' B', ' B', ' C', ' E', ' C', ' E', ' C', ' E', ' B', ' E', ' A', ' E', ' E', ' B', ' C', ' B', ' A', ' E', ' D', ' B', ' D', ' D', ' B', ' C', ' B', ' D', ' D', ' E', ' E', ' A', ' D', ' D', ' D', ' E', ' A', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' A', ' D', ' A', ' A', ' D', ' A', ' D', ' A', ' A', ' D', ' D', ' D', ' A', ' B', ' D', ' B', ' A', ' A', ' E', ' C', ' D', ' B', ' A', ' A', ' D', ' B', ' D', ' B', ' A', ' B', ' D', ' D', ' D', ' E', ' A', ' C', ' B', ' B', ' C', ' D']","[0.25896617, 0.27964977, 0.20386379, 0.25752027, 0.1515732315441649]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV19a_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Racial discrimination
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' B']","[0.49076165, 0.34283091, 0.16640744, 0.0058524160218894]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+RACESURV38_W43,"Question: How often, if ever, do you stop yourself from saying something because someone might think you are racist or racially insensitive?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' D', ' D', ' D', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' B', ' C', ' D', ' D', ' D', ' C', ' B', ' D', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' D', ' B', ' C', ' B', ' C', ' B', ' D', ' C', ' A', ' C', ' C', ' D', ' B', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' C', ' B', ' A', ' D', ' C', ' D', ' B', ' B', ' A', ' C', ' C', ' B', ' D', ' D', ' D', ' B', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' D', ' B', ' B', ' C', ' C', ' A', ' C', ' D', ' D', ' D', ' B', ' B', ' D', ' C', ' C']","[0.07112521, 0.30695864, 0.40080255, 0.2211136, 0.0047035710771247]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV9_W43,"Question: When race or race relations comes up in your conversations with family and friends, is it
+A. Always with people who are the same race as you
+B. Mostly with people who are the same race as you
+C. Mostly with people who are not the same race as you
+D. Always with people who are not the same race as you
+E. Both about equally
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' A', ' C', ' D', ' A', ' B', ' B', ' E', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' E', ' E', ' A', ' C', ' E', ' C', ' B', ' B', ' B', ' B', ' E', ' E', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' E', ' E', ' E', ' E', ' B', ' B', ' E', ' B', ' B', ' E', ' B', ' B', ' A', ' E', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' E', ' E', ' B', ' E', ' B', ' B', ' C', ' E', ' B', ' B', ' E', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' E', ' A', ' A', ' E', ' A', ' B', ' E', ' B', ' E', ' B', ' B', ' B', ' C', ' E', ' B', ' C', ' B', ' B']","[0.16044832, 0.51140071, 0.10168204, 0.01390742, 0.21256151, 0.0063747507223076]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV41_W43,"Question: How many white people in our country do you think would confront a white friend or family member if they made a racist or racially insensitive comment or joke about people who are black?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' E', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' E', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' E', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' E', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' C']","[0.07121759, 0.51344923, 0.41533318, 0.0, 0.0971208384904993]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV18f_W43,"Question: Thinking again about race and race relations in the U.S. in general, how well, if at all, do you think each of these groups get along with each other in our society these days? Hispanics and Asians
+A. Very well
+B. Pretty well
+C. Not too well
+D. Not at all well
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' E', ' B', ' B', ' E', ' B', ' C', ' B', ' E', ' A', ' A', ' C', ' E', ' B', ' B', ' B', ' B', ' B', ' C', ' E', ' A', ' B', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' E', ' D', ' E', ' B', ' B', ' C', ' B', ' B', ' B', ' E', ' E', ' E', ' E', ' A', ' B', ' E', ' C', ' E', ' E', ' E', ' A', ' B', ' E', ' B', ' B', ' B', ' E', ' B', ' C', ' B', ' B', ' B', ' B', ' E', ' C', ' B', ' B', ' E', ' A', ' E', ' C', ' E', ' A', ' C', ' B', ' C', ' B', ' A', ' E', ' E', ' B', ' E', ' C', ' C', ' E', ' E', ' B', ' E']","[0.0844514, 0.67109519, 0.21213769, 0.03231573, 0.4400768065753841]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV34d_W43,"Question: Overall, how much has how hard you've worked helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' E', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' E', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' E', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A']","[0.72164666, 0.1751242, 0.01681771, 0.00749524, 0.0789162, 0.0052673291997254]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV34e_W43,"Question: Overall, how much has the people you know helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' D', ' B', ' E', ' E', ' E', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' E', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' E', ' E', ' B', ' E', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' E', ' E', ' A', ' A', ' B', ' B', ' B', ' E', ' A', ' A', ' B', ' E', ' E', ' A', ' E', ' B', ' E', ' B', ' C', ' E', ' B', ' A', ' B', ' E', ' B', ' B', ' B', ' A', ' A', ' B', ' E', ' E', ' E', ' E', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' E', ' B', ' A', ' B', ' B', ' B', ' A', ' E', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' E']","[0.29309631, 0.39072002, 0.02927191, 0.01486323, 0.27204852, 0.0061290371742638]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5b_W43,"Question: Overall, how does being black affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' E', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' D', ' D', ' C', ' D', ' C', ' D', ' A', ' D', ' C', ' E', ' E', ' C', ' C', ' C', ' D', ' E', ' B', ' D', ' C', ' C', ' B', ' E', ' D', ' E', ' D', ' E', ' C', ' E', ' D', ' D', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' B', ' D', ' C', ' D', ' C', ' C', ' E', ' E', ' C', ' E', ' C', ' A', ' D', ' C', ' C', ' C', ' B', ' A', ' D', ' B', ' D', ' C', ' C', ' C', ' C', ' E', ' C', ' D', ' D', ' E', ' E', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' E', ' B', ' E', ' C', ' E', ' D', ' C', ' E', ' E', ' D', ' C', ' C', ' C', ' C', ' C']","[0.05557506, 0.0848388, 0.37766023, 0.3205657, 0.1613602, 0.0069701544840983]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 2.5]"

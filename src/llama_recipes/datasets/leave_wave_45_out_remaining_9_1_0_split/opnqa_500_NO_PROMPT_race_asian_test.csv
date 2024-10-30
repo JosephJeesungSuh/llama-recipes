@@ -1,0 +1,117 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+MADEUPTOPICb_W45,"Question: How much made-up news and information do you think is created about entertainment and celebrities topics?
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B']","[0.53024443, 0.42746101, 0.04229456, 0.0, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+MADEUPTOPICd_W45,"Question: How much made-up news and information do you think is created about Health and medicine topics?
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' B']","[0.26792473, 0.52631791, 0.20575736, 0.0, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+NEWSPROBe_W45,"Question: How much of a problem is journalists inserting their own views when it comes to how the public stays informed about the basic facts of current issues and events?
+A. A very big problem
+B. A moderately big problem
+C. A small problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' C', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' D', ' B', ' D', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' D', ' A', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' A']","[0.33813639, 0.37513824, 0.24176639, 0.04495898, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+NEWS_PLATFORMg_W45,"Question: Thinking about news (by news we mean information about events and issues that involve more than just your friends and family), how often do you get news from a social media site (such as Facebook, Twitter, or Snapchat)
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' B', ' B', ' A', ' D', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' D', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' D', ' A', ' A', ' A', ' B', ' A', ' B', ' D', ' B', ' A', ' D', ' B', ' B', ' D', ' B', ' A', ' D', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' D', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' D', ' C', ' B', ' D', ' B', ' B', ' B', ' A', ' B', ' B', ' D', ' A', ' C', ' D']","[0.30276966, 0.40286363, 0.15339548, 0.14097123, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+INFOCHALa_W45,"Question: How much of a challenge do you think political divides are in addressing made-up news and information?
+A. A very big challenge
+B. A moderately big challenge
+C. A small challenge
+D. Not a challenge at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' A', ' A', ' B', ' D', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' D', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A']","[0.58472341, 0.35105453, 0.04103565, 0.0231864, 0.0078233546775254]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+INFOCREATEa_W45,"Question: How much made-up news and information do you think is created by journalists
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' A']","[0.24667642, 0.49539597, 0.25792761, 0.0, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+NEWSPROBd_W45,"Question: How much of a problem is too much news to keep up with when it comes to how the public stays informed about the basic facts of current issues and events?
+A. A very big problem
+B. A moderately big problem
+C. A small problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' C', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' D', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' D', ' B', ' B']","[0.11740516, 0.50499968, 0.29797177, 0.07962339, 0.0071422832040744]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+MADEUPSHAREWHY_W45,"Question: What is the main reason why you shared news and information that you knew at the time was made-up?
+A. I thought it was surprising or entertaining
+B. I liked what it said
+C. I wanted to create a discussion about it
+D. I wanted to tell others it was inaccurate
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' A', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' B', ' A', ' D', ' D', ' A', ' D', ' C', ' C', ' D', ' A', ' A', ' A', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' A', ' A', ' A', ' D', ' D', ' B', ' C', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' B', ' C', ' D', ' C', ' D', ' A', ' C', ' A', ' D', ' C', ' A', ' C', ' C', ' D', ' B', ' D', ' B', ' C', ' C', ' B', ' D', ' D', ' A', ' C', ' C']","[0.11128165, 0.13018492, 0.29272303, 0.46581039, 0.0]",RACE,Asian,"[1, 1, 1, 1]"
+MADEUPTOPICc_W45,"Question: How much made-up news and information do you think is created about science and technology topics?
+A. A lot
+B. Some
+C. Not much
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C']","[0.13643991, 0.47981268, 0.38374741, 0.0, 0.0050867781248145]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+SMLIKESf_W45,"Question: How much is each of the following a reason why you click on links to news stories on social media? The story was surprising or entertaining
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A']","[0.68969374, 0.24626823, 0.06403803, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+NEWSPREFV2_W45,"Question: Which of the following would you say you prefer for getting news?
+A. A print newspaper
+B. Radio
+C. Television
+D. A social media site (such as Facebook, Twitter or Snapchat)
+E. A news website or app
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' E', ' C', ' E', ' C', ' A', ' C', ' E', ' E', ' E', ' E', ' D', ' E', ' C', ' C', ' D', ' E', ' F', ' D', ' A', ' E', ' E', ' A', ' E', ' D', ' E', ' E', ' E', ' E', ' D', ' C', ' E', ' C', ' B', ' B', ' E', ' E', ' D', ' C', ' C', ' D', ' A', ' D', ' C', ' C', ' E', ' D', ' E', ' C', ' E', ' D', ' E', ' E', ' E', ' D', ' C', ' E', ' E', ' E', ' D', ' E', ' E', ' E', ' E', ' C', ' C', ' D', ' D', ' A', ' E', ' B', ' E', ' A', ' D', ' D', ' B', ' E', ' C', ' E', ' E', ' E', ' A', ' D', ' D', ' E', ' C', ' C', ' E', ' D', ' C', ' E', ' E', ' C', ' D', ' E', ' D', ' B', ' C', ' D', ' C']","[0.04714878, 0.05328341, 0.21591573, 0.22039938, 0.4632527, 0.0038778658324599]",RACE,Asian,"[1, 1, 1, 1, 1]"
+SMLIKESb_W45,"Question: How much is each of the following a reason why you click on links to news stories on social media? A friend recommended the story
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' A']","[0.28629814, 0.5254633, 0.18823856, 0.0078240067364411]",RACE,Asian,"[1.0, 2.0, 3.0]"
+MADEUPOFT_W45,"Question: How often do you come across made-up news and information that is intended to mislead the public?
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' E', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' E', ' B', ' B', ' B', ' B', ' B', ' C', ' D', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' E', ' C', ' C', ' E', ' B', ' A', ' B', ' A', ' B', ' E']","[0.25781355, 0.61520499, 0.11029442, 0.01668704, 0.0263163444807902]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
