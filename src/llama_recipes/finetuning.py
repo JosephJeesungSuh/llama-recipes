@@ -5,6 +5,8 @@ from collections import Counter
 import os
 
 import dataclasses
+
+import torch.distributed
 import fire
 import random
 import torch
@@ -138,14 +140,30 @@ def main(**kwargs):
         model.language_model.supports_gradient_checkpointing = True
     elif config.model_type == "llama":
         is_vision = False
-        model = LlamaForCausalLM.from_pretrained(
-            train_config.model_name,
-            quantization_config=bnb_config,
-            use_cache=use_cache,
-            attn_implementation="sdpa" if train_config.use_fast_kernels else None,
-            device_map="auto" if train_config.quantization and not train_config.enable_fsdp else None,
-            torch_dtype=torch.float16 if train_config.use_fp16 else torch.bfloat16,
-        )
+        if train_config.enable_fsdp and train_config.low_cpu_fsdp:
+            if rank == 0:
+                model = LlamaForCausalLM.from_pretrained(
+                    train_config.model_name,
+                    quantization_config=bnb_config,
+                    use_cache=use_cache,
+                    attn_implementation="sdpa" if train_config.use_fast_kernels else None,
+                    device_map="auto" if train_config.quantization and not train_config.enable_fsdp else None,
+                    torch_dtype=torch.float16 if train_config.use_fp16 else torch.bfloat16,
+                )
+            else:
+                llama_config = AutoConfig.from_pretrained(train_config.model_name)
+                llama_config.use_cache = use_cache
+                with torch.device("meta"):
+                    model = LlamaForCausalLM(llama_config)
+        else:
+            model = LlamaForCausalLM.from_pretrained(
+                train_config.model_name,
+                quantization_config=bnb_config,
+                use_cache=use_cache,
+                attn_implementation="sdpa" if train_config.use_fast_kernels else None,
+                device_map="auto" if train_config.quantization and not train_config.enable_fsdp else None,
+                torch_dtype=torch.float16 if train_config.use_fp16 else torch.bfloat16,
+            )
     else:
         raise ValueError(f"Model type {config.model_type} is not supported. Please use llama or mllama model.")
     # Load the tokenizer and add special tokens
