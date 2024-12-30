@@ -57,6 +57,11 @@ def get_preprocessed_opinionqa(dataset_config, tokenizer, split, save = True, de
 
 def get_preprocessed_opinionqa_ce_or_wd_loss(dataset_config, tokenizer, split, save = True):
 
+    if 'one_group' in dataset_config.dataset:
+        split = split.format(attribute=dataset_config.attribute, group=dataset_config.group)
+    elif 'all_group' in dataset_config.dataset:
+        split = split.format(steering=dataset_config.steering)
+
     def tokenize_add_label(sample):
         prompt = tokenizer.encode(
             tokenizer.bos_token + sample["input_prompt"],
