@@ -1,0 +1,215 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+NEIGHINTERB_W32,"Question: In general, how often, if ever, would you say you talk on the phone with any of your neighbors
+A. Every day
+B. Several times a week
+C. About once a week
+D. About once a month
+E. Less than once a month
+F. Never
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' F', ' F', ' F', ' E', ' E', ' E', ' D', ' D', ' C', ' F', ' F', ' F', ' E', ' B', ' F', ' F', ' F', ' F', ' F', ' E', ' F', ' D', ' B', ' F', ' E', ' F', ' F', ' B', ' A', ' F', ' F', ' E', ' E', ' B', ' F', ' F', ' D', ' F', ' F', ' B', ' C', ' F', ' E', ' F', ' F', ' C', ' E', ' D', ' B', ' E', ' F', ' D', ' F', ' B', ' E', ' F', ' F', ' F', ' F', ' F', ' F', ' E', ' F', ' F', ' E', ' F', ' D', ' E', ' E', ' B', ' E', ' E', ' F', ' F', ' D', ' C', ' C', ' F', ' B', ' F', ' F', ' F', ' F', ' E', ' E', ' F', ' B', ' F', ' E', ' A', ' F', ' F', ' F', ' E', ' F', ' E', ' F', ' D', ' F', ' F']","[0.0190071, 0.07286945, 0.067521, 0.07271959, 0.23654133, 0.53134153, 0.0011114241001602]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+COMMIMPG_W32,"Question: How important is it to you, personally, to live in a community with a strong sense of community
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' C', ' B', ' B', ' B', ' D', ' C', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' D', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' A']","[0.25229507, 0.50959547, 0.20121534, 0.03689413, 0.0025327059325774]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0]"
+CLASS_W32,"Question: If you were asked to use one of these commonly used names for the social classes, which would you say you belong in?
+A. Upper class
+B. Upper-middle class
+C. Middle class
+D. Lower-middle class
+E. Lower class
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' C', ' D', ' C', ' B', ' D', ' D', ' B', ' D', ' C', ' C', ' E', ' C', ' D', ' B', ' E', ' D', ' C', ' E', ' C', ' D', ' C', ' D', ' D', ' B', ' D', ' C', ' C', ' B', ' D', ' B', ' D', ' B', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' A', ' B', ' D', ' B', ' D', ' C', ' C', ' C', ' D', ' B', ' C', ' D', ' D', ' B', ' B', ' B', ' C', ' D', ' C', ' D', ' E', ' C', ' D', ' B', ' C', ' A', ' D', ' E', ' C', ' C', ' C', ' A', ' C', ' E', ' C', ' C', ' D', ' D', ' B', ' B', ' D', ' B', ' B', ' C', ' C', ' C', ' D', ' F', ' C', ' C', ' D', ' B', ' E', ' C', ' C', ' D', ' D']","[0.01083416, 0.19078209, 0.39954173, 0.31996712, 0.0788749, 0.0145064063387448]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SATLIFED_W32,"Question: Please tell us whether you are satisfied or dissatisfied with your current job or career.
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' E', ' A', ' A', ' B', ' B', ' D', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' D', ' B', ' A', ' D', ' C', ' A', ' B', ' A', ' B', ' D', ' B', ' B', ' A', ' C', ' B', ' A', ' D', ' B', ' A', ' D', ' D', ' A', ' D', ' C', ' A', ' C', ' D', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' D', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' A']","[0.27423843, 0.46604736, 0.17700104, 0.08271318, 0.0182044279280605]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0]"
+SOCTRUST2_W32,"Question: Generally speaking, would you say that
+A. Most people can be trusted
+B. Most people cannot be trusted
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' A']","[0.60368315, 0.39631685, 0.0053276387063433]",CREGION,Northeast,"[1.0, 2.0]"
+MOVESUBURB_W32,"Question: If you could move to a different community, would you want to
+A. Stay in a suburban area
+B. Move to an urban area
+C. Move to a rural area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' A']","[0.37171533, 0.34699339, 0.28129128, 0.0]",CREGION,Northeast,"[1.0, 2.0, 3.0]"
+VALUERURAL_W32,"Question: In general, do you think most people who live in rural areas have values that are
+A. Very similar to your values
+B. Somewhat similar to your values
+C. Somewhat different from your values
+D. Very different from your values
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' D', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' C', ' B', ' D', ' C', ' B', ' A', ' B', ' D', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C']","[0.15742841, 0.37155147, 0.33912353, 0.1318966, 0.0125813120033493]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0]"
+COMMIMPF_W32,"Question: How important is it to you, personally, to live in a community where you have family nearby
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' A', ' D', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' D', ' D', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' C']","[0.35502259, 0.38088611, 0.19537902, 0.06871228, 0.002015246906622]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0]"
+COMMIMPH_W32,"Question: How important is it to you, personally, to live in a community where most people share your religious views
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' A', ' D', ' C', ' D', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' A', ' B', ' A', ' B', ' D', ' B', ' B', ' D', ' D', ' C', ' C', ' A', ' D', ' D', ' C', ' D', ' D', ' B', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' B', ' C', ' D', ' D', ' C', ' A', ' C', ' D', ' D', ' C', ' D', ' D', ' C', ' B', ' C', ' D', ' B', ' D', ' D', ' D', ' B', ' C', ' D', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' C']","[0.11563486, 0.22455334, 0.34603498, 0.31377682, 0.0020705854146017]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0]"
+MOVERURAL_W32,"Question: If you could move to a different community, would you want to
+A. Stay in a rural area
+B. Move to an urban area
+C. Move to a suburban area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C']","[0.27370958, 0.20640354, 0.51988687, 0.0]",CREGION,Northeast,"[1.0, 2.0, 3.0]"
+NEIGHKIDS_W32,"Question: Do you have any neighbors you would feel comfortable asking to watch your children for half an hour in a pinch?
+A. Yes
+B. No
+C. Does not apply
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' B']","[0.38346038, 0.14560716, 0.47093247, 0.0052290164170224]",CREGION,Northeast,"[1.0, 2.0, 1.5]"
+COMMIMPC_W32,"Question: How important is it to you, personally, to live in a community that is racially and ethnically diverse
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' C', ' B', ' D', ' E', ' B', ' B', ' A', ' B', ' D', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' D', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' C', ' C', ' D', ' C', ' A', ' B', ' A', ' D', ' C', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' C', ' A', ' E', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' B']","[0.20412912, 0.41194812, 0.24957035, 0.1343524, 0.0076392856728912]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0]"
+NEIGHINTERA_W32,"Question: In general, how often, if ever, would you say you have face-to-face conversations with any of your neighbors
+A. Every day
+B. Several times a week
+C. About once a week
+D. About once a month
+E. Less than once a month
+F. Never
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' B', ' E', ' E', ' D', ' B', ' A', ' E', ' C', ' B', ' C', ' B', ' E', ' B', ' C', ' C', ' C', ' F', ' D', ' C', ' D', ' B', ' C', ' E', ' E', ' C', ' C', ' F', ' D', ' A', ' D', ' D', ' C', ' D', ' B', ' E', ' A', ' E', ' C', ' E', ' F', ' D', ' D', ' B', ' D', ' B', ' D', ' D', ' E', ' D', ' C', ' F', ' E', ' C', ' C', ' B', ' E', ' B', ' E', ' A', ' B', ' B', ' C', ' D', ' E', ' D', ' C', ' B', ' E', ' C', ' C', ' B', ' E', ' A', ' D', ' E', ' D', ' C', ' C', ' C', ' E', ' D', ' E', ' E', ' C', ' B', ' C', ' E', ' A', ' D', ' C', ' E', ' E', ' C', ' D', ' E', ' B', ' D', ' C', ' C', ' E']","[0.062588, 0.20435345, 0.21063423, 0.21049531, 0.2794484, 0.03248061, 0.0024786196954911]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+COMMIMPA_W32,"Question: How important is it to you, personally, to live in a community with access to art, music and theater
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' D', ' B', ' A', ' A', ' A', ' D', ' D', ' B', ' B', ' D', ' C', ' D', ' A', ' A', ' C', ' A', ' B', ' B', ' C', ' E', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' D', ' C', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' D', ' A', ' D', ' A', ' B', ' B', ' D', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' C']","[0.30375123, 0.38514295, 0.21952794, 0.09157788, 0.0022374618834151]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0]"
+COMMYRS_W32,"Question: About how many years have you lived in your local community?
+A. Less than 1 year
+B. 1-5 years
+C. 6-10 years
+D. 11-20 years
+E. More than 20 years
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' E', ' B', ' B', ' D', ' E', ' D', ' E', ' E', ' E', ' B', ' B', ' E', ' D', ' B', ' E', ' D', ' D', ' B', ' E', ' B', ' C', ' B', ' D', ' C', ' A', ' E', ' E', ' C', ' B', ' B', ' E', ' D', ' E', ' B', ' C', ' B', ' E', ' E', ' E', ' C', ' D', ' C', ' D', ' B', ' D', ' E', ' C', ' E', ' E', ' C', ' D', ' B', ' E', ' E', ' C', ' C', ' E', ' D', ' E', ' E', ' B', ' A', ' D', ' E', ' E', ' D', ' D', ' B', ' C', ' E', ' A', ' E', ' E', ' D', ' A', ' B', ' C', ' E', ' E', ' E', ' B', ' B', ' D', ' E', ' E', ' A', ' E', ' B', ' D', ' D', ' E', ' C', ' E', ' B', ' E', ' C', ' D', ' E']","[0.0687909, 0.24551814, 0.14631478, 0.21000108, 0.32937511, 0.0]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+IMMIMPACT_W32,"Question: Thinking about the immigrants who live in your local community, in general, would you say their impact on the community has been
+A. Mostly positive
+B. Mostly negative
+C. Neither positive nor negative
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A']","[0.49137561, 0.05277007, 0.45585432, 0.0145872161547701]",CREGION,Northeast,"[1.0, 2.0, 1.5]"
+NEIGHSAMEA_W32,"Question: As far as you know, how many of your neighbors are the same race or ethnicity as you
+A. All of them
+B. Most of them
+C. About half
+D. Only some of them
+E. None of them
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' A', ' A', ' D', ' D', ' B', ' E', ' D', ' D', ' B', ' C', ' B', ' B', ' C', ' D', ' C', ' A', ' B', ' B', ' D', ' A', ' D', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' D', ' D', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' D', ' B', ' B', ' E', ' B', ' B', ' B', ' D', ' B', ' D', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' D', ' B', ' A', ' C', ' B', ' B', ' D', ' A', ' D', ' C', ' F', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' C', ' B', ' A', ' B', ' B', ' D', ' B', ' A', ' E', ' B', ' B', ' D', ' A']","[0.15807331, 0.41675618, 0.1628074, 0.17726943, 0.08509367, 0.0046638416371498]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+ETHNCMAJ_W32,"Question: According to the U.S. Census Bureau, in the next 25 to 30 years, African Americans, Latinos, and people of Asian descent will make up a majority of the population. In general, do you think that this is
+A. Good for the country
+B. Bad for the country
+C. Neither good nor bad for the country
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' D', ' C', ' C', ' C', ' B', ' A', ' C', ' D', ' D', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' C']","[0.24078091, 0.13396832, 0.62525078, 0.016578413800972]",CREGION,Northeast,"[1.0, 2.0, 1.5]"
+MOVEURBAN_W32,"Question: If you could move to a different community, would you want to
+A. Stay in an urban area
+B. Move to a suburban area
+C. Move to a rural area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C']","[0.27092493, 0.41285316, 0.31622191, 0.0]",CREGION,Northeast,"[1.0, 2.0, 3.0]"
+WHADVANT_W32,"Question: On a different subject how much, if at all, do white people benefit from advantages in society that black people do not have?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' A', ' A', ' D', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' D', ' C', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' D', ' A', ' D', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' D', ' B', ' C', ' C', ' A', ' A', ' D', ' A', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' D', ' D', ' B', ' D', ' B', ' B', ' C', ' C', ' D', ' A', ' B', ' D', ' B', ' B', ' A', ' D', ' B', ' D', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' D', ' D', ' A', ' B']","[0.35888821, 0.28700716, 0.22800377, 0.12610085, 0.0047035792240386]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0]"
+GAYMARR2_W32,"Question: As you may know, same-sex marriage is now legal in the U.S. Do you think this is a good thing or a bad thing for our society?
+A. Very good thing
+B. Somewhat good thing
+C. Somewhat bad thing
+D. Very bad thing
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' D', ' B', ' A', ' A', ' A', ' A', ' D', ' D', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' D', ' B', ' A', ' D', ' C', ' B', ' A', ' D', ' D', ' A', ' A', ' A', ' A', ' B', ' C', ' D', ' A', ' B', ' B', ' A', ' B', ' B', ' D', ' D', ' B', ' C', ' A', ' A', ' B', ' B', ' D', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' D', ' B', ' A', ' D', ' D', ' A', ' B', ' A', ' D', ' A', ' A', ' C', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' D', ' B', ' D', ' A', ' A', ' E', ' B', ' A', ' B', ' B', ' B', ' A', ' D']","[0.40283021, 0.26427512, 0.1472728, 0.18562187, 0.0287898462478292]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0]"
+WILLMOVE_W32,"Question: Regardless of whether you would want to move, how likely is it that you will move to a different community at some point in the future?
+A. Very likely
+B. Somewhat likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' D', ' C', ' D', ' B', ' D', ' B', ' B', ' C', ' B', ' B', ' D', ' A', ' C', ' D', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' D', ' B', ' B', ' D', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' D', ' A', ' D', ' D', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' D', ' C', ' B', ' B', ' C', ' B', ' C']","[0.27975517, 0.35966594, 0.22752464, 0.13305425, 0.0093314114708691]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0]"
+HARASS2F1_W32,"Question: In the long run, do you think the increased focus on sexual harassment and assault will lead to
+A. More opportunities for women in the workplace
+B. Fewer opportunities for women in the workplace
+C. Won't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C']","[0.30764002, 0.18356231, 0.50879768, 0.0111848051717068]",CREGION,Northeast,"[1.0, 2.0, 1.5]"
+COMMIMPB_W32,"Question: How important is it to you, personally, to live in a community that is a good place to raise children
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' D', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' D', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.59540611, 0.2471224, 0.09106345, 0.06640804, 0.0017541992363544]",CREGION,Northeast,"[1.0, 2.0, 3.0, 4.0]"

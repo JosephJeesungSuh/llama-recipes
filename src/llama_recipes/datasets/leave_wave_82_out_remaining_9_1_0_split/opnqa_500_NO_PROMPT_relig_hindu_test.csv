@@ -1,0 +1,500 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+GAP21Q33_s_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think reducing legal immigrations into the US should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B']","[0.16075936, 0.23066397, 0.60857666, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0]"
+GAP21Q33_g_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think reducing illegal immigration into the US should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B']","[0.5644846, 0.4146203, 0.0208951, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0]"
+GAP21Q7_d_W82,"Question: Would you say the World Health Organization, or WHO has done a good or bad job dealing with the coronavirus outbreak?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' D', ' C', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' D', ' B', ' C', ' D', ' D', ' D', ' A', ' C', ' D', ' D', ' C', ' A', ' A', ' D', ' B', ' D', ' B', ' D', ' D', ' C', ' C', ' C', ' D', ' A', ' D', ' B', ' D', ' D', ' D', ' D', ' B', ' B', ' C', ' D', ' D', ' B', ' A', ' A', ' B', ' D', ' D', ' A', ' D', ' A', ' C', ' C', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' B', ' B', ' D', ' D', ' A', ' D', ' B', ' B', ' B', ' A', ' B', ' D', ' B', ' D', ' C', ' C', ' C', ' B', ' D', ' B', ' D', ' A', ' C', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' B', ' D', ' D', ' D', ' D']","[0.16466799, 0.20919345, 0.22564414, 0.40049442, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_f_W82,"Question: Do you have a favorable or unfavorable opinion of nato, that is, North Atlantic Treaty Organization
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C']","[0.49515824, 0.13603207, 0.36880968, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_e_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do improve relationships with our allies?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A']","[0.63806967, 0.33362186, 0.0, 0.02830847, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_i_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think maintaining the US military advantage over all other countries should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A']","[0.78242462, 0.18580839, 0.03176699, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0]"
+GAP21Q7_a_W82,"Question: Would you say the US has done a good or bad job dealing with the coronavirus outbreak?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' A', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' B', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' D', ' A', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' A', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' D', ' B', ' A', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' B', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' B', ' C', ' D', ' D', ' B', ' A', ' D', ' C', ' D', ' C', ' D', ' C']","[0.07393989, 0.12489046, 0.49348536, 0.30768429, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q19_e_W82,"Question: How much confidence do you have in french President Emmanuel Macron to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' D', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' D', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' D', ' C', ' D', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B']","[0.19630767, 0.51477871, 0.21410312, 0.07481049, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q21_e_W82,"Question: In the US, how strong, if at all, are conflicts between people who practice different religions?
+A. Very strong conflicts
+B. Strong conflicts
+C. Not very strong conflicts
+D. There are not conflicts
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' D', ' C', ' A', ' B', ' D', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' D', ' C', ' C', ' C', ' D', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' D', ' D', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B']","[0.06185217, 0.51039475, 0.36214177, 0.06561131, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_e_W82,"Question: Do you have a favorable or unfavorable opinion of the United Nations
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' D', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B']","[0.0, 0.84913034, 0.11623131, 0.03463835, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q38_b_W82,"Question: How much, if at all, do you think the US benefits from being a member of the United Nations organizations?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B']","[0.66961689, 0.20107607, 0.12930705, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_r_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think aiding refugees fleeing violence around the world should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' B']","[0.28738481, 0.59205462, 0.12056058, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0]"
+GAP21Q19_a_W82,"Question: How much confidence do you have in us President Joe Biden to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' A']","[0.61903734, 0.2806694, 0.07198479, 0.02830847, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_b_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do deal effectively with the threat of terrorism?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' D', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A']","[0.65031854, 0.30097993, 0.02039305, 0.02830847, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_q_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think getting other countries to assume more of the costs of maintaining world order should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' C']","[0.3534998, 0.46756494, 0.17893526, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0]"
+GAP21Q19_c_W82,"Question: How much confidence do you have in russian President Vladimir Putin to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' A', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' D', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' D', ' B', ' D', ' D', ' C', ' D', ' D', ' B', ' D', ' C', ' C', ' B', ' D', ' B', ' B', ' B', ' D', ' D', ' B', ' C', ' C', ' D', ' C', ' C', ' D', ' B', ' D', ' D', ' B', ' D', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' A', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' C', ' D', ' D', ' B', ' A', ' D', ' C', ' B', ' B', ' C', ' C', ' D', ' C', ' D', ' B', ' D', ' D', ' C', ' B']","[0.07393989, 0.18201557, 0.32886703, 0.41517751, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q41_W82,"Question: Overall, do you think current economic relations between the US and China are very good, somewhat good, somewhat bad or very bad?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' D', ' C', ' C', ' D', ' D', ' B', ' D', ' D', ' C', ' C', ' D', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' D']","[0.0, 0.16637451, 0.5729534, 0.2606721, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q38_c_W82,"Question: How much, if at all, do you think the US benefits from being a member of the World Health Organization, or WHO organizations?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' D', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' D', ' C', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A']","[0.66936991, 0.12725703, 0.18758554, 0.01578752, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_d_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do deal effectively with global climate change?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B']","[0.64695374, 0.28807065, 0.03666714, 0.02830847, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q26_c_W82,"Question: Would you say China is doing a good or bad job dealing with global climate change?
+A. Very good job
+B. Somewhat good job
+C. Somewhat bad job
+D. Very bad job
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' B', ' C', ' C', ' D', ' C', ' B', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' B', ' D', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' B', ' B', ' C', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' D']","[0.0, 0.04349163, 0.4387286, 0.51777977, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q32_W82,"Question: Now that Joe Biden is president, do you think other countries view the U.S
+A. A lot more positively
+B. A little more positively
+C. A little more negatively
+D. A lot more negatively
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A']","[0.55476729, 0.42718467, 0.01804804, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_c_W82,"Question: Do you have a favorable or unfavorable opinion of Germany
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B']","[0.06658902, 0.59923965, 0.33417133, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_a_W82,"Question: Do you have a favorable or unfavorable opinion of the United States
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A']","[0.52979659, 0.42679655, 0.0208951, 0.02251175, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q26_b_W82,"Question: Would you say the United Nations are doing a good or bad job dealing with global climate change?
+A. Very good job
+B. Somewhat good job
+C. Somewhat bad job
+D. Very bad job
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' B', ' C', ' B', ' C', ' B', ' B', ' D', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' D', ' D', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' D', ' B', ' C', ' B', ' B', ' D', ' B', ' C', ' B', ' D', ' C', ' D', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' D', ' A', ' A', ' D', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' C', ' B', ' D', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' D']","[0.08420033, 0.28140018, 0.4663029, 0.16809659, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q21_a_W82,"Question: In the US, how strong, if at all, are conflicts between people who support different political parties?
+A. Very strong conflicts
+B. Strong conflicts
+C. Not very strong conflicts
+D. There are not conflicts
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' A', ' C', ' A', ' D', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' D', ' A', ' C', ' C', ' A', ' D', ' A', ' B', ' B', ' A', ' C', ' D', ' A', ' C', ' D', ' B', ' C', ' A', ' C', ' B', ' C', ' D', ' C', ' A', ' D', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' D', ' B', ' A', ' A', ' B', ' B', ' D', ' A', ' D', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' D', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' D', ' C', ' B', ' B', ' B', ' D', ' A', ' B']","[0.24166213, 0.40137109, 0.20465771, 0.15230907, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q13_b_W82,"Question: Thinking about the US, how much would you say the healthcare system needs to be changed, if at all?
+A. It needs to be completely reformed
+B. It needs major changes
+C. It needs minor changes
+D. It doesn't need to be changed
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' C', ' B', ' C', ' A', ' D', ' B', ' B', ' D', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' D', ' D', ' D', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' D', ' A', ' A', ' B', ' D', ' A']","[0.33343193, 0.50827844, 0.08434973, 0.07393989, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q7_b_W82,"Question: Would you say China has done a good or bad job dealing with the coronavirus outbreak?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' B', ' A', ' A', ' A', ' A', ' C', ' D', ' B', ' B', ' C', ' C', ' D', ' A', ' D', ' A', ' B', ' B', ' C', ' D', ' B', ' A', ' D', ' A', ' C', ' D', ' B', ' B', ' D', ' D', ' D', ' A', ' A', ' A', ' A', ' D', ' C', ' A', ' D', ' A', ' A', ' A', ' D', ' C', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' D', ' D', ' D', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' D', ' B', ' B', ' D', ' C', ' B', ' D', ' C', ' D', ' B', ' B', ' A', ' B', ' D', ' D', ' C', ' B', ' B', ' A', ' D', ' A', ' D', ' A', ' D', ' D', ' D', ' A', ' D', ' A', ' D', ' D', ' A', ' A', ' D', ' C', ' D', ' B']","[0.2434956, 0.26842794, 0.12057541, 0.36750104, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q15_e_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Technological achievements
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' B', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' D', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' D', ' B', ' A', ' D', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B']","[0.36239162, 0.3653211, 0.22069555, 0.05159174, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q33_j_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think dealing with global climate change should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A']","[0.83508672, 0.16491328, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0]"
+GAP21Q26_a_W82,"Question: Would you say the US is doing a good or bad job dealing with global climate change?
+A. Very good job
+B. Somewhat good job
+C. Somewhat bad job
+D. Very bad job
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' D', ' B', ' A', ' C', ' D', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' D', ' D', ' C', ' D', ' C', ' C', ' B', ' D', ' D', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' D', ' B', ' D', ' D', ' A', ' C', ' B', ' B', ' D', ' C', ' B', ' A', ' B', ' B', ' D', ' C', ' D', ' C', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' D', ' C', ' C', ' B', ' D', ' D', ' B', ' B', ' C', ' B', ' D', ' B', ' B', ' C', ' B', ' B', ' D', ' D', ' B', ' C', ' D', ' C', ' B']","[0.07393989, 0.37046498, 0.22270381, 0.33289131, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_f_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do deal effectively with China?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' D', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' A', ' D', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' B']","[0.57409857, 0.292105, 0.0693978, 0.06439864, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_c_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do make good decisions about the use of military force?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' D', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' D', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A']","[0.59397767, 0.342842, 0.03487186, 0.02830847, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q31_W82,"Question: How important, if at all, is it that the US is generally respected by other countries around the world?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' D', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A']","[0.51209752, 0.27374124, 0.20390081, 0.01026044, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q23_W82,"Question: In the US, do you think discrimination against people based on their race or ethnicity is a
+A. Very serious problem
+B. Somewhat serious problem
+C. Not too serious problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' B']","[0.2798741, 0.53351623, 0.18660967, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q19_d_W82,"Question: How much confidence do you have in german Chancellor Angela Merkel to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' D', ' A', ' B', ' C', ' A', ' A', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' B', ' D', ' A', ' D', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' D', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' D', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' D', ' D', ' D', ' A', ' A', ' A', ' A', ' B', ' B', ' D', ' D', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' D', ' D', ' C', ' D', ' A', ' B', ' B', ' A', ' A']","[0.34537147, 0.35792731, 0.07984209, 0.21685913, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_b_W82,"Question: Do you have a favorable or unfavorable opinion of China
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' D', ' C', ' D', ' C', ' C', ' B', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' D', ' C', ' C', ' B', ' C', ' B', ' D', ' B', ' C', ' C', ' D', ' B', ' B', ' D', ' D', ' C', ' C', ' D', ' B', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' D', ' D']","[0.0, 0.33024496, 0.41592466, 0.25383038, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q28_W82,"Question: How confident are you, if at all, that the actions taken by the international community will significantly reduce the effects of global climate change?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' C']","[0.496687, 0.35758867, 0.14572433, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_d_W82,"Question: Do you have a favorable or unfavorable opinion of the European Union
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A']","[0.44647628, 0.51888537, 0.03463835, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q15_a_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Healthcare system
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' D', ' B', ' E', ' C', ' C', ' B', ' C', ' D', ' B', ' C', ' F', ' B', ' C', ' C', ' C', ' E', ' D', ' D', ' B', ' D', ' B', ' D', ' B', ' C', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' F', ' C', ' D', ' B', ' E', ' E', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' C', ' B', ' E', ' D', ' D', ' D', ' B', ' B', ' D', ' D', ' B', ' D', ' E', ' C', ' D', ' C', ' D', ' E', ' B', ' D', ' D', ' C', ' D', ' B', ' B', ' D', ' D', ' B', ' B', ' D', ' D', ' C', ' F', ' D', ' C', ' C', ' D', ' B', ' B', ' D', ' D', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' B', ' B', ' D', ' D', ' C', ' D']","[0.0, 0.27235919, 0.20643569, 0.42075533, 0.10044979, 0.073939891877093]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q15_d_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Military
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' B']","[0.53751108, 0.21055372, 0.19008303, 0.06185217, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q17_W82,"Question: In making international policy decisions, to what extent, if at all, do you think the US takes into account the interests of other countries around the world?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' D', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' A', ' B']","[0.14642838, 0.71434286, 0.09024262, 0.04898613, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q27_W82,"Question: Do you think actions taken by the international community to address global climate change, such as the Paris climate agreement, will mostly
+A. Benefit America's economy
+B. Harm America's economy
+C. Have no impact on America's economy
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.7696708, 0.03618057, 0.19414863, 0.0]",RELIG,Hindu,"[1.0, 2.0, 1.5]"
+GAP21Q15_f_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Entertainment, including movies, music and television
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' C', ' C', ' C', ' B', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' E', ' E', ' B', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' E', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' E', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' E', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' C']","[0.38297408, 0.24947891, 0.30569483, 0.0, 0.06185217, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q34_a_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do make good decisions about international trade?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' D', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' D', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B']","[0.64695374, 0.30434474, 0.02039305, 0.02830847, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q38_a_W82,"Question: How much, if at all, do you think the US benefits from being a member of north Atlantic Treaty Organization, or NATO organizations?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A']","[0.60834173, 0.32427902, 0.06737925, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q10_W82,"Question: Thinking about restrictions on public activity in the US over the course of the coronavirus outbreak, do you think there should have been
+A. More restrictions
+B. Fewer restrictions
+C. The restrictions were about right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A']","[0.65708886, 0.16856755, 0.17434359, 0.0]",RELIG,Hindu,"[1.0, 2.0, 1.5]"
+GAP21Q15_c_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Standard of living
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' D', ' D', ' B', ' D', ' D', ' A', ' D', ' D', ' B', ' B', ' D', ' A', ' B', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' B', ' D', ' B', ' D', ' B', ' D', ' B', ' A', ' B', ' D', ' C', ' D', ' B', ' C', ' B', ' C', ' B', ' B', ' D', ' B', ' B', ' F', ' A', ' D', ' B', ' B', ' C', ' B', ' B', ' D', ' D', ' B', ' B', ' A', ' D', ' D', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' B', ' D', ' B', ' D', ' C', ' B', ' B', ' A', ' B', ' D', ' A', ' B', ' B', ' B', ' D', ' A', ' B', ' F', ' B', ' B', ' C', ' C', ' D', ' D', ' F', ' D', ' B', ' D', ' A', ' B', ' C', ' B', ' B', ' C', ' B']","[0.18277208, 0.36935334, 0.19094884, 0.25692574, 0.0, 0.073939891877093]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q33_c_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think strengthening the United Nations should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A']","[0.87547377, 0.07584426, 0.04868197, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0]"
+GAP21Q24_W82,"Question: How concerned are you, if at all, that global climate change will harm you personally at some point in your lifetime?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not at all concerned
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' D', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' D', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B']","[0.66429522, 0.29546841, 0.02218834, 0.01804804, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q19_b_W82,"Question: How much confidence do you have in chinese President Xi Jinping to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' D', ' D', ' C', ' B', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' B', ' D', ' D', ' D', ' C', ' D', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' B', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' B', ' C', ' D', ' C', ' D', ' B', ' C', ' D', ' D', ' C', ' D', ' D', ' B', ' B', ' B', ' B', ' D', ' D', ' C', ' B', ' C']","[0.0, 0.11743153, 0.32910182, 0.55346665, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q25_W82,"Question: How much, if anything, would you be willing to change about how you live and work to help reduce the effects of global climate change? Would you be willing to make
+A. A lot of changes
+B. Some changes
+C. Only a few changes
+D. No changes at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B']","[0.62370645, 0.37629355, 0.0, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q47_W82,"Question: When it comes to whether or not to limit Chinese students studying in the US, do you
+A. Strongly support limiting Chinese students
+B. Somewhat support limiting Chinese students
+C. Somewhat oppose limiting Chinese students
+D. Strongly oppose limiting Chinese students
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' C', ' B', ' C', ' B', ' A', ' D', ' C', ' B', ' B', ' A', ' B', ' D', ' A', ' D', ' A', ' B', ' D', ' B', ' C', ' D', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' D', ' D', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' D', ' D', ' B', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' A', ' D', ' D', ' B', ' D', ' B', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' A', ' D', ' C', ' B', ' D', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' D', ' B', ' D', ' A', ' B', ' A', ' A', ' D', ' B', ' C', ' D', ' C', ' B', ' A', ' B', ' B', ' D']","[0.15182742, 0.39162559, 0.2360189, 0.22052809, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q15_b_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Colleges and universities
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' D', ' A', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' D', ' D', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' E', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A']","[0.39004556, 0.3101736, 0.23792868, 0.05159174, 0.01026044, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q33_m_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think reducing the spread of infectious diseases should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B']","[0.89025615, 0.10974385, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0]"
+GAP21Q43_g_W82,"Question: Please indicate how much of a problem, if at all, the following would be for the US: China's growing technological power
+A. Very serious problem
+B. Somewhat serious problem
+C. Not too serious of a problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' D', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A']","[0.41041319, 0.39429092, 0.18503546, 0.01026044, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_n_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think limiting the power and influence of Iran should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B']","[0.25510765, 0.74489235, 0.0, 0.0]",RELIG,Hindu,"[1.0, 2.0, 3.0]"

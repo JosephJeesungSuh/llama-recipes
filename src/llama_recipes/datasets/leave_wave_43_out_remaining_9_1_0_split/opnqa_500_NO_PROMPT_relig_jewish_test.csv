@@ -1,0 +1,514 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+IDIMPORT_W43,"Question: How important is being Hispanic to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' E', ' B', ' D', ' E', ' E', ' E', ' D', ' B', ' E', ' D', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' D', ' B', ' B', ' C', ' E', ' C', ' E', ' E', ' E', ' A', ' E', ' E', ' E', ' D', ' E', ' B', ' C', ' D', ' B', ' C', ' E', ' D', ' E', ' D', ' B', ' C', ' E', ' B', ' A', ' D', ' E', ' A', ' E', ' D', ' B', ' D', ' D', ' E', ' E', ' D', ' B', ' B', ' D', ' C', ' E', ' D', ' D', ' D', ' E', ' E', ' C', ' D', ' D', ' D', ' D', ' E', ' E', ' E', ' D', ' B', ' A', ' D', ' D', ' E', ' B', ' C', ' E', ' D', ' D', ' E', ' E', ' B', ' E', ' D', ' E', ' A', ' A', ' D', ' D', ' B', ' C', ' D']","[0.05377383, 0.14989678, 0.17957742, 0.30708441, 0.30966755, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV15a_W43,"Question: Since President Trump was elected, do you think it has become more common or less common for people to express racist or racially insensitive views, or is it about as common as it was before?
+A. More common
+B. Less common
+C. About as common
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C']","[0.62059173, 0.05681529, 0.32259298, 0.0]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+IDIMPORT_W43,"Question: How important is being Asian to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' E', ' B', ' E', ' D', ' E', ' B', ' B', ' E', ' D', ' E', ' E', ' E', ' E', ' C', ' D', ' A', ' E', ' C', ' B', ' B', ' D', ' B', ' E', ' C', ' E', ' E', ' B', ' D', ' E', ' E', ' D', ' B', ' B', ' E', ' E', ' C', ' D', ' E', ' E', ' E', ' C', ' D', ' C', ' E', ' C', ' D', ' D', ' D', ' A', ' D', ' B', ' D', ' B', ' D', ' B', ' D', ' C', ' C', ' E', ' B', ' B', ' C', ' D', ' D', ' E', ' E', ' C', ' B', ' D', ' E', ' D', ' E', ' C', ' C', ' B', ' D', ' E', ' C', ' B', ' D', ' E', ' B', ' D', ' B', ' D', ' E', ' B', ' E', ' E', ' D', ' E', ' A', ' D', ' D', ' D', ' E', ' E', ' D', ' E']","[0.05377383, 0.14989678, 0.17957742, 0.30708441, 0.30966755, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV28b_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in stores or restaurants situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C']","[0.46721013, 0.0, 0.53278987, 0.0]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+RACESURV28c_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when applying for a loan or mortgage situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C']","[0.58326325, 0.0, 0.41673675, 0.0200073372755807]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+RACESURV5l_W43,"Question: Overall, how does being wealthy affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.93483742, 0.06516258, 0.0, 0.0, 0.0, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV34b_W43,"Question: Overall, how much has being a man/Being a woman/Your gender helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' E', ' B', ' E', ' E', ' E', ' E', ' B', ' E', ' B', ' C', ' C', ' E', ' E', ' B', ' C', ' C', ' B', ' B', ' A', ' D', ' A', ' B', ' A', ' E', ' E', ' B', ' D', ' E', ' A', ' B', ' A', ' C', ' D', ' B', ' E', ' C', ' E', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' E', ' E', ' E', ' E', ' B', ' E', ' E', ' E', ' B', ' E', ' E', ' C', ' D', ' C', ' B', ' C', ' B', ' E', ' E', ' E', ' A', ' E', ' C', ' E', ' E', ' C', ' E', ' B', ' E', ' A', ' E', ' B', ' E', ' C', ' B', ' E', ' B', ' C', ' A', ' B', ' E', ' E', ' B', ' A', ' B', ' D', ' E', ' E']","[0.14040782, 0.21811798, 0.17927173, 0.09204636, 0.37015611, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5g_W43,"Question: Overall, how does being Muslim affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' C', ' E', ' C', ' C', ' D', ' C', ' E', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' D', ' E', ' D', ' A', ' E', ' C', ' B', ' B', ' E', ' C', ' C', ' C', ' D', ' D', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' E', ' C', ' E', ' C', ' E', ' C', ' D', ' E', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' E', ' E', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' E', ' C', ' C', ' C', ' C', ' D', ' B', ' E', ' C', ' E', ' C', ' C', ' C', ' D', ' D', ' C', ' E', ' A', ' B', ' C', ' C', ' E', ' E', ' D']","[0.04401056, 0.12361124, 0.36733336, 0.26429044, 0.2007544, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5f_W43,"Question: Overall, how does being Jewish affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' E', ' E', ' B', ' B', ' E', ' E', ' C', ' C', ' C', ' B', ' E', ' C', ' B', ' C', ' C', ' D', ' D', ' C', ' C', ' B', ' C', ' E', ' C', ' E', ' B', ' C', ' C', ' E', ' D', ' C', ' E', ' E', ' C', ' D', ' C', ' E', ' F', ' C', ' E', ' E', ' B', ' E', ' E', ' E', ' E', ' B', ' E', ' E', ' C', ' D', ' E', ' E', ' E', ' C', ' D', ' E', ' E', ' E', ' D', ' E', ' E', ' E', ' E', ' E', ' E', ' C', ' B', ' E', ' E', ' C', ' E', ' C', ' D', ' E', ' E', ' C', ' C', ' E', ' E', ' C', ' C', ' E', ' E', ' E', ' E', ' E', ' C', ' D', ' E', ' B', ' E', ' B', ' E', ' D', ' C', ' E', ' C', ' D', ' E']","[0.0, 0.10731902, 0.34115095, 0.10254061, 0.44898942, 0.0070099578530752]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV13_W43,"Question: How likely, if at all, is it that black people in our country will eventually have equal rights with whites?
+A. Very likely
+B. Somewhat likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' B', ' C', ' B', ' B', ' B', ' A', ' D', ' D', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' D', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' A', ' B']","[0.1648087, 0.56466005, 0.19367101, 0.07686024, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV45_W43,"Question: How many black people in our country do you think would confront a black friend or family member if they made a racist or racially insensitive comment or joke about people who are white?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' E', ' C', ' E', ' E', ' E', ' C', ' B', ' C', ' B', ' E', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' E', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' E', ' B', ' E', ' B', ' C', ' C', ' E', ' B', ' B', ' E', ' C', ' B', ' B', ' B', ' C', ' B', ' E', ' C', ' C', ' C', ' B', ' E', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' E', ' B', ' E', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' E', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' E', ' C', ' C', ' B', ' E']","[0.0, 0.45697906, 0.54302094, 0.0, 0.3426125950938484]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV34a_W43,"Question: Overall, how much has being white/Being black/Being Hispanic/Being Asian/Your racial background helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' B', ' E', ' B', ' E', ' B', ' B', ' C', ' A', ' E', ' E', ' B', ' C', ' E', ' B', ' A', ' E', ' A', ' B', ' E', ' A', ' B', ' A', ' B', ' B', ' B', ' E', ' E', ' A', ' E', ' A', ' E', ' B', ' E', ' B', ' E', ' B', ' E', ' E', ' E', ' F', ' E', ' A', ' B', ' E', ' E', ' E', ' E', ' B', ' B', ' E', ' A', ' B', ' B', ' E', ' A', ' E', ' E', ' B', ' B', ' A', ' E', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' E', ' B', ' A', ' B', ' A', ' E', ' B', ' A', ' E', ' A', ' E', ' A', ' A', ' E', ' B', ' E', ' E', ' A', ' E', ' F', ' C', ' B', ' A', ' E', ' E', ' B', ' A']","[0.33323703, 0.28497231, 0.05893773, 0.00576647, 0.31708647, 0.0124110949000156]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+IDIMPORT_W43,"Question: How important is your racial background to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' C', ' E', ' D', ' D', ' E', ' E', ' E', ' E', ' E', ' D', ' A', ' D', ' C', ' C', ' D', ' E', ' E', ' C', ' D', ' E', ' A', ' E', ' B', ' C', ' D', ' E', ' D', ' A', ' D', ' D', ' D', ' D', ' E', ' A', ' E', ' E', ' C', ' A', ' B', ' D', ' C', ' C', ' A', ' E', ' E', ' D', ' D', ' C', ' C', ' A', ' D', ' E', ' E', ' D', ' D', ' D', ' E', ' D', ' D', ' E', ' E', ' B', ' E', ' B', ' D', ' B', ' E', ' E', ' A', ' D', ' C', ' E', ' D', ' E', ' E', ' E', ' D', ' A', ' B', ' E', ' A', ' D', ' E', ' C', ' A', ' D', ' E', ' A', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' E', ' C', ' D']","[0.05377383, 0.14989678, 0.17957742, 0.30708441, 0.30966755, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV28a_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in hiring, pay and promotions situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A']","[0.59629436, 0.06640992, 0.33729572, 0.007596242375565]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+RACESURV19c_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Less access to good quality schools
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A']","[0.48027356, 0.27183568, 0.24789076, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0]"
+RACESURV28e_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in by the criminal justice system situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A']","[0.81300856, 0.0, 0.18699144, 0.0]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+RACESURV40_W43,"Question: How many white people in our country do you think are prejudiced against black people?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' E', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' E', ' A', ' B', ' B', ' B', ' B', ' E', ' A', ' C', ' B', ' E', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' E', ' B', ' B', ' C', ' B', ' B', ' E', ' B', ' B', ' E', ' C', ' C', ' E', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B']","[0.11082426, 0.70788821, 0.18128753, 0.0, 0.1016503739734809]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV29d_W43,"Question: In your daily life, how much interaction, if any, would you say you have with people who are asian
+A. A lot of interaction
+B. Some interaction
+C. Not much interaction
+D. No interaction at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' D', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' D', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' D', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' C', ' B', ' D', ' B', ' C', ' B', ' D', ' B', ' C', ' B', ' B', ' A', ' B', ' A']","[0.18384921, 0.47335931, 0.2290921, 0.11369937, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV15b_W43,"Question: Since President Trump was elected, do you think it has become more acceptable or less acceptable for people to express racist or racially insensitive views, or is it about as acceptable as it was before?
+A. More acceptable
+B. Less acceptable
+C. About as acceptable
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' B']","[0.72409756, 0.16908024, 0.1068222, 0.0]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+RACESURV2_W43,"Question: The U.S. population is made up of people of many different races and ethnicities. Overall, do you think this is
+A. Very good for the country
+B. Somewhat good for the country
+C. Somewhat bad for the country
+D. Very bad for the country
+E. Neither good nor bad for the country
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' B', ' E', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' E', ' A', ' A', ' E', ' A', ' B', ' A', ' A', ' E', ' A', ' A', ' A', ' B', ' A', ' A', ' E', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' B', ' E', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' E', ' A', ' E', ' E', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' E', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A']","[0.67067412, 0.11330946, 0.0, 0.0, 0.21601642, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5d_W43,"Question: Overall, how does being Asian affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' B', ' B', ' A', ' C', ' E', ' E', ' A', ' E', ' B', ' E', ' B', ' C', ' A', ' A', ' E', ' E', ' C', ' B', ' E', ' E', ' E', ' A', ' E', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' E', ' B', ' E', ' A', ' E', ' E', ' B', ' C', ' A', ' E', ' E', ' B', ' E', ' E', ' E', ' A', ' E', ' C', ' C', ' C', ' B', ' C', ' B', ' E', ' A', ' E', ' B', ' C', ' E', ' E', ' B', ' A', ' E', ' C', ' B', ' E', ' E', ' C', ' C', ' E', ' B', ' B', ' C', ' C', ' E', ' B', ' C', ' A', ' A', ' C', ' C', ' E', ' E', ' B', ' E', ' A', ' E', ' B', ' C', ' B', ' E', ' E', ' C', ' A', ' B', ' C', ' E', ' B']","[0.10640938, 0.29771778, 0.22389832, 0.00179622, 0.37017831, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV27_W43,"Question: How much, if at all, do you think what happens to Asians in the country overall affects what happens in your own life?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' D', ' D', ' B', ' C', ' C', ' B', ' C', ' D', ' C', ' D', ' C', ' D', ' B', ' C', ' C', ' D', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' D', ' C', ' B', ' D', ' C', ' D', ' C', ' C', ' C', ' D', ' B', ' B', ' D', ' C', ' C', ' B', ' C', ' D', ' B', ' C', ' C', ' D', ' C', ' B', ' B', ' C', ' D', ' D', ' C', ' D', ' B', ' D', ' C', ' C', ' D', ' D', ' B', ' D', ' D', ' B', ' C', ' C', ' D', ' C', ' C', ' D', ' B', ' D', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' D', ' B', ' B']","[0.00961867, 0.31688133, 0.32553993, 0.34796007, 0.0023578344430333]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV47e_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A person wearing traditional dress from a country or culture other than their own as part of a Halloween costume
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' C', ' D', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' E', ' C', ' B', ' E', ' A', ' B', ' C', ' A', ' B', ' D', ' C', ' C', ' D', ' E', ' B', ' C', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' D', ' B', ' E', ' E', ' B', ' C', ' A', ' D', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C']","[0.25392044, 0.36105092, 0.24983521, 0.13519343, 0.0755077448884934]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV19e_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Less access to high-paying jobs
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' D', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' D', ' A', ' C', ' C', ' D', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A']","[0.60468042, 0.32918843, 0.06613115, 0.0917320902173905]",RELIG,Jewish,"[1.0, 2.0, 3.0]"
+RACESURV5a_W43,"Question: Overall, how does being white affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' A', ' B', ' E', ' A', ' E', ' A', ' B', ' E', ' E', ' A', ' B', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' B', ' D', ' A', ' E', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' E', ' D', ' D', ' B', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' E', ' E', ' B', ' A', ' A', ' E', ' A', ' D', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' D', ' E', ' B', ' E', ' A', ' E', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' B', ' B', ' A', ' E', ' A', ' B', ' A', ' E', ' A', ' A', ' A', ' D', ' C', ' A', ' D', ' E', ' B', ' C', ' A', ' E', ' B']","[0.48156629, 0.2154276, 0.06383552, 0.0558191, 0.18335149, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV51_W43,"Question: Thinking about the community where you live, do you wish your community was
+A. More racially mixed
+B. Less racially mixed
+C. About as racially mixed as it is
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C']","[0.2329558, 0.05278556, 0.71425864, 0.0]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+RACESURV34c_W43,"Question: Overall, how much has your family's financial situation when you were growing up helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' A', ' B', ' A', ' E', ' B', ' A', ' B', ' E', ' A', ' B', ' B', ' C', ' C', ' B', ' E', ' E', ' B', ' D', ' D', ' A', ' E', ' A', ' E', ' E', ' E', ' E', ' C', ' B', ' E', ' B', ' E', ' A', ' B', ' E', ' B', ' D', ' C', ' E', ' A', ' C', ' A', ' C', ' A', ' C', ' E', ' E', ' B', ' C', ' C', ' D', ' B', ' A', ' E', ' A', ' C', ' E', ' E', ' E', ' E', ' A', ' E', ' E', ' A', ' D', ' C', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' E', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' D', ' E', ' A', ' A', ' A', ' E', ' B', ' B', ' A', ' B', ' B', ' E', ' B', ' A']","[0.35872375, 0.19116656, 0.09160091, 0.07465717, 0.28385162, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+IDIMPORT_W43,"Question: How important is being black to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' E', ' D', ' C', ' D', ' D', ' D', ' E', ' D', ' C', ' B', ' D', ' E', ' E', ' D', ' B', ' E', ' C', ' D', ' B', ' D', ' D', ' A', ' C', ' E', ' D', ' C', ' E', ' A', ' D', ' C', ' D', ' D', ' E', ' E', ' A', ' E', ' B', ' E', ' E', ' E', ' D', ' A', ' E', ' D', ' D', ' B', ' E', ' C', ' C', ' C', ' D', ' D', ' B', ' D', ' B', ' B', ' E', ' C', ' B', ' C', ' D', ' B', ' B', ' A', ' E', ' E', ' E', ' A', ' D', ' E', ' B', ' C', ' E', ' A', ' D', ' D', ' E', ' A', ' D', ' D', ' A', ' E', ' D', ' E', ' C', ' D', ' B', ' E', ' A', ' D', ' E', ' D', ' E', ' A', ' E', ' E', ' B', ' A', ' E']","[0.05377383, 0.14989678, 0.17957742, 0.30708441, 0.30966755, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV52_W43,"Question: How much, if at all, would it bother you to hear people speak a language other than English in a public place?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' A', ' D', ' C', ' D', ' D', ' C', ' D', ' B', ' B', ' D', ' C', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' A', ' A', ' B', ' D', ' D', ' A', ' A', ' B', ' B', ' D', ' B', ' C', ' D', ' D', ' D', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' B', ' A', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' B', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' B', ' A', ' A', ' B', ' D', ' D', ' B', ' D', ' B', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' C', ' D', ' A', ' C', ' D']","[0.10659663, 0.13542783, 0.17523096, 0.58274458, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV18b_W43,"Question: Thinking again about race and race relations in the U.S. in general, how well, if at all, do you think each of these groups get along with each other in our society these days? Blacks and Hispanics
+A. Very well
+B. Pretty well
+C. Not too well
+D. Not at all well
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' C', ' E', ' D', ' E', ' D', ' E', ' D', ' A', ' E', ' B', ' B', ' E', ' B', ' B', ' B', ' E', ' E', ' E', ' C', ' C', ' B', ' C', ' B', ' E', ' C', ' B', ' B', ' D', ' D', ' B', ' E', ' C', ' E', ' C', ' D', ' C', ' C', ' B', ' B', ' D', ' C', ' E', ' E', ' C', ' A', ' C', ' D', ' D', ' C', ' C', ' D', ' A', ' A', ' E', ' B', ' A', ' D', ' E', ' C', ' E', ' C', ' B', ' A', ' B', ' E', ' D', ' B', ' B', ' C', ' B', ' B', ' E', ' B', ' C', ' E', ' B', ' B', ' B', ' C', ' E', ' E', ' C', ' D', ' D', ' C', ' B', ' D', ' B', ' B', ' C', ' E', ' C', ' B', ' A', ' B', ' A', ' E', ' E']","[0.12313404, 0.34050047, 0.37023281, 0.16613268, 0.3512408826577772]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV5j_W43,"Question: Overall, how does being a woman affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' E', ' C', ' C', ' E', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' E', ' C', ' C', ' E', ' C', ' C', ' E', ' B', ' C', ' B', ' C', ' E', ' D', ' D', ' C', ' E', ' E', ' C', ' E', ' E', ' C', ' C', ' E', ' D', ' B', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' E', ' B', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' E', ' C', ' B', ' C', ' C', ' E', ' C', ' D', ' C', ' E', ' C', ' E', ' C', ' D', ' C', ' C', ' E', ' E', ' C', ' B', ' C', ' C', ' C', ' C', ' C']","[0.0, 0.10585544, 0.59522923, 0.14262652, 0.15628882, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV21_W43,"Question: How often, if ever, did your family talk to you about challenges you might face because of your race or ethnicity?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' D', ' B', ' D', ' C', ' A', ' D', ' D', ' D', ' C', ' B', ' C', ' B', ' D', ' B', ' D', ' C', ' C', ' D', ' D', ' D', ' C', ' B', ' B', ' D', ' D', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' D', ' D', ' D', ' A', ' B', ' B', ' D', ' B', ' D', ' A', ' A', ' D', ' D', ' B', ' D', ' D', ' C', ' C', ' B', ' B', ' D', ' A', ' D', ' B', ' C', ' D', ' D', ' A', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' B', ' D', ' D', ' C', ' D', ' B', ' B', ' D', ' D', ' B', ' C', ' D', ' B', ' D', ' B', ' A', ' D', ' B', ' C', ' A', ' B', ' C', ' A', ' D', ' C']","[0.08186728, 0.27325187, 0.23960614, 0.40527472, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV1b_W43,"Question: For your job or career aspects of your life, would you say that you are, or about where you expected to be at this point in your life?
+A. In a better situation than I expected
+B. In a worse situation than I expected
+C. About where I expected
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C']","[0.40510819, 0.2166955, 0.3781963, 0.0]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+RACESURV28f_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when voting in elections situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C']","[0.41578186, 0.0, 0.58421814, 0.0]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+IDIMPORT_W43,"Question: How important is being white to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' E', ' A', ' C', ' C', ' D', ' D', ' D', ' D', ' A', ' B', ' B', ' D', ' D', ' D', ' B', ' B', ' E', ' A', ' C', ' C', ' E', ' C', ' E', ' D', ' D', ' A', ' D', ' B', ' E', ' C', ' E', ' C', ' A', ' C', ' E', ' E', ' E', ' B', ' D', ' C', ' C', ' E', ' E', ' D', ' E', ' B', ' D', ' E', ' C', ' B', ' C', ' B', ' D', ' D', ' E', ' E', ' C', ' E', ' C', ' C', ' E', ' E', ' B', ' E', ' E', ' D', ' E', ' E', ' D', ' D', ' C', ' A', ' C', ' D', ' B', ' E', ' B', ' E', ' E', ' C', ' E', ' D', ' E', ' B', ' C', ' D']","[0.05377383, 0.14989678, 0.17957742, 0.30708441, 0.30966755, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV5e_W43,"Question: Overall, how does being Native American affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' C', ' A', ' A', ' A', ' B', ' B', ' E', ' C', ' B', ' C', ' E', ' E', ' B', ' B', ' E', ' C', ' B', ' C', ' E', ' E', ' E', ' C', ' C', ' D', ' E', ' D', ' C', ' D', ' C', ' D', ' E', ' E', ' B', ' D', ' E', ' E', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' E', ' E', ' E', ' C', ' E', ' C', ' C', ' E', ' E', ' C', ' B', ' C', ' E', ' C', ' C', ' E', ' C', ' E', ' E', ' C', ' B', ' C', ' B', ' B', ' E', ' E', ' C', ' C', ' E', ' E', ' D', ' E', ' D', ' C', ' B', ' C', ' E', ' E', ' E', ' C', ' D', ' E', ' C', ' C', ' B', ' E', ' B', ' E', ' D', ' C', ' E', ' E']","[0.03393364, 0.1811668, 0.28877768, 0.14746482, 0.34865705, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV28g_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when seeking medical treatment situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A']","[0.42481403, 0.01752287, 0.5576631, 0.0]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+RACESURV17_W43,"Question: How much, if at all, do you think the legacy of slavery affects the position of black people in American society today?
+A. A great deal
+B. A fair amount
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' D', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' D', ' C', ' D', ' C', ' A', ' B', ' A', ' A', ' A', ' D', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' D', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' D', ' B', ' B', ' D', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' D', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' B']","[0.34807895, 0.31014013, 0.21044478, 0.13133614, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV5h_W43,"Question: Overall, how does being an evangelical Christian affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' A', ' D', ' E', ' E', ' C', ' E', ' E', ' D', ' C', ' A', ' E', ' E', ' D', ' E', ' B', ' E', ' E', ' E', ' C', ' B', ' E', ' E', ' D', ' C', ' E', ' E', ' B', ' D', ' E', ' C', ' E', ' C', ' E', ' E', ' C', ' E', ' C', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' C', ' A', ' A', ' E', ' B', ' E', ' E', ' E', ' C', ' C', ' C', ' C', ' E', ' B', ' E', ' D', ' E', ' E', ' E', ' C', ' E', ' C', ' E', ' E', ' E', ' D', ' E', ' E', ' E', ' E', ' E', ' D', ' E', ' E', ' C', ' B', ' C', ' B', ' E', ' E', ' C', ' E', ' A', ' B', ' E', ' B', ' E', ' D', ' E', ' E', ' E', ' E', ' E', ' A']","[0.07025491, 0.09058825, 0.16357442, 0.08043488, 0.59514753, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV47b_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A black person using the n-word
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' D', ' B', ' B', ' E', ' A', ' D', ' D', ' B', ' D', ' D', ' E', ' C', ' D', ' D', ' C', ' A', ' D', ' A', ' D', ' D', ' E', ' C', ' D', ' D', ' A', ' D', ' D', ' B', ' C', ' A', ' D', ' C', ' B', ' E', ' D', ' A', ' C', ' C', ' A', ' D', ' A', ' D', ' C', ' A', ' D', ' D', ' C', ' E', ' B', ' C', ' E', ' A', ' C', ' A', ' E', ' A', ' D', ' D', ' A', ' A', ' D', ' D', ' C', ' A', ' B', ' D', ' C', ' A', ' D', ' D', ' A', ' B', ' B', ' A', ' A', ' E', ' E', ' D', ' C', ' C', ' B', ' D', ' B', ' D', ' A', ' B', ' A', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' B', ' D', ' D', ' C']","[0.18522078, 0.12472847, 0.21920069, 0.47085005, 0.1284482427383884]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV47d_W43,"Question: For each, please indicate if you, personally, think it is acceptable. Casting an actor to play a character of a race or ethnicity other than their own
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' D', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' D', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' E', ' B', ' A', ' B', ' A', ' C', ' B', ' E', ' B', ' A', ' B', ' D', ' A', ' B', ' C', ' B', ' B', ' B', ' E', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' D', ' C', ' B', ' A']","[0.20809661, 0.39462551, 0.36524025, 0.03203762, 0.0161441447381933]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV14_W43,"Question: Would you say President Trump has
+A. Made progress toward improving race relations
+B. Tried but failed to make progress toward improving race relations
+C. Not addressed race relations
+D. Made race relations worse
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' D', ' B', ' A', ' D', ' D', ' D', ' A', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' A', ' D', ' D', ' D', ' B', ' D', ' A', ' D', ' C', ' D', ' D', ' D', ' A', ' D', ' C', ' D', ' B', ' D', ' C', ' D', ' D', ' C', ' A', ' B', ' A', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' A', ' D', ' D', ' A', ' D', ' D', ' B', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' A', ' C', ' D', ' D', ' B', ' D', ' D', ' D']","[0.0913579, 0.15567743, 0.04022504, 0.71273962, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV47f_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A white person using makeup to darken their skin so they appear to be a different race as part of a Halloween costume
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' B', ' C', ' D', ' C', ' D', ' A', ' A', ' A', ' B', ' D', ' A', ' D', ' D', ' D', ' B', ' B', ' A', ' A', ' A', ' B', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' B', ' D', ' D', ' A', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' B', ' B', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' B', ' D', ' B', ' A', ' D', ' D', ' C', ' C', ' B', ' D', ' B', ' D', ' B', ' B', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D']","[0.12342131, 0.16250907, 0.07567952, 0.6383901, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV28d_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in dealing with the police situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' D', ' A', ' D', ' C', ' C', ' D', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' D', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C']","[0.77292939, 0.0, 0.22707061, 0.0158026747608648]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+RACESURV48_W43,"Question: How important, if at all, would you say it is for companies and organizations to promote racial and ethnic diversity in their workplace?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' A', ' C', ' B', ' A', ' B', ' D', ' A', ' B', ' B', ' D', ' B', ' A', ' D', ' A', ' A', ' B', ' D', ' B', ' D', ' A', ' A', ' D', ' B', ' A', ' A', ' C', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' D', ' A', ' A', ' D', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' D', ' A', ' B', ' D', ' D', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' D', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' D', ' D']","[0.45467959, 0.29262902, 0.07107583, 0.18161555, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV5i_W43,"Question: Overall, how does being a man affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' B', ' B', ' B', ' B', ' B', ' A', ' E', ' A', ' E', ' B', ' E', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' E', ' E', ' B', ' E', ' A', ' B', ' E', ' C', ' E', ' A', ' E', ' A', ' B', ' B', ' A', ' E', ' A', ' E', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' E', ' A', ' A', ' A', ' B', ' A', ' E', ' B', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' E', ' A', ' E', ' C', ' B', ' B', ' C', ' A', ' B', ' E', ' E', ' A', ' A', ' B', ' E', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' E', ' A', ' B', ' E', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A']","[0.56852727, 0.24545637, 0.0448847, 0.0, 0.14113167, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV47a_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A sports team using Native American tribal names or images as mascots
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' E', ' C', ' A', ' A', ' B', ' E', ' D', ' B', ' B', ' D', ' B', ' B', ' A', ' A', ' C', ' B', ' D', ' A', ' B', ' D', ' E', ' B', ' B', ' E', ' B', ' E', ' B', ' C', ' D', ' B', ' D', ' D', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' E', ' A', ' C', ' A', ' E', ' E', ' C', ' B', ' B', ' D', ' B', ' E', ' D', ' E', ' E', ' E', ' C', ' A', ' A', ' D', ' B', ' E', ' C', ' D', ' E', ' E', ' B', ' B', ' B', ' B', ' E', ' A', ' D', ' B', ' D', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' D', ' E', ' A', ' E', ' D', ' C', ' E', ' D', ' C', ' B', ' B', ' E', ' B', ' B', ' C', ' D', ' D']","[0.14166132, 0.40630232, 0.1381617, 0.31387467, 0.211115035022754]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV19a_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Racial discrimination
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B']","[0.49511164, 0.32086844, 0.18401992, 0.0087559316346265]",RELIG,Jewish,"[1.0, 2.0, 3.0]"
+RACESURV38_W43,"Question: How often, if ever, do you stop yourself from saying something because someone might think you are racist or racially insensitive?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' D', ' B', ' C', ' B', ' C', ' B', ' C', ' D', ' A', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' D', ' D', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' D', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' D', ' D', ' C', ' D', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' D', ' A', ' C', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' D', ' B', ' C', ' D', ' C', ' C', ' C', ' B']","[0.08379816, 0.3039931, 0.34541338, 0.26679537, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV9_W43,"Question: When race or race relations comes up in your conversations with family and friends, is it
+A. Always with people who are the same race as you
+B. Mostly with people who are the same race as you
+C. Mostly with people who are not the same race as you
+D. Always with people who are not the same race as you
+E. Both about equally
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' E', ' B', ' C', ' B', ' B', ' E', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' E', ' E', ' B', ' A', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' E', ' B', ' B', ' A', ' E', ' E', ' A', ' E', ' B', ' B', ' E', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' E', ' B', ' E', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' E', ' E', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' E', ' A', ' E', ' C', ' B', ' B', ' B', ' B', ' B', ' E', ' B', ' E', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' E', ' B', ' E', ' B', ' B', ' E', ' B', ' A']","[0.15501982, 0.6216774, 0.06054757, 0.0, 0.16275522, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV41_W43,"Question: How many white people in our country do you think would confront a white friend or family member if they made a racist or racially insensitive comment or joke about people who are black?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' E', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' E', ' E', ' B', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' E', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' E', ' B', ' E', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' E', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B']","[0.03176761, 0.67782469, 0.29040771, 0.0, 0.1487930528815964]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV18f_W43,"Question: Thinking again about race and race relations in the U.S. in general, how well, if at all, do you think each of these groups get along with each other in our society these days? Hispanics and Asians
+A. Very well
+B. Pretty well
+C. Not too well
+D. Not at all well
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' D', ' B', ' E', ' B', ' E', ' B', ' B', ' E', ' C', ' D', ' A', ' E', ' B', ' B', ' E', ' C', ' E', ' D', ' E', ' C', ' E', ' B', ' B', ' C', ' E', ' E', ' E', ' E', ' E', ' B', ' C', ' E', ' B', ' B', ' C', ' D', ' E', ' E', ' E', ' E', ' E', ' E', ' B', ' A', ' D', ' B', ' D', ' D', ' B', ' E', ' B', ' B', ' B', ' E', ' E', ' E', ' C', ' B', ' B', ' B', ' A', ' C', ' E', ' E', ' A', ' E', ' B', ' C', ' B', ' E', ' E', ' B', ' C', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' E', ' B', ' E', ' C', ' B', ' C', ' E', ' C', ' B', ' E', ' B', ' E', ' B', ' C', ' E', ' B', ' E', ' E']","[0.05143881, 0.53231026, 0.31833706, 0.09791387, 0.4625938054493584]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV34d_W43,"Question: Overall, how much has how hard you've worked helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' A', ' B', ' B', ' A', ' A', ' E', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' E', ' A', ' E', ' A', ' A', ' A', ' A', ' B', ' E', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' E', ' A', ' C', ' B', ' A', ' A', ' E', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' E', ' A', ' A', ' A', ' C', ' A', ' B', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A']","[0.61492013, 0.18178977, 0.02495227, 0.00632526, 0.17201258, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV34e_W43,"Question: Overall, how much has the people you know helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' C', ' E', ' A', ' A', ' E', ' E', ' E', ' B', ' E', ' A', ' A', ' B', ' E', ' A', ' E', ' E', ' B', ' A', ' C', ' B', ' B', ' A', ' E', ' E', ' B', ' E', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' E', ' B', ' E', ' B', ' E', ' B', ' A', ' A', ' B', ' B', ' A', ' E', ' A', ' B', ' B', ' A', ' E', ' A', ' E', ' A', ' A', ' A', ' B', ' E', ' A', ' E', ' B', ' A', ' E', ' E', ' B', ' E', ' A', ' B', ' E', ' B', ' E', ' E', ' B', ' C', ' B', ' B', ' B', ' E', ' E', ' A', ' B', ' B', ' E', ' B', ' C', ' A', ' B', ' E', ' A', ' E', ' A', ' A', ' E', ' C', ' F', ' B', ' A', ' B', ' A']","[0.3036431, 0.36869324, 0.04765624, 0.0, 0.28000743, 0.0124110949000156]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5b_W43,"Question: Overall, how does being black affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' A', ' D', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' D', ' D', ' C', ' E', ' D', ' D', ' C', ' C', ' D', ' B', ' D', ' C', ' C', ' C', ' C', ' E', ' C', ' E', ' E', ' C', ' C', ' C', ' A', ' A', ' D', ' E', ' D', ' D', ' E', ' C', ' E', ' C', ' D', ' C', ' D', ' C', ' D', ' A', ' E', ' D', ' C', ' E', ' C', ' C', ' C', ' D', ' E', ' C', ' C', ' C', ' C', ' D', ' E', ' E', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' A', ' D', ' E', ' A', ' E', ' E', ' D', ' D', ' C', ' D', ' A', ' C', ' E', ' C', ' A', ' E', ' D', ' C', ' B', ' C', ' E', ' D', ' D', ' E']","[0.11609816, 0.06568764, 0.32638062, 0.33382141, 0.15801216, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"

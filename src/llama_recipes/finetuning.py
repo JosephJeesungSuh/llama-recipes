@@ -5,6 +5,8 @@ from collections import Counter
 import os
 
 import dataclasses
+
+import torch.distributed
 import fire
 import random
 import torch
@@ -138,14 +140,30 @@ def main(**kwargs):
         model.language_model.supports_gradient_checkpointing = True
     elif config.model_type == "llama":
         is_vision = False
-        model = LlamaForCausalLM.from_pretrained(
-            train_config.model_name,
-            quantization_config=bnb_config,
-            use_cache=use_cache,
-            attn_implementation="sdpa" if train_config.use_fast_kernels else None,
-            device_map="auto" if train_config.quantization and not train_config.enable_fsdp else None,
-            torch_dtype=torch.float16 if train_config.use_fp16 else torch.bfloat16,
-        )
+        if train_config.enable_fsdp and train_config.low_cpu_fsdp:
+            if rank == 0:
+                model = LlamaForCausalLM.from_pretrained(
+                    train_config.model_name,
+                    quantization_config=bnb_config,
+                    use_cache=use_cache,
+                    attn_implementation="sdpa" if train_config.use_fast_kernels else None,
+                    device_map="auto" if train_config.quantization and not train_config.enable_fsdp else None,
+                    torch_dtype=torch.float16 if train_config.use_fp16 else torch.bfloat16,
+                )
+            else:
+                llama_config = AutoConfig.from_pretrained(train_config.model_name)
+                llama_config.use_cache = use_cache
+                with torch.device("meta"):
+                    model = LlamaForCausalLM(llama_config)
+        else:
+            model = LlamaForCausalLM.from_pretrained(
+                train_config.model_name,
+                quantization_config=bnb_config,
+                use_cache=use_cache,
+                attn_implementation="sdpa" if train_config.use_fast_kernels else None,
+                device_map="auto" if train_config.quantization and not train_config.enable_fsdp else None,
+                torch_dtype=torch.float16 if train_config.use_fp16 else torch.bfloat16,
+            )
     else:
         raise ValueError(f"Model type {config.model_type} is not supported. Please use llama or mllama model.")
     # Load the tokenizer and add special tokens
@@ -243,8 +261,17 @@ def main(**kwargs):
     dataset_val = get_preprocessed_dataset(
         dataset_processer,
         dataset_config,
+        split="valid",
+    )
+    print(f"--> Validation Set Length = {len(dataset_val)}")
+
+    dataset_test = get_preprocessed_dataset(
+        dataset_processer,
+        dataset_config,
         split="test",
     )
+    print(f"--> Test Set Length = {len(dataset_test)}")
+
     if not train_config.enable_fsdp or rank == 0:
         print(f"--> Validation Set Length = {len(dataset_val)}")
 
@@ -293,6 +320,24 @@ def main(**kwargs):
         else:
             print(f"--> Num of Validation Set Batches loaded = {len(eval_dataloader)}")
 
+    test_dataloader = None
+    if train_config.run_test:
+        test_dl_kwargs = get_dataloader_kwargs(train_config, dataset_test, dataset_processer, "test")
+        if custom_data_collator:
+            test_dl_kwargs["collate_fn"] = custom_data_collator
+
+        test_dataloader = torch.utils.data.DataLoader(
+            dataset_test,
+            num_workers=train_config.num_workers_dataloader,
+            pin_memory=True,
+            **test_dl_kwargs,
+        )
+        print(f"--> Num of Test Set Batches loaded = {len(test_dataloader)}")
+        if len(test_dataloader) == 0:
+            raise ValueError("The test set size is too small for dataloader to load even one batch. Please increase the size of test set.")
+        else:
+            print(f"--> Num of Test Set Batches loaded = {len(test_dataloader)}")
+
     # Initialize the optimizer and learning rate scheduler
     if fsdp_config.pure_bf16 and fsdp_config.optimizer == "anyprecision":
         optimizer = AnyPrecisionAdamW(
@@ -314,6 +359,7 @@ def main(**kwargs):
         model,
         train_dataloader,
         eval_dataloader,
+        test_dataloader,
         tokenizer,
         optimizer,
         scheduler,

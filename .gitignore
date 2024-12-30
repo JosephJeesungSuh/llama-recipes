@@ -4,4 +4,6 @@ __pycache__
 wandb/
 artifacts/
 
-src/llama_recipes/datasets/*_testing
+# custom - for CannyLab internal use
+src/llama_recipes/datasets/
+run*.sh

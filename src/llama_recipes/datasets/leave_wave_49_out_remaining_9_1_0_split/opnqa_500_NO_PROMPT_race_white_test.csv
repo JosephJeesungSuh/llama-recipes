@@ -1,0 +1,175 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+CONTROLGRPc_W49,"Question: How much control, if any, do you think you have over who can access the purchases you've made, either online or in person?
+A. A lot of control
+B. A little control
+C. No control
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' D', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C']","[0.0907996, 0.42773006, 0.48147034, 0.0011726288190553]",RACE,White,"[1.0, 2.0, 3.0]"
+SMARTAPP_W49,"Question: How do you typically update the apps on your smartphone?
+A. Set them to update automatically
+B. Update them yourself as soon as you are notified a new version is available
+C. Update them yourself whenever it's convenient
+D. Never install app updates
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' D', ' C', ' A', ' C', ' C', ' D', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' B', ' A', ' D', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' E', ' A', ' B', ' C', ' D', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' D', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' D', ' A', ' D', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' D', ' D', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' A']","[0.44944037, 0.17084458, 0.31835611, 0.06135894, 0.002887990351152]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+TRACKGOV1b_W49,"Question: As far as you know, how much of what you do offline like where you are or who you are talking to is being tracked by the government?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' D', ' A', ' C', ' D', ' C', ' E', ' D', ' E', ' D', ' D', ' C', ' D', ' D', ' A', ' E', ' E', ' C', ' E', ' E', ' E', ' C', ' D', ' C', ' C', ' E', ' D', ' C', ' A', ' A', ' C', ' C', ' C', ' E', ' C', ' C', ' E', ' A', ' C', ' E', ' B', ' C', ' D', ' C', ' D', ' B', ' D', ' B', ' D', ' C', ' E', ' E', ' D', ' E', ' E', ' C', ' D', ' D', ' E', ' D', ' C', ' D', ' E', ' C', ' D', ' C', ' C', ' A', ' E', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' C', ' D', ' E', ' E', ' E', ' D', ' E', ' D', ' B', ' B', ' C', ' D', ' B', ' E', ' B']","[0.08145575, 0.11757656, 0.3395956, 0.30389662, 0.15747547, 0.0036764277863921]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+HOMEASSIST4_W49,"Question: How important is it that your smart speaker takes your personal interests and preferences into account when responding to your questions or commands?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not important at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' C', ' B', ' B', ' B', ' E', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' E', ' C', ' B', ' E', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' D', ' D', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' D', ' D', ' B', ' A', ' B']","[0.13988344, 0.39507858, 0.33223258, 0.13280541, 0.0103426112901846]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+CONCERNGRPa_W49,"Question: How concerned are you, if at all, about how much personal information law enforcement agencies might know about you?
+A. Concerned a lot
+B. Concerned a little
+C. Not concerned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B']","[0.21513467, 0.36204577, 0.42281957, 0.0003550752878879]",RACE,White,"[1.0, 2.0, 3.0]"
+CONCERNCO_W49,"Question: How concerned are you, if at all, about how companies are using the data they collect about you?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not at all concerned
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' D', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' B']","[0.33091905, 0.4531332, 0.18822925, 0.02771851, 0.0024092586867628]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+FACE3c_W49,"Question: How much, if at all, do you trust the following groups to use facial recognition technology responsibly? Law enforcement agencies
+A. A great deal
+B. Somewhat
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' D', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' D', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' A', ' A', ' D', ' B', ' B', ' B', ' C', ' A', ' D', ' C', ' C', ' C', ' B', ' C', ' B', ' D', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' D', ' A', ' D', ' D', ' C', ' A', ' D', ' B', ' C', ' B', ' D', ' D', ' B', ' D', ' B', ' D', ' A', ' B', ' A', ' C', ' D', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C']","[0.21540398, 0.47455643, 0.18611788, 0.12392171, 0.0089484318429964]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+GOVREGV1_W49,"Question: How much government regulation of what companies can do with their customers' personal information do you think there should be?
+A. More regulation
+B. Less regulation
+C. About the same amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.77829203, 0.06412573, 0.15758224, 0.016127172051888]",RACE,White,"[1.0, 2.0, 1.5]"
+PWMAN2_W49,"Question: What is the main reason you do not use a password manager?
+A. Don't know what that is
+B. My passwords are secure enough
+C. Don't need it
+D. Too expensive
+E. Too complicated
+F. Don't trust them
+G. Don't think they are effective
+H. Other reason
+I. Offline: does not have internet
+J. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.,H.,I.,J.
+
+Answer:","[' C', ' C', ' A', ' C', ' G', ' F', ' F', ' F', ' C', ' I', ' H', ' A', ' E', ' F', ' F', ' G', ' C', ' F', ' C', ' C', ' F', ' F', ' F', ' C', ' H', ' F', ' C', ' A', ' H', ' F', ' C', ' F', ' C', ' A', ' C', ' A', ' B', ' A', ' E', ' F', ' C', ' B', ' F', ' B', ' H', ' F', ' C', ' D', ' A', ' B', ' A', ' A', ' F', ' A', ' H', ' F', ' E', ' F', ' E', ' B', ' F', ' B', ' B', ' B', ' C', ' F', ' B', ' D', ' F', ' B', ' F', ' C', ' E', ' C', ' H', ' A', ' A', ' F', ' I', ' F', ' F', ' A', ' F', ' H', ' C', ' A', ' F', ' F', ' A', ' B', ' G', ' C', ' A', ' F', ' I', ' A', ' G', ' D', ' H', ' A']","[0.18354167, 0.06046075, 0.19630899, 0.01465016, 0.04666992, 0.29764492, 0.03497647, 0.13280698, 0.03294014, 0.0045636423850969]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 4.5]"
+DATAUSEd_W49,"Question: Do you think the following uses of data/information are acceptable or unacceptable? Makers of a fitness tracking app sharing their users' data with medical researchers seeking to better understand the link between exercise and heart disease
+A. Acceptable
+B. Unacceptable
+C. Not sure
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' C', ' B']","[0.51710927, 0.48289073, 0.2145372863839295]",RACE,White,"[1.0, 2.0]"
+TRACKGOV1a_W49,"Question: As far as you know, how much of what you do online or on your cellphone is being tracked by the government?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' C', ' D', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' D', ' A', ' A', ' B', ' A', ' C', ' B', ' D', ' E', ' C', ' E', ' D', ' C', ' D', ' D', ' B', ' B', ' D', ' C', ' A', ' C', ' A', ' C', ' E', ' C', ' C', ' D', ' B', ' E', ' C', ' C', ' A', ' D', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' C', ' E', ' B', ' D', ' B', ' C', ' C', ' B', ' C', ' E', ' A', ' B', ' C', ' D', ' B', ' D', ' D', ' E', ' B', ' B', ' C', ' C']","[0.20904874, 0.23155446, 0.3361167, 0.1529413, 0.0703388, 0.0045466891531564]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+CONTROLCO_W49,"Question: How much control do you think you have over the data that companies collect about you?
+A. A great deal of control
+B. Some control
+C. Very little control
+D. No control
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' D', ' A', ' C', ' C', ' C', ' B', ' D', ' C', ' D', ' C', ' A', ' B', ' C', ' C', ' D', ' B', ' C', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' B', ' B', ' D', ' B', ' D', ' C', ' C', ' B', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' B', ' D', ' C', ' C', ' D', ' D', ' B', ' D', ' C', ' C', ' E', ' C', ' B', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' C', ' D', ' B', ' C', ' C', ' B', ' C']","[0.02779499, 0.13852597, 0.52308533, 0.31059371, 0.0014484643229645]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+HOMEASSIST3_W49,"Question: Do you ever say ""please"" when speaking to your smart speaker?
+A. Yes, frequently
+B. Yes, on occasion
+C. No
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' A']","[0.17987305, 0.35498319, 0.46514376, 0.005399171328516]",RACE,White,"[1.0, 2.0, 3.0]"
+TRACKCO1b_W49,"Question: As far as you know, how much of what you do offline like where you are or who you are talking to is being tracked by advertisers, technology firms or other companies?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' D', ' C', ' C', ' C', ' C', ' C', ' B', ' D', ' D', ' D', ' C', ' E', ' C', ' B', ' D', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' D', ' C', ' E', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' E', ' D', ' B', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' C', ' E', ' D', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' D', ' C', ' A', ' A', ' C', ' B', ' E', ' C', ' D', ' C', ' B', ' B', ' B', ' E', ' D', ' D', ' C', ' D', ' D', ' C', ' B', ' C', ' D', ' E', ' A', ' D', ' A', ' B', ' D', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' A', ' C', ' B', ' A', ' D', ' C']","[0.10385227, 0.19490772, 0.4154162, 0.19235341, 0.0934704, 0.002965965203601]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+HOMEASSIST2_W49,"Question: How concerned are you, if at all, about how much data your smart speaker collects about you?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not concerned at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' D', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' D', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' D', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A']","[0.13077704, 0.39260642, 0.38065647, 0.09596007, 0.0]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+PP5e_W49,"Question: How confident are you, if at all, that companies will be held accountable by the government if they misuse or compromise your data?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not confident at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' A', ' B', ' A', ' C', ' D', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' D', ' B', ' D', ' D', ' B', ' D', ' B', ' D', ' C', ' C', ' C', ' B', ' D', ' B', ' D', ' D', ' C', ' C', ' D', ' B', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' D', ' C', ' B', ' C', ' D', ' D', ' D', ' B', ' D', ' E', ' B', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B']","[0.02913351, 0.18876985, 0.4537402, 0.32835644, 0.0034770811879152]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+CONCERNGRPc_W49,"Question: How concerned are you, if at all, about how much personal information your employer might know about you?
+A. Concerned a lot
+B. Concerned a little
+C. Not concerned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' D', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B']","[0.16253213, 0.36783893, 0.46962893, 0.0087661312813942]",RACE,White,"[1.0, 2.0, 3.0]"
+BENEFITGOV_W49,"Question: How much do you feel you personally benefit from the data the government collects about you?
+A. A great deal
+B. Some
+C. Very little
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' E', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' B']","[0.03745385, 0.28009638, 0.68244977, 0.0, 0.0152889686952583]",RACE,White,"[1.0, 2.0, 3.0, 4.0]"
+TRACKCO1a_W49,"Question: As far as you know, how much of what you do online or on your cellphone is being tracked by advertisers, technology firms or other companies?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' D', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' D', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' D', ' C', ' A', ' C', ' F', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A']","[0.44285137, 0.31405333, 0.17617754, 0.03840329, 0.02851447, 0.0061729107419338]",RACE,White,"[1.0, 2.0, 3.0, 4.0, 5.0]"

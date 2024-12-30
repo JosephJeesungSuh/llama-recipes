@@ -1,0 +1,514 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+IDIMPORT_W43,"Question: How important is being Hispanic to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' D', ' B', ' A', ' E', ' C', ' E', ' A', ' C', ' E', ' B', ' A', ' E', ' C', ' D', ' C', ' B', ' A', ' E', ' B', ' E', ' E', ' E', ' E', ' A', ' E', ' A', ' C', ' E', ' E', ' B', ' E', ' A', ' E', ' D', ' D', ' D', ' D', ' B', ' E', ' A', ' C', ' B', ' E', ' E', ' B', ' E', ' E', ' C', ' B', ' B', ' C', ' D', ' E', ' C', ' E', ' A', ' E', ' D', ' E', ' E', ' C', ' E', ' A', ' A', ' E', ' E', ' A', ' D', ' A', ' B', ' B', ' D', ' B', ' C', ' A', ' E', ' E', ' A', ' A', ' D', ' A', ' A', ' C', ' E', ' E', ' B', ' E', ' D', ' A', ' E', ' E', ' E', ' E', ' E', ' E', ' A', ' A', ' B']","[0.20114303, 0.13071491, 0.16319545, 0.134725, 0.37022161, 0.0034378939228999]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV15a_W43,"Question: Since President Trump was elected, do you think it has become more common or less common for people to express racist or racially insensitive views, or is it about as common as it was before?
+A. More common
+B. Less common
+C. About as common
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C']","[0.62029233, 0.06904388, 0.3106638, 0.0183071449570313]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+IDIMPORT_W43,"Question: How important is being Asian to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' B', ' C', ' C', ' A', ' C', ' E', ' E', ' E', ' E', ' E', ' E', ' B', ' B', ' E', ' E', ' B', ' C', ' E', ' E', ' B', ' B', ' E', ' C', ' E', ' E', ' E', ' E', ' E', ' E', ' C', ' B', ' D', ' B', ' C', ' D', ' C', ' E', ' A', ' D', ' A', ' D', ' A', ' E', ' C', ' C', ' D', ' A', ' B', ' E', ' E', ' D', ' A', ' E', ' C', ' A', ' D', ' C', ' A', ' A', ' A', ' B', ' A', ' E', ' D', ' E', ' C', ' A', ' A', ' C', ' A', ' A', ' E', ' A', ' D', ' A', ' E', ' A', ' A', ' B', ' C', ' D', ' E', ' E', ' B', ' E', ' D', ' A', ' A', ' A', ' E', ' E', ' A', ' B', ' E', ' A', ' D', ' C', ' E']","[0.20114303, 0.13071491, 0.16319545, 0.134725, 0.37022161, 0.0034378939228999]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV28b_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in stores or restaurants situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' D', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A']","[0.43836988, 0.03421907, 0.52741105, 0.0094557180002278]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+RACESURV28c_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when applying for a loan or mortgage situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' D', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' D', ' C', ' C', ' D', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C']","[0.43659692, 0.03876046, 0.52464262, 0.0177717494274622]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+RACESURV5l_W43,"Question: Overall, how does being wealthy affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' A', ' A', ' A', ' C', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' B', ' A', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' D', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' E', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A']","[0.75594156, 0.09875878, 0.02863387, 0.03467644, 0.08198935, 0.0013827978518284]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV34b_W43,"Question: Overall, how much has being a man/Being a woman/Your gender helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' E', ' B', ' E', ' E', ' E', ' C', ' B', ' E', ' C', ' C', ' D', ' B', ' E', ' B', ' B', ' E', ' E', ' E', ' B', ' A', ' A', ' E', ' C', ' A', ' B', ' E', ' E', ' E', ' E', ' D', ' E', ' C', ' E', ' B', ' B', ' A', ' C', ' E', ' C', ' A', ' B', ' D', ' A', ' A', ' B', ' C', ' C', ' B', ' E', ' E', ' E', ' B', ' E', ' A', ' B', ' C', ' C', ' B', ' E', ' A', ' B', ' B', ' B', ' E', ' A', ' E', ' E', ' E', ' C', ' A', ' B', ' A', ' E', ' A', ' A', ' C', ' C', ' D', ' C', ' C', ' E', ' E', ' E', ' E', ' B', ' B', ' B', ' E', ' E', ' B', ' A', ' B', ' E', ' A', ' E', ' E', ' E', ' E']","[0.12540864, 0.23084983, 0.20116294, 0.08133598, 0.36124261, 0.0075784943179575]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5g_W43,"Question: Overall, how does being Muslim affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' A', ' D', ' E', ' C', ' D', ' B', ' C', ' E', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' E', ' E', ' C', ' C', ' E', ' E', ' E', ' E', ' C', ' E', ' E', ' A', ' D', ' C', ' A', ' E', ' E', ' D', ' C', ' E', ' D', ' D', ' C', ' C', ' E', ' C', ' C', ' E', ' E', ' B', ' D', ' E', ' D', ' E', ' C', ' E', ' C', ' D', ' C', ' E', ' C', ' E', ' B', ' E', ' C', ' D', ' E', ' E', ' C', ' D', ' D', ' C', ' E', ' D', ' C', ' E', ' C', ' E', ' D', ' E', ' C', ' D', ' C', ' C', ' D', ' D', ' E', ' B', ' E', ' C', ' C', ' E', ' E', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' E']","[0.02713848, 0.05421598, 0.28773769, 0.29990562, 0.33100223, 0.0111514886444916]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5f_W43,"Question: Overall, how does being Jewish affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' E', ' E', ' D', ' C', ' E', ' E', ' E', ' E', ' C', ' C', ' E', ' E', ' C', ' B', ' B', ' E', ' B', ' E', ' B', ' E', ' A', ' E', ' E', ' E', ' E', ' B', ' C', ' E', ' E', ' B', ' D', ' E', ' E', ' E', ' E', ' C', ' E', ' B', ' C', ' F', ' E', ' E', ' B', ' E', ' B', ' E', ' E', ' C', ' E', ' E', ' E', ' C', ' C', ' A', ' E', ' E', ' E', ' A', ' E', ' E', ' E', ' E', ' F', ' E', ' C', ' E', ' C', ' E', ' E', ' E', ' C', ' C', ' A', ' B', ' E', ' E', ' E', ' E', ' D', ' E', ' E', ' B', ' E', ' A', ' E', ' E', ' E', ' E', ' C', ' E', ' D', ' B', ' B', ' E', ' E', ' E', ' E', ' B']","[0.0687512, 0.14415889, 0.17517339, 0.04556334, 0.56635317, 0.0148555820444865]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV13_W43,"Question: How likely, if at all, is it that black people in our country will eventually have equal rights with whites?
+A. Very likely
+B. Somewhat likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' A', ' B', ' D', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' D', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' D', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' D', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' D', ' B', ' D', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' D', ' D', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' C']","[0.20921323, 0.43390468, 0.26103292, 0.09584917, 0.0012603930348992]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV45_W43,"Question: How many black people in our country do you think would confront a black friend or family member if they made a racist or racially insensitive comment or joke about people who are white?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' C', ' E', ' B', ' B', ' E', ' C', ' B', ' B', ' E', ' B', ' E', ' C', ' B', ' B', ' E', ' E', ' C', ' C', ' C', ' B', ' E', ' B', ' E', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' E', ' E', ' C', ' C', ' E', ' A', ' B', ' E', ' B', ' C', ' E', ' E', ' B', ' C', ' E', ' A', ' C', ' E', ' C', ' C', ' E', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' B', ' E', ' E', ' E', ' B', ' B', ' B', ' B', ' E', ' E', ' C', ' C', ' B', ' B', ' E', ' C', ' A', ' B', ' B', ' E', ' C', ' B', ' C', ' B', ' E', ' B', ' A', ' C', ' C', ' E', ' B', ' C', ' C', ' C', ' B', ' E', ' B', ' E']","[0.08874478, 0.39927397, 0.51198125, 0.0, 0.2859272940233929]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV34a_W43,"Question: Overall, how much has being white/Being black/Being Hispanic/Being Asian/Your racial background helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' E', ' E', ' A', ' E', ' B', ' A', ' E', ' E', ' A', ' E', ' D', ' E', ' E', ' B', ' E', ' B', ' C', ' E', ' B', ' A', ' B', ' E', ' E', ' B', ' E', ' E', ' C', ' A', ' E', ' B', ' B', ' E', ' B', ' E', ' E', ' C', ' A', ' E', ' E', ' C', ' E', ' E', ' B', ' E', ' E', ' E', ' B', ' E', ' B', ' E', ' D', ' B', ' E', ' E', ' C', ' A', ' D', ' E', ' B', ' B', ' E', ' D', ' E', ' A', ' B', ' B', ' C', ' E', ' A', ' E', ' E', ' B', ' B', ' B', ' D', ' A', ' B', ' C', ' E', ' E', ' E', ' E', ' B', ' E', ' E', ' E', ' E', ' C', ' B', ' E', ' B', ' D', ' E', ' E', ' E', ' B', ' E', ' E', ' C']","[0.12413665, 0.23688328, 0.10563639, 0.06842561, 0.46491807, 0.0085595509657911]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+IDIMPORT_W43,"Question: How important is your racial background to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' E', ' C', ' E', ' A', ' A', ' E', ' A', ' E', ' D', ' C', ' E', ' E', ' E', ' A', ' E', ' A', ' C', ' E', ' D', ' E', ' D', ' A', ' E', ' E', ' D', ' E', ' E', ' B', ' B', ' E', ' E', ' E', ' E', ' E', ' E', ' D', ' D', ' B', ' E', ' A', ' A', ' E', ' D', ' D', ' D', ' B', ' B', ' D', ' D', ' E', ' C', ' E', ' E', ' A', ' A', ' E', ' E', ' B', ' E', ' C', ' D', ' E', ' E', ' E', ' D', ' A', ' E', ' E', ' E', ' B', ' A', ' D', ' E', ' D', ' A', ' A', ' D', ' B', ' B', ' B', ' D', ' F', ' E', ' D', ' E', ' B', ' B', ' B', ' E', ' C', ' E', ' E', ' B', ' A', ' A', ' A', ' C', ' E']","[0.20114303, 0.13071491, 0.16319545, 0.134725, 0.37022161, 0.0034378939228999]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV28a_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in hiring, pay and promotions situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' C']","[0.52047338, 0.07304816, 0.40647846, 0.0087312619064684]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+RACESURV19c_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Less access to good quality schools
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' D']","[0.43855671, 0.29060928, 0.27083401, 0.0090917568332024]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0]"
+RACESURV28e_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in by the criminal justice system situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' D', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C']","[0.67125855, 0.03787273, 0.29086872, 0.0129062372877431]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+RACESURV40_W43,"Question: How many white people in our country do you think are prejudiced against black people?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' B', ' B', ' E', ' C', ' B', ' B', ' B', ' E', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' E', ' B', ' B', ' A', ' B', ' B', ' B', ' E', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' E', ' B', ' E', ' B', ' C', ' C', ' B', ' B', ' E', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' E', ' B', ' B', ' E', ' E', ' B', ' A', ' C', ' E', ' B', ' B', ' A', ' E', ' B', ' B', ' B', ' E', ' E', ' B', ' E', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B']","[0.13516105, 0.69131568, 0.17352326, 0.0, 0.1436191825732643]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV29d_W43,"Question: In your daily life, how much interaction, if any, would you say you have with people who are asian
+A. A lot of interaction
+B. Some interaction
+C. Not much interaction
+D. No interaction at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' D', ' D', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' D', ' B', ' C', ' C', ' D', ' B', ' B', ' D', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' B', ' C', ' D', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' D', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' D', ' C', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' C', ' B', ' C']","[0.11794238, 0.32786042, 0.36600859, 0.18818862, 0.0040766846679784]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV15b_W43,"Question: Since President Trump was elected, do you think it has become more acceptable or less acceptable for people to express racist or racially insensitive views, or is it about as acceptable as it was before?
+A. More acceptable
+B. Less acceptable
+C. About as acceptable
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' D', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' A']","[0.38534635, 0.2887844, 0.32586925, 0.0071859442253857]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+RACESURV2_W43,"Question: The U.S. population is made up of people of many different races and ethnicities. Overall, do you think this is
+A. Very good for the country
+B. Somewhat good for the country
+C. Somewhat bad for the country
+D. Very bad for the country
+E. Neither good nor bad for the country
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' A', ' E', ' A', ' A', ' E', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' E', ' A', ' B', ' A', ' E', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' C', ' E', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' E', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' E', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' E', ' B', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' E', ' B', ' B', ' B', ' A', ' A', ' E', ' A']","[0.49791478, 0.19682216, 0.09013143, 0.02119777, 0.19393387, 0.0043553027569254]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5d_W43,"Question: Overall, how does being Asian affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' D', ' E', ' B', ' E', ' E', ' E', ' D', ' C', ' E', ' A', ' B', ' E', ' B', ' A', ' C', ' B', ' E', ' E', ' E', ' B', ' A', ' E', ' E', ' B', ' E', ' E', ' E', ' E', ' C', ' E', ' E', ' E', ' B', ' A', ' E', ' C', ' B', ' E', ' C', ' E', ' E', ' C', ' C', ' D', ' E', ' B', ' E', ' D', ' E', ' E', ' E', ' E', ' E', ' A', ' B', ' A', ' C', ' E', ' E', ' E', ' E', ' E', ' E', ' B', ' F', ' B', ' C', ' E', ' D', ' B', ' E', ' C', ' C', ' E', ' E', ' B', ' B', ' E', ' B', ' E', ' C', ' C', ' E', ' E', ' E', ' B', ' C', ' B', ' E', ' C', ' E', ' D', ' B', ' B', ' E', ' E', ' E', ' B', ' D']","[0.07392062, 0.2262671, 0.19545851, 0.04964787, 0.4547059, 0.0102458457199758]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV27_W43,"Question: How much, if at all, do you think what happens to Asians in the country overall affects what happens in your own life?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' D', ' D', ' B', ' B', ' D', ' D', ' B', ' C', ' A', ' C', ' C', ' C', ' A', ' D', ' D', ' B', ' D', ' B', ' D', ' D', ' B', ' A', ' C', ' C', ' D', ' C', ' D', ' B', ' D', ' B', ' C', ' A', ' B', ' A', ' B', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' B', ' D', ' D', ' C', ' B', ' C', ' B', ' C', ' D', ' D', ' C', ' D', ' C', ' B', ' D', ' A', ' D', ' C', ' C', ' C', ' B', ' B', ' D', ' C', ' D', ' D', ' B', ' C']","[0.08004386, 0.26476619, 0.3046949, 0.35049505, 0.0131939576395541]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV47e_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A person wearing traditional dress from a country or culture other than their own as part of a Halloween costume
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' A', ' E', ' E', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' E', ' C', ' A', ' E', ' D', ' E', ' B', ' B', ' D', ' B', ' B', ' E', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' E', ' B', ' A', ' D', ' B', ' D', ' C', ' B', ' A', ' E', ' B', ' A', ' E', ' D', ' A', ' E', ' B', ' B', ' B', ' E', ' B', ' A', ' D', ' A', ' A', ' D', ' E', ' A', ' A', ' E', ' A', ' C', ' A', ' D', ' D', ' C', ' D', ' B', ' B', ' E', ' D', ' A', ' B', ' D', ' B', ' A', ' B', ' A', ' B', ' B', ' E', ' A', ' E', ' B', ' C', ' D', ' B', ' C', ' D', ' A', ' A', ' A', ' E', ' B', ' A']","[0.30339815, 0.3555198, 0.16100841, 0.18007364, 0.1809857603513621]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV19e_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Less access to high-paying jobs
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B']","[0.45195073, 0.28397349, 0.26407579, 0.0014675906785078]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0]"
+RACESURV5a_W43,"Question: Overall, how does being white affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' A', ' D', ' A', ' E', ' A', ' E', ' E', ' A', ' B', ' B', ' E', ' F', ' A', ' B', ' B', ' E', ' E', ' A', ' B', ' B', ' C', ' B', ' A', ' E', ' A', ' E', ' B', ' B', ' E', ' C', ' A', ' D', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' D', ' A', ' A', ' E', ' E', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' E', ' E', ' B', ' A', ' A', ' E', ' A', ' E', ' B', ' D', ' E', ' B', ' E', ' D', ' E', ' A', ' B', ' A', ' D', ' B', ' A', ' B', ' A', ' D', ' E', ' A', ' A', ' E', ' B', ' D', ' A', ' A', ' A', ' B', ' E', ' A', ' A', ' A', ' B', ' B', ' E', ' E', ' A', ' E', ' D', ' D']","[0.33803475, 0.20178799, 0.06899335, 0.05289339, 0.33829052, 0.0075258636220025]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV51_W43,"Question: Thinking about the community where you live, do you wish your community was
+A. More racially mixed
+B. Less racially mixed
+C. About as racially mixed as it is
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' D', ' A', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A']","[0.24825179, 0.08783311, 0.6639151, 0.0105776872056377]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+RACESURV34c_W43,"Question: Overall, how much has your family's financial situation when you were growing up helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' E', ' B', ' D', ' C', ' D', ' D', ' E', ' C', ' E', ' E', ' C', ' E', ' D', ' A', ' D', ' D', ' A', ' C', ' C', ' B', ' B', ' B', ' E', ' B', ' D', ' B', ' B', ' C', ' D', ' C', ' C', ' B', ' C', ' E', ' D', ' E', ' B', ' E', ' D', ' C', ' A', ' E', ' B', ' B', ' D', ' C', ' B', ' B', ' C', ' D', ' D', ' D', ' A', ' B', ' A', ' B', ' B', ' C', ' E', ' B', ' B', ' A', ' C', ' D', ' E', ' C', ' C', ' C', ' B', ' B', ' E', ' A', ' B', ' E', ' B', ' B', ' B', ' E', ' D', ' E', ' D', ' B', ' D', ' E', ' A', ' E', ' E', ' A', ' E', ' E', ' D', ' C', ' A', ' B', ' D', ' D', ' D', ' C', ' D']","[0.10391985, 0.19008303, 0.17978604, 0.21206004, 0.31415103, 0.0057317633007185]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+IDIMPORT_W43,"Question: How important is being black to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' D', ' A', ' B', ' E', ' C', ' B', ' C', ' E', ' E', ' D', ' A', ' E', ' E', ' E', ' B', ' C', ' C', ' D', ' E', ' B', ' A', ' C', ' E', ' E', ' E', ' A', ' C', ' E', ' C', ' E', ' C', ' B', ' D', ' B', ' A', ' E', ' E', ' E', ' A', ' A', ' E', ' A', ' A', ' C', ' A', ' A', ' C', ' E', ' C', ' A', ' D', ' A', ' A', ' E', ' E', ' E', ' C', ' A', ' E', ' E', ' E', ' C', ' C', ' D', ' E', ' E', ' A', ' D', ' D', ' E', ' A', ' E', ' E', ' E', ' A', ' A', ' E', ' A', ' A', ' D', ' B', ' A', ' B', ' A', ' E', ' B', ' A', ' E', ' C', ' C', ' C', ' C', ' B', ' E', ' C', ' E', ' A', ' D']","[0.20114303, 0.13071491, 0.16319545, 0.134725, 0.37022161, 0.0034378939228999]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV52_W43,"Question: How much, if at all, would it bother you to hear people speak a language other than English in a public place?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' B', ' B', ' B', ' D', ' A', ' C', ' B', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' B', ' C', ' B', ' A', ' B', ' D', ' D', ' A', ' B', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' E', ' B', ' D', ' D', ' D', ' B', ' A', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' B', ' C', ' C', ' C', ' D', ' D', ' D', ' A', ' C', ' D', ' D', ' A', ' D', ' A', ' B', ' B', ' D', ' D', ' B', ' D', ' D', ' C', ' D', ' C', ' A', ' C', ' B', ' D', ' B', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' A', ' B', ' C', ' D', ' D']","[0.13710633, 0.18547211, 0.23320927, 0.44421229, 0.004498310246458]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV18b_W43,"Question: Thinking again about race and race relations in the U.S. in general, how well, if at all, do you think each of these groups get along with each other in our society these days? Blacks and Hispanics
+A. Very well
+B. Pretty well
+C. Not too well
+D. Not at all well
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' E', ' C', ' C', ' B', ' E', ' B', ' D', ' B', ' D', ' A', ' C', ' C', ' B', ' B', ' D', ' A', ' D', ' A', ' B', ' E', ' B', ' D', ' E', ' E', ' B', ' E', ' E', ' C', ' E', ' A', ' C', ' C', ' B', ' B', ' A', ' E', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' E', ' B', ' B', ' B', ' A', ' C', ' E', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' E', ' C', ' C', ' E', ' E', ' B', ' D', ' C', ' C', ' C', ' A', ' B', ' E', ' B', ' B', ' D', ' B', ' E', ' A', ' E', ' E', ' B', ' E', ' B', ' B', ' E', ' B', ' C', ' B', ' B', ' E', ' E', ' B', ' D', ' E', ' C', ' E', ' C', ' B', ' C', ' E', ' B']","[0.15550225, 0.5181925, 0.27342576, 0.0528795, 0.2645743386707899]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV5j_W43,"Question: Overall, how does being a woman affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' D', ' C', ' E', ' C', ' C', ' E', ' B', ' D', ' C', ' C', ' D', ' C', ' C', ' A', ' A', ' E', ' C', ' C', ' E', ' C', ' B', ' C', ' B', ' B', ' E', ' B', ' B', ' E', ' B', ' B', ' C', ' C', ' C', ' D', ' C', ' E', ' A', ' C', ' C', ' E', ' E', ' D', ' C', ' C', ' C', ' E', ' C', ' E', ' E', ' E', ' E', ' B', ' C', ' B', ' C', ' B', ' E', ' B', ' E', ' C', ' A', ' D', ' C', ' C', ' A', ' C', ' E', ' A', ' C', ' E', ' C', ' C', ' C', ' C', ' E', ' C', ' A', ' E', ' E', ' A', ' D', ' A', ' C', ' B', ' B', ' E', ' E', ' C', ' C', ' C', ' E', ' D', ' D', ' A', ' C', ' C', ' E', ' E']","[0.09104445, 0.14353354, 0.37583902, 0.10159672, 0.28798627, 0.0054350203341683]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV21_W43,"Question: How often, if ever, did your family talk to you about challenges you might face because of your race or ethnicity?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' A', ' B', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' C', ' A', ' C', ' D', ' C', ' A', ' C', ' B', ' A', ' D', ' B', ' B', ' E', ' A', ' D', ' D', ' A', ' D', ' A', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' C', ' D', ' D', ' B', ' B', ' D', ' D', ' A', ' D', ' D', ' A', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' B', ' B', ' D', ' B', ' D', ' C', ' D', ' A', ' D', ' D', ' A', ' B']","[0.10240467, 0.17904068, 0.15188863, 0.56666603, 0.0025330072481888]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV1b_W43,"Question: For your job or career aspects of your life, would you say that you are, or about where you expected to be at this point in your life?
+A. In a better situation than I expected
+B. In a worse situation than I expected
+C. About where I expected
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B']","[0.28279016, 0.37298397, 0.34422588, 0.0010008153252009]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+RACESURV28f_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when voting in elections situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C']","[0.33254453, 0.04707043, 0.62038505, 0.0134132368488418]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+IDIMPORT_W43,"Question: How important is being white to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' E', ' C', ' B', ' C', ' D', ' D', ' E', ' A', ' D', ' A', ' B', ' B', ' B', ' C', ' E', ' C', ' A', ' E', ' B', ' E', ' D', ' A', ' A', ' C', ' B', ' E', ' A', ' E', ' E', ' C', ' D', ' C', ' C', ' C', ' B', ' A', ' E', ' E', ' B', ' E', ' A', ' A', ' A', ' A', ' E', ' E', ' D', ' C', ' E', ' E', ' C', ' D', ' E', ' B', ' E', ' D', ' E', ' E', ' B', ' C', ' B', ' B', ' C', ' A', ' E', ' E', ' C', ' C', ' E', ' E', ' E', ' E', ' E', ' E', ' A', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' B', ' B', ' D', ' C', ' A', ' E', ' A', ' C', ' D', ' C', ' E', ' A', ' A', ' E', ' B', ' C']","[0.20114303, 0.13071491, 0.16319545, 0.134725, 0.37022161, 0.0034378939228999]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV5e_W43,"Question: Overall, how does being Native American affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' C', ' B', ' E', ' E', ' A', ' D', ' C', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' C', ' D', ' C', ' E', ' E', ' E', ' C', ' A', ' E', ' E', ' C', ' D', ' E', ' E', ' C', ' B', ' C', ' B', ' E', ' E', ' E', ' E', ' B', ' C', ' B', ' B', ' D', ' E', ' E', ' A', ' E', ' E', ' D', ' F', ' B', ' E', ' D', ' B', ' E', ' B', ' E', ' D', ' B', ' E', ' C', ' D', ' E', ' C', ' E', ' D', ' E', ' B', ' D', ' E', ' E', ' B', ' E', ' C', ' E', ' B', ' D', ' E', ' C', ' B', ' C', ' B', ' D', ' B', ' B', ' C', ' E', ' E', ' E', ' B', ' C', ' D', ' D', ' A', ' B', ' D', ' C', ' B', ' C']","[0.09364865, 0.17372788, 0.18671859, 0.13653709, 0.40936779, 0.0075708744084321]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV28g_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when seeking medical treatment situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' D', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' D', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A']","[0.33260316, 0.03134821, 0.63604863, 0.0088705350904559]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+RACESURV17_W43,"Question: How much, if at all, do you think the legacy of slavery affects the position of black people in American society today?
+A. A great deal
+B. A fair amount
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' D', ' D', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' A', ' D', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' D', ' A', ' B', ' A', ' D', ' B', ' A', ' A', ' A', ' D', ' B', ' C', ' D', ' A', ' C', ' A', ' A', ' E', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' D', ' C', ' A', ' B', ' B', ' A', ' D', ' D', ' A', ' D', ' A', ' D', ' B', ' D', ' B', ' C', ' B', ' B', ' A', ' A']","[0.33396173, 0.33993482, 0.17343868, 0.15266477, 0.0083662525044026]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV5h_W43,"Question: Overall, how does being an evangelical Christian affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' A', ' E', ' C', ' E', ' A', ' E', ' A', ' B', ' E', ' E', ' E', ' E', ' D', ' E', ' E', ' E', ' A', ' B', ' E', ' E', ' E', ' E', ' B', ' E', ' E', ' E', ' A', ' E', ' A', ' D', ' B', ' E', ' E', ' E', ' A', ' E', ' B', ' C', ' E', ' A', ' A', ' B', ' A', ' C', ' E', ' E', ' B', ' E', ' E', ' E', ' C', ' E', ' E', ' A', ' E', ' B', ' E', ' B', ' B', ' A', ' E', ' B', ' E', ' B', ' E', ' E', ' A', ' E', ' B', ' A', ' C', ' C', ' E', ' B', ' E', ' E', ' B', ' C', ' E', ' C', ' C', ' A', ' C', ' E', ' B', ' E', ' E', ' B', ' E', ' A', ' A', ' A', ' D', ' E', ' B', ' E', ' B', ' A', ' E']","[0.15273392, 0.18060201, 0.08667744, 0.05763868, 0.52234794, 0.00789204921497]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV47b_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A black person using the n-word
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' D', ' D', ' E', ' D', ' B', ' B', ' D', ' C', ' E', ' D', ' D', ' C', ' B', ' D', ' C', ' D', ' B', ' A', ' C', ' C', ' A', ' D', ' E', ' D', ' A', ' C', ' D', ' A', ' B', ' D', ' B', ' B', ' D', ' A', ' D', ' E', ' D', ' D', ' A', ' D', ' D', ' B', ' D', ' C', ' D', ' D', ' A', ' D', ' A', ' D', ' C', ' B', ' E', ' B', ' E', ' D', ' D', ' D', ' A', ' E', ' E', ' C', ' B', ' A', ' B', ' D', ' D', ' A', ' D', ' E', ' C', ' D', ' E', ' A', ' E', ' D', ' D', ' B', ' E', ' D', ' D', ' E', ' B', ' D', ' B', ' A', ' B', ' D', ' D', ' B', ' D', ' D', ' E', ' D', ' D', ' A', ' E', ' A', ' D']","[0.17178004, 0.21005372, 0.17245346, 0.44571278, 0.1731303551937799]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV47d_W43,"Question: For each, please indicate if you, personally, think it is acceptable. Casting an actor to play a character of a race or ethnicity other than their own
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' E', ' C', ' E', ' C', ' A', ' A', ' C', ' D', ' D', ' A', ' E', ' A', ' B', ' D', ' A', ' C', ' B', ' E', ' B', ' D', ' D', ' B', ' B', ' D', ' E', ' A', ' B', ' C', ' E', ' A', ' E', ' B', ' D', ' E', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' E', ' C', ' D', ' B', ' C', ' D', ' D', ' A', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' E', ' E', ' D', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' D', ' E', ' A', ' C', ' E', ' C', ' D', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' E', ' E', ' B', ' C', ' C', ' C', ' B', ' E']","[0.19654643, 0.35413102, 0.26054991, 0.18877264, 0.1984905246013954]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV14_W43,"Question: Would you say President Trump has
+A. Made progress toward improving race relations
+B. Tried but failed to make progress toward improving race relations
+C. Not addressed race relations
+D. Made race relations worse
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' A', ' B', ' D', ' C', ' B', ' D', ' D', ' D', ' C', ' A', ' C', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' B', ' D', ' C', ' B', ' A', ' D', ' A', ' D', ' D', ' B', ' A', ' D', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' C', ' D', ' C', ' A', ' D', ' A', ' B', ' C', ' D', ' D', ' D', ' B', ' D', ' B', ' C', ' B', ' C', ' D', ' D', ' B', ' D', ' D', ' C', ' B', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' C']","[0.12760366, 0.11794758, 0.15312283, 0.60132592, 0.0140254129745101]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV47f_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A white person using makeup to darken their skin so they appear to be a different race as part of a Halloween costume
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' B', ' B', ' E', ' D', ' D', ' C', ' B', ' D', ' C', ' A', ' E', ' E', ' D', ' C', ' C', ' A', ' D', ' B', ' A', ' A', ' D', ' D', ' E', ' C', ' D', ' C', ' A', ' C', ' D', ' C', ' D', ' B', ' D', ' B', ' B', ' B', ' A', ' A', ' D', ' A', ' D', ' D', ' B', ' E', ' A', ' A', ' B', ' D', ' B', ' B', ' C', ' B', ' E', ' D', ' D', ' E', ' C', ' D', ' D', ' D', ' A', ' D', ' B', ' D', ' D', ' E', ' D', ' A', ' E', ' E', ' A', ' E', ' D', ' B', ' A', ' D', ' A', ' D', ' D', ' B', ' C', ' E', ' E', ' C', ' D', ' C', ' D', ' B', ' D', ' B', ' C', ' E', ' B', ' B', ' E', ' B', ' D', ' D']","[0.16966571, 0.21389262, 0.19821356, 0.41822811, 0.1795940872098253]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV28d_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in dealing with the police situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C']","[0.66977208, 0.03244383, 0.29778409, 0.0041973217412476]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+RACESURV48_W43,"Question: How important, if at all, would you say it is for companies and organizations to promote racial and ethnic diversity in their workplace?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' D', ' A', ' D', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' D', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' D', ' A', ' C', ' A', ' A', ' D', ' A', ' B', ' A', ' D', ' E', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' D', ' D', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' D', ' A', ' D', ' A', ' B', ' D', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' D']","[0.46435913, 0.28366757, 0.11969828, 0.13227503, 0.012591499813969]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV5i_W43,"Question: Overall, how does being a man affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' A', ' E', ' E', ' B', ' B', ' B', ' A', ' E', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' E', ' A', ' A', ' B', ' B', ' C', ' B', ' E', ' B', ' A', ' A', ' A', ' E', ' B', ' B', ' E', ' B', ' A', ' E', ' C', ' A', ' E', ' E', ' E', ' D', ' A', ' B', ' E', ' E', ' A', ' A', ' A', ' A', ' A', ' E', ' E', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' E', ' A', ' B', ' E', ' A', ' A', ' A', ' E', ' E', ' E', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' E', ' B', ' B', ' A', ' B', ' E', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' E', ' E', ' B']","[0.3849417, 0.25372387, 0.04688716, 0.03575992, 0.27868736, 0.0013827978518284]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV47a_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A sports team using Native American tribal names or images as mascots
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' D', ' B', ' C', ' A', ' A', ' D', ' A', ' C', ' D', ' B', ' A', ' B', ' E', ' D', ' D', ' B', ' B', ' D', ' A', ' D', ' E', ' D', ' A', ' D', ' C', ' D', ' D', ' D', ' C', ' E', ' B', ' A', ' E', ' B', ' B', ' B', ' A', ' D', ' D', ' D', ' C', ' A', ' B', ' B', ' E', ' E', ' A', ' E', ' B', ' A', ' D', ' A', ' D', ' A', ' B', ' D', ' B', ' E', ' B', ' E', ' A', ' A', ' A', ' E', ' E', ' C', ' D', ' A', ' E', ' E', ' A', ' E', ' B', ' B', ' C', ' D', ' D', ' C', ' A', ' D', ' B', ' B', ' C', ' C', ' B', ' E', ' A', ' D', ' D', ' A', ' A', ' E', ' B', ' B', ' B', ' A', ' D', ' C', ' D']","[0.2483157, 0.31926433, 0.14674777, 0.2856722, 0.2343508123321553]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV19a_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Racial discrimination
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' A']","[0.47225891, 0.32106321, 0.20667787, 0.0047138425661561]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0]"
+RACESURV38_W43,"Question: How often, if ever, do you stop yourself from saying something because someone might think you are racist or racially insensitive?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' B', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' A', ' E', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' D', ' A', ' C', ' B', ' B', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' D', ' B', ' B', ' B', ' A', ' C', ' D', ' B', ' C', ' C', ' B', ' C', ' D', ' D', ' C', ' A', ' C', ' D', ' C', ' D', ' B', ' D', ' B', ' B', ' D', ' B', ' D', ' B', ' B', ' D', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' D', ' C']","[0.08371678, 0.2686794, 0.33741143, 0.31019239, 0.0064555630362357]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV9_W43,"Question: When race or race relations comes up in your conversations with family and friends, is it
+A. Always with people who are the same race as you
+B. Mostly with people who are the same race as you
+C. Mostly with people who are not the same race as you
+D. Always with people who are not the same race as you
+E. Both about equally
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' A', ' B', ' E', ' C', ' E', ' E', ' B', ' B', ' B', ' E', ' B', ' C', ' E', ' B', ' C', ' E', ' A', ' A', ' C', ' D', ' B', ' B', ' C', ' C', ' B', ' B', ' E', ' E', ' D', ' B', ' A', ' B', ' E', ' B', ' B', ' B', ' A', ' C', ' E', ' E', ' B', ' A', ' A', ' A', ' E', ' E', ' E', ' C', ' E', ' B', ' B', ' E', ' E', ' E', ' B', ' B', ' E', ' B', ' C', ' B', ' B', ' E', ' B', ' E', ' B', ' C', ' B', ' B', ' B', ' B', ' E', ' B', ' A', ' E', ' A', ' C', ' A', ' E', ' A', ' E', ' D', ' B', ' E', ' A', ' B', ' B', ' B', ' E', ' C', ' B', ' B', ' B', ' D', ' E', ' B', ' E', ' C', ' E']","[0.12770894, 0.39196302, 0.10400683, 0.04490975, 0.33141146, 0.0043673590143402]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV41_W43,"Question: How many white people in our country do you think would confront a white friend or family member if they made a racist or racially insensitive comment or joke about people who are black?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' C', ' E', ' B', ' C', ' C', ' E', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' E', ' B', ' B', ' E', ' C', ' E', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' E', ' B', ' B', ' B', ' B', ' C', ' B', ' E', ' C', ' C', ' B', ' B', ' E', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' E', ' A', ' B', ' B', ' C', ' E', ' C', ' B', ' C', ' B', ' C', ' B', ' E', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' E', ' E', ' E', ' E', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' C']","[0.09538712, 0.49530028, 0.4093126, 0.0, 0.1877794798462546]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV18f_W43,"Question: Thinking again about race and race relations in the U.S. in general, how well, if at all, do you think each of these groups get along with each other in our society these days? Hispanics and Asians
+A. Very well
+B. Pretty well
+C. Not too well
+D. Not at all well
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' E', ' B', ' B', ' E', ' A', ' B', ' B', ' B', ' A', ' E', ' E', ' B', ' B', ' A', ' B', ' B', ' B', ' E', ' B', ' C', ' B', ' E', ' E', ' E', ' C', ' C', ' E', ' E', ' E', ' E', ' E', ' B', ' C', ' A', ' C', ' E', ' E', ' C', ' C', ' B', ' E', ' C', ' C', ' C', ' B', ' E', ' B', ' A', ' E', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' D', ' B', ' A', ' B', ' C', ' E', ' C', ' E', ' B', ' E', ' E', ' B', ' A', ' B', ' B', ' E', ' E', ' E', ' E', ' B', ' E', ' A', ' B', ' B', ' E', ' E', ' C', ' C', ' E', ' E', ' E', ' B', ' E', ' B', ' E', ' B', ' B', ' E', ' B', ' B']","[0.14399704, 0.59807324, 0.22499066, 0.03293905, 0.4266905465792088]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+RACESURV34d_W43,"Question: Overall, how much has how hard you've worked helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' E', ' A', ' D', ' B', ' A', ' B', ' E', ' A', ' E', ' E', ' A', ' B', ' E', ' E', ' A', ' A', ' A', ' A', ' E', ' E', ' B', ' D', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' F', ' B', ' A', ' E', ' A', ' B', ' A', ' A', ' D', ' B', ' E', ' D', ' B', ' B', ' B', ' A', ' E', ' C', ' B', ' E', ' A', ' E', ' A', ' A', ' E', ' E', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' E', ' E', ' B']","[0.48159586, 0.22483911, 0.05306207, 0.04545134, 0.19505161, 0.0029709977487573]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV34e_W43,"Question: Overall, how much has the people you know helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' B', ' B', ' C', ' A', ' E', ' E', ' B', ' A', ' B', ' A', ' B', ' B', ' E', ' E', ' E', ' A', ' E', ' B', ' B', ' D', ' B', ' E', ' A', ' E', ' A', ' F', ' B', ' E', ' B', ' B', ' C', ' B', ' A', ' E', ' B', ' C', ' A', ' A', ' A', ' F', ' B', ' A', ' E', ' A', ' A', ' A', ' A', ' E', ' D', ' A', ' A', ' E', ' B', ' B', ' B', ' C', ' E', ' E', ' A', ' B', ' E', ' E', ' B', ' D', ' E', ' B', ' A', ' A', ' B', ' E', ' E', ' A', ' E', ' E', ' E', ' B', ' A', ' F', ' E', ' E', ' B', ' B', ' C', ' B', ' E', ' E', ' F', ' E', ' A', ' B', ' C', ' B', ' E', ' E', ' E', ' E', ' A', ' B']","[0.20709113, 0.34012097, 0.07227724, 0.04156463, 0.33894603, 0.0061020476846883]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5b_W43,"Question: Overall, how does being black affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' E', ' C', ' B', ' D', ' D', ' A', ' C', ' E', ' D', ' B', ' D', ' E', ' E', ' C', ' E', ' D', ' C', ' C', ' E', ' E', ' E', ' A', ' C', ' E', ' D', ' B', ' E', ' D', ' A', ' A', ' E', ' E', ' C', ' E', ' E', ' D', ' C', ' C', ' D', ' E', ' C', ' C', ' C', ' C', ' D', ' F', ' D', ' B', ' E', ' D', ' E', ' C', ' C', ' A', ' D', ' E', ' E', ' A', ' D', ' E', ' D', ' D', ' B', ' E', ' D', ' C', ' E', ' B', ' D', ' D', ' C', ' E', ' B', ' E', ' D', ' C', ' A', ' E', ' B', ' D', ' E', ' B', ' B', ' C', ' C', ' C', ' B', ' E', ' B', ' E', ' C', ' C', ' D', ' E', ' C', ' B', ' E', ' E']","[0.07341929, 0.0881741, 0.28993361, 0.24261181, 0.30586119, 0.0054646645753789]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"

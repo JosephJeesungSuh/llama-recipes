@@ -1,0 +1,361 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+AUTOLKLY_W41,"Question: Within the next 30 years, how likely do you think it is that the type of work that you do will be done by robots or computers? Do you think this will
+A. Definitely happen
+B. Probably happen
+C. Probably not happen
+D. Definitely not happen
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' C', ' A', ' C', ' B', ' D', ' C', ' C', ' D', ' B', ' D', ' B', ' C', ' C', ' D', ' B', ' C', ' D', ' B', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' D', ' B', ' A', ' B', ' B', ' C', ' B', ' D', ' D', ' B', ' C', ' B', ' B', ' A', ' D', ' B', ' A', ' C', ' D', ' C', ' D', ' B', ' D', ' B', ' D', ' D', ' D', ' C', ' C', ' A', ' D', ' B', ' C', ' D', ' A', ' B', ' C', ' C', ' B', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' B', ' A', ' C', ' D', ' B', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' B', ' D', ' D', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C']","[0.06508568, 0.17571542, 0.43892587, 0.32027303, 0.0006613395949858]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+FTRWORRYe_W41,"Question: Still thinking about the future of our country, how worried are you, if at all, about the moral values of Americans?
+A. Very worried
+B. Fairly worried
+C. Not too worried
+D. Not at all worried
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' D', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' D', ' D', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' D', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' D', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' C']","[0.37635959, 0.35762594, 0.211831, 0.05418347, 0.001141674758819]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+AUTOWKPLC_W41,"Question: Overall, has the automation of jobs through new technology in the workplace
+A. Mostly helped American workers
+B. Mostly hurt American workers
+C. Neither helped nor hurt
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' A']","[0.25916399, 0.38117904, 0.35965697, 0.0005009745958475]",INCOME,"$100,000 or more","[1.0, 2.0, 1.5]"
+GOVPRIOc_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to providing high-quality, affordable health care to all Americans?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C']","[0.65030978, 0.20115393, 0.09483792, 0.05369837, 0.0025805862037228]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+HARASS3NOWRKF2_W41,"Question: Do you think the increased focus on sexual harassment and assault has made it easier or harder for men to know how to interact with women, or hasn't it made much difference?
+A. Has made it easier for men
+B. Has made it harder for men
+C. Hasn't made much difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B']","[0.17176721, 0.54884241, 0.27939038, 0.0]",INCOME,"$100,000 or more","[1.0, 2.0, 1.5]"
+LEGALIMG_W41,"Question: In order to maintain the strength of the U.S. economy over the next 30 years, do you think that legal immigration will need to be
+A. Increased
+B. Maintained at current levels
+C. Decreased
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' D', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B']","[0.39718819, 0.43603663, 0.16677518, 0.0141933741971254]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0]"
+ETHNCMAJMOD_W41,"Question: According to the U.S. Census Bureau, by the year 2050, a majority of the population will be made up of blacks, Asians, Hispanics, and other racial minorities. In terms of its impact on the country, do you think this will be
+A. A very good thing
+B. A somewhat good thing
+C. A somewhat bad thing
+D. A very bad thing
+E. Neither a good nor bad thing
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' B', ' B', ' E', ' E', ' A', ' E', ' A', ' B', ' E', ' A', ' B', ' B', ' D', ' A', ' C', ' A', ' E', ' E', ' A', ' B', ' B', ' E', ' E', ' A', ' E', ' E', ' D', ' D', ' E', ' C', ' B', ' E', ' B', ' B', ' A', ' A', ' E', ' E', ' E', ' B', ' E', ' E', ' A', ' E', ' E', ' B', ' A', ' A', ' E', ' C', ' B', ' E', ' C', ' E', ' E', ' E', ' E', ' E', ' B', ' E', ' A', ' E', ' B', ' A', ' E', ' E', ' B', ' E', ' E', ' E', ' C', ' E', ' E', ' B', ' A', ' B', ' E', ' A', ' B', ' E', ' E', ' D', ' E', ' F', ' E', ' B', ' B', ' A', ' E', ' B', ' B', ' E', ' E', ' B', ' E', ' C', ' B', ' E', ' C']","[0.16849449, 0.18457592, 0.12634695, 0.05018613, 0.47039651, 0.0077024197953339]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0, 2.5]"
+WRKTRN1F2_W41,"Question: Over the next 30 years, who should be most responsible for making sure young adults have the right skills and training to get a good job?
+A. Government
+B. Employers
+C. The education system
+D. Individuals themselves
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' C', ' A', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' A', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' A', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' A', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' D', ' B']","[0.06359253, 0.03305867, 0.51310619, 0.3902426, 0.006759729745829]",INCOME,"$100,000 or more","[1, 1, 1, 1]"
+FUTR_DIV_W41,"Question: By 2050, do you expect that people who are married will be
+A. More likely to get divorced than people are now
+B. Less likely to get divorced than people are now
+C. About as likely to get divorced as people are now
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' D', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' B']","[0.25862505, 0.09733266, 0.64404229, 0.0034331133522932]",INCOME,"$100,000 or more","[1.0, 2.0, 1.5]"
+HARASS1NOWRKF2d_W41,"Question: When it comes to sexual harassment and sexual assault today, how much of a problem, if at all, would you say women not being believed when they claim that they have experienced sexual harassment or assault is?
+A. Major problem
+B. Minor problem
+C. Not a problem
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A']","[0.61320981, 0.28314173, 0.10364845, 0.0080784589906941]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0]"
+SOLVPROBa_W41,"Question: In the future, what kind of an impact do you think science and technology will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' E', ' C']","[0.55269821, 0.36991424, 0.06556164, 0.01182591, 0.008507297061355]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+INTRMAR_W41,"Question: According to the U.S. Census Bureau, more people of different races are marrying each other these days than in the past. In terms of its impact on the country, do you think this is
+A. A very good thing
+B. A somewhat good thing
+C. A somewhat bad thing
+D. A very bad thing
+E. Neither a good nor bad thing
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' A', ' B', ' E', ' A', ' E', ' A', ' E', ' A', ' E', ' A', ' B', ' A', ' E', ' E', ' E', ' E', ' E', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' E', ' B', ' E', ' A', ' A', ' B', ' B', ' E', ' C', ' C', ' C', ' E', ' E', ' B', ' B', ' A', ' E', ' E', ' E', ' E', ' A', ' B', ' D', ' E', ' A', ' A', ' A', ' E', ' B', ' E', ' E', ' A', ' E', ' A', ' E', ' B', ' E', ' E', ' A', ' A', ' C', ' A', ' B', ' B', ' E', ' A', ' B', ' C', ' B', ' B', ' E', ' E', ' E', ' E', ' E', ' E', ' B', ' E', ' A', ' A', ' A', ' B', ' C', ' A', ' E', ' B', ' A', ' E', ' A', ' B', ' E', ' E', ' E']","[0.38091729, 0.19321207, 0.04668766, 0.01104635, 0.36813662, 0.0032279506280041]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0, 2.5]"
+GOVPRIOhF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing spending on Social Security, Medicare and Medicaid?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' B', ' B', ' C', ' D', ' A', ' B', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' B', ' D', ' D', ' C', ' A', ' B', ' C', ' B', ' D', ' A', ' C', ' A', ' D', ' A', ' A', ' A', ' B', ' C', ' D', ' D', ' D', ' A', ' C', ' A', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' B', ' B', ' C', ' A', ' A', ' D', ' C', ' C', ' C', ' B', ' D', ' D', ' B', ' B', ' B', ' C', ' C', ' D', ' C', ' A', ' D', ' D', ' B', ' A', ' A', ' B', ' C', ' D', ' C', ' A', ' B', ' D', ' D', ' C', ' B', ' D', ' C', ' C', ' A', ' A', ' B', ' D', ' C', ' D']","[0.14354963, 0.22133573, 0.22775194, 0.40736269, 0.0047892061945967]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBf_W41,"Question: In the future, what kind of an impact do you think the news media will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' D', ' D', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' D', ' D', ' C', ' B', ' B', ' D', ' A', ' C', ' D', ' B', ' D', ' B', ' C', ' C', ' A', ' B', ' D', ' A', ' B', ' C', ' B', ' D', ' C', ' D', ' D', ' C', ' B', ' B', ' B', ' D', ' D', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' D', ' C', ' B', ' C', ' B', ' B', ' C', ' E', ' C', ' D', ' B', ' C', ' D', ' C', ' D', ' C', ' B', ' D', ' D', ' B', ' D', ' C', ' C', ' A', ' B', ' C', ' D', ' C', ' B', ' D', ' C', ' C', ' B', ' B', ' D']","[0.09660549, 0.39598234, 0.25111955, 0.25629262, 0.0134761097832735]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOjF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to avoiding tax increases?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' D', ' D', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' D', ' C', ' D', ' A', ' B', ' D', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' D', ' A', ' A', ' B', ' C', ' A', ' C', ' D', ' A', ' B', ' B', ' A', ' A', ' B', ' D', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' D', ' A', ' A', ' D', ' A', ' A', ' D', ' D', ' D', ' A', ' C', ' C', ' A', ' A', ' D']","[0.25443847, 0.32187186, 0.24604452, 0.17764515, 0.0]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+FUTRCLASSb_W41,"Question: Over the next 30 years, do you think the share of Americans who are in Middle Class will increase, decrease, or stay about the same?
+A. Increase
+B. Decrease
+C. Stay about the same
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' A']","[0.25453434, 0.51899741, 0.22646824, 0.0040538044036173]",INCOME,"$100,000 or more","[1.0, 2.0, 1.5]"
+ELDFINANCEF2_W41,"Question: Who do you think should be mostly responsible for paying for the long-term care older Americans may need?
+A. Family members
+B. Government
+C. Older Americans themselves
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' D', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B']","[0.1067407, 0.44561925, 0.44764006, 0.0158108739591234]",INCOME,"$100,000 or more","[1, 1, 1]"
+WRKTRN1F1_W41,"Question: Over the next 30 years, who should be most responsible for making sure American workers have the right skills and training to get a good job?
+A. Government
+B. Employers
+C. The education system
+D. Individuals themselves
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' A', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' A', ' D', ' C', ' B', ' D', ' B', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' A', ' B', ' A', ' D', ' D', ' C', ' D', ' A', ' B', ' A', ' C', ' B', ' C', ' D', ' B', ' D', ' A', ' D', ' C', ' C', ' C', ' C', ' B', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' D', ' D', ' D', ' C']","[0.09130993, 0.11549582, 0.36613097, 0.42706327, 0.0]",INCOME,"$100,000 or more","[1, 1, 1, 1]"
+GOVPRIOmF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing spending on Social Security, Medicare and Medicaid?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' B', ' B', ' B', ' A', ' D', ' B', ' C', ' C', ' B', ' A', ' B', ' D', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' D', ' A', ' A', ' D', ' C', ' D', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' D', ' B', ' D', ' B', ' A', ' A', ' E', ' A', ' E', ' A', ' B', ' D', ' B', ' A', ' A', ' B', ' B', ' B', ' D', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' A']","[0.37528397, 0.44603833, 0.11191631, 0.06676139, 0.0148575429657766]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBb_W41,"Question: In the future, what kind of an impact do you think major corporations will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' D', ' B', ' D', ' D', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' B', ' C', ' C', ' C', ' D', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' B', ' C', ' C', ' D', ' C', ' B', ' D', ' C', ' B', ' C', ' C', ' B', ' D', ' B', ' C', ' B', ' A', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' D', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' D', ' A']","[0.05708156, 0.41607741, 0.36864713, 0.15819389, 0.0087798130202238]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+FTRWORRYf_W41,"Question: Still thinking about the future of our country, how worried are you, if at all, about climate change?
+A. Very worried
+B. Fairly worried
+C. Not too worried
+D. Not at all worried
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' D', ' D', ' B', ' C', ' D', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' D', ' C', ' A', ' D', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' D', ' B', ' D', ' A', ' C', ' D', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' D']","[0.46923888, 0.21909752, 0.22673855, 0.08492506, 0.0028529097893802]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBdF1_W41,"Question: In the future, what kind of an impact do you think the government in Washington will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' E', ' C', ' C', ' C', ' D', ' D', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' D', ' B', ' C', ' D', ' C', ' B', ' C', ' D', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' D', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' D', ' D', ' B', ' D', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' C', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B']","[0.01316063, 0.44986535, 0.35879627, 0.17817775, 0.023547343886811]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+ELDFINANCEF1_W41,"Question: Who do you think will be mostly responsible for paying for the long-term care older Americans may need?
+A. Family members
+B. Government
+C. Older Americans themselves
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' D', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' C']","[0.29512825, 0.2886687, 0.41620305, 0.0042819693160003]",INCOME,"$100,000 or more","[1, 1, 1]"
+HARASS1F1d_W41,"Question: When it comes to sexual harassment and sexual assault in the workplace today, how much of a problem, if at all, would you say women not being believed when they claim that they have experienced sexual harassment or ass is?
+A. Major problem
+B. Minor problem
+C. Not a problem
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' D', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.59776798, 0.33106393, 0.07116809, 0.0212182784509531]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0]"
+GOVPRIOb_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing spending for education?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' E', ' B', ' A', ' B', ' D', ' A', ' C', ' C', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' B', ' D', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' D', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' D']","[0.54179344, 0.3038167, 0.09900291, 0.05538695, 0.0010172724437073]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+FUTRCLASSc_W41,"Question: Over the next 30 years, do you think the share of Americans who are lower class will increase, decrease, or stay about the same?
+A. Increase
+B. Decrease
+C. Stay about the same
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.71000231, 0.14903759, 0.1409601, 0.0069434920845765]",INCOME,"$100,000 or more","[1.0, 2.0, 1.5]"
+GOVPRIOgF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing the number of undocumented immigrants coming into the U.S.?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' D', ' A', ' B', ' D', ' C', ' C', ' C', ' D', ' B', ' D', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' D', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' D', ' B', ' C', ' B', ' B', ' D', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' D', ' A']","[0.29329573, 0.26870941, 0.3011282, 0.13686666, 0.0]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+HAPPEN2b_W41,"Question: How likely do you think it is that the following will happen in the next 30 years? The world will face a major energy crisis
+A. Will definitely happen
+B. Will probably happen
+C. Will probably not happen
+D. Will definitely not happen
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' D', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' D', ' C', ' B', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' D', ' C', ' C', ' B', ' C', ' C']","[0.20830989, 0.41155017, 0.33503148, 0.04510845, 0.0019846568942081]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBh_W41,"Question: In the future, what kind of an impact do you think colleges and universities will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' B', ' D', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' B', ' B', ' B', ' B', ' A', ' B', ' D', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' C', ' B', ' D', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' A', ' C', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' C', ' B', ' B', ' A', ' B', ' B', ' D']","[0.26606798, 0.51517697, 0.12361948, 0.09513557, 0.010108149855443]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBg_W41,"Question: In the future, what kind of an impact do you think the military will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' E', ' C', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' D', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' D', ' C', ' B', ' C', ' B', ' B', ' D', ' B', ' D', ' A', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C']","[0.1418852, 0.52815712, 0.2446311, 0.08532658, 0.0178726423023768]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+HAPPEN2f_W41,"Question: How likely do you think it is that the following will happen in the next 30 years? A Hispanic person will be elected U.S. president
+A. Will definitely happen
+B. Will probably happen
+C. Will probably not happen
+D. Will definitely not happen
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' D', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' D', ' B', ' B', ' C', ' D', ' B', ' C', ' B']","[0.1183401, 0.5741052, 0.27944883, 0.02810588, 0.0109073544650618]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOlF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to who come here legally? Allowing more immigrants into the U.S.
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' B', ' C', ' C', ' D', ' B', ' C', ' C', ' B', ' B', ' A', ' D', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' D', ' C', ' C', ' B', ' D', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' D', ' C', ' C', ' B', ' A', ' B', ' D', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' B']","[0.13557038, 0.44435606, 0.35003034, 0.07004322, 0.0]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOiF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing spending for roads, bridges and other infrastructure?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' D', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' A']","[0.37590061, 0.53696864, 0.08190369, 0.00522706, 0.0]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOe_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing the gap between the rich and the poor?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' D', ' A', ' B', ' C', ' B', ' B', ' C', ' D', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' A']","[0.42088051, 0.31564777, 0.18797946, 0.07549226, 0.002086441048822]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOfF1_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing military spending?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' A', ' A', ' D', ' D', ' B', ' C', ' A', ' D', ' B', ' D', ' B', ' B', ' C', ' A', ' C', ' B', ' D', ' C', ' B', ' A', ' A', ' D', ' B', ' B', ' D', ' A', ' D', ' A', ' C', ' A', ' B', ' A', ' D', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' D', ' A', ' B', ' B', ' D', ' C', ' C', ' D', ' D', ' C', ' B', ' D', ' D', ' B', ' A', ' D', ' B', ' B', ' D', ' D', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' D', ' B', ' A', ' B', ' A']","[0.22224687, 0.41963133, 0.18608969, 0.17203212, 0.0020542644661885]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+SOLVPROBc_W41,"Question: In the future, what kind of an impact do you think religious groups will have in solving the biggest problems facing the country?
+A. A very positive impact
+B. A somewhat positive impact
+C. A somewhat negative impact
+D. A very negative impact
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' D', ' A', ' B', ' E', ' A', ' B', ' D', ' A', ' B', ' C', ' D', ' D', ' C', ' E', ' C', ' D', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' D', ' B', ' D', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' D', ' A', ' C', ' C', ' B', ' A', ' D', ' B', ' D', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' A', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' D', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' D', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C']","[0.08846202, 0.40883557, 0.31291984, 0.18978257, 0.0171543695969608]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOoF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to dealing with climate change?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' C', ' D', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' D', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' D', ' A', ' C', ' A', ' B', ' A', ' A', ' D', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A']","[0.50833905, 0.23594391, 0.18703887, 0.06867817, 0.0]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+FTRWORRYc_W41,"Question: Still thinking about the future of our country, how worried are you, if at all, about the way the government in Washington works?
+A. Very worried
+B. Fairly worried
+C. Not too worried
+D. Not at all worried
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' D', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' A']","[0.5403711, 0.36938032, 0.08257492, 0.00767365, 0.0013993655100272]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+HARASS1F1b_W41,"Question: When it comes to sexual harassment and sexual assault in the workplace today, how much of a problem, if at all, would you say employers firing men who have been accused of sexual harassment or assault before finding ou is?
+A. Major problem
+B. Minor problem
+C. Not a problem
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' A', ' A']","[0.33647994, 0.3792782, 0.28424186, 0.0212182784509531]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0]"
+GOVPRIOnF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to reducing spending for roads, bridges and other infrastructure?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' B', ' D', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' C', ' A', ' C', ' D', ' C', ' A', ' D', ' B', ' D', ' D', ' B', ' D', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' A', ' A', ' D', ' C', ' D', ' D', ' D', ' C', ' B', ' A', ' D', ' D', ' D', ' D', ' D', ' C', ' B', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' C', ' D', ' B', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' A', ' C', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' B', ' C', ' B', ' D', ' D', ' A', ' D', ' B', ' D']","[0.10462714, 0.22300628, 0.12890067, 0.54346591, 0.0009533309933468]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"
+GOVPRIOkF2_W41,"Question: If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to increasing military spending?
+A. A top priority
+B. An important, but not a top priority
+C. A lower priority
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' C', ' B', ' D', ' B', ' A', ' A', ' A', ' C', ' D', ' D', ' B', ' D', ' B', ' C', ' A', ' B', ' B', ' D', ' B', ' D', ' C', ' D', ' D', ' A', ' B', ' B', ' C', ' B', ' D', ' D', ' D', ' A', ' C', ' A', ' B', ' B', ' B', ' D', ' A', ' D', ' A', ' D', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' D', ' A', ' C', ' D', ' D', ' D', ' C', ' D', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' D', ' B', ' A', ' D', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' B', ' B', ' D', ' C', ' C', ' B', ' C', ' A', ' D', ' A', ' B', ' B', ' D', ' B']","[0.20985882, 0.31717033, 0.20556444, 0.26740642, 0.0080784589906941]",INCOME,"$100,000 or more","[1.0, 2.0, 3.0, 4.0]"

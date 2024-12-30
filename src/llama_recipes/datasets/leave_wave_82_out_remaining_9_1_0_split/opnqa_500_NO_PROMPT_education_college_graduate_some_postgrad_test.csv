@@ -1,0 +1,500 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+GAP21Q33_s_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think reducing legal immigrations into the US should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' D', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' C']","[0.16252419, 0.26521887, 0.57225695, 0.0216130540123223]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GAP21Q33_g_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think reducing illegal immigration into the US should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' D', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C']","[0.30612608, 0.48657106, 0.20730286, 0.0035890730740922]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GAP21Q7_d_W82,"Question: Would you say the World Health Organization, or WHO has done a good or bad job dealing with the coronavirus outbreak?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' D', ' C', ' B', ' D', ' D', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' D', ' C', ' D', ' B', ' E', ' B', ' D', ' B', ' B', ' D', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' D', ' A', ' D', ' C', ' C', ' A', ' D', ' B', ' D', ' C', ' A', ' C', ' B', ' B', ' D', ' C', ' B', ' A', ' B', ' B', ' D', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' D', ' D', ' C', ' B', ' B', ' D', ' A', ' C', ' D', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' D', ' A', ' B', ' B', ' D']","[0.09958328, 0.50089978, 0.21913513, 0.18038182, 0.0245350198161747]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_f_W82,"Question: Do you have a favorable or unfavorable opinion of nato, that is, North Atlantic Treaty Organization
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' C', ' A', ' A', ' B', ' A', ' D', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' D', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' E', ' B', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' D', ' B', ' B', ' A', ' C']","[0.18240745, 0.49722734, 0.25432457, 0.06604064, 0.0242844033715153]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_e_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do improve relationships with our allies?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' A', ' A', ' B', ' D', ' B', ' D', ' A', ' B', ' D', ' B', ' D', ' A', ' D', ' A', ' A', ' D', ' A', ' A', ' B', ' D', ' B', ' D', ' B', ' E', ' A', ' D', ' A', ' D', ' D', ' A', ' B', ' A', ' A', ' D', ' C', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' D', ' D', ' A', ' C', ' B', ' B', ' D', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' D', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' D', ' A', ' B', ' A', ' A', ' B', ' C']","[0.42755863, 0.34199658, 0.10461293, 0.12583186, 0.005298457737844]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_i_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think maintaining the US military advantage over all other countries should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' C', ' B', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' D', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' D', ' C', ' C']","[0.32790224, 0.51927615, 0.1528216, 0.0068473343430386]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GAP21Q7_a_W82,"Question: Would you say the US has done a good or bad job dealing with the coronavirus outbreak?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' D', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' D', ' B', ' C', ' C', ' B', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' A', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' B', ' D', ' D', ' C', ' D', ' B', ' B', ' C', ' C', ' D', ' B', ' D', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' D', ' A', ' B', ' D', ' B', ' B', ' D', ' D', ' C', ' D', ' B', ' C', ' C', ' D', ' B', ' D', ' C', ' B', ' D', ' D', ' C', ' B', ' A', ' D']","[0.03811519, 0.30222899, 0.33754543, 0.32211038, 0.0034106818719442]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q19_e_W82,"Question: How much confidence do you have in french President Emmanuel Macron to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' D', ' B', ' A', ' C', ' B', ' B', ' B', ' E', ' A', ' C', ' A', ' B', ' C', ' B', ' E', ' B', ' C', ' B', ' D', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' D', ' B', ' C', ' B', ' A', ' C', ' D', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' E', ' E', ' A', ' E', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' D']","[0.13344767, 0.51331199, 0.24898902, 0.10425131, 0.0356653737144726]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q21_e_W82,"Question: In the US, how strong, if at all, are conflicts between people who practice different religions?
+A. Very strong conflicts
+B. Strong conflicts
+C. Not very strong conflicts
+D. There are not conflicts
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' A', ' B', ' A', ' C', ' D', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' D', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' A', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C']","[0.09765518, 0.32777154, 0.53144421, 0.04312908, 0.0022096526422257]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_e_W82,"Question: Do you have a favorable or unfavorable opinion of the United Nations
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' B', ' E', ' D', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' D', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' D', ' B', ' C', ' D', ' C', ' B', ' B', ' C', ' A', ' D', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' D', ' A', ' C', ' B', ' D', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' A']","[0.13504258, 0.5124429, 0.22368982, 0.1288247, 0.0234249730584661]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q38_b_W82,"Question: How much, if at all, do you think the US benefits from being a member of the United Nations organizations?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' D', ' B', ' D', ' A', ' A', ' C', ' C', ' D', ' B', ' D', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' D', ' B', ' D', ' B', ' A', ' D', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' D', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B']","[0.34312641, 0.36407128, 0.2060867, 0.08671561, 0.0111092438489662]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_r_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think aiding refugees fleeing violence around the world should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' D', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B']","[0.28962327, 0.59847073, 0.111906, 0.0155912887610329]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GAP21Q19_a_W82,"Question: How much confidence do you have in us President Joe Biden to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' D', ' B', ' A', ' C', ' B', ' D', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' D', ' A', ' D', ' D', ' D', ' C', ' B', ' B', ' A', ' A', ' D', ' D', ' A', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' D', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' D', ' D', ' C', ' C', ' A', ' D', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' D', ' A', ' A', ' D', ' B', ' C', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' D', ' C', ' C', ' D', ' C', ' B']","[0.32928152, 0.32232986, 0.17216116, 0.17622745, 0.0030285491759433]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_b_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do deal effectively with the threat of terrorism?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' B', ' D', ' A', ' D', ' A', ' A', ' B', ' C', ' D', ' D', ' C', ' B', ' B', ' D', ' B', ' D', ' B', ' D', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' D', ' D', ' A', ' B', ' D', ' A', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' D', ' D', ' A', ' D', ' B', ' D', ' D', ' C', ' B', ' A', ' D', ' B', ' D', ' B', ' C', ' C', ' E', ' A', ' B', ' D', ' D', ' B', ' B', ' B', ' A', ' D', ' C', ' B', ' C', ' B', ' A', ' E', ' A', ' B', ' B', ' B', ' A', ' B', ' B']","[0.23250146, 0.42117587, 0.17716098, 0.16916168, 0.0073298114381958]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_q_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think getting other countries to assume more of the costs of maintaining world order should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' D', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B']","[0.41070617, 0.50300671, 0.08628712, 0.0190642883508264]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GAP21Q19_c_W82,"Question: How much confidence do you have in russian President Vladimir Putin to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' E', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' C', ' B', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' E', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' A', ' B', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' A', ' B', ' C', ' C', ' B', ' C', ' D']","[0.00631011, 0.08400095, 0.34421841, 0.56547053, 0.0180373262208588]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q41_W82,"Question: Overall, do you think current economic relations between the US and China are very good, somewhat good, somewhat bad or very bad?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' C', ' B', ' C', ' D', ' B', ' C', ' C', ' B', ' D', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' D', ' C', ' D', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' A', ' B', ' D', ' C', ' D', ' D', ' C', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' C', ' E', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C']","[0.00410747, 0.30396637, 0.58088988, 0.11103628, 0.0110346935613355]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q38_c_W82,"Question: How much, if at all, do you think the US benefits from being a member of the World Health Organization, or WHO organizations?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' D', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' B', ' E', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' D', ' B', ' A', ' D', ' C', ' A', ' D', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' E', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' D', ' A', ' B', ' B', ' D', ' D', ' B', ' A', ' C', ' C', ' A', ' B', ' E', ' D', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' A']","[0.35061588, 0.31683642, 0.19735485, 0.13519285, 0.0081566978713523]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_d_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do deal effectively with global climate change?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' C', ' B', ' E', ' D', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' D', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' D', ' C', ' B', ' E', ' D', ' B', ' D', ' C', ' B', ' A', ' B', ' D', ' D', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' A', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' E', ' A', ' C', ' A', ' D', ' B', ' B', ' D', ' D', ' C', ' C', ' A', ' B', ' D', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' D']","[0.23313017, 0.41436267, 0.20485409, 0.14765307, 0.0107337968770966]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q26_c_W82,"Question: Would you say China is doing a good or bad job dealing with global climate change?
+A. Very good job
+B. Somewhat good job
+C. Somewhat bad job
+D. Very bad job
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' B', ' C', ' E', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' B', ' D', ' B', ' D', ' C', ' D', ' D', ' B', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' A', ' C', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' E', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' A', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' B', ' D', ' B', ' C', ' E', ' C', ' C', ' C', ' D', ' D', ' D']","[0.01331579, 0.10760961, 0.33818028, 0.54089432, 0.0274716238359637]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q32_W82,"Question: Now that Joe Biden is president, do you think other countries view the U.S
+A. A lot more positively
+B. A little more positively
+C. A little more negatively
+D. A lot more negatively
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' E', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' D', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' D']","[0.37264996, 0.42414164, 0.09616236, 0.10704604, 0.0141918492799486]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_c_W82,"Question: Do you have a favorable or unfavorable opinion of Germany
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' E', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' B', ' E', ' D', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' D', ' B', ' C', ' A', ' E', ' A', ' B', ' D', ' D', ' B', ' C', ' B', ' D', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' D', ' D', ' B', ' A']","[0.16673644, 0.59200379, 0.17763617, 0.06362361, 0.0356920021931939]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_a_W82,"Question: Do you have a favorable or unfavorable opinion of the United States
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' B', ' C', ' D', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' D', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' D', ' C', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C']","[0.25526764, 0.45897194, 0.22787613, 0.05788428, 0.006867960529165]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q26_b_W82,"Question: Would you say the United Nations are doing a good or bad job dealing with global climate change?
+A. Very good job
+B. Somewhat good job
+C. Somewhat bad job
+D. Very bad job
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' B', ' B', ' D', ' B', ' C', ' B', ' D', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' D', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' E', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' E', ' D', ' E', ' B', ' B', ' D', ' C', ' D', ' D', ' D', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' E', ' C', ' B', ' B', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' E', ' D', ' B', ' D']","[0.03187563, 0.50298359, 0.28982411, 0.17531666, 0.0487599338405956]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q21_a_W82,"Question: In the US, how strong, if at all, are conflicts between people who support different political parties?
+A. Very strong conflicts
+B. Strong conflicts
+C. Not very strong conflicts
+D. There are not conflicts
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A']","[0.59633097, 0.34720556, 0.05242222, 0.00404126, 0.0021858353263279]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q13_b_W82,"Question: Thinking about the US, how much would you say the healthcare system needs to be changed, if at all?
+A. It needs to be completely reformed
+B. It needs major changes
+C. It needs minor changes
+D. It doesn't need to be changed
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' D', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' C']","[0.30923984, 0.47559274, 0.19327696, 0.02189046, 0.0008092715589985]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q7_b_W82,"Question: Would you say China has done a good or bad job dealing with the coronavirus outbreak?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' B', ' A', ' D', ' C', ' B', ' C', ' B', ' D', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' D', ' C', ' C', ' A', ' B', ' D', ' B', ' B', ' B', ' D', ' E', ' C', ' A', ' B', ' D', ' D', ' C', ' B', ' D', ' A', ' C', ' C', ' B', ' D', ' B', ' D', ' B', ' A', ' D', ' B']","[0.12943278, 0.33078234, 0.28815173, 0.25163314, 0.03789707523999]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q15_e_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Technological achievements
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' A', ' B', ' B', ' A', ' C', ' D', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' D', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' D', ' A', ' B', ' B', ' C', ' A', ' A', ' C', ' D', ' C', ' D', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' B']","[0.20420599, 0.5504805, 0.20136822, 0.03582842, 0.00811687, 0.001811423248163]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q33_j_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think dealing with global climate change should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A']","[0.48783226, 0.33828373, 0.17388401, 0.0028515148278925]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GAP21Q26_a_W82,"Question: Would you say the US is doing a good or bad job dealing with global climate change?
+A. Very good job
+B. Somewhat good job
+C. Somewhat bad job
+D. Very bad job
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' D', ' A', ' B', ' D', ' B', ' D', ' C', ' B', ' C', ' B', ' D', ' C', ' B', ' C', ' C', ' C', ' B', ' D', ' A', ' D', ' C', ' B', ' C', ' C', ' C', ' B', ' D', ' D', ' B', ' B', ' D', ' A', ' E', ' C', ' D', ' B', ' D', ' D', ' A', ' B', ' D', ' D', ' C', ' B', ' A', ' B', ' D', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' E', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' E', ' B', ' C', ' C', ' E', ' B', ' B', ' C', ' D', ' C', ' C', ' B', ' C', ' D', ' D', ' D']","[0.0761832, 0.3022848, 0.4004265, 0.22110549, 0.0194245506644137]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_f_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do deal effectively with China?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' D', ' A', ' A', ' C', ' A', ' B', ' D', ' A', ' A', ' B', ' D', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' D', ' C', ' C', ' B', ' D', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' D', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' D', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' D', ' C', ' C', ' D', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' D', ' A', ' A', ' B', ' B', ' A', ' A', ' D', ' B', ' C', ' B', ' D', ' C', ' C', ' A', ' D', ' D', ' C', ' A', ' B', ' A', ' D', ' B', ' C', ' D', ' E', ' B']","[0.1554097, 0.4170569, 0.21076863, 0.21676477, 0.0097055858307387]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_c_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do make good decisions about the use of military force?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' C', ' A', ' A', ' B', ' D', ' D', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' D', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' D', ' A', ' D', ' D', ' C', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' D', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' D', ' C', ' B', ' A', ' D', ' B', ' B', ' B', ' C', ' D', ' D', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' D', ' B', ' B', ' B', ' D', ' A', ' D', ' C', ' B', ' D', ' A', ' A', ' C', ' A', ' A']","[0.29186354, 0.34300156, 0.18298505, 0.18214985, 0.0112917038482674]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q31_W82,"Question: How important, if at all, is it that the US is generally respected by other countries around the world?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C']","[0.46967631, 0.41740402, 0.08163238, 0.03128728, 0.0049038855980404]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q23_W82,"Question: In the US, do you think discrimination against people based on their race or ethnicity is a
+A. Very serious problem
+B. Somewhat serious problem
+C. Not too serious problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' D', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' B']","[0.44877516, 0.29944266, 0.23330883, 0.01847334, 0.0010913457539227]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q19_d_W82,"Question: How much confidence do you have in german Chancellor Angela Merkel to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' E', ' D', ' B', ' B', ' A', ' B', ' E', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' D', ' D', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' E', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' C', ' E', ' B', ' A', ' E', ' A', ' B', ' A', ' A', ' B', ' E', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' D', ' D', ' E', ' E', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' D']","[0.29497658, 0.40181503, 0.22934713, 0.07386126, 0.0295144611339239]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_b_W82,"Question: Do you have a favorable or unfavorable opinion of China
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' B', ' C', ' D', ' C', ' D', ' D', ' C', ' B', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' B', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' B', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' B', ' B', ' C', ' D', ' C', ' D', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' B', ' D', ' B', ' C', ' D', ' D', ' C']","[0.00542622, 0.16144695, 0.42312082, 0.41000602, 0.0027304022852492]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q28_W82,"Question: How confident are you, if at all, that the actions taken by the international community will significantly reduce the effects of global climate change?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' B', ' C', ' B', ' A', ' A', ' D', ' B', ' C', ' C', ' B', ' B', ' D', ' C', ' D', ' C', ' B', ' D', ' B', ' D', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' D', ' C', ' C', ' B', ' D', ' D', ' C', ' B', ' B', ' A', ' C', ' C', ' D', ' C', ' D', ' A', ' D', ' B', ' A', ' B', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' C', ' C', ' A', ' D', ' C']","[0.06626613, 0.40075031, 0.3655816, 0.16740196, 0.0061078304174965]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_d_W82,"Question: Do you have a favorable or unfavorable opinion of the European Union
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' C', ' C', ' C', ' C', ' E', ' B', ' C', ' C', ' C', ' B', ' D', ' A', ' A', ' B', ' A', ' D', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' E', ' C', ' C', ' D', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' D', ' C', ' B', ' B', ' A', ' D']","[0.11910144, 0.57437762, 0.23217026, 0.07435068, 0.0356485618424595]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q15_a_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Healthcare system
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' B', ' B', ' C', ' D', ' D', ' C', ' B', ' D', ' D', ' B', ' B', ' D', ' D', ' E', ' C', ' C', ' B', ' C', ' D', ' D', ' C', ' B', ' C', ' E', ' E', ' D', ' C', ' B', ' E', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' D', ' B', ' D', ' B', ' D', ' B', ' E', ' D', ' A', ' D', ' C', ' E', ' B', ' B', ' C', ' D', ' D', ' D', ' B', ' C', ' D', ' B', ' A', ' D', ' C', ' E', ' B', ' B', ' A', ' D', ' C', ' C', ' D', ' D', ' E', ' B', ' D', ' D', ' D', ' D', ' C', ' B', ' B', ' D', ' B', ' B', ' D', ' D', ' A', ' C', ' E', ' E', ' D', ' B', ' C', ' D', ' C', ' C']","[0.06013206, 0.21828709, 0.27941545, 0.35443454, 0.08773086, 0.0008535078394924]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q15_d_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Military
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' F', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' F', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A']","[0.47666549, 0.41130007, 0.10082232, 0.00880603, 0.00240609, 0.0115110795789761]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q17_W82,"Question: In making international policy decisions, to what extent, if at all, do you think the US takes into account the interests of other countries around the world?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' D', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' D', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' C']","[0.11927015, 0.50978372, 0.34200585, 0.02894027, 0.006288905427941]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q27_W82,"Question: Do you think actions taken by the international community to address global climate change, such as the Paris climate agreement, will mostly
+A. Benefit America's economy
+B. Harm America's economy
+C. Have no impact on America's economy
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' D', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' D', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' D', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' A']","[0.37495381, 0.2979472, 0.32709899, 0.0262275293417554]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+GAP21Q15_f_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Entertainment, including movies, music and television
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' D', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' D', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' D', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' E', ' C', ' D', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' C', ' D', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' D', ' B', ' A', ' B', ' A', ' E', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A']","[0.35779254, 0.42477077, 0.1670678, 0.03542573, 0.01494316, 0.0034417058024134]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q34_a_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do make good decisions about international trade?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' A', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' C', ' C', ' B', ' A', ' B', ' B', ' D', ' C', ' D', ' B', ' A', ' B', ' B', ' B', ' D', ' B', ' D', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' D', ' C', ' B', ' B', ' D', ' C', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' D', ' D', ' B', ' D', ' C', ' D', ' A', ' D', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' A', ' D', ' D', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' D', ' A', ' B', ' B']","[0.2424156, 0.39026424, 0.18905651, 0.17826365, 0.0070949888041887]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q38_a_W82,"Question: How much, if at all, do you think the US benefits from being a member of north Atlantic Treaty Organization, or NATO organizations?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' D', ' B', ' B', ' A', ' D', ' A', ' A', ' A', ' C', ' A', ' E', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' B', ' E', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' E']","[0.37935785, 0.40008765, 0.17133513, 0.04921937, 0.0160732119197669]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q10_W82,"Question: Thinking about restrictions on public activity in the US over the course of the coronavirus outbreak, do you think there should have been
+A. More restrictions
+B. Fewer restrictions
+C. The restrictions were about right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A']","[0.5630678, 0.26075963, 0.17617257, 0.0028582401335083]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+GAP21Q15_c_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Standard of living
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' F', ' B', ' A', ' D', ' D', ' A', ' A', ' C', ' B', ' B', ' C', ' D', ' A', ' E', ' C', ' D', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' D', ' B', ' E', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' D', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' D', ' A', ' D']","[0.12579696, 0.42849363, 0.31905287, 0.11694006, 0.00971648, 0.0008535078394924]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q33_c_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think strengthening the United Nations should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' B', ' C', ' D', ' B', ' B', ' A', ' D', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' D', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A']","[0.25968799, 0.54548648, 0.19482553, 0.0077927682538688]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GAP21Q24_W82,"Question: How concerned are you, if at all, that global climate change will harm you personally at some point in your lifetime?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not at all concerned
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' A', ' B', ' C', ' A', ' D', ' D', ' C', ' C', ' B', ' D', ' C', ' A', ' C', ' A', ' D', ' A', ' D', ' D', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' D', ' B', ' C', ' C', ' B', ' B', ' B', ' D', ' A', ' B', ' A', ' C', ' A', ' A', ' D', ' A', ' D', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' D', ' A', ' D', ' C', ' A', ' A', ' C', ' D', ' A', ' B', ' B', ' A', ' A', ' A', ' D', ' D', ' B', ' C', ' C']","[0.32925384, 0.31803141, 0.17001234, 0.18270241, 0.0028135817080679]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q19_b_W82,"Question: How much confidence do you have in chinese President Xi Jinping to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' B', ' D', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' B', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' C', ' D', ' B', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' E', ' C', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' A', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' B', ' C', ' D', ' C', ' D', ' D', ' B', ' B', ' B']","[0.00814677, 0.12443731, 0.39767927, 0.46973665, 0.0211128556984578]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q25_W82,"Question: How much, if anything, would you be willing to change about how you live and work to help reduce the effects of global climate change? Would you be willing to make
+A. A lot of changes
+B. Some changes
+C. Only a few changes
+D. No changes at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' C', ' B', ' A', ' B', ' A', ' D', ' D', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' C', ' D', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' D', ' D', ' A', ' A', ' A', ' C', ' B', ' C', ' D', ' A', ' C', ' D', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B']","[0.35648216, 0.41217611, 0.15101479, 0.08032694, 0.0027469368635739]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q47_W82,"Question: When it comes to whether or not to limit Chinese students studying in the US, do you
+A. Strongly support limiting Chinese students
+B. Somewhat support limiting Chinese students
+C. Somewhat oppose limiting Chinese students
+D. Strongly oppose limiting Chinese students
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' E', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' D', ' A', ' C', ' B', ' B', ' A', ' A', ' D', ' D', ' B', ' B', ' B', ' C', ' C', ' A', ' D', ' A', ' D', ' D', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' D', ' B', ' D', ' C', ' D', ' D', ' B', ' C', ' C', ' D', ' C', ' D', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' D', ' B', ' B', ' B', ' B', ' B', ' D', ' D', ' C', ' A', ' C', ' C', ' C', ' A', ' D', ' A', ' C', ' A', ' B', ' B', ' C']","[0.17379502, 0.32564112, 0.31890499, 0.18165888, 0.0145326650603023]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q15_b_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Colleges and universities
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' B', ' C', ' A', ' C', ' C', ' D', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' D', ' A', ' B', ' B', ' D', ' B', ' C', ' B', ' B', ' B', ' B', ' E', ' B', ' B', ' B', ' C', ' C', ' D', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' B']","[0.16496835, 0.42905049, 0.27326044, 0.12247353, 0.01024718, 0.0020014636318413]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q33_m_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think reducing the spread of infectious diseases should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.72791178, 0.26027582, 0.0118124, 0.0155912887610329]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+GAP21Q43_g_W82,"Question: Please indicate how much of a problem, if at all, the following would be for the US: China's growing technological power
+A. Very serious problem
+B. Somewhat serious problem
+C. Not too serious of a problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A']","[0.47182146, 0.36581907, 0.13756271, 0.02479676, 0.0068821726756211]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_n_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think limiting the power and influence of Iran should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A']","[0.35055, 0.54995356, 0.09949644, 0.0195076916485541]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"

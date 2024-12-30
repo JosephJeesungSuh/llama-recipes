@@ -1,0 +1,186 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+SEENFEM_W29,"Question: On a different topic how important is it to you, personally, to be seen by others as womanly or feminine?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' B', ' D', ' C', ' A', ' B', ' B', ' D', ' B', ' B', ' C', ' C', ' C', ' A', ' D', ' C', ' D', ' B', ' C', ' A', ' D', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' D', ' C', ' B', ' C', ' A', ' D', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' D', ' A', ' B', ' D', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C']","[0.18120757, 0.33544558, 0.32205407, 0.16129277, 0.0014042304480222]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+GIRLSF2C_W29,"Question: When it comes to raising girls, would you say there is too much emphasis or too little emphasis on encouraging girls to stand up for themselves these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' C']","[0.04530321, 0.56159097, 0.39310581, 0.0106923548969854]",SEX,Female,"[1.0, 2.0, 1.5]"
+WORRYBILL_W29,"Question: How worried are you right now about not having enough to pay your normal monthly bills?
+A. Very worried
+B. Moderately worried
+C. Not too worried
+D. Not worried at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' B', ' A', ' D', ' D', ' A', ' C', ' B', ' A', ' C', ' D', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' D', ' B', ' B', ' C', ' D', ' C', ' D', ' D', ' D', ' B', ' B', ' B', ' A', ' D', ' A', ' B', ' D', ' D', ' A', ' C', ' D', ' C', ' A', ' D', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' B', ' D', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' B', ' A', ' C', ' D', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' D', ' D', ' B', ' A', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' B', ' A', ' A', ' B', ' B', ' D', ' B', ' B', ' B', ' D', ' B', ' A', ' C', ' B', ' B']","[0.25429552, 0.29149483, 0.24179162, 0.21241803, 0.0042752151498329]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+MAN1C_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to join in when other men are talking about women in a sexual way?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' D', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' D', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' D', ' A', ' D', ' A', ' A', ' A', ' A', ' D', ' D', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' D', ' D', ' A', ' A', ' A', ' D', ' A', ' D', ' D', ' A', ' A', ' A', ' A', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' A', ' D', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' D', ' A', ' D', ' D', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' D', ' D', ' A', ' A']","[0.66960901, 0.0, 0.0, 0.33039099, 0.0]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+MASC2_W29,"Question: Now thinking about how you see yourself, would you describe yourself as
+A. Very manly or masculine
+B. Somewhat manly or masculine
+C. Not too manly or masculine
+D. Not at all manly or masculine
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D']","[0.0, 0.0, 0.0, 1.0, 0.0]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+MAN1B_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to have many sexual partners?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D']","[0.0, 0.0, 0.0, 1.0, 0.0]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+LOCALELECT_W29,"Question: The next question is about local elections, such as for mayor or a school board. Do you
+A. Always vote in local elections
+B. Sometimes vote in local elections
+C. Rarely vote in local elections
+D. Never vote in local elections
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' D', ' B', ' D', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' D', ' B', ' D', ' D', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' D', ' B', ' A', ' A', ' D', ' B', ' B', ' D', ' B', ' A', ' A', ' C', ' D', ' D', ' A', ' D', ' B', ' A', ' A', ' D', ' B', ' C', ' D', ' B', ' A', ' B', ' C', ' A', ' B', ' D', ' B', ' A', ' D', ' C', ' D', ' B', ' A', ' C', ' D', ' A', ' B', ' D', ' C', ' B', ' C', ' B', ' C', ' D', ' A', ' C', ' B', ' B', ' A', ' A', ' D', ' B', ' C', ' A', ' D', ' B', ' A', ' B', ' D', ' B', ' D', ' A']","[0.29556647, 0.30642843, 0.1415478, 0.2564573, 0.0048042026036443]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+SEENMASC_W29,"Question: On a different topic how important is it to you, personally, to be seen by others as manly or masculine?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D']","[0.0, 0.0, 0.0, 1.0, 0.0]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+S12_W29,"Question: In the last 12 months, how often did you eat dinner with any of the other members of your household?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' D', ' F', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' D', ' F', ' C', ' C', ' A', ' B', ' A', ' A', ' E', ' B', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' E', ' A', ' C', ' A', ' A', ' F', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A']","[0.5807114, 0.20238133, 0.08909554, 0.02255691, 0.04780598, 0.05744884, 0.0020683216744659]",SEX,Female,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+S13_W29,"Question: This next question is about friends and family you do not live with. During the last twelve months, how often did you see or hear from friends or family, whether in-person or not?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' B', ' F', ' A', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' E', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' E', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' E', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' D', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' E', ' E', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' E', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B']","[0.35354045, 0.35762382, 0.15285137, 0.04514532, 0.06203183, 0.02880722, 0.0021188019873359]",SEX,Female,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+GIRLSF2D_W29,"Question: When it comes to raising girls, would you say there is too much emphasis or too little emphasis on encouraging girls to do well in school these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B']","[0.06906783, 0.46621232, 0.46471984, 0.0108977648193011]",SEX,Female,"[1.0, 2.0, 1.5]"
+BOYSF1B_W29,"Question: When it comes to raising boys, would you say there is too much emphasis or too little emphasis on encouraging boys to talk about their feelings when they are sad or upset these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B']","[0.07867823, 0.66677065, 0.25455112, 0.0131504302003813]",SEX,Female,"[1.0, 2.0, 1.5]"
+FAVORS_CPS_W29,"Question: In the last 12 months, how often did you and your neighbors do favors for each other?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' F', ' C', ' C', ' F', ' C', ' B', ' E', ' E', ' D', ' D', ' D', ' F', ' D', ' B', ' D', ' C', ' D', ' C', ' B', ' F', ' E', ' E', ' A', ' F', ' E', ' C', ' F', ' E', ' F', ' B', ' F', ' E', ' F', ' D', ' B', ' F', ' C', ' F', ' D', ' F', ' F', ' D', ' D', ' C', ' E', ' F', ' F', ' F', ' E', ' F', ' B', ' C', ' E', ' F', ' B', ' C', ' A', ' B', ' E', ' E', ' F', ' B', ' B', ' E', ' B', ' E', ' B', ' C', ' E', ' E', ' F', ' B', ' B', ' F', ' F', ' F', ' B', ' F', ' F', ' F', ' C', ' F', ' C', ' B', ' E', ' C', ' C', ' B', ' D', ' E', ' E', ' E', ' D', ' F', ' D', ' C', ' F', ' F', ' B', ' F']","[0.02428878, 0.09375932, 0.18055203, 0.1021754, 0.26151783, 0.33770665, 0.0038028591688756]",SEX,Female,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+TALK_CPS_W29,"Question: In the last 12 months, how often did you talk with any of your neighbors?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' A', ' F', ' C', ' F', ' F', ' B', ' E', ' C', ' B', ' C', ' E', ' C', ' E', ' F', ' B', ' A', ' A', ' E', ' E', ' F', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' D', ' D', ' F', ' C', ' E', ' B', ' C', ' F', ' D', ' E', ' B', ' E', ' B', ' D', ' E', ' B', ' E', ' E', ' C', ' E', ' F', ' E', ' B', ' F', ' C', ' C', ' B', ' E', ' E', ' B', ' C', ' C', ' F', ' C', ' C', ' B', ' B', ' B', ' F', ' B', ' D', ' C', ' A', ' E', ' D', ' A', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' D', ' C', ' D', ' B', ' F', ' B', ' E', ' C', ' E', ' C', ' B', ' B', ' B', ' A', ' B', ' D', ' C', ' A', ' C']","[0.11739607, 0.31361509, 0.24067295, 0.07833439, 0.16511731, 0.08486419, 0.0029786321624004]",SEX,Female,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+MAN1D_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be willing to throw a punch if provoked?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D']","[0.0, 0.0, 0.0, 1.0, 0.0]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+HOOD_NHISB_W29,"Question: How much do you agree or disagree with the following statements about your neighborhood? People in this neighborhood can be trusted
+A. Definitely agree
+B. Somewhat agree
+C. Somewhat disagree
+D. Definitely disagree
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' D', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' D', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' D', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' D', ' C', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' C', ' A', ' B', ' A', ' D', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' D', ' B', ' B', ' D', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' A']","[0.2767941, 0.47398071, 0.16214025, 0.08708494, 0.0084055406951831]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+MAN1A_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be interested in sports?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C']","[0.0, 0.0, 1.0, 0.0, 0.0]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+GOPDIRCT_W29,"Question: Thinking about the future of the Republican Party, would you say that you are
+A. Very optimistic
+B. Somewhat optimistic
+C. Somewhat pessimistic
+D. Very pessimistic
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' B', ' D', ' C', ' A', ' C', ' D', ' C', ' B', ' D', ' A', ' B', ' C', ' B', ' B', ' B', ' E', ' D', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' D', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' D', ' B', ' B', ' B', ' A', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' D', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' E', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' B']","[0.13598538, 0.54050094, 0.25037822, 0.07313546, 0.0257260806580869]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+MAN1E_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be emotionally strong?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B']","[0.66960901, 0.33039099, 0.0, 0.0, 0.0]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"
+FEM2_W29,"Question: Now thinking about how you see yourself, would you describe yourself as
+A. Very womanly or feminine
+B. Somewhat womanly or feminine
+C. Not too womanly or feminine
+D. Not at all womanly or feminine
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' D', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B']","[0.31565029, 0.53910712, 0.12448668, 0.02075591, 0.0026441331116469]",SEX,Female,"[1.0, 2.0, 3.0, 4.0]"

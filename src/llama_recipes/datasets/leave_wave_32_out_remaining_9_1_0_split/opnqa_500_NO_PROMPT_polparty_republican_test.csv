@@ -1,0 +1,215 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+NEIGHINTERB_W32,"Question: In general, how often, if ever, would you say you talk on the phone with any of your neighbors
+A. Every day
+B. Several times a week
+C. About once a week
+D. About once a month
+E. Less than once a month
+F. Never
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' F', ' E', ' F', ' E', ' E', ' F', ' F', ' E', ' B', ' B', ' F', ' D', ' F', ' C', ' B', ' B', ' A', ' D', ' E', ' F', ' E', ' D', ' D', ' E', ' D', ' F', ' F', ' E', ' E', ' C', ' E', ' D', ' D', ' E', ' B', ' F', ' F', ' F', ' D', ' F', ' E', ' F', ' F', ' F', ' F', ' F', ' E', ' F', ' D', ' E', ' C', ' F', ' F', ' F', ' F', ' B', ' D', ' F', ' D', ' F', ' D', ' C', ' E', ' C', ' E', ' D', ' D', ' C', ' F', ' C', ' E', ' C', ' F', ' F', ' B', ' E', ' F', ' F', ' F', ' E', ' E', ' F', ' E', ' C', ' D', ' E', ' F', ' D', ' E', ' E', ' D', ' F', ' F', ' F', ' C', ' E', ' E', ' D', ' D', ' F']","[0.01453082, 0.07114439, 0.09497769, 0.11944015, 0.2701667, 0.42974024, 0.003260482252546]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+COMMIMPG_W32,"Question: How important is it to you, personally, to live in a community with a strong sense of community
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' A', ' D', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' E', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' A']","[0.25738723, 0.57753262, 0.13651918, 0.02856097, 0.0041324864102996]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+CLASS_W32,"Question: If you were asked to use one of these commonly used names for the social classes, which would you say you belong in?
+A. Upper class
+B. Upper-middle class
+C. Middle class
+D. Lower-middle class
+E. Lower class
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' B', ' D', ' C', ' D', ' C', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' E', ' B', ' B', ' C', ' D', ' B', ' E', ' D', ' D', ' B', ' C', ' C', ' E', ' B', ' C', ' C', ' B', ' D', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' B', ' C', ' C', ' B', ' D', ' D', ' C', ' B', ' B', ' C', ' D', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' C']","[0.00681759, 0.17107679, 0.53513559, 0.22853932, 0.05843071, 0.0045722963150387]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SATLIFED_W32,"Question: Please tell us whether you are satisfied or dissatisfied with your current job or career.
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' D', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' D', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B']","[0.34563323, 0.47030757, 0.12388273, 0.06017648, 0.0027278656026077]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+SOCTRUST2_W32,"Question: Generally speaking, would you say that
+A. Most people can be trusted
+B. Most people cannot be trusted
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A']","[0.65774039, 0.34225961, 0.0050394220670205]",POLPARTY,Republican,"[1.0, 2.0]"
+MOVESUBURB_W32,"Question: If you could move to a different community, would you want to
+A. Stay in a suburban area
+B. Move to an urban area
+C. Move to a rural area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' A', ' C']","[0.35044041, 0.07453241, 0.57502718, 0.0]",POLPARTY,Republican,"[1.0, 2.0, 3.0]"
+VALUERURAL_W32,"Question: In general, do you think most people who live in rural areas have values that are
+A. Very similar to your values
+B. Somewhat similar to your values
+C. Somewhat different from your values
+D. Very different from your values
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' A', ' A', ' B', ' A', ' D', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' E', ' A', ' B', ' A', ' A', ' D', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' D', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' D', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A']","[0.33325426, 0.47316801, 0.15609844, 0.03747929, 0.0122404976879109]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+COMMIMPF_W32,"Question: How important is it to you, personally, to live in a community where you have family nearby
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' C', ' A', ' A', ' D', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' D', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C']","[0.39912506, 0.37916649, 0.17207582, 0.04963264, 0.0029040975799829]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+COMMIMPH_W32,"Question: How important is it to you, personally, to live in a community where most people share your religious views
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' D', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' D', ' A', ' C', ' D', ' A', ' B', ' C', ' B', ' B', ' D', ' B', ' D', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' D', ' B', ' C', ' B', ' B', ' D', ' A', ' B', ' B', ' C', ' C', ' D', ' D', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' A', ' B', ' C', ' C', ' D', ' B', ' D', ' D', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' D', ' B', ' A']","[0.15530912, 0.38069414, 0.30785373, 0.15614301, 0.0020590774533298]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+MOVERURAL_W32,"Question: If you could move to a different community, would you want to
+A. Stay in a rural area
+B. Move to an urban area
+C. Move to a suburban area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C']","[0.53298684, 0.1626873, 0.30432586, 0.0]",POLPARTY,Republican,"[1.0, 2.0, 3.0]"
+NEIGHKIDS_W32,"Question: Do you have any neighbors you would feel comfortable asking to watch your children for half an hour in a pinch?
+A. Yes
+B. No
+C. Does not apply
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C']","[0.40554994, 0.11729221, 0.47715785, 0.0031655500230964]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+COMMIMPC_W32,"Question: How important is it to you, personally, to live in a community that is racially and ethnically diverse
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' D', ' B', ' A', ' B', ' A', ' A', ' D', ' B', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' C', ' D', ' B', ' B', ' C', ' A', ' C', ' B', ' D', ' C', ' D', ' D', ' C', ' B', ' D', ' C', ' A', ' C', ' C', ' B', ' A', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' D', ' D', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' D', ' C', ' D', ' C', ' B', ' C', ' D', ' C', ' C', ' D', ' B', ' D', ' B', ' D', ' D', ' B', ' C', ' B', ' B', ' D', ' A', ' C', ' D', ' C', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B']","[0.07867945, 0.29747021, 0.3993145, 0.22453584, 0.0073556920233793]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+NEIGHINTERA_W32,"Question: In general, how often, if ever, would you say you have face-to-face conversations with any of your neighbors
+A. Every day
+B. Several times a week
+C. About once a week
+D. About once a month
+E. Less than once a month
+F. Never
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' C', ' C', ' C', ' B', ' E', ' B', ' E', ' C', ' C', ' C', ' B', ' B', ' C', ' E', ' D', ' C', ' E', ' B', ' B', ' B', ' C', ' C', ' D', ' E', ' E', ' E', ' D', ' E', ' C', ' D', ' E', ' C', ' D', ' C', ' F', ' C', ' D', ' E', ' B', ' E', ' D', ' B', ' C', ' C', ' E', ' D', ' C', ' E', ' E', ' D', ' E', ' E', ' D', ' G', ' C', ' E', ' B', ' C', ' D', ' B', ' B', ' E', ' D', ' B', ' F', ' D', ' C', ' G', ' C', ' E', ' B', ' E', ' B', ' D', ' E', ' F', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' D', ' D', ' C', ' B', ' A', ' G', ' D', ' D', ' E', ' C', ' E', ' C', ' D', ' B', ' E', ' E', ' E']","[0.04871459, 0.18563947, 0.24819435, 0.23313775, 0.25024391, 0.03406993, 0.0082324709984957]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+COMMIMPA_W32,"Question: How important is it to you, personally, to live in a community with access to art, music and theater
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' C', ' B', ' A', ' C', ' C', ' D', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' D', ' D', ' B', ' B', ' D', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' D', ' B', ' D', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' D', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' D', ' C', ' A', ' D', ' B', ' D', ' D', ' B', ' C', ' C', ' C', ' D', ' B', ' D', ' C', ' D', ' C', ' A', ' D', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' D', ' B', ' B', ' C', ' A', ' B', ' D', ' C', ' D', ' A', ' B', ' D']","[0.1099195, 0.38834175, 0.36386118, 0.13787757, 0.0027510739866493]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+COMMYRS_W32,"Question: About how many years have you lived in your local community?
+A. Less than 1 year
+B. 1-5 years
+C. 6-10 years
+D. 11-20 years
+E. More than 20 years
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' C', ' E', ' A', ' B', ' E', ' E', ' D', ' D', ' E', ' B', ' D', ' E', ' A', ' E', ' D', ' A', ' E', ' B', ' E', ' E', ' C', ' E', ' E', ' C', ' E', ' B', ' C', ' B', ' D', ' B', ' A', ' E', ' D', ' E', ' B', ' C', ' E', ' E', ' E', ' B', ' E', ' B', ' D', ' B', ' E', ' D', ' E', ' E', ' E', ' E', ' D', ' E', ' A', ' E', ' E', ' E', ' E', ' D', ' B', ' A', ' D', ' E', ' C', ' C', ' E', ' B', ' A', ' D', ' D', ' B', ' D', ' E', ' E', ' E', ' C', ' E', ' B', ' D', ' E', ' E', ' D', ' E', ' B', ' B', ' E', ' D', ' E', ' E', ' E', ' B', ' D', ' C', ' E', ' E', ' D', ' C', ' C', ' B']","[0.04799371, 0.18019051, 0.12192017, 0.21305092, 0.43684468, 0.0003477228141891]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+IMMIMPACT_W32,"Question: Thinking about the immigrants who live in your local community, in general, would you say their impact on the community has been
+A. Mostly positive
+B. Mostly negative
+C. Neither positive nor negative
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' A']","[0.269314, 0.16293258, 0.56775342, 0.0051017797795989]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+NEIGHSAMEA_W32,"Question: As far as you know, how many of your neighbors are the same race or ethnicity as you
+A. All of them
+B. Most of them
+C. About half
+D. Only some of them
+E. None of them
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' B', ' B', ' D', ' E', ' E', ' B', ' A', ' B', ' E', ' B', ' D', ' A', ' C', ' A', ' D', ' D', ' C', ' D', ' B', ' D', ' B', ' B', ' A', ' B', ' C', ' B', ' D', ' C', ' C', ' B', ' E', ' B', ' B', ' D', ' A', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' E', ' A', ' C', ' D', ' C', ' D', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B']","[0.18630261, 0.47239026, 0.15409358, 0.15090631, 0.03630724, 0.0035414122763456]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+ETHNCMAJ_W32,"Question: According to the U.S. Census Bureau, in the next 25 to 30 years, African Americans, Latinos, and people of Asian descent will make up a majority of the population. In general, do you think that this is
+A. Good for the country
+B. Bad for the country
+C. Neither good nor bad for the country
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B']","[0.04689477, 0.36299306, 0.59011217, 0.0096427376142751]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+MOVEURBAN_W32,"Question: If you could move to a different community, would you want to
+A. Stay in an urban area
+B. Move to a suburban area
+C. Move to a rural area
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' C', ' A']","[0.21267817, 0.19998014, 0.58734169, 0.0]",POLPARTY,Republican,"[1.0, 2.0, 3.0]"
+WHADVANT_W32,"Question: On a different subject how much, if at all, do white people benefit from advantages in society that black people do not have?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' D', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' D', ' B', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' B', ' C', ' D', ' C', ' B', ' B', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' E', ' C', ' D', ' C', ' D', ' B', ' C', ' B', ' A', ' D', ' D', ' B', ' C', ' D', ' A', ' E', ' D', ' C', ' B', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' D', ' C', ' D', ' C', ' B', ' D', ' C', ' B', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' B', ' C', ' D', ' B', ' A', ' D', ' D', ' B', ' C', ' B', ' C', ' D', ' D', ' D', ' D']","[0.06326978, 0.21910039, 0.40308874, 0.3145411, 0.0097473800824273]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+GAYMARR2_W32,"Question: As you may know, same-sex marriage is now legal in the U.S. Do you think this is a good thing or a bad thing for our society?
+A. Very good thing
+B. Somewhat good thing
+C. Somewhat bad thing
+D. Very bad thing
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' A', ' C', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' B', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' D', ' D', ' C', ' C', ' C', ' A', ' D', ' B', ' C', ' D', ' B', ' B', ' B', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' D', ' D', ' B', ' B', ' B', ' A', ' D', ' D', ' B', ' C', ' A', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' B', ' D', ' C', ' D', ' C', ' B', ' D', ' D', ' D', ' C', ' C', ' B', ' B', ' D', ' D', ' D']","[0.06107345, 0.20319668, 0.26349197, 0.4722379, 0.0180025109296812]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+WILLMOVE_W32,"Question: Regardless of whether you would want to move, how likely is it that you will move to a different community at some point in the future?
+A. Very likely
+B. Somewhat likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' E', ' D', ' B', ' D', ' B', ' D', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' E', ' C', ' D', ' A', ' D', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' D', ' C', ' B', ' A', ' D', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' D', ' C', ' D', ' C', ' A', ' D', ' C', ' C', ' D', ' A', ' B', ' A', ' C', ' C', ' A', ' D', ' B', ' C', ' B', ' D', ' B', ' D', ' A', ' A', ' B', ' D', ' A']","[0.19176082, 0.26734558, 0.31053165, 0.23036195, 0.009837370620942]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+HARASS2F1_W32,"Question: In the long run, do you think the increased focus on sexual harassment and assault will lead to
+A. More opportunities for women in the workplace
+B. Fewer opportunities for women in the workplace
+C. Won't make much of a difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C']","[0.13553939, 0.26931303, 0.59514758, 0.0082186491002409]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+COMMIMPB_W32,"Question: How important is it to you, personally, to live in a community that is a good place to raise children
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' E', ' C', ' A', ' A', ' A', ' C', ' D', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' C', ' D', ' A', ' A', ' E', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' D', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A']","[0.62910124, 0.20658432, 0.11094912, 0.05336532, 0.0029965151087318]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"

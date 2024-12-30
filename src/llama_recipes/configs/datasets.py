@@ -40,31 +40,18 @@ class llamaguard_toxicchat_dataset:
     train_split: str = "train"
     test_split: str = "test"
 
+@dataclass
+class opnqa_steering_dataset:
+    dataset: str = "opnqa_steering_dataset"
+    file: str = "src/llama_recipes/datasets/opinionqa_dataset.py:get_preprocessed_opinionqa_ce_or_wd_loss"
+    train_split: str = "src/llama_recipes/datasets/{dataset_path}/opnqa_500_{steering_type}_train.csv"
+    valid_split: str = "src/llama_recipes/datasets/{dataset_path}/opnqa_500_{steering_type}_val.csv"
+    test_split:  str = "src/llama_recipes/datasets/{dataset_path}/opnqa_500_{steering_type}_test.csv"
 
 @dataclass
-class custom_dataset_celoss_testing:
-    dataset: str = "custom_dataset_celoss_testing"
+class opnqa_single_demographic_dataset:
+    dataset: str = "opnqa_single_demographic_dataset"
     file: str = "src/llama_recipes/datasets/opinionqa_dataset.py:get_preprocessed_opinionqa_ce_or_wd_loss"
-    train_split: str = "src/llama_recipes/datasets/cross_entropy_testing/opinionqa_train.csv"
-    test_split: str = "src/llama_recipes/datasets/cross_entropy_testing/opinionqa_validation.csv"
-
-@dataclass
-class custom_dataset_wdloss_testing:
-    dataset: str = "custom_dataset_wdloss_testing"
-    file: str = "src/llama_recipes/datasets/opinionqa_dataset.py:get_preprocessed_opinionqa_ce_or_wd_loss"
-    train_split: str = "src/llama_recipes/datasets/wd_loss_testing/opinionqa_train.csv"
-    test_split: str = "src/llama_recipes/datasets/wd_loss_testing/opinionqa_validation.csv"
-
-@dataclass
-class custom_dataset_leave_wave_34_testing:
-    dataset: str = "custom_dataset_leave_wave_34_testing"
-    file: str = "src/llama_recipes/datasets/opinionqa_dataset.py:get_preprocessed_opinionqa_ce_or_wd_loss"
-    train_split: str = "src/llama_recipes/datasets/leave_wave_34_testing/opnqa_500_QA_train.csv"
-    test_split: str = "src/llama_recipes/datasets/leave_wave_34_testing/opnqa_500_QA_val.csv"
-
-@dataclass
-class custom_dataset_leave_wave_34_testing_all_steering_method:
-    dataset: str = "custom_dataset_leave_wave_34_testing_all_steering_method"
-    file: str = "src/llama_recipes/datasets/opinionqa_dataset.py:get_preprocessed_opinionqa_ce_or_wd_loss"
-    train_split: str = "src/llama_recipes/datasets/leave_wave_34_testing/opnqa_500_ALL_train.csv"
-    test_split: str = "src/llama_recipes/datasets/leave_wave_34_testing/opnqa_500_ALL_val.csv"
+    train_split: str = "src/llama_recipes/datasets/{dataset_path}/opnqa_500_NO_PROMPT_{attribute}_{group}_train.csv"
+    valid_split: str = "src/llama_recipes/datasets/{dataset_path}/opnqa_500_NO_PROMPT_{attribute}_{group}_val.csv"
+    test_split:  str = "src/llama_recipes/datasets/{dataset_path}/opnqa_500_NO_PROMPT_{attribute}_{group}_test.csv"

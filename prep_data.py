@@ -33,19 +33,20 @@ def main(**kwargs):
         split="train",
     )
     print(f"--> Training Set Length = {len(dataset_train)}")
-    # for default, it gets return from:
-    # get_preprocessed_samsum(
-    #   dataset_config,
-    #   tokenizer,
-    #   dataset_config.train_split (which is just 'train')
-    # )
 
     dataset_val = get_preprocessed_dataset(
         tokenizer,
         dataset_config,
-        split="test",
+        split="valid",
     )
     print(f"--> Validation Set Length = {len(dataset_val)}")
+
+    dataset_test = get_preprocessed_dataset(
+        tokenizer,
+        dataset_config,
+        split="test",
+    )
+    print(f"--> Test Set Length = {len(dataset_test)}")
 
     if train_config.batching_strategy == "packing":
         print("dataset batching_strategy == packing")

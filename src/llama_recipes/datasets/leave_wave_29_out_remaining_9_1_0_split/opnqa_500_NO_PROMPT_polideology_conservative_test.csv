@@ -1,0 +1,186 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+SEENFEM_W29,"Question: On a different topic how important is it to you, personally, to be seen by others as womanly or feminine?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' B', ' B', ' D', ' D', ' A', ' D', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' D', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' D', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' D', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' C', ' D', ' B', ' B', ' B', ' A', ' D', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' D']","[0.20436112, 0.37306669, 0.2758818, 0.14669039, 0.0]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+GIRLSF2C_W29,"Question: When it comes to raising girls, would you say there is too much emphasis or too little emphasis on encouraging girls to stand up for themselves these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B']","[0.04456249, 0.43522368, 0.52021383, 0.0056282145442984]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 1.5]"
+WORRYBILL_W29,"Question: How worried are you right now about not having enough to pay your normal monthly bills?
+A. Very worried
+B. Moderately worried
+C. Not too worried
+D. Not worried at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' D', ' B', ' B', ' C', ' D', ' B', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' B', ' C', ' C', ' D', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' D', ' D', ' C', ' B', ' D', ' C', ' C', ' D', ' C', ' C', ' B', ' D', ' D', ' C', ' D', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' D', ' B', ' D', ' A', ' B', ' D', ' C', ' A', ' A', ' A', ' D', ' C', ' C', ' A', ' D', ' B', ' B', ' D', ' D', ' D', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' D', ' C', ' B', ' C', ' C', ' D', ' B', ' D', ' C']","[0.18649634, 0.28442106, 0.28586729, 0.24321532, 0.0044082621569955]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+MAN1C_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to join in when other men are talking about women in a sexual way?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' D', ' B', ' D', ' D', ' D', ' B', ' C', ' C', ' D', ' B', ' C', ' D', ' B', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' D', ' B', ' D', ' C', ' C', ' C', ' C', ' B', ' D', ' B', ' B', ' B', ' D', ' C', ' D', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' A', ' A', ' C', ' C', ' A', ' D', ' C']","[0.0683249, 0.28396763, 0.43158333, 0.21612414, 0.0044101497520605]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+MASC2_W29,"Question: Now thinking about how you see yourself, would you describe yourself as
+A. Very manly or masculine
+B. Somewhat manly or masculine
+C. Not too manly or masculine
+D. Not at all manly or masculine
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' D', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B']","[0.3730716, 0.52352075, 0.09430736, 0.00910028, 0.007812338452417]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+MAN1B_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to have many sexual partners?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' D', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' D', ' D', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' D', ' C', ' D', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' D', ' B', ' D', ' C', ' C', ' A', ' D', ' C', ' C', ' C', ' D', ' D', ' B', ' B', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' D', ' B', ' B', ' C', ' D', ' D', ' D', ' A', ' B', ' D', ' D', ' C', ' B', ' A', ' D', ' C', ' D', ' B', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' C']","[0.07076934, 0.22501341, 0.37038138, 0.33383587, 0.0008749805898166]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+LOCALELECT_W29,"Question: The next question is about local elections, such as for mayor or a school board. Do you
+A. Always vote in local elections
+B. Sometimes vote in local elections
+C. Rarely vote in local elections
+D. Never vote in local elections
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' C', ' B', ' D', ' A', ' A', ' D', ' B', ' C', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' D', ' B', ' D', ' A', ' D', ' D', ' C', ' D', ' A', ' D', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' D', ' C', ' B', ' C', ' B', ' A', ' A', ' D', ' B', ' B', ' B', ' B', ' E', ' A', ' A', ' A', ' B', ' C', ' A', ' D', ' C', ' D', ' B', ' A', ' A', ' B', ' E', ' A', ' A', ' A', ' C', ' D', ' C', ' B', ' B', ' A', ' D', ' D', ' D', ' A', ' C', ' D', ' D', ' B', ' B']","[0.39057575, 0.29687295, 0.09884067, 0.21371062, 0.0100829344762968]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+SEENMASC_W29,"Question: On a different topic how important is it to you, personally, to be seen by others as manly or masculine?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' D', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' D', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' D', ' E', ' C', ' C', ' B', ' C', ' B', ' B', ' D', ' A', ' A', ' B', ' C', ' D', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' D', ' B', ' A', ' A', ' D', ' A', ' D', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' D', ' D', ' C', ' D', ' E', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' D', ' C', ' A', ' C', ' B', ' C', ' D', ' A']","[0.08296153, 0.41849174, 0.3614011, 0.13714562, 0.0184183875866534]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+S12_W29,"Question: In the last 12 months, how often did you eat dinner with any of the other members of your household?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' E', ' B', ' A', ' B', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' B', ' F', ' A', ' A', ' B', ' B', ' B', ' C', ' E', ' C', ' B', ' B', ' A', ' F', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' E', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B']","[0.63241456, 0.21244635, 0.08099303, 0.01608337, 0.02999166, 0.02807103, 0.0]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+S13_W29,"Question: This next question is about friends and family you do not live with. During the last twelve months, how often did you see or hear from friends or family, whether in-person or not?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' A', ' D', ' B', ' B', ' F', ' A', ' B', ' C', ' B', ' A', ' D', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' E', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' E', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' F', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' G', ' A', ' B', ' C']","[0.29376125, 0.39318549, 0.19517705, 0.04644592, 0.05681238, 0.01461791, 0.003383181038858]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+GIRLSF2D_W29,"Question: When it comes to raising girls, would you say there is too much emphasis or too little emphasis on encouraging girls to do well in school these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' B']","[0.07134015, 0.34519541, 0.58346445, 0.0057053423671954]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 1.5]"
+BOYSF1B_W29,"Question: When it comes to raising boys, would you say there is too much emphasis or too little emphasis on encouraging boys to talk about their feelings when they are sad or upset these days, or is it about right?
+A. Too much emphasis
+B. Too little emphasis
+C. About right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B']","[0.13053712, 0.46598793, 0.40347495, 0.0074147640864828]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 1.5]"
+FAVORS_CPS_W29,"Question: In the last 12 months, how often did you and your neighbors do favors for each other?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' D', ' C', ' C', ' E', ' C', ' D', ' D', ' C', ' E', ' F', ' F', ' E', ' C', ' E', ' B', ' E', ' D', ' F', ' E', ' F', ' E', ' C', ' A', ' F', ' F', ' C', ' E', ' D', ' E', ' E', ' C', ' F', ' C', ' C', ' E', ' F', ' E', ' F', ' C', ' E', ' C', ' E', ' F', ' F', ' C', ' F', ' C', ' C', ' F', ' F', ' E', ' F', ' D', ' D', ' F', ' C', ' B', ' F', ' E', ' C', ' E', ' E', ' G', ' F', ' C', ' C', ' C', ' E', ' A', ' C', ' D', ' D', ' D', ' B', ' E', ' C', ' F', ' C', ' B', ' C', ' F', ' D', ' E', ' B', ' E', ' F', ' F', ' D', ' F', ' C', ' C', ' F', ' C', ' C', ' E', ' E', ' E', ' C', ' E', ' B']","[0.02507273, 0.10039795, 0.22377161, 0.09358507, 0.29216823, 0.26500441, 0.0093160237798876]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+TALK_CPS_W29,"Question: In the last 12 months, how often did you talk with any of your neighbors?
+A. Basically every day
+B. A few times a week
+C. A few times a month
+D. Once a month
+E. Less than once a month
+F. Not at all
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' E', ' C', ' D', ' C', ' A', ' B', ' B', ' D', ' C', ' B', ' D', ' B', ' A', ' C', ' E', ' E', ' E', ' B', ' B', ' C', ' B', ' A', ' D', ' F', ' D', ' B', ' C', ' D', ' B', ' D', ' D', ' E', ' F', ' B', ' B', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' B', ' B', ' F', ' E', ' A', ' D', ' A', ' B', ' C', ' D', ' B', ' D', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' E', ' C', ' E', ' B', ' C', ' B', ' B', ' B', ' B', ' F', ' B', ' D', ' D', ' B', ' B', ' B', ' C', ' E', ' B', ' E', ' B', ' E', ' B', ' A', ' B', ' E', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' C']","[0.12024976, 0.38696166, 0.26837412, 0.06798511, 0.11690271, 0.03952663, 0.0026176875872252]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+MAN1D_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be willing to throw a punch if provoked?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' D', ' D', ' A', ' C', ' B', ' B', ' D', ' C', ' C', ' B', ' D', ' D', ' D', ' B', ' D', ' A', ' B', ' B', ' C', ' D', ' C', ' B', ' D', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' B', ' D', ' B', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' B', ' D', ' D', ' C', ' A', ' B', ' D', ' C', ' B', ' D', ' D', ' D', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' D', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B']","[0.09906091, 0.4331493, 0.33253731, 0.13525247, 0.0007678122932818]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+HOOD_NHISB_W29,"Question: How much do you agree or disagree with the following statements about your neighborhood? People in this neighborhood can be trusted
+A. Definitely agree
+B. Somewhat agree
+C. Somewhat disagree
+D. Definitely disagree
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' D', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' D', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' D', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' B']","[0.3350388, 0.49325437, 0.11134829, 0.06035854, 0.0064730378602668]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+MAN1A_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be interested in sports?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' D', ' A', ' D', ' B', ' B', ' B', ' A', ' D', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' A', ' B']","[0.23683767, 0.46125885, 0.27965199, 0.02225149, 0.0007678122932818]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+GOPDIRCT_W29,"Question: Thinking about the future of the Republican Party, would you say that you are
+A. Very optimistic
+B. Somewhat optimistic
+C. Somewhat pessimistic
+D. Very pessimistic
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' D', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' E', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' D', ' B', ' C', ' C', ' D', ' B', ' A', ' C', ' B', ' E', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' D', ' C', ' D', ' A', ' C', ' B', ' B', ' C', ' B']","[0.12706615, 0.50205096, 0.30803154, 0.06285136, 0.0201674902777652]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+MAN1E_W29,"Question: In general, how much pressure, if any, do you think men face in our country these days to be emotionally strong?
+A. A lot
+B. Some
+C. Not too much
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' D', ' C', ' A', ' A', ' D', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' A']","[0.37649504, 0.45745397, 0.13041049, 0.03564049, 0.0026190054480009]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"
+FEM2_W29,"Question: Now thinking about how you see yourself, would you describe yourself as
+A. Very womanly or feminine
+B. Somewhat womanly or feminine
+C. Not too womanly or feminine
+D. Not at all womanly or feminine
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' D', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B']","[0.4038719, 0.51364216, 0.07103958, 0.01144636, 0.0008606689060797]",POLIDEOLOGY,Conservative,"[1.0, 2.0, 3.0, 4.0]"

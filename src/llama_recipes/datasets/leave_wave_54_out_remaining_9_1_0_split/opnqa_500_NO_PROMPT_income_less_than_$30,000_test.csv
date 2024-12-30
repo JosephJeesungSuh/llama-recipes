@@ -1,0 +1,461 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+WORRY2c_W54,"Question: How often, if ever, do you worry about paying your bills?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' D', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' E', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' D', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' A', ' D', ' D', ' A', ' D', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' C', ' B', ' C']","[0.46260599, 0.20222788, 0.21916463, 0.08306734, 0.03293416, 0.0056168459246586]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 5.0]"
+INEQ5_l_W54,"Question: How much, if at all, do you think the growing number of illegal immigrants working in the U.S. contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' D', ' C', ' B', ' A', ' A', ' C', ' D', ' D', ' A', ' C', ' C', ' D', ' C', ' A', ' D', ' A', ' D', ' B', ' D', ' B', ' A', ' D', ' B', ' C', ' B', ' A', ' C', ' B', ' D', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' D', ' D', ' B', ' C', ' B', ' B', ' A', ' A', ' D', ' A', ' A', ' C', ' B', ' B', ' B', ' D', ' C', ' B', ' A', ' D', ' A', ' C', ' A', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C']","[0.34353857, 0.27116771, 0.25783547, 0.12745825, 0.0050811388433447]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+INEQ8_h_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Reducing illegal immigration
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' D', ' D', ' B', ' A', ' A', ' B', ' A', ' C', ' D', ' B', ' B', ' C', ' C', ' A', ' D', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' C', ' B', ' A', ' A', ' D', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' D', ' C', ' B', ' B', ' D', ' D', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' D', ' B', ' A', ' C', ' D', ' D', ' B', ' B', ' A', ' D', ' A']","[0.36038389, 0.23583424, 0.26524608, 0.1385358, 0.0113002860036698]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYf_W54,"Question: How much of a priority should the following be for the federal government to address: Reducing gun violence
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' D', ' B', ' B', ' B', ' A', ' D', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' E', ' A', ' A']","[0.63878496, 0.25596932, 0.07322953, 0.03201619, 0.0081460983516486]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+INEQ5_e_W54,"Question: How much, if at all, do you think not enough regulation of major corporations contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' D', ' C', ' B', ' B', ' B', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' E', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' E', ' B', ' A', ' D', ' D', ' D', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' E', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' D', ' E', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' D', ' B', ' B', ' A', ' B', ' D', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' E', ' C', ' B']","[0.38797521, 0.34203367, 0.17626182, 0.09372929, 0.0163564234352467]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+INEQ8_i_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Expanding government benefits for the poor
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' E', ' A', ' A', ' B', ' A', ' A', ' D', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' E', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A']","[0.49134522, 0.2764127, 0.19775825, 0.03448383, 0.0071812084374939]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECIMPg_W54,"Question: How much power and influence do you think people who are wealthy have on today's economy?
+A. Too much power and influence
+B. Not enough power and influence
+C. About the right amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.88504485, 0.03130195, 0.08365319, 0.0074525263380492]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+ECON4_g_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does the federal budget deficit affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' A', ' A', ' D', ' B', ' A', ' B', ' C', ' D', ' C', ' A', ' D', ' D', ' D', ' A', ' B', ' B', ' C', ' D', ' B', ' A', ' B', ' C', ' C', ' D', ' A', ' B', ' D', ' B', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' D', ' C', ' A', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' B', ' D', ' B', ' A', ' C', ' A', ' A', ' C', ' D', ' D', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' D', ' A', ' C', ' C', ' C', ' A', ' D', ' C', ' C', ' A', ' A', ' D', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' D', ' A', ' B']","[0.28533917, 0.2407207, 0.30737933, 0.1665608, 0.0169243527640634]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+INEQ5_f_W54,"Question: How much, if at all, do you think some people work harder than others contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' C', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' D', ' B', ' D', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' D', ' D', ' C', ' A', ' B', ' A', ' A', ' A', ' D', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' E', ' A', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' E', ' A', ' E', ' D', ' A', ' B', ' B', ' B', ' B', ' C', ' D', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' D', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' D']","[0.34082628, 0.31005812, 0.23790277, 0.11121282, 0.0121527322352056]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON5_i_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are Hispanic?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' D', ' A', ' D', ' C', ' D', ' D', ' E', ' C', ' E', ' E', ' C', ' D', ' D', ' A', ' D', ' D', ' A', ' C', ' C', ' B', ' B', ' B', ' D', ' B', ' D', ' B', ' A', ' C', ' D', ' C', ' C', ' B', ' C', ' E', ' D', ' E', ' B', ' D', ' D', ' C', ' A', ' E', ' A', ' B', ' D', ' C', ' B', ' C', ' C', ' D', ' D', ' D', ' A', ' B', ' A', ' B', ' B', ' C', ' D', ' B', ' A', ' A', ' C', ' D', ' E', ' C', ' C', ' C', ' A', ' B', ' E', ' A', ' B', ' E', ' B', ' B', ' B', ' D', ' D', ' E', ' D', ' A', ' D', ' E', ' A', ' E', ' D', ' A', ' E', ' D', ' D', ' C', ' A', ' B', ' D', ' D', ' D', ' C', ' D']","[0.15213662, 0.14163874, 0.18770808, 0.32555585, 0.19296071, 0.0148540075216142]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ5_d_W54,"Question: How much, if at all, do you think too much regulation of major corporations contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' A', ' C', ' C', ' D', ' C', ' D', ' B', ' A', ' C', ' B', ' D', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' A', ' C', ' C', ' D', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' D', ' A', ' E', ' D', ' A', ' C', ' D', ' D', ' C', ' D', ' A', ' B', ' A', ' B', ' D', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' D', ' C', ' C', ' D', ' B', ' B', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' B', ' D', ' C', ' D', ' D', ' B', ' C', ' B', ' D', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' D', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' D']","[0.17792158, 0.34430716, 0.25611369, 0.22165757, 0.0156204490477242]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYb_W54,"Question: How much of a priority should the following be for the federal government to address: Reducing illegal immigration
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' D', ' E', ' A', ' B', ' B', ' D', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' B']","[0.38433181, 0.36351527, 0.20398616, 0.04816676, 0.0089931072382628]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYc_W54,"Question: How much of a priority should the following be for the federal government to address: Reducing economic inequality
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' D', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' B', ' B', ' A', ' A', ' E', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' D', ' E', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B']","[0.54990501, 0.34216881, 0.07704909, 0.03087709, 0.0211654596210838]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+INEQ5_a_W54,"Question: How much, if at all, do you think the outsourcing of jobs to other countries contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' D', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' B', ' E', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A']","[0.47431187, 0.35103016, 0.12190722, 0.05275076, 0.0070634691298613]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+INEQ8_d_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Expanding Medicare so that it covers Americans of all ages
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' D', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' D', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' D']","[0.54474143, 0.24840429, 0.12301572, 0.08383856, 0.0023072797228299]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON4_f_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does gas prices affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' D', ' A', ' B', ' D', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' D', ' B', ' B', ' B', ' B', ' A', ' D', ' A', ' D', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' D', ' B', ' A', ' C', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' C']","[0.44434188, 0.31448731, 0.15194445, 0.08922636, 0.004313526158717]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON5_k_W54,"Question: Do you think the country's current economic conditions are helping or hurting people with college degrees?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' E', ' B', ' D', ' D', ' C', ' C', ' B', ' D', ' A', ' B', ' D', ' A', ' A', ' B', ' B', ' D', ' C', ' C', ' B', ' A', ' E', ' C', ' A', ' E', ' E', ' E', ' C', ' B', ' C', ' E', ' E', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' D', ' C', ' B', ' B', ' C', ' E', ' B', ' E', ' C', ' E', ' C', ' D', ' F', ' D', ' A', ' B', ' A', ' B', ' E', ' C', ' C', ' E', ' D', ' E', ' B', ' F', ' B', ' C', ' C', ' C', ' B', ' E', ' B', ' B', ' E', ' E', ' A', ' B', ' E', ' B', ' C', ' B', ' B', ' D', ' D', ' C', ' B', ' B', ' A', ' D', ' B', ' C', ' C', ' B', ' A', ' C', ' D', ' C', ' B', ' C']","[0.15089922, 0.31876024, 0.2210563, 0.15083655, 0.15844768, 0.0140334632102863]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+JOBTRAIN_W54,"Question: Looking ahead, how important do you think it will be for you to get training and develop new skills throughout your work life in order to keep up with changes in the workplace?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' D', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' D', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' D', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' D', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A']","[0.48936884, 0.35314763, 0.15748352, 0.0087046467859257]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0]"
+INEQ8_f_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Making college tuition free at public two-year colleges
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' C', ' A', ' A', ' D', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' D', ' C', ' B', ' A', ' A', ' A', ' D', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' D', ' A', ' A', ' D', ' A', ' B', ' B', ' D', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' E']","[0.58128665, 0.25725956, 0.12600667, 0.03544712, 0.0006963761964623]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+WORRY2a_W54,"Question: How often, if ever, do you worry about the amount of debt you have?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' A', ' A', ' C', ' C', ' E', ' C', ' B', ' E', ' C', ' E', ' A', ' F', ' C', ' A', ' B', ' A', ' A', ' D', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' E', ' A', ' B', ' A', ' A', ' A', ' E', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' E', ' A', ' A', ' A', ' A', ' C', ' D', ' A', ' B', ' B', ' A', ' B', ' E', ' E', ' B', ' A', ' B', ' D', ' C', ' D', ' A', ' E', ' A', ' A', ' D', ' A', ' E', ' A', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' E', ' B', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' D', ' B']","[0.40045261, 0.18247296, 0.23207637, 0.09239268, 0.09260539, 0.0068146016096975]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 5.0]"
+INEQ8_b_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Making college tuition free at both public two-year and four-year colleges
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' D', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' D', ' C', ' D', ' C', ' D', ' A', ' B', ' A', ' B', ' D', ' D', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' D', ' A', ' C', ' D', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' D', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' D', ' D', ' D', ' A', ' C', ' A', ' D', ' A', ' A', ' C', ' A', ' A']","[0.51162669, 0.26269135, 0.12309455, 0.10258741, 0.0023105591999017]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON5_j_W54,"Question: Do you think the country's current economic conditions are helping or hurting people without college degrees?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' D', ' B', ' A', ' D', ' D', ' C', ' D', ' E', ' F', ' B', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' E', ' C', ' A', ' E', ' D', ' A', ' D', ' C', ' D', ' D', ' D', ' E', ' C', ' C', ' D', ' B', ' D', ' D', ' A', ' D', ' D', ' C', ' D', ' D', ' D', ' E', ' B', ' D', ' B', ' E', ' D', ' B', ' C', ' B', ' D', ' D', ' D', ' E', ' B', ' D', ' C', ' A', ' F', ' A', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' D', ' B', ' D', ' E', ' D', ' B', ' D', ' D', ' A', ' E', ' E', ' C', ' E', ' C', ' D', ' D', ' E', ' D', ' D', ' C', ' D', ' B', ' B']","[0.06172305, 0.13687636, 0.26104146, 0.43427501, 0.10608412, 0.0169710114555346]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ8_j_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Breaking up large corporations
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' A', ' D', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' D', ' C', ' C', ' C', ' C', ' A', ' C', ' D', ' C', ' C', ' C', ' B', ' D', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' D', ' A', ' A', ' C', ' A', ' B']","[0.34653568, 0.32636786, 0.26446333, 0.06263313, 0.0152256350376821]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYd_W54,"Question: How much of a priority should the following be for the federal government to address: Addressing climate change
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' B', ' A', ' A', ' C', ' D', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' D', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' A', ' C']","[0.50806945, 0.29815664, 0.14140368, 0.05237023, 0.007436261418753]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+WORRY2e_W54,"Question: How often, if ever, do you worry about being able to save enough for your retirement?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' B', ' C', ' A', ' C', ' B', ' C', ' D', ' B', ' B', ' D', ' D', ' D', ' E', ' C', ' A', ' B', ' D', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' B', ' A', ' A', ' B', ' E', ' D', ' A', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' D', ' A', ' C', ' C', ' A', ' B', ' E', ' C', ' C', ' A', ' A', ' E', ' E', ' A', ' A', ' B', ' D', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' E', ' A', ' A', ' C', ' B', ' E', ' D', ' D']","[0.43187572, 0.17763091, 0.2106566, 0.08975609, 0.09008068, 0.0142639917115579]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 5.0]"
+INEQ8_g_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Eliminating college debt
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' B', ' D', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' D']","[0.52591729, 0.27782857, 0.15223358, 0.04402056, 0.0011579803460057]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON5_c_W54,"Question: Do you think the country's current economic conditions are helping or hurting the middle class?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' F', ' C', ' C', ' C', ' D', ' E', ' D', ' B', ' D', ' D', ' B', ' B', ' E', ' D', ' D', ' D', ' C', ' E', ' B', ' D', ' D', ' B', ' C', ' D', ' C', ' D', ' C', ' B', ' C', ' D', ' D', ' D', ' C', ' E', ' C', ' E', ' C', ' B', ' D', ' C', ' C', ' D', ' C', ' B', ' D', ' A', ' C', ' E', ' E', ' D', ' E', ' D', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' C', ' D', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' C', ' B', ' B', ' B', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' B', ' B', ' A', ' D', ' D', ' B', ' C', ' B', ' C', ' A']","[0.07292399, 0.22856476, 0.29644916, 0.28743946, 0.11462262, 0.0099980676811766]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ8_a_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Increasing the federal minimum wage
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' D', ' D', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' D', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' D', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' D', ' A', ' A', ' A', ' B']","[0.52492766, 0.27212046, 0.14870017, 0.05425171, 0.0009839288764129]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON4_a_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does the availability of jobs in your area affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' C', ' D', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' D', ' D', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' B', ' D', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' E', ' B', ' A', ' D', ' B', ' C', ' A', ' A', ' A', ' B', ' D', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' D', ' C', ' A', ' D', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' D', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' D', ' A', ' A', ' B', ' D', ' A', ' A', ' D', ' C']","[0.37143372, 0.2809026, 0.2090325, 0.13863118, 0.0032500900273322]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON3_d_W54,"Question: How much, if at all, do you think the cost of health care is contributing to your opinion about how the economy is doing?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' D', ' A', ' D', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' D', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' D', ' D', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' D', ' D', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' D', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' C']","[0.4865147, 0.2697584, 0.1579894, 0.0857375, 0.0055142422169276]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON5_g_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are white?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' E', ' D', ' A', ' C', ' D', ' A', ' E', ' B', ' D', ' B', ' B', ' D', ' C', ' A', ' F', ' E', ' C', ' E', ' A', ' E', ' A', ' B', ' D', ' A', ' A', ' F', ' B', ' B', ' B', ' A', ' D', ' C', ' A', ' E', ' E', ' E', ' E', ' C', ' A', ' E', ' E', ' A', ' C', ' B', ' B', ' A', ' E', ' C', ' E', ' E', ' D', ' D', ' E', ' E', ' E', ' E', ' B', ' C', ' C', ' A', ' E', ' B', ' C', ' C', ' E', ' B', ' E', ' B', ' F', ' B', ' D', ' C', ' A', ' B', ' E', ' C', ' E', ' A', ' E', ' D', ' A', ' B', ' E', ' E', ' C', ' C', ' B', ' C', ' C', ' E', ' B', ' E', ' B', ' D', ' B', ' C', ' A', ' E']","[0.19047885, 0.21732267, 0.17817062, 0.1330837, 0.28094416, 0.0206519794030514]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+ECON5_e_W54,"Question: Do you think the country's current economic conditions are helping or hurting older adults?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' E', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' F', ' B', ' D', ' C', ' D', ' B', ' D', ' E', ' D', ' C', ' D', ' E', ' C', ' D', ' D', ' D', ' A', ' C', ' D', ' C', ' D', ' E', ' D', ' B', ' D', ' A', ' D', ' D', ' B', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' E', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' E', ' C', ' D', ' B', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' A', ' C', ' B', ' A', ' D', ' C', ' E', ' D', ' D', ' B', ' C', ' C', ' E', ' D', ' C', ' C', ' D', ' C', ' D', ' B', ' D', ' E', ' A', ' D', ' C', ' D', ' C', ' B', ' B', ' C', ' B', ' A']","[0.0724197, 0.15310216, 0.25988863, 0.42564955, 0.08893996, 0.0144397301430696]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ8_c_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Increasing taxes on the wealthiest Americans
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' D', ' B', ' B', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' D', ' A', ' B', ' B', ' B', ' C']","[0.56796152, 0.23213701, 0.13191275, 0.06798872, 0.0006681038692788]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON4_b_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does how the stock market is doing affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' D', ' A', ' C', ' C', ' A', ' D', ' D', ' C', ' C', ' C', ' D', ' E', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' D', ' C', ' D', ' D', ' B', ' B', ' A', ' B', ' C', ' B', ' D', ' C', ' A', ' C', ' B', ' D', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' A', ' D', ' C', ' B', ' C', ' D', ' C', ' D', ' C', ' B', ' D', ' D', ' D', ' A', ' D', ' D', ' C', ' B', ' A', ' D', ' C', ' C', ' C', ' D', ' D', ' B', ' D', ' B', ' C', ' D', ' C', ' D', ' B', ' C', ' B', ' D', ' B', ' C', ' C', ' B', ' D']","[0.14482323, 0.21294138, 0.33734712, 0.30488826, 0.0115146241786232]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+FIN_SIT_W54,"Question: How would you describe your household's financial situation?
+A. Live comfortably
+B. Meet your basic expenses with a little left over for extras
+C. Just meet your basic expenses
+D. Don't even have enough to meet basic expenses
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' D', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' D', ' D', ' C', ' C', ' B', ' D', ' D', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' D', ' D', ' A', ' C', ' C', ' C', ' D', ' B', ' D', ' B', ' C', ' B', ' D', ' B', ' D', ' A', ' D', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' D', ' A', ' D', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C']","[0.07980054, 0.30954747, 0.40990351, 0.20074848, 0.0001991997861545]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+INEQ5_h_W54,"Question: How much, if at all, do you think the different life choices people make contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' D', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' D', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' C']","[0.34374055, 0.37608283, 0.21114477, 0.06903184, 0.0104802213665844]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+INEQ4_a_W54,"Question: How much responsibility, if any, should the federal government have in reducing economic inequality in our country?
+A. A lot
+B. Some
+C. Only a little
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.70150528, 0.25159428, 0.04690043, 0.0, 0.0018246817748637]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+INEQ5_m_W54,"Question: How much, if at all, do you think the growing number of legal immigrants working in the U.S. contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' A', ' C', ' E', ' A', ' B', ' B', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' D', ' B', ' B', ' C', ' D', ' A', ' A', ' A', ' A', ' D', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' D', ' D', ' A', ' D', ' C', ' B', ' E', ' A', ' E', ' B', ' A', ' C', ' A', ' D', ' B', ' A', ' D', ' B', ' B', ' D', ' A', ' D', ' B', ' C', ' A', ' B', ' D', ' C', ' A', ' C', ' B', ' D', ' A', ' B', ' D', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' D', ' D', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B']","[0.29970332, 0.29240965, 0.25940837, 0.14847866, 0.0133157474075091]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON4_e_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does real estate values in your area affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' D', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' D', ' D', ' B', ' C', ' D', ' D', ' A', ' A', ' A', ' B', ' D', ' D', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' E', ' C', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' D', ' C', ' B', ' C', ' C', ' A', ' E', ' C', ' B', ' D', ' A', ' D', ' A', ' A', ' D', ' D', ' A', ' B', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' D', ' C', ' C']","[0.3008662, 0.27943477, 0.25646756, 0.16323147, 0.0075549379583967]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+INEQ5_k_W54,"Question: How much, if at all, do you think discrimination against racial and ethnic minorities contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' D', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' C', ' B', ' B', ' B', ' B', ' E', ' D', ' C', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' D', ' C', ' D', ' B', ' B', ' B', ' D', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' D', ' D', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' B']","[0.38397129, 0.328251, 0.19590438, 0.09187333, 0.0158562484899237]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON5_f_W54,"Question: Do you think the country's current economic conditions are helping or hurting young adults?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' D', ' D', ' A', ' D', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' E', ' B', ' B', ' C', ' A', ' E', ' A', ' C', ' A', ' D', ' C', ' D', ' C', ' C', ' A', ' D', ' C', ' C', ' D', ' C', ' B', ' D', ' B', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' A', ' B', ' B', ' C', ' D', ' C', ' D', ' D', ' A', ' C', ' D', ' A', ' D', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' B', ' C', ' B', ' D', ' F', ' E', ' C', ' F', ' C', ' D', ' C', ' A', ' C', ' D', ' D', ' C', ' B', ' C', ' C', ' C', ' B', ' D', ' E', ' C', ' E', ' C', ' E', ' B', ' D', ' D', ' C', ' C', ' B', ' C', ' C', ' D']","[0.09410764, 0.16321772, 0.30994037, 0.34836461, 0.08436965, 0.0215370199209368]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+WORRY2b_W54,"Question: How often, if ever, do you worry about losing your job?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' A', ' E', ' C', ' A', ' E', ' A', ' D', ' A', ' C', ' B', ' A', ' A', ' E', ' B', ' C', ' B', ' E', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' E', ' B', ' C', ' A', ' D', ' D', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' C', ' A', ' E', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' D', ' C', ' C', ' A', ' B', ' D', ' A', ' A', ' B', ' C', ' C', ' E', ' C', ' E', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' E', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' E', ' D', ' C', ' C', ' A', ' B', ' D', ' C']","[0.23335166, 0.14250381, 0.29911977, 0.17621354, 0.14881123, 0.0080351726934058]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 5.0]"
+ECON5_b_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are wealthy?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' A', ' A', ' E', ' E', ' B', ' A', ' A', ' B', ' A', ' A', ' E', ' E', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' E', ' D', ' E', ' A', ' C', ' A', ' A', ' A', ' D', ' A', ' E', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' D', ' A', ' E', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' E', ' E', ' E', ' E', ' A', ' E', ' C', ' B', ' A', ' D', ' A', ' B', ' D', ' E', ' C', ' A', ' E', ' E', ' A', ' E', ' D', ' A', ' A', ' E', ' A', ' B', ' B', ' A', ' A', ' E', ' E', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' F', ' A', ' A', ' E', ' A', ' C', ' E']","[0.4894792, 0.13452383, 0.08304397, 0.07242969, 0.22052331, 0.0046669080806111]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ1_W54,"Question: Thinking about the level of economic inequality in the country these days, would you say there is
+A. Too much economic inequality
+B. Too little economic inequality
+C. About the right amount of economic inequality
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' D', ' A', ' C', ' A', ' A', ' A', ' D', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' A']","[0.58574192, 0.24286437, 0.17139371, 0.0272377921914732]",INCOME,"Less than $30,000","[1.0, 2.0, 1.5]"
+ECON1_W54,"Question: Thinking about the nation's economy, how would you rate economic conditions in this country today?
+A. Excellent
+B. Good
+C. Only fair
+D. Poor
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' A', ' C', ' C', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' D', ' C', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' D', ' C', ' C', ' C', ' E', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' D', ' A', ' D', ' D', ' C', ' D', ' B', ' B', ' D', ' B', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' C', ' B', ' C', ' D', ' B']","[0.05324526, 0.34721778, 0.43271128, 0.16682568, 0.0014822628468187]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+ECON5_d_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are poor?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' B', ' D', ' E', ' B', ' B', ' D', ' D', ' B', ' D', ' A', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' D', ' E', ' D', ' D', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' E', ' B', ' B', ' D', ' A', ' D', ' B', ' D', ' E', ' D', ' D', ' B', ' B', ' D', ' D', ' D', ' E', ' C', ' B', ' B', ' B', ' D', ' D', ' A', ' C', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' F', ' D', ' E', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' B', ' E', ' D', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' C', ' C', ' D', ' D', ' D']","[0.06895011, 0.12659638, 0.10875946, 0.62171067, 0.07398338, 0.0106191229263272]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ11_W54,"Question: In order to address economic inequality in this country, do you think the government
+A. Should raise taxes on people like you
+B. Should not raise taxes on people like you
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B']","[0.05923106, 0.94076894, 0.0201295534338712]",INCOME,"Less than $30,000","[1.0, 2.0]"
+ECON5_h_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are black?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' E', ' B', ' B', ' C', ' B', ' D', ' E', ' D', ' D', ' E', ' E', ' D', ' B', ' C', ' E', ' D', ' C', ' D', ' C', ' B', ' D', ' A', ' C', ' F', ' D', ' D', ' E', ' A', ' E', ' B', ' C', ' A', ' D', ' B', ' E', ' D', ' F', ' D', ' E', ' F', ' B', ' B', ' C', ' A', ' C', ' D', ' C', ' E', ' A', ' D', ' E', ' D', ' D', ' E', ' E', ' D', ' E', ' C', ' C', ' E', ' A', ' E', ' E', ' C', ' E', ' A', ' A', ' B', ' D', ' D', ' D', ' D', ' D', ' B', ' B', ' D', ' D', ' D', ' E', ' E', ' E', ' E', ' E', ' C', ' D', ' E', ' A', ' B', ' C', ' D', ' D', ' E', ' D', ' B', ' A', ' E', ' E', ' D']","[0.11239911, 0.14805147, 0.22652789, 0.33657223, 0.17644931, 0.0210332480254422]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ5_i_W54,"Question: How much, if at all, do you think some people starting out with more opportunities than others contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' D', ' C', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' D', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' E', ' C', ' B', ' D', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C']","[0.43222614, 0.3700028, 0.15038466, 0.0473864, 0.0044182663751834]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0]"
+WORRY2d_W54,"Question: How often, if ever, do you worry about the cost of health care for you and your family?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' D', ' D', ' B', ' A', ' B', ' B', ' B', ' E', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' D', ' B', ' C', ' C', ' A', ' A', ' D', ' C', ' A', ' B', ' C', ' C', ' C', ' D', ' A', ' B', ' A', ' A', ' E', ' E', ' D', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' D', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' D', ' C', ' C', ' E', ' E', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' D', ' C', ' D', ' E', ' B', ' C', ' D', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' A', ' D', ' B', ' A', ' A', ' D', ' C', ' C', ' C', ' A']","[0.37569935, 0.18722005, 0.29722286, 0.08145355, 0.0584042, 0.0048543332304767]",INCOME,"Less than $30,000","[1.0, 2.0, 3.0, 4.0, 5.0]"

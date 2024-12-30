@@ -1,0 +1,213 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+UNIMMIGCOMM_W92,"Question: When it comes to people who have immigrated to the U.S illegally, do you think they generally make the communities they live in
+A. A lot better
+B. A little better
+C. A little worse
+D. A lot worse
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' C', ' C', ' C', ' C', ' B', ' A', ' A', ' C', ' D', ' A', ' B', ' C', ' B', ' D', ' C', ' B', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' C', ' B', ' D', ' A', ' D', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' D', ' B', ' B', ' D', ' A', ' E', ' C', ' E', ' B', ' D', ' D', ' A', ' B', ' D', ' D', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' D', ' B', ' B', ' B', ' A', ' C', ' B', ' E', ' B', ' C', ' C', ' E', ' B', ' B', ' C', ' D', ' C', ' C', ' B', ' B', ' D', ' C', ' D']","[0.11813393, 0.40383177, 0.32371047, 0.15432382, 0.0390036806753574]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+USEXCEPT_W92,"Question: Which of these statements best describes your opinion about the United States?
+A. The U.S. stands above all other countries in the world
+B. The U.S. is one of the greatest countries in the world, along with some others
+C. There are other countries that are better than the U.S.
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B']","[0.20713583, 0.54502715, 0.24783702, 0.0034899893273567]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+REPRSNTREP_W92,"Question: How well does the Republican party represent the interests of people like you?
+A. Very well
+B. Somewhat well
+C. Not too well
+D. Not at all well
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' D', ' C', ' C', ' D', ' D', ' C', ' B', ' B', ' C', ' D', ' C', ' B', ' B', ' D', ' B', ' B', ' D', ' D', ' C', ' D', ' B', ' D', ' B', ' D', ' B', ' B', ' D', ' D', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' D', ' A', ' D', ' D', ' D', ' A', ' D', ' B', ' D', ' C', ' A', ' C', ' C', ' B', ' D', ' D', ' B', ' B', ' B', ' B', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' D', ' D', ' B', ' C', ' D', ' C', ' D', ' D', ' C', ' B', ' B', ' D', ' A', ' D', ' D', ' B', ' C', ' D', ' A', ' B', ' B', ' B', ' D', ' A', ' C', ' B', ' D']","[0.06514736, 0.3490158, 0.2726699, 0.31316694, 0.0109858829590971]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+ELECT_CONF3_PRVFR_W92,"Question: Still thinking about elections in the country, how confident, if at all, are you that people who are not legally qualified to vote are prevented from casting a ballot
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' C', ' A', ' E', ' D', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' D', ' D', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' D', ' C', ' C', ' E', ' D', ' B', ' D', ' C', ' C', ' A', ' B', ' D', ' D', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' D', ' B', ' C', ' B', ' B', ' D', ' B', ' C', ' B', ' A', ' A', ' D', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' D', ' A', ' C', ' A', ' D', ' B', ' B', ' D', ' D', ' C', ' C', ' A', ' B', ' D', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' D']","[0.26274554, 0.33551051, 0.22991598, 0.17182798, 0.0080857777379068]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+BILLION_W92,"Question: Do you think the fact that there are some people in this country who have personal fortunes of a billion dollars or more is
+A. A good thing for the country
+B. A bad thing for the country
+C. Neither a good thing or a bad thing
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' A', ' C', ' C', ' C', ' D', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' D', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' D', ' C', ' C']","[0.15000039, 0.3133129, 0.53668671, 0.0103200044291229]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+WHADVANT_W92,"Question: In general, how much do White people benefit from advantages in society that Black people do not have?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' C', ' D', ' D', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' D', ' C', ' B', ' C', ' D', ' A', ' A', ' C', ' A', ' B', ' D', ' A', ' B', ' B', ' A', ' B', ' A', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' D', ' B', ' B', ' B', ' D', ' A', ' A', ' A', ' C', ' A', ' E', ' A', ' A', ' C', ' A', ' D', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' D', ' C', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' B', ' D', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' D']","[0.32490863, 0.28564356, 0.25093254, 0.13851527, 0.0105818349156859]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_SSM_W92,"Question: Do you think same-sex marriages being legal in the U.S. is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' E', ' B', ' A', ' D', ' C', ' E', ' A', ' A', ' C', ' A', ' A', ' D', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' E', ' A', ' E', ' E', ' E', ' D', ' C', ' C', ' A', ' A', ' E', ' E', ' A', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' D', ' E', ' A', ' B', ' C', ' D', ' A', ' C', ' C', ' C', ' D', ' E', ' E', ' D', ' C', ' A', ' E', ' A', ' C', ' D', ' D', ' C', ' C', ' A', ' B', ' D', ' C', ' A', ' D', ' D', ' D', ' E', ' C', ' B', ' C', ' C', ' E', ' A', ' A', ' E', ' B', ' D', ' C', ' E', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' B', ' E', ' C', ' C', ' E', ' C', ' C']","[0.3181699, 0.12120478, 0.29438507, 0.10723327, 0.15900698, 0.0076539342508278]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+FREECOLL_W92,"Question: Would you favor or oppose making tuition at public colleges and universities free for all American students?
+A. Strongly favor
+B. Somewhat favor
+C. Somewhat oppose
+D. Strongly oppose
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' C', ' A', ' B', ' D', ' B', ' A', ' B', ' C', ' B', ' A', ' D', ' B', ' B', ' C', ' C', ' D', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' D', ' A', ' D', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' D', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' D', ' A', ' A', ' D', ' B', ' D', ' D', ' A', ' D', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' D', ' B', ' B', ' D', ' C', ' D', ' A', ' D', ' A', ' A', ' D', ' D', ' B', ' D', ' C', ' D', ' A', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' B', ' B', ' B', ' D', ' D', ' D', ' C', ' A']","[0.29192414, 0.27343836, 0.17537588, 0.25926162, 0.001681520452442]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+USMILSIZ_W92,"Question: Thinking about the size of America's military, do you think it should be
+A. Reduced a great deal
+B. Reduced somewhat
+C. Kept about as is
+D. Increased somewhat
+E. Increased a great deal
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' A', ' D', ' E', ' B', ' D', ' C', ' D', ' B', ' B', ' D', ' B', ' B', ' C', ' A', ' D', ' D', ' E', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' E', ' A', ' C', ' B', ' C', ' C', ' E', ' D', ' D', ' C', ' A', ' C', ' C', ' D', ' B', ' C', ' B', ' D', ' A', ' C', ' D', ' B', ' C', ' E', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' D', ' A', ' D', ' B', ' B', ' D', ' D', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' F', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' A']","[0.0903494, 0.16427769, 0.45383125, 0.21990698, 0.07163467, 0.013744613156676]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV52MOD_W92,"Question: How much, if at all, would it bother you to regularly hear people speak a language other than English in public places in your community?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' D', ' B', ' A', ' D', ' C', ' D', ' B', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' D', ' C', ' A', ' B', ' D', ' D', ' C', ' C', ' B', ' B', ' D', ' D', ' C', ' B', ' D', ' B', ' D', ' D', ' B', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' A', ' C', ' D', ' D', ' D', ' B', ' D', ' A', ' A', ' D', ' D', ' C', ' C', ' B', ' B', ' C', ' D', ' D', ' B', ' D', ' D', ' C', ' D', ' A', ' C', ' B', ' C', ' D', ' A', ' C', ' D', ' C', ' B', ' D', ' A', ' D', ' C', ' D', ' C', ' B', ' C', ' C', ' D', ' B', ' C', ' D', ' D', ' B', ' D', ' B']","[0.10975187, 0.19421604, 0.29969515, 0.39633694, 0.0016593444859064]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+GODMORALIMP_W92,"Question: Regardless of your own religious beliefs, how important, if at all, do you think it is for a person to believe in God in order to be considered good and moral?
+A. Essential
+B. Important, but not essential
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' B', ' A', ' B', ' A', ' C', ' D', ' C', ' A', ' A', ' A', ' D', ' D', ' B', ' C', ' C', ' A', ' B', ' D', ' A', ' B', ' E', ' B', ' B', ' A', ' B', ' B', ' D', ' A', ' B', ' D', ' D', ' D', ' D', ' D', ' C', ' A', ' A', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' D', ' C', ' B', ' D', ' B', ' D', ' B', ' B', ' B', ' A', ' B', ' C', ' D', ' C', ' D', ' B', ' A', ' C', ' C', ' A', ' B', ' D', ' C', ' B', ' B', ' D', ' B', ' D', ' D', ' B', ' D', ' B', ' B', ' E', ' B', ' A', ' A', ' D', ' A', ' A', ' B', ' C', ' D', ' B', ' B', ' B', ' D', ' C']","[0.13545113, 0.35046359, 0.16036427, 0.35372101, 0.0152659600045581]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+ELECT_IMPT3_PRVFR_W92,"Question: Thinking about elections in the country, how important, if at all, is people who are not legally qualified to vote are prevented from casting a ballot?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' D', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' D', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' D', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A']","[0.59622848, 0.22874676, 0.11820991, 0.05681485, 0.0066686837291253]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+REPRSNTDEM_W92,"Question: How well does the Democratic party represent the interests of people like you?
+A. Very well
+B. Somewhat well
+C. Not too well
+D. Not at all well
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' D', ' A', ' B', ' B', ' A', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' D', ' D', ' B', ' D', ' D', ' D', ' C', ' B', ' D', ' C', ' B', ' A', ' D', ' D', ' B', ' D', ' B', ' B', ' C', ' B', ' C', ' B', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' D', ' A', ' B', ' C', ' B', ' B', ' D', ' D', ' B', ' D', ' A', ' C', ' C', ' C', ' B', ' D', ' C', ' B', ' D', ' D', ' B', ' B', ' A', ' D']","[0.07364285, 0.40392793, 0.24196836, 0.28046087, 0.0147678408206998]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_RELG_W92,"Question: Do you think a decline in the share of Americans belonging to an organized religion is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' E', ' C', ' C', ' B', ' B', ' B', ' D', ' D', ' E', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' E', ' E', ' A', ' C', ' E', ' E', ' D', ' C', ' B', ' C', ' E', ' E', ' D', ' E', ' C', ' D', ' C', ' C', ' E', ' E', ' C', ' B', ' E', ' C', ' C', ' C', ' A', ' B', ' E', ' C', ' A', ' A', ' C', ' C', ' C', ' D', ' C', ' D', ' E', ' E', ' E', ' D', ' C', ' E', ' A', ' C', ' B', ' C', ' C', ' E', ' A', ' C', ' C', ' D', ' C', ' B', ' B', ' A', ' E', ' C', ' A', ' C', ' E', ' E', ' E', ' E', ' C', ' D', ' D', ' C', ' A', ' A', ' E', ' B', ' C', ' C', ' B', ' D', ' D', ' C', ' E']","[0.11709129, 0.10506328, 0.34466521, 0.23569621, 0.19748401, 0.0075514813580798]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+ELECT_CONF3_PRVSUP_W92,"Question: Still thinking about elections in the country, how confident, if at all, are you that people who are legally qualified and want to vote are able to cast a ballot
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' C', ' D', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A']","[0.38790838, 0.36856743, 0.1960785, 0.04744569, 0.0077273205137695]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+CANDEXP_W92,"Question: How important is it, if at all, that candidates running for high levels of political office have prior government experience?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' A', ' B', ' A', ' A', ' C', ' B', ' D', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' B', ' C', ' D', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' D', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' D', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' D', ' B', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' D', ' B', ' B', ' C', ' D', ' D', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' D', ' A', ' C', ' B']","[0.23121669, 0.42063196, 0.24348444, 0.10466692, 0.0063423997350024]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_GUNS_W92,"Question: Do you think an increase in the number of guns in the U.S. is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' D', ' E', ' E', ' E', ' C', ' E', ' C', ' C', ' E', ' C', ' E', ' D', ' E', ' C', ' A', ' E', ' E', ' E', ' D', ' E', ' C', ' E', ' C', ' C', ' B', ' E', ' E', ' D', ' B', ' C', ' D', ' D', ' D', ' E', ' E', ' B', ' E', ' E', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' B', ' E', ' C', ' E', ' E', ' D', ' E', ' C', ' B', ' E', ' D', ' D', ' D', ' B', ' D', ' E', ' E', ' D', ' E', ' E', ' E', ' D', ' D', ' C', ' E', ' E', ' C', ' E', ' E', ' E', ' D', ' C', ' E', ' E', ' D', ' E', ' B', ' A', ' E', ' C', ' A', ' E', ' E', ' C', ' B', ' E', ' D', ' D', ' C', ' E', ' D']","[0.07121998, 0.1131124, 0.24599731, 0.19157902, 0.37809129, 0.0047656622605161]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SOCIETY_RHIST_W92,"Question: Do you think increased public attention to the history of slavery and racism in America is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' B', ' A', ' C', ' C', ' A', ' D', ' E', ' C', ' C', ' B', ' D', ' C', ' A', ' C', ' A', ' D', ' A', ' E', ' D', ' B', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' D', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' D', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' E', ' B', ' C', ' C', ' C', ' C', ' B', ' D', ' A', ' B', ' A', ' C', ' A', ' A', ' E', ' A', ' E', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' D', ' E', ' A', ' E', ' D', ' A', ' A', ' D', ' D', ' A', ' B', ' B', ' A', ' A', ' A', ' E', ' E', ' B', ' C', ' C']","[0.33375966, 0.25539744, 0.17996986, 0.12963553, 0.1012375, 0.0059527223766406]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+SOCIETY_TRANS_W92,"Question: Do you think greater social acceptance of people who are transgender (people who identify as a gender that is different from the sex they were assigned at birth) is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' D', ' A', ' C', ' B', ' A', ' A', ' E', ' A', ' C', ' D', ' A', ' B', ' E', ' D', ' E', ' C', ' A', ' E', ' B', ' E', ' E', ' C', ' C', ' C', ' B', ' D', ' D', ' B', ' C', ' D', ' D', ' E', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' E', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' E', ' C', ' D', ' A', ' E', ' E', ' C', ' A', ' A', ' A', ' D', ' D', ' E', ' C', ' E', ' A', ' E', ' B', ' A', ' B', ' A', ' C', ' C', ' D', ' A', ' A', ' D', ' B', ' B', ' D', ' C', ' A', ' D', ' D', ' B', ' B', ' D', ' E', ' A', ' C', ' D', ' C', ' E', ' C', ' A', ' D', ' C', ' C', ' A', ' E', ' C']","[0.287246, 0.17831796, 0.23442969, 0.13669468, 0.16331167, 0.0082538816504823]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+POLINTOL2_a_W92,"Question: In general, how comfortable do you think Republicans in this country are to freely and openly express their political views?
+A. Very comfortable
+B. Somewhat comfortable
+C. Not too comfortable
+D. Not at all comfortable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' D', ' A', ' D', ' C', ' A', ' C', ' C', ' D', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' D', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' C', ' A', ' D', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' D', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' D', ' D', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' C']","[0.36811072, 0.28604183, 0.22256627, 0.12328118, 0.0077285494925322]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+SOCIETY_WHT_W92,"Question: Do you think white people declining as a share of the U.S. population is generally good or bad for our society?
+A. Very good for society
+B. Somewhat good for society
+C. Neither good nor bad for society
+D. Somewhat bad for society
+E. Very bad for society
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' D', ' A', ' D', ' C', ' A', ' C', ' C', ' C', ' E', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' A', ' C', ' C', ' E', ' C', ' D', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' E', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' E']","[0.07562287, 0.08653444, 0.66529013, 0.11158453, 0.06096803, 0.0079136914546836]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+PROG_RNEED_W92,"Question: How much more, if anything, needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?
+A. A lot
+B. A little
+C. Nothing at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B']","[0.51381293, 0.34142926, 0.14475781, 0.0039630924939981]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+LEGALIMMIGAMT_W92,"Question: Do you think the number of legal immigrants the U.S. admits should
+A. Increase a lot
+B. Increase a little
+C. Stay about the same
+D. Decrease a little
+E. Decrease a lot
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' D', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' F', ' E', ' B', ' B', ' C', ' C', ' D', ' A', ' C', ' B', ' B', ' A', ' D', ' D', ' D', ' C', ' E', ' C', ' E', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' D', ' B', ' A', ' D', ' B', ' C', ' B', ' B', ' E', ' F', ' B', ' E', ' B', ' A', ' D', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' D', ' B', ' B', ' C', ' B', ' E', ' C', ' C', ' C', ' E', ' E', ' B', ' C', ' C', ' C', ' D', ' C', ' B', ' E', ' A', ' D', ' B', ' D', ' C', ' B', ' E', ' E', ' C', ' C', ' B', ' B', ' C', ' B']","[0.14287199, 0.21817703, 0.43091885, 0.11824654, 0.08978559, 0.0177133060358971]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0]"

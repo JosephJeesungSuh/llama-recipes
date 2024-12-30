@@ -1,0 +1,461 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+WORRY2c_W54,"Question: How often, if ever, do you worry about paying your bills?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' E', ' C', ' A', ' A', ' B', ' E', ' E', ' C', ' C', ' D', ' B', ' C', ' A', ' A', ' C', ' C', ' D', ' A', ' C', ' D', ' E', ' C', ' C', ' E', ' C', ' E', ' B', ' C', ' D', ' C', ' E', ' D', ' B', ' B', ' B', ' C', ' B', ' D', ' B', ' E', ' A', ' C', ' A', ' E', ' E', ' C', ' B', ' C', ' C', ' C', ' E', ' D', ' E', ' E', ' E', ' C', ' A', ' A', ' D', ' C', ' E', ' C', ' D', ' E', ' E', ' B', ' B', ' C', ' B', ' E', ' A', ' D', ' C', ' D', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' D', ' E', ' A', ' E', ' D', ' C', ' E', ' D', ' C', ' B', ' B', ' E', ' B', ' C', ' C', ' D', ' D']","[0.10817068, 0.18523439, 0.29702213, 0.20442154, 0.20515127, 0.0071817710490651]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+INEQ5_l_W54,"Question: How much, if at all, do you think the growing number of illegal immigrants working in the U.S. contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' D', ' C', ' D', ' A', ' D', ' D', ' D', ' C', ' C', ' A', ' D', ' C', ' C', ' C', ' B', ' D', ' D', ' C', ' C', ' D', ' A', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' C', ' B', ' B', ' D', ' A', ' D', ' A', ' C', ' A', ' E', ' D', ' E', ' D', ' D', ' E', ' C', ' D', ' B', ' C', ' D', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' C', ' C', ' D', ' C', ' C', ' A', ' D', ' B', ' E', ' C', ' C', ' A', ' C', ' D', ' C', ' C', ' A', ' D', ' C', ' D', ' D', ' D', ' C', ' D']","[0.18007885, 0.12626016, 0.32342251, 0.37023848, 0.0111916741953761]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+INEQ8_h_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Reducing illegal immigration
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' B', ' C', ' A', ' D', ' C', ' B', ' D', ' B', ' A', ' D', ' C', ' C', ' A', ' B', ' C', ' A', ' D', ' C', ' C', ' D', ' C', ' B', ' D', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' D', ' D', ' C', ' A', ' C', ' B', ' D', ' B', ' C', ' B', ' C', ' D', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' B', ' D', ' A', ' D', ' A', ' C', ' C', ' A', ' D', ' C', ' B', ' C', ' C', ' A', ' D', ' C', ' B', ' D', ' C', ' D', ' C', ' A', ' C', ' C', ' D', ' A', ' D', ' C', ' C', ' C', ' C', ' A', ' B', ' D', ' D', ' A', ' D', ' C', ' D']","[0.17253615, 0.17402125, 0.40828878, 0.24515383, 0.0047807574273053]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYf_W54,"Question: How much of a priority should the following be for the federal government to address: Reducing gun violence
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A']","[0.7032581, 0.18899694, 0.04742272, 0.06032225, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_e_W54,"Question: How much, if at all, do you think not enough regulation of major corporations contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' A', ' D', ' B', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' D', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' D', ' A', ' C', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' D', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' D', ' C', ' B', ' C', ' C', ' A', ' B', ' D', ' C', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' A']","[0.49509686, 0.25456067, 0.18423442, 0.06610804, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+INEQ8_i_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Expanding government benefits for the poor
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' D', ' C', ' A', ' D', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' D', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' D', ' D', ' B', ' C', ' A', ' D', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C']","[0.31220344, 0.28551881, 0.26200591, 0.14027184, 0.0047807574273053]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECIMPg_W54,"Question: How much power and influence do you think people who are wealthy have on today's economy?
+A. Too much power and influence
+B. Not enough power and influence
+C. About the right amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.7729176, 0.01283265, 0.21424975, 0.0]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+ECON4_g_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does the federal budget deficit affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' D', ' C', ' C', ' D', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' D', ' B', ' C', ' C', ' D', ' C', ' A', ' C', ' C', ' C', ' B', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' E', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' D', ' C', ' D', ' A', ' C', ' E', ' B', ' B', ' D', ' A', ' C', ' C', ' E', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' D', ' A', ' D', ' C', ' B', ' A', ' D']","[0.0800266, 0.22779482, 0.52286124, 0.16931735, 0.0111916741953761]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_f_W54,"Question: How much, if at all, do you think some people work harder than others contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' C', ' A', ' D', ' A', ' D', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' D', ' E', ' A', ' A', ' C', ' B', ' A', ' C', ' D', ' E', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' D', ' D', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' B', ' B']","[0.33965012, 0.23766478, 0.28466827, 0.13801683, 0.0097512299254536]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_i_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are Hispanic?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' D', ' B', ' E', ' C', ' B', ' C', ' E', ' B', ' C', ' C', ' D', ' D', ' C', ' E', ' E', ' D', ' D', ' D', ' B', ' E', ' B', ' E', ' E', ' E', ' E', ' D', ' D', ' E', ' C', ' E', ' C', ' C', ' E', ' C', ' D', ' D', ' E', ' B', ' D', ' A', ' D', ' A', ' D', ' E', ' E', ' C', ' D', ' D', ' D', ' C', ' A', ' E', ' A', ' D', ' D', ' D', ' E', ' E', ' A', ' E', ' E', ' A', ' D', ' D', ' D', ' C', ' C', ' D', ' B', ' C', ' B', ' C', ' E', ' D', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' D', ' D', ' D', ' C', ' A', ' B', ' E', ' C', ' C', ' A', ' C', ' C', ' D', ' C', ' A']","[0.10358759, 0.19199707, 0.21411965, 0.26628236, 0.22401332, 0.0091353453325659]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ5_d_W54,"Question: How much, if at all, do you think too much regulation of major corporations contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' C', ' D', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' E', ' C', ' D', ' D', ' C', ' D', ' B', ' C', ' B', ' D', ' B', ' D', ' A', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' B', ' A', ' C', ' B', ' D', ' D', ' D', ' C', ' A', ' C', ' E', ' C', ' C', ' C', ' E', ' C', ' C', ' C', ' B', ' D', ' C', ' B', ' B', ' D', ' B', ' D', ' C']","[0.04532709, 0.13700101, 0.40039403, 0.41727786, 0.0107653039077472]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYb_W54,"Question: How much of a priority should the following be for the federal government to address: Reducing illegal immigration
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' B', ' D', ' A', ' C', ' B', ' B', ' D', ' D', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' D', ' C', ' C', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' D', ' D', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' D', ' A', ' D', ' D', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' A', ' B', ' A', ' D', ' B', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' D', ' B']","[0.2708166, 0.31776834, 0.28575845, 0.12565662, 0.0026755430659529]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYc_W54,"Question: How much of a priority should the following be for the federal government to address: Reducing economic inequality
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' A', ' C', ' A', ' A', ' D', ' B', ' A', ' B', ' A', ' B', ' E', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' D', ' D', ' A', ' B', ' D', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' D', ' B', ' D', ' A', ' B', ' A', ' D', ' A', ' A', ' A', ' D', ' D', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' A']","[0.38983978, 0.38057972, 0.09180703, 0.13777348, 0.0105383513852759]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_a_W54,"Question: How much, if at all, do you think the outsourcing of jobs to other countries contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C']","[0.43046223, 0.32505075, 0.21555398, 0.02893304, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+INEQ8_d_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Expanding Medicare so that it covers Americans of all ages
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' D', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' D', ' A', ' C', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' C', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' D', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' A', ' A', ' A', ' A']","[0.619641, 0.12452339, 0.13490403, 0.12093158, 0.0186609377600694]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON4_f_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does gas prices affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' B', ' B', ' D', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' D', ' C', ' B', ' D', ' C', ' C', ' D', ' A', ' C', ' A', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' B', ' D', ' D', ' C', ' C', ' D', ' C', ' A', ' C', ' C', ' C', ' B', ' D', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' A', ' D', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' A', ' B', ' C', ' D', ' B', ' C', ' B', ' D', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' A', ' B', ' C', ' C', ' B', ' C']","[0.12162273, 0.29099925, 0.45935856, 0.12801946, 0.0047807574273053]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_k_W54,"Question: Do you think the country's current economic conditions are helping or hurting people with college degrees?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' B', ' B', ' A', ' B', ' E', ' E', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' E', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' C', ' F', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' A', ' C', ' A', ' B', ' C', ' D', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' E', ' A', ' B', ' B', ' B', ' F', ' B', ' B', ' A', ' A', ' B', ' B', ' E', ' D', ' A', ' C', ' A', ' E', ' B', ' B', ' A', ' E', ' B', ' B', ' A', ' B', ' B', ' C', ' B']","[0.22445078, 0.43766216, 0.1913951, 0.01742696, 0.12906501, 0.0154803216809713]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+JOBTRAIN_W54,"Question: Looking ahead, how important do you think it will be for you to get training and develop new skills throughout your work life in order to keep up with changes in the workplace?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' D', ' B', ' A', ' A', ' A']","[0.36163493, 0.26479794, 0.37356713, 0.0149314869672856]",RELIG,Jewish,"[1.0, 2.0, 3.0]"
+INEQ8_f_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Making college tuition free at public two-year colleges
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' B', ' C', ' D', ' C', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' C']","[0.37346171, 0.42480987, 0.15053138, 0.05119705, 0.0047807574273053]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+WORRY2a_W54,"Question: How often, if ever, do you worry about the amount of debt you have?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' E', ' E', ' B', ' C', ' B', ' D', ' C', ' C', ' E', ' A', ' C', ' D', ' E', ' E', ' E', ' C', ' D', ' C', ' C', ' C', ' E', ' D', ' C', ' D', ' C', ' E', ' E', ' C', ' A', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' D', ' D', ' D', ' E', ' A', ' D', ' A', ' C', ' C', ' D', ' D', ' E', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' D', ' A', ' A', ' A', ' E', ' E', ' C', ' E', ' B', ' D', ' D', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' C', ' D', ' C', ' C', ' C', ' E', ' A', ' D', ' C', ' D', ' C', ' D', ' E', ' C', ' B', ' E', ' B', ' D', ' E', ' D', ' D', ' D', ' B']","[0.11832939, 0.14318791, 0.26974458, 0.21095832, 0.25777981, 0.0035878590717122]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+INEQ8_b_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Making college tuition free at both public two-year and four-year colleges
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' E', ' B', ' B', ' A', ' B', ' A', ' A', ' D', ' A', ' B', ' B', ' D', ' B', ' D', ' A', ' A', ' A', ' D', ' D', ' D', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' E', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' D', ' A', ' A', ' A', ' C', ' B', ' D', ' B', ' A', ' A', ' A', ' A', ' B', ' D', ' D', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' D', ' A', ' D', ' A', ' A', ' A', ' D', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C']","[0.50057485, 0.26952105, 0.13257634, 0.09732777, 0.0186609377600694]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_j_W54,"Question: Do you think the country's current economic conditions are helping or hurting people without college degrees?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' C', ' D', ' D', ' D', ' B', ' A', ' D', ' D', ' B', ' D', ' D', ' D', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' C', ' E', ' D', ' D', ' D', ' B', ' D', ' C', ' A', ' A', ' E', ' D', ' D', ' B', ' C', ' C', ' D', ' C', ' C', ' E', ' C', ' D', ' B', ' A', ' D', ' C', ' D', ' B', ' D', ' C', ' B', ' D', ' C', ' C', ' E', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' C', ' B', ' C', ' D', ' D', ' A', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' B', ' A', ' D', ' D', ' C', ' D', ' B', ' C', ' A', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' C']","[0.07723477, 0.13569523, 0.29631986, 0.39667695, 0.09407319, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ8_j_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Breaking up large corporations
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' D', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' D', ' A', ' A', ' B', ' D', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' D', ' B', ' D', ' B', ' A', ' B', ' D', ' D', ' C', ' A', ' C', ' B', ' B', ' C', ' D', ' C', ' D', ' A', ' C', ' D', ' A', ' A', ' B', ' A', ' C', ' B', ' D', ' C', ' B', ' D', ' A', ' B', ' D', ' D', ' A', ' C', ' C', ' B', ' D', ' D', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' D', ' D', ' B', ' C', ' C', ' D', ' A', ' A', ' B']","[0.24154597, 0.28385021, 0.28432246, 0.19028136, 0.0047807574273053]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+GOVPRIORITYd_W54,"Question: How much of a priority should the following be for the federal government to address: Addressing climate change
+A. A top priority
+B. Important, but lower priority
+C. Not too important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' D', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' C', ' D', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' A', ' A', ' D', ' A', ' A', ' C', ' A', ' A', ' A', ' D', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' D', ' A', ' A', ' A', ' C', ' A', ' A', ' D', ' B', ' A', ' A']","[0.56675659, 0.16921257, 0.18609153, 0.07793931, 0.0026755430659529]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+WORRY2e_W54,"Question: How often, if ever, do you worry about being able to save enough for your retirement?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' D', ' A', ' D', ' A', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' D', ' E', ' A', ' B', ' A', ' B', ' E', ' A', ' C', ' C', ' C', ' D', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' F', ' B', ' C', ' B', ' B', ' E', ' A', ' B', ' E', ' E', ' B', ' A', ' C', ' C', ' B', ' D', ' A', ' C', ' C', ' D', ' D', ' C', ' B', ' E', ' A', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' E', ' B', ' D', ' A', ' B', ' D', ' A', ' A', ' D', ' A', ' B', ' D', ' B', ' C', ' B', ' A', ' F', ' C', ' C']","[0.18188169, 0.18850216, 0.38106028, 0.15730845, 0.09124742, 0.0150838719022713]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+INEQ8_g_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Eliminating college debt
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' D', ' C', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' B', ' D', ' C', ' A', ' D', ' A', ' C', ' E', ' C', ' C', ' C', ' A', ' D', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' D', ' A', ' A', ' E', ' A', ' D', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' E', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' D', ' C', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' D']","[0.35391772, 0.29177119, 0.1875538, 0.16675729, 0.0202610791082766]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_c_W54,"Question: Do you think the country's current economic conditions are helping or hurting the middle class?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' D', ' D', ' A', ' C', ' B', ' A', ' D', ' C', ' D', ' D', ' B', ' B', ' D', ' D', ' D', ' D', ' A', ' A', ' E', ' C', ' D', ' D', ' A', ' C', ' B', ' C', ' B', ' D', ' D', ' C', ' C', ' B', ' B', ' A', ' D', ' D', ' D', ' D', ' C', ' A', ' C', ' D', ' D', ' C', ' B', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' B', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' B', ' C', ' E', ' B', ' B', ' D', ' E', ' C', ' C', ' D', ' C', ' E', ' D', ' E', ' C', ' D', ' C', ' C', ' B', ' D', ' E', ' B', ' D', ' C', ' B', ' A', ' B', ' D', ' C', ' C', ' E', ' C', ' A', ' C', ' B', ' C', ' C']","[0.08273922, 0.16439682, 0.31840774, 0.33093418, 0.10352204, 0.0113438703943435]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ8_a_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Increasing the federal minimum wage
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' D', ' A', ' C', ' A', ' D', ' A', ' A', ' C', ' B', ' B', ' D', ' C', ' C', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' D', ' C', ' A', ' A', ' D', ' C', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' D', ' D', ' C', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' D', ' D', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' D', ' C', ' B', ' D', ' A', ' B', ' A', ' A', ' B', ' D', ' A', ' D']","[0.50575704, 0.2136141, 0.08635672, 0.19427213, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON4_a_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does the availability of jobs in your area affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' C', ' B', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' A', ' C', ' D', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' A', ' D', ' C', ' B', ' B', ' B', ' D', ' B', ' D', ' D', ' B', ' A', ' B', ' A', ' A', ' C', ' D', ' D', ' C', ' D', ' B', ' D', ' B', ' C', ' B', ' C', ' A', ' C', ' A', ' D', ' C', ' A', ' D', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' B', ' D', ' D', ' D', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' D', ' D', ' A', ' D', ' D', ' C', ' C', ' B', ' C', ' A', ' B', ' D', ' A', ' A', ' D', ' C', ' C', ' A', ' B', ' D', ' C', ' C', ' D']","[0.21901302, 0.26635402, 0.31878107, 0.19585189, 0.0026755430659529]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON3_d_W54,"Question: How much, if at all, do you think the cost of health care is contributing to your opinion about how the economy is doing?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' A', ' C', ' B', ' A', ' C', ' D', ' A', ' B', ' B', ' D', ' C', ' A', ' D', ' A', ' A', ' C', ' D', ' B', ' C', ' A', ' A', ' D', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' D', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' D', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' C', ' D', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' D', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' D', ' A', ' D', ' C']","[0.4483558, 0.22887338, 0.23404922, 0.0887216, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_g_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are white?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' A', ' A', ' E', ' B', ' B', ' B', ' B', ' B', ' E', ' E', ' B', ' B', ' A', ' E', ' A', ' A', ' E', ' B', ' B', ' A', ' E', ' E', ' E', ' E', ' A', ' A', ' A', ' B', ' E', ' E', ' B', ' B', ' B', ' E', ' C', ' C', ' B', ' E', ' A', ' E', ' B', ' B', ' B', ' E', ' E', ' E', ' B', ' B', ' A', ' B', ' E', ' A', ' B', ' B', ' B', ' E', ' B', ' E', ' A', ' B', ' E', ' C', ' E', ' A', ' A', ' C', ' E', ' A', ' E', ' E', ' C', ' B', ' E', ' A', ' B', ' A', ' B', ' B', ' A', ' E', ' E', ' E', ' B', ' D', ' E', ' E', ' B', ' B', ' B', ' B', ' E', ' B', ' A', ' E', ' E', ' E', ' E', ' B']","[0.19698968, 0.34953429, 0.08510518, 0.01611219, 0.35225865, 0.0064109167680707]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+ECON5_e_W54,"Question: Do you think the country's current economic conditions are helping or hurting older adults?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' A', ' D', ' D', ' D', ' D', ' D', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' D', ' D', ' D', ' A', ' E', ' C', ' D', ' C', ' D', ' E', ' C', ' E', ' C', ' A', ' D', ' C', ' E', ' C', ' D', ' E', ' D', ' D', ' D', ' D', ' B', ' A', ' C', ' E', ' D', ' C', ' C', ' D', ' C', ' E', ' D', ' D', ' C', ' B', ' A', ' F', ' D', ' E', ' D', ' D', ' C', ' C', ' C', ' D', ' B', ' D', ' C', ' D', ' C', ' C', ' E', ' C', ' C', ' D', ' C', ' D', ' A', ' D', ' E', ' A', ' D', ' A', ' E', ' C', ' B', ' D', ' C', ' C', ' D', ' D', ' A', ' E', ' E', ' B', ' E', ' D', ' E', ' D', ' D']","[0.11182444, 0.1394184, 0.26371615, 0.3302195, 0.15482151, 0.0090674573947105]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ8_c_W54,"Question: How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Increasing taxes on the wealthiest Americans
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Nothing at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' D', ' A', ' D', ' D', ' D', ' D', ' A', ' B', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' D', ' A', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' D', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' C', ' B', ' A', ' D', ' A', ' D', ' C', ' A', ' B', ' A', ' D', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' C']","[0.53535757, 0.21047039, 0.13293392, 0.12123813, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON4_b_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does how the stock market is doing affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' A', ' D', ' B', ' B', ' A', ' A', ' B', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' A', ' D', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' D', ' B', ' A', ' B', ' B', ' C', ' D', ' C', ' D', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' C', ' B', ' D', ' B', ' B', ' B', ' A', ' B', ' D', ' B', ' D', ' D', ' A', ' A', ' B', ' A', ' D', ' D', ' A', ' C', ' D', ' A', ' B', ' D', ' A', ' C', ' E', ' D', ' C', ' D', ' B', ' C', ' D', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B']","[0.22604635, 0.30851642, 0.27257263, 0.19286459, 0.0147033895874839]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+FIN_SIT_W54,"Question: How would you describe your household's financial situation?
+A. Live comfortably
+B. Meet your basic expenses with a little left over for extras
+C. Just meet your basic expenses
+D. Don't even have enough to meet basic expenses
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' D', ' A', ' A', ' B', ' A', ' D', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' D', ' A', ' A', ' A', ' A', ' B', ' C', ' B']","[0.46204628, 0.38205379, 0.09328653, 0.0626134, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_h_W54,"Question: How much, if at all, do you think the different life choices people make contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' D', ' A', ' C', ' A', ' C', ' D', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' D', ' D', ' B', ' A', ' B', ' D', ' B', ' A', ' B', ' B', ' C', ' C', ' D', ' B', ' C', ' A', ' D', ' D', ' A', ' D', ' B', ' C', ' D', ' C', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' C', ' C', ' D', ' D', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' D', ' A', ' E', ' C', ' C', ' A', ' C', ' C', ' B', ' D', ' A', ' D', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' E', ' C', ' D', ' C', ' C', ' D', ' B', ' A']","[0.33633955, 0.27407504, 0.26144586, 0.12813955, 0.0111916741953761]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+INEQ4_a_W54,"Question: How much responsibility, if any, should the federal government have in reducing economic inequality in our country?
+A. A lot
+B. Some
+C. Only a little
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B']","[0.72766162, 0.23583167, 0.03650671, 0.0, 0.0055827996583143]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_m_W54,"Question: How much, if at all, do you think the growing number of legal immigrants working in the U.S. contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' D', ' D', ' A', ' A', ' D', ' B', ' A', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' A', ' C', ' D', ' D', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' D', ' D', ' D', ' C', ' C', ' B', ' C', ' D', ' D', ' C', ' A', ' B', ' D', ' A', ' C', ' D', ' C', ' D', ' D', ' C', ' A', ' C', ' A', ' A', ' D', ' D', ' C', ' B', ' D', ' D', ' C', ' D', ' C', ' C', ' A', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' A', ' D', ' A', ' D', ' C', ' C', ' C', ' D']","[0.2268859, 0.07670281, 0.40240062, 0.29401067, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON4_e_W54,"Question: Thinking about your own household's financial situation, how much, if at all, does real estate values in your area affect your household's financial situation?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' D', ' A', ' D', ' A', ' A', ' A', ' A', ' C', ' D', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' D', ' B', ' C', ' C', ' A', ' B', ' D', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' D', ' B', ' A', ' A', ' C', ' B', ' C', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B']","[0.3712001, 0.24607138, 0.24491607, 0.13781246, 0.0113438703943435]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+INEQ5_k_W54,"Question: How much, if at all, do you think discrimination against racial and ethnic minorities contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' D', ' C', ' C', ' A', ' C', ' D', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' D', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' D', ' A', ' C', ' B', ' D', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' D', ' B', ' A', ' C', ' B', ' D', ' B', ' C', ' B', ' C', ' A', ' A', ' D', ' B', ' B', ' A', ' B', ' D', ' A', ' B', ' A', ' D', ' B', ' A', ' A', ' A', ' C', ' D', ' A', ' C', ' A', ' D', ' B', ' B', ' D', ' C', ' A', ' D', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' A']","[0.39169281, 0.22385414, 0.23046878, 0.15398427, 0.0240868132171654]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_f_W54,"Question: Do you think the country's current economic conditions are helping or hurting young adults?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' D', ' C', ' C', ' A', ' E', ' D', ' C', ' E', ' C', ' C', ' B', ' D', ' D', ' D', ' D', ' C', ' C', ' E', ' B', ' B', ' D', ' A', ' D', ' D', ' A', ' D', ' C', ' D', ' D', ' D', ' E', ' C', ' D', ' C', ' D', ' D', ' F', ' C', ' E', ' E', ' F', ' C', ' C', ' D', ' D', ' E', ' D', ' A', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' C', ' C', ' D', ' B', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' E', ' A', ' D', ' B', ' B', ' B', ' D', ' C', ' B', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' C', ' B', ' B', ' C', ' C', ' B']","[0.09098483, 0.1235061, 0.27095228, 0.36256293, 0.15199386, 0.0198305620164134]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+WORRY2b_W54,"Question: How often, if ever, do you worry about losing your job?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' C', ' D', ' E', ' C', ' B', ' A', ' A', ' D', ' E', ' D', ' C', ' D', ' C', ' C', ' E', ' D', ' C', ' C', ' E', ' A', ' D', ' F', ' D', ' D', ' C', ' C', ' E', ' A', ' D', ' C', ' D', ' A', ' C', ' E', ' E', ' D', ' C', ' C', ' D', ' D', ' B', ' C', ' E', ' C', ' C', ' D', ' E', ' C', ' D', ' E', ' C', ' C', ' D', ' B', ' A', ' E', ' B', ' C', ' C', ' C', ' D', ' D', ' D', ' E', ' C', ' C', ' D', ' A', ' C', ' A', ' D', ' E', ' D', ' E', ' E', ' A', ' A', ' E', ' C', ' A', ' D', ' D', ' D', ' D', ' B', ' C', ' C', ' E', ' C', ' E', ' C', ' B', ' D', ' C', ' E', ' B', ' C', ' B']","[0.08798261, 0.06336145, 0.269285, 0.32484977, 0.25452117, 0.0060672218983077]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+ECON5_b_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are wealthy?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' A', ' E', ' A', ' A', ' E', ' A', ' E', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' E', ' A', ' A', ' E', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' E', ' E', ' B', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' B', ' B', ' A', ' A', ' A', ' A']","[0.68506759, 0.13659951, 0.00854271, 0.03484566, 0.13494453, 0.0047225717652454]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ1_W54,"Question: Thinking about the level of economic inequality in the country these days, would you say there is
+A. Too much economic inequality
+B. Too little economic inequality
+C. About the right amount of economic inequality
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' D', ' B', ' D', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' D', ' C', ' A', ' C', ' A', ' C', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' A', ' A']","[0.68577911, 0.07193516, 0.24228573, 0.0502749591693249]",RELIG,Jewish,"[1.0, 2.0, 1.5]"
+ECON1_W54,"Question: Thinking about the nation's economy, how would you rate economic conditions in this country today?
+A. Excellent
+B. Good
+C. Only fair
+D. Poor
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' D', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' D', ' B', ' A', ' C', ' D', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' C']","[0.07925666, 0.45849765, 0.38047236, 0.08177333, 0.001745335653645]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+ECON5_d_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are poor?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' A', ' D', ' D', ' D', ' C', ' C', ' D', ' E', ' D', ' D', ' A', ' E', ' E', ' C', ' A', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' E', ' D', ' D', ' D', ' D', ' C', ' A', ' E', ' E', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' A', ' A', ' D', ' E', ' C', ' D', ' C', ' D', ' D', ' A', ' D', ' A', ' A', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' A', ' D', ' E', ' D', ' E', ' D', ' D', ' D', ' D', ' A', ' C', ' B', ' A', ' E', ' D', ' D', ' A', ' C', ' A', ' B', ' E', ' D', ' C', ' A', ' D', ' D', ' A', ' D']","[0.15727887, 0.09595684, 0.08846508, 0.55404499, 0.10425421, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ11_W54,"Question: In order to address economic inequality in this country, do you think the government
+A. Should raise taxes on people like you
+B. Should not raise taxes on people like you
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B']","[0.28139197, 0.71860803, 0.0094340270099927]",RELIG,Jewish,"[1.0, 2.0]"
+ECON5_h_W54,"Question: Do you think the country's current economic conditions are helping or hurting people who are black?
+A. Helping a lot
+B. Helping a little
+C. Hurting a little
+D. Hurting a lot
+E. Neither helping nor hurting
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' A', ' B', ' B', ' B', ' D', ' F', ' B', ' B', ' C', ' C', ' B', ' D', ' C', ' D', ' A', ' B', ' B', ' D', ' D', ' D', ' A', ' E', ' C', ' C', ' B', ' C', ' C', ' D', ' B', ' A', ' E', ' C', ' E', ' C', ' C', ' B', ' C', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' D', ' E', ' B', ' A', ' D', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' B', ' D', ' A', ' C', ' E', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' A', ' B', ' C', ' A', ' D', ' B', ' D', ' D', ' C', ' D', ' C', ' C', ' B', ' D', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' E', ' D', ' C', ' B', ' A', ' B', ' C', ' D']","[0.14718077, 0.28118544, 0.24861229, 0.23938353, 0.08363797, 0.0064109167680707]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+INEQ5_i_W54,"Question: How much, if at all, do you think some people starting out with more opportunities than others contributes to economic inequality in this country?
+A. Contributes a great deal
+B. Contributes a fair amount
+C. Contributes not too much
+D. Contributes not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' D', ' B', ' B', ' D', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' D', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A']","[0.49651886, 0.35761453, 0.11600373, 0.02986288, 0.0]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0]"
+WORRY2d_W54,"Question: How often, if ever, do you worry about the cost of health care for you and your family?
+A. Every day
+B. Almost every day
+C. Sometimes
+D. Rarely
+E. Never
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' D', ' A', ' A', ' E', ' D', ' A', ' C', ' B', ' A', ' D', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' A', ' E', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' F', ' A', ' E', ' E', ' A', ' C', ' D', ' C', ' D', ' A', ' D', ' D', ' C', ' C', ' D', ' D', ' E', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' B', ' A', ' D', ' D', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' C', ' D', ' E', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' B', ' C', ' D', ' A', ' D', ' A', ' D', ' C', ' B', ' D', ' C', ' C', ' D']","[0.15469933, 0.15668802, 0.4120373, 0.20490479, 0.07167056, 0.0035878590717122]",RELIG,Jewish,"[1.0, 2.0, 3.0, 4.0, 5.0]"

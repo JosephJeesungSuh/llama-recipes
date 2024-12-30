@@ -9,8 +9,9 @@ class train_config:
     model_name: str="/rscratch/data/llama-hf/hub/models--meta-llama--Llama-2-7b-hf/snapshots/01c7f73d771dfac7d292323805ebc428287df4f9" # currently using llama2-7b-hf
     tokenizer_name: str=None
     enable_fsdp: bool=True # shards model parameters, optimizer states and gradients across DDP ranks
-    low_cpu_fsdp: bool=False # saves cpu memory by loading pretrained model on rank0 only
+    low_cpu_fsdp: bool=True # saves cpu memory by loading pretrained model on rank0 only
     run_validation: bool=True
+    run_test: bool=True
     batch_size_training: int=32
     batching_strategy: str="padding" #alternative: padding
     context_length: int=4096
@@ -27,7 +28,7 @@ class train_config:
     seed: int=42
     use_fp16: bool=False
     mixed_precision: bool=True
-    val_batch_size: int=1
+    val_batch_size: int=1 # test batch is also calculated with the val_batch_size
     dataset = "samsum_dataset"
     peft_method: str = "lora" # None, llama_adapter (Caution: llama_adapter is currently not supported with FSDP)
     use_peft: bool=True # use parameter efficient fine tuning
@@ -49,3 +50,7 @@ class train_config:
     use_profiler: bool = False # Enable pytorch profiler, can not be used with flop counter at the same time.
     profiler_dir: str = "PATH/to/save/profiler/results" # will be used if using profiler
     loss_function_type: str = "ce" # ce, wd
+    dataset_path: str = "leave_wave_92_out_remaining_9_1_0_split"
+    steering_type: str = "QA"
+    attribute: str = "sex"
+    group: str = "male"

@@ -1,0 +1,175 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+CONTROLGRPc_W49,"Question: How much control, if any, do you think you have over who can access the purchases you've made, either online or in person?
+A. A lot of control
+B. A little control
+C. No control
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C']","[0.13036015, 0.44868248, 0.42095738, 0.0075245407120873]",POLPARTY,Democrat,"[1.0, 2.0, 3.0]"
+SMARTAPP_W49,"Question: How do you typically update the apps on your smartphone?
+A. Set them to update automatically
+B. Update them yourself as soon as you are notified a new version is available
+C. Update them yourself whenever it's convenient
+D. Never install app updates
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' D', ' C', ' A', ' A', ' C', ' A', ' D', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' D', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' D', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' A']","[0.46286259, 0.20692832, 0.29008543, 0.04012365, 0.0020534414468122]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+TRACKGOV1b_W49,"Question: As far as you know, how much of what you do offline like where you are or who you are talking to is being tracked by the government?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' C', ' D', ' D', ' C', ' C', ' E', ' E', ' C', ' C', ' E', ' D', ' D', ' D', ' C', ' C', ' B', ' E', ' D', ' C', ' E', ' A', ' D', ' D', ' E', ' D', ' C', ' C', ' E', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' E', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' D', ' C', ' C', ' E', ' B', ' C', ' E', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' E', ' C', ' B', ' C', ' A', ' D', ' C', ' E', ' E', ' E', ' C', ' A', ' C', ' E', ' E', ' A', ' B', ' E', ' C', ' C', ' D', ' C', ' D', ' A', ' D', ' C', ' A', ' D', ' A', ' C', ' C', ' D', ' F', ' D', ' C', ' C', ' E', ' D', ' A', ' E']","[0.10148128, 0.13270302, 0.33147077, 0.272697, 0.16164793, 0.0003521791054532]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+HOMEASSIST4_W49,"Question: How important is it that your smart speaker takes your personal interests and preferences into account when responding to your questions or commands?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not important at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' D', ' A', ' B', ' C', ' D', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' D', ' A', ' C', ' D', ' D', ' D', ' C', ' B', ' C', ' C', ' A', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' D', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' D', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' B', ' B', ' D', ' C', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' D', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' D', ' B']","[0.19594797, 0.39658101, 0.32220369, 0.08526733, 0.0035466172006666]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+CONCERNGRPa_W49,"Question: How concerned are you, if at all, about how much personal information law enforcement agencies might know about you?
+A. Concerned a lot
+B. Concerned a little
+C. Not concerned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' C', ' B']","[0.2753697, 0.38323881, 0.34139149, 0.0012005301915513]",POLPARTY,Democrat,"[1.0, 2.0, 3.0]"
+CONCERNCO_W49,"Question: How concerned are you, if at all, about how companies are using the data they collect about you?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not at all concerned
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' D', ' C', ' B', ' A', ' B', ' C', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' C', ' A']","[0.37671169, 0.44230783, 0.15937515, 0.02160534, 0.0]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+FACE3c_W49,"Question: How much, if at all, do you trust the following groups to use facial recognition technology responsibly? Law enforcement agencies
+A. A great deal
+B. Somewhat
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' D', ' B', ' B', ' B', ' D', ' A', ' A', ' D', ' D', ' C', ' D', ' C', ' B', ' D', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' D', ' C', ' B', ' D', ' D', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' D', ' B', ' B', ' D', ' C', ' B', ' D', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' D', ' C', ' C', ' C', ' B', ' A', ' D', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' E', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' D', ' A', ' B', ' A', ' B', ' C', ' C', ' D', ' D', ' B', ' D', ' A', ' C']","[0.16574494, 0.45098329, 0.22772437, 0.15554739, 0.0123134329417597]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+GOVREGV1_W49,"Question: How much government regulation of what companies can do with their customers' personal information do you think there should be?
+A. More regulation
+B. Less regulation
+C. About the same amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' D', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C']","[0.82590464, 0.06307569, 0.11101967, 0.006072329645909]",POLPARTY,Democrat,"[1.0, 2.0, 1.5]"
+PWMAN2_W49,"Question: What is the main reason you do not use a password manager?
+A. Don't know what that is
+B. My passwords are secure enough
+C. Don't need it
+D. Too expensive
+E. Too complicated
+F. Don't trust them
+G. Don't think they are effective
+H. Other reason
+I. Offline: does not have internet
+J. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.,H.,I.,J.
+
+Answer:","[' C', ' H', ' F', ' A', ' C', ' B', ' A', ' I', ' F', ' A', ' C', ' H', ' A', ' F', ' C', ' A', ' I', ' A', ' C', ' H', ' A', ' I', ' F', ' B', ' A', ' B', ' C', ' F', ' H', ' A', ' F', ' C', ' F', ' A', ' C', ' F', ' G', ' G', ' C', ' F', ' A', ' A', ' F', ' C', ' C', ' C', ' C', ' H', ' C', ' F', ' E', ' F', ' G', ' C', ' F', ' C', ' C', ' F', ' E', ' C', ' C', ' F', ' I', ' G', ' I', ' C', ' C', ' A', ' I', ' H', ' B', ' H', ' D', ' F', ' B', ' C', ' E', ' A', ' H', ' F', ' C', ' F', ' H', ' F', ' G', ' G', ' C', ' F', ' F', ' E', ' H', ' F', ' F', ' F', ' H', ' H', ' I', ' B', ' A', ' I']","[0.17503097, 0.06798724, 0.17479907, 0.01540798, 0.05393013, 0.25684997, 0.0333621, 0.13506456, 0.08756798, 0.0021298887658561]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 4.5]"
+DATAUSEd_W49,"Question: Do you think the following uses of data/information are acceptable or unacceptable? Makers of a fitness tracking app sharing their users' data with medical researchers seeking to better understand the link between exercise and heart disease
+A. Acceptable
+B. Unacceptable
+C. Not sure
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' A']","[0.61299032, 0.38700968, 0.2300963938151186]",POLPARTY,Democrat,"[1.0, 2.0]"
+TRACKGOV1a_W49,"Question: As far as you know, how much of what you do online or on your cellphone is being tracked by the government?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' A', ' E', ' D', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' D', ' C', ' A', ' E', ' B', ' E', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' F', ' E', ' C', ' B', ' B', ' E', ' B', ' D', ' C', ' D', ' D', ' B', ' C', ' C', ' D', ' D', ' D', ' D', ' B', ' C', ' C', ' B', ' C', ' D', ' B', ' E', ' B', ' E', ' C', ' A', ' D', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' D', ' D', ' C', ' B', ' A', ' B', ' B', ' B', ' D', ' B', ' C', ' E', ' D', ' D', ' B', ' C', ' B', ' B', ' C', ' C']","[0.21999367, 0.27242113, 0.27464237, 0.13583717, 0.09710566, 0.0046627895512482]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+CONTROLCO_W49,"Question: How much control do you think you have over the data that companies collect about you?
+A. A great deal of control
+B. Some control
+C. Very little control
+D. No control
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' B', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' A', ' B', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' D', ' C', ' C', ' C', ' D', ' B', ' C', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' D', ' D', ' C', ' D']","[0.04221161, 0.1446066, 0.55769348, 0.25548831, 0.0008039087986568]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+HOMEASSIST3_W49,"Question: Do you ever say ""please"" when speaking to your smart speaker?
+A. Yes, frequently
+B. Yes, on occasion
+C. No
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' C']","[0.19686934, 0.40451227, 0.39861839, 0.0]",POLPARTY,Democrat,"[1.0, 2.0, 3.0]"
+TRACKCO1b_W49,"Question: As far as you know, how much of what you do offline like where you are or who you are talking to is being tracked by advertisers, technology firms or other companies?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' B', ' D', ' D', ' C', ' E', ' B', ' C', ' D', ' C', ' C', ' D', ' E', ' D', ' B', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' D', ' E', ' C', ' B', ' A', ' A', ' B', ' B', ' D', ' B', ' D', ' C', ' C', ' C', ' D', ' E', ' D', ' D', ' E', ' A', ' C', ' E', ' B', ' C', ' E', ' C', ' A', ' C', ' E', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' E', ' D', ' A', ' D', ' A', ' D', ' C', ' A', ' C', ' C', ' E', ' B', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' D', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' E', ' D', ' A', ' D', ' C']","[0.09792956, 0.18550264, 0.40659202, 0.20542169, 0.10455409, 0.0035685362566286]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+HOMEASSIST2_W49,"Question: How concerned are you, if at all, about how much data your smart speaker collects about you?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not concerned at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' D', ' D', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' D', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' B', ' D', ' B', ' C', ' C', ' C', ' A', ' C', ' D', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' A', ' D', ' C', ' B', ' C', ' D', ' B', ' C', ' C', ' B', ' B', ' A', ' D', ' C', ' D', ' C', ' C', ' B', ' B', ' D', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C']","[0.1304146, 0.37176307, 0.40486842, 0.09295391, 0.0]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+PP5e_W49,"Question: How confident are you, if at all, that companies will be held accountable by the government if they misuse or compromise your data?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not confident at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' C', ' D', ' C', ' C', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' A', ' C', ' D', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' B', ' D', ' C', ' D', ' D', ' A', ' D', ' C', ' C', ' D', ' D', ' B', ' D', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' B', ' B', ' A', ' D', ' A', ' C', ' D', ' B', ' D', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' B', ' D', ' D', ' B', ' B', ' C', ' C', ' D', ' C', ' C', ' B', ' B']","[0.04354688, 0.20473446, 0.43681139, 0.31490727, 0.0031615168283682]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+CONCERNGRPc_W49,"Question: How concerned are you, if at all, about how much personal information your employer might know about you?
+A. Concerned a lot
+B. Concerned a little
+C. Not concerned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' B']","[0.22888618, 0.3962212, 0.37489262, 0.0071418092759436]",POLPARTY,Democrat,"[1.0, 2.0, 3.0]"
+BENEFITGOV_W49,"Question: How much do you feel you personally benefit from the data the government collects about you?
+A. A great deal
+B. Some
+C. Very little
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' E', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B']","[0.07509392, 0.30215874, 0.62274734, 0.0, 0.0073668148101012]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0]"
+TRACKCO1a_W49,"Question: As far as you know, how much of what you do online or on your cellphone is being tracked by advertisers, technology firms or other companies?
+A. All or almost all of it
+B. Most of it
+C. Some of it
+D. Very little of it
+E. None of it
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' C', ' C', ' C', ' C', ' D', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' B', ' E', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' D', ' A', ' E', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' D', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' D', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' A', ' B', ' C', ' B', ' E', ' D', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' D', ' B', ' B', ' B', ' A', ' B', ' B', ' C']","[0.37965746, 0.34967509, 0.18024329, 0.0441225, 0.04630165, 0.0035685362566286]",POLPARTY,Democrat,"[1.0, 2.0, 3.0, 4.0, 5.0]"

@@ -1,0 +1,372 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+NOCARRYGUN_W26,"Question: And would you say you never carry a handgun or pistol because you don't want to or for some other reason?
+A. Don't want to carry
+B. Some other reason
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B']","[0.73554994, 0.26445006, 0.0]",RACE,Asian,"[1.0, 2.0]"
+GUNRESPNOKIDSA_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Keep all of their guns in a locked place
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A']","[0.70017486, 0.17175392, 0.12807123, 0.0, 0.0061175863832123]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+SHOOTFREQ_W26,"Question: How often, if ever, do you go shooting or to a gun range?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' B', ' B', ' B', ' D', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' B', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' B', ' B', ' C', ' D', ' D', ' B', ' B', ' B', ' D', ' D', ' B', ' D', ' D', ' C', ' C', ' B', ' C', ' D', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' D', ' D', ' D', ' B', ' C', ' C', ' D']","[0.00495702, 0.16723477, 0.45074419, 0.37706402, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+REASONGUNE_W26,"Question: Please indicate whether the following is a major reason, a minor reason, or not a reason why you own a gun. For my job
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C']","[0.07037939, 0.1283159, 0.80130471, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+REASONGUNA_W26,"Question: Please indicate whether the following is a major reason, a minor reason, or not a reason why you own a gun. For protection
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A']","[0.64377364, 0.35622636, 0.0, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+GUNLOCKED1_W26,"Question: In general, as far as you know, how many of the guns in your home would you say are kept in a locked place?
+A. All are kept in a locked place
+B. Some are kept in a locked place and some are not
+C. None are kept in a locked place
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.93941408, 0.00798265, 0.05260327, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+GROWUPGUN4_W26,"Question: Thinking about the people in the community where you spent the majority of time when you were growing up, as far as you know, how many people owned guns?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' A', ' C', ' C']","[0.06976276, 0.29668468, 0.63355256, 0.0, 0.0032078802585549]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+WORRYF_W26,"Question: How much, if at all, do you worry about the following happening to you? Being the victim of a mass shooting
+A. Worry a lot
+B. Worry a little
+C. Do not worry at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' B']","[0.25113894, 0.44115754, 0.30770352, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+GUNSAFETYKIDS_W26,"Question: For this question, please think about your child or children who are under 18. Have you ever talked with your child or children about gun safety?
+A. Yes
+B. No
+C. I do not have children under 18
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B']","[0.27933542, 0.67631061, 0.04435397, 0.0]",RACE,Asian,"[1.0, 2.0, 1.5]"
+GUNRESPNOKIDSE_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Advise visitors with children that there are guns in the house
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' D', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' D', ' B', ' C', ' D', ' C', ' B', ' C', ' B', ' C', ' A', ' D', ' A', ' A', ' A', ' C', ' B', ' D', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' C', ' D', ' D', ' A', ' A', ' A', ' C', ' D', ' B', ' C', ' D', ' B', ' A', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' D', ' A', ' B', ' A']","[0.49251719, 0.23731297, 0.16657655, 0.10359328, 0.0104734726295234]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+IMPREASONGUN_W26,"Question: Which of the following is the most important reason why you own a gun?
+A. For protection
+B. For hunting
+C. For sport shooting, including target shooting and trap and skeet
+D. As part of a gun collection
+E. For my job
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B']","[0.41091774, 0.58908226, 0.0, 0.0, 0.0, 0.0]",RACE,Asian,"[1, 1, 1, 1, 1]"
+GUNCONTRIBA_W26,"Question: How much, if at all, do you think the ease with which people can legally obtain guns contributes to gun violence in the country today?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' A', ' B', ' D', ' B', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' D', ' A', ' B', ' A', ' B', ' C', ' A', ' D', ' B', ' A', ' D', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' D', ' C', ' B', ' D', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' D', ' A', ' C', ' A']","[0.3105432, 0.40278554, 0.17933606, 0.10733519, 0.0025295281399003]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNACTIVITYA_W26,"Question: How often, if ever, do you visit websites about guns, hunting or other shooting sports
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' A', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' A', ' D', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C']","[0.03627507, 0.06089707, 0.19199953, 0.71082832, 0.0025295281399003]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GROWUPVIOL_W26,"Question: How much of a problem was gun violence in the community where you spent the majority of time when you were growing up?
+A. A very big problem
+B. A moderately big problem
+C. A small problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' C', ' D', ' D', ' D', ' C', ' B', ' C', ' B', ' D', ' C', ' B', ' D', ' B', ' D', ' C', ' D', ' C', ' C', ' A', ' D', ' C', ' B', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' B', ' C', ' B', ' C', ' D', ' D', ' A', ' D', ' B', ' C', ' D', ' C', ' B', ' D', ' D', ' C', ' D', ' C', ' C', ' B', ' C', ' A', ' A', ' D', ' C', ' D', ' C', ' B', ' D', ' C', ' A', ' C', ' C', ' D', ' D', ' B', ' D', ' B', ' D', ' C', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' D', ' C', ' B', ' D', ' B', ' D', ' D', ' B', ' D', ' D', ' D', ' B', ' B', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' C']","[0.04249382, 0.13778127, 0.31898079, 0.50074411, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNCONTRIBE_W26,"Question: How much, if at all, do you think the amount of gun violence in video games contributes to gun violence in the country today?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' D', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' D', ' A', ' D', ' B', ' C', ' D', ' B', ' D', ' C', ' A', ' A', ' B', ' D', ' C', ' A', ' C', ' D', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' D', ' C', ' A', ' A', ' D', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' B', ' C', ' A', ' B', ' D', ' A', ' A', ' D', ' B', ' D', ' C', ' D', ' A', ' A', ' C', ' D', ' B', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' A', ' A', ' D', ' C', ' B', ' A', ' A']","[0.26579368, 0.13067646, 0.39434421, 0.20918565, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+CARRYGUN_W26,"Question: How often, if ever, do you carry a handgun or pistol outside your home, not including times when you are transporting it?
+A. All of the time
+B. Most of the time
+C. Only some of the time
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C']","[0.0, 0.0, 0.52318665, 0.47681335, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNACCESS_W26,"Question: Thinking about when you're at home, would you say there is a gun that is both loaded and easily accessible to you
+A. All of the time
+B. Most of the time
+C. Only some of the time
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D']","[0.0, 0.0, 0.0, 1.0, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNRESPKIDSE_W26,"Question: Thinking about gun owners who have children in their home, how important do you think it is for them to: Advise visitors with children that there are guns in the house
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' B', ' C', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' B', ' D', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' D', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' D', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' A', ' A', ' B', ' D', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A']","[0.36040808, 0.46700071, 0.10074419, 0.07184702, 0.0070998544831934]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNIDENTITY_W26,"Question: How important, if at all, is being a gun owner to your overall identity?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' D', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' D', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' D', ' D', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' D', ' C', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' D', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' C']","[0.33862943, 0.36678312, 0.23476482, 0.05982263, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+REASONGUNB_W26,"Question: Please indicate whether the following is a major reason, a minor reason, or not a reason why you own a gun. For hunting
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A']","[0.28484502, 0.57333926, 0.14181572, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+GUNRESPNOKIDSF_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Store guns and ammunition separately
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' D', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' D', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' D', ' A', ' B', ' C', ' A', ' A']","[0.41923843, 0.42723813, 0.11963542, 0.03388802, 0.0061175863832123]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNRESPNOKIDSC_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Take gun safety courses
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.88974648, 0.06297935, 0.04727417, 0.0, 0.0226407891449227]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+REASONGUND_W26,"Question: Please indicate whether the following is a major reason, a minor reason, or not a reason why you own a gun. As part of a gun collection
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' A', ' B']","[0.1283159, 0.67720387, 0.19448023, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+WORRYB_W26,"Question: How much, if at all, do you worry about the following happening to you? Being the victim of a terrorist attack
+A. Worry a lot
+B. Worry a little
+C. Do not worry at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' B', ' B']","[0.38069252, 0.2638655, 0.35544198, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+GROWUPGUN7_W26,"Question: How often, if ever, did you use air guns, such as paintball, BB or pellet guns when you were growing up?
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' D', ' B', ' C', ' D', ' A', ' B', ' D', ' C', ' C', ' C', ' A', ' D', ' B', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' B', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' D', ' C', ' C', ' C', ' B', ' B', ' D', ' A', ' D', ' D', ' D', ' B', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' A', ' C', ' D', ' C', ' D', ' C', ' D', ' C', ' B', ' B', ' C', ' A', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' D']","[0.09277703, 0.13649954, 0.30706439, 0.46365903, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNLOCKED2_W26,"Question: In general, is the gun in your home kept in a locked place, or not?
+A. Yes, kept in a locked place
+B. No, not kept in a locked place
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B']","[0.0, 1.0, 0.0]",RACE,Asian,"[1.0, 2.0]"
+WORRYD_W26,"Question: How much, if at all, do you worry about the following happening to you? Not being able to pay your bills
+A. Worry a lot
+B. Worry a little
+C. Do not worry at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B']","[0.5265876, 0.16097209, 0.31244032, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+GUNRESPNOKIDSD_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Advise visitors that there are guns in the house
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' C', ' D', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' D', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' C', ' B', ' B', ' A', ' D', ' B', ' B']","[0.26921684, 0.34204583, 0.3353466, 0.05339074, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNSAFE_W26,"Question: Does having a gun in your household make you feel
+A. Safer than you would feel without a gun in your household
+B. Less safe than you would feel without a gun in your household
+C. No more or less safe
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A']","[0.76420489, 0.0, 0.23579511, 0.0]",RACE,Asian,"[1.0, 2.0, 1.5]"
+WORRYE_W26,"Question: How much, if at all, do you worry about the following happening to you? Being the victim of a violent crime
+A. Worry a lot
+B. Worry a little
+C. Do not worry at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' C']","[0.18682573, 0.62950258, 0.18367168, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+REASONGUNC_W26,"Question: Please indicate whether the following is a major reason, a minor reason, or not a reason why you own a gun. For sport shooting, including target shooting and trap and skeet
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' A']","[0.45533163, 0.33881186, 0.20585651, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+GROWUPGUN2B_W26,"Question: Would you say the following was a reason or was not a reason why there were guns in your household when you were growing up? For hunting
+A. Yes, was a reason
+B. No, was not a reason
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B']","[0.10099219, 0.89900781, 0.0]",RACE,Asian,"[1.0, 2.0]"
+GUNRESPKIDSD_W26,"Question: Thinking about gun owners who have children in their home, how important do you think it is for them to: Advise visitors that there are guns in the house
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' E', ' B', ' A', ' C', ' C', ' B', ' C', ' D', ' A', ' A', ' B', ' A', ' D', ' B', ' A', ' C', ' B', ' D', ' B', ' B', ' D', ' B', ' D', ' A', ' D', ' C', ' A', ' D', ' A', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' A', ' C', ' E', ' A', ' B', ' A', ' C', ' D', ' B', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' D', ' B', ' A', ' D', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' D', ' C', ' C', ' D', ' D', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' A']","[0.3196203, 0.21911344, 0.25265738, 0.20860888, 0.0119866038758506]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNCONTRIBF_W26,"Question: How much, if at all, do you think family instability contributes to gun violence in the country today?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' C', ' C', ' A', ' B', ' D', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' C', ' C', ' C', ' A', ' D', ' B', ' B', ' D', ' B', ' D', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' D', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' D', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' D', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' C']","[0.22420501, 0.35984034, 0.32783272, 0.08812194, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNCONTRIBC_W26,"Question: How much, if at all, do you think the amount of gun violence in movies and television contributes to gun violence in the country today?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' C', ' D', ' A', ' C', ' C', ' C', ' D', ' C', ' A', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' C', ' C', ' C', ' D', ' A', ' B', ' A', ' C', ' B', ' B', ' D', ' A', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' B', ' D', ' C', ' A', ' C', ' C', ' C', ' D', ' A', ' D', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' D', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' D', ' C', ' A', ' B', ' D', ' B', ' C', ' B', ' D']","[0.25086373, 0.29711105, 0.2912844, 0.16074082, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GROWUPGUN2A_W26,"Question: Would you say the following was a reason or was not a reason why there were guns in your household when you were growing up? For protection
+A. Yes, was a reason
+B. No, was not a reason
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B']","[0.70363894, 0.29636106, 0.0]",RACE,Asian,"[1.0, 2.0]"
+GROWUPGUN6_W26,"Question: How often, if ever, did you go shooting or to a gun range when you were growing up?
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' B', ' D', ' D', ' D', ' E', ' C', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' C', ' D', ' D', ' C', ' D', ' D', ' C', ' B', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' C', ' B', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' C', ' D', ' C', ' B', ' C', ' D', ' B', ' C', ' C', ' B', ' C', ' D', ' D', ' C', ' D', ' B', ' B', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' C', ' C', ' D']","[0.00595571, 0.1194284, 0.29833754, 0.57627836, 0.0108524606868394]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNACTIVITYB_W26,"Question: How often, if ever, do you watch TV programs about guns or watch gun-oriented videos
+A. Often
+B. Sometimes
+C. Hardly ever
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' B', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' C', ' B', ' D', ' B', ' D', ' C', ' D', ' A', ' D', ' B', ' C', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' D', ' D', ' B', ' B', ' B', ' D', ' D', ' C', ' C', ' D', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' C', ' A', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' D', ' D', ' A', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' A', ' C', ' C']","[0.04939026, 0.21523358, 0.18468072, 0.55069543, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNLOADED1_W26,"Question: In general, as far as you know, how many of the guns in your home would you say are kept loaded?
+A. All are kept loaded
+B. Some are kept loaded and some are not
+C. None are kept loaded
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C']","[0.0, 0.00930472, 0.99069528, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+GUNTYPEOWNC_W26,"Question: Do you currently or have you ever owned a shotgun?
+A. Yes, I currently own
+B. Yes, I have owned in the past but do not currently own
+C. No, I have never owned
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C']","[0.27967361, 0.01738828, 0.7029381, 0.0]",RACE,Asian,"[1.0, 2.0, 3.0]"
+GROWUPGUN2C_W26,"Question: Would you say the following was a reason or was not a reason why there were guns in your household when you were growing up? For sport shooting, including target shooting and trap and skeet
+A. Yes, was a reason
+B. No, was not a reason
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A']","[0.2247498, 0.7752502, 0.0]",RACE,Asian,"[1.0, 2.0]"
+GUNRESPNOKIDSB_W26,"Question: Thinking about gun owners who do not have children in their home how important do you think it is for them to: Keep all of their guns unloaded
+A. Essential
+B. Important but not essential
+C. Not important
+D. Should not be done
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A']","[0.69468544, 0.23498355, 0.06590903, 0.00442199, 0.0061175863832123]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNFRIEND_W26,"Question: As far as you know, how many of your friends, if any, own guns?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B']","[0.03927388, 0.44702311, 0.51370301, 0.0, 0.0037251983996683]",RACE,Asian,"[1.0, 2.0, 3.0, 4.0]"
+GUNLOADED2_W26,"Question: In general, is the gun in your home kept loaded, or not?
+A. Yes, kept loaded
+B. No, not kept loaded
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B']","[0.0, 1.0, 0.0]",RACE,Asian,"[1.0, 2.0]"

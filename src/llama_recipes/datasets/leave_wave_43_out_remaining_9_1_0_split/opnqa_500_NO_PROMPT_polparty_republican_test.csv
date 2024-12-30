@@ -1,0 +1,514 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+IDIMPORT_W43,"Question: How important is being Hispanic to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' B', ' A', ' C', ' E', ' A', ' E', ' E', ' C', ' E', ' E', ' D', ' E', ' A', ' E', ' C', ' E', ' C', ' A', ' E', ' D', ' E', ' E', ' B', ' B', ' E', ' E', ' E', ' C', ' E', ' E', ' B', ' C', ' E', ' E', ' E', ' D', ' E', ' E', ' A', ' B', ' C', ' E', ' A', ' E', ' E', ' E', ' B', ' D', ' C', ' E', ' A', ' C', ' D', ' A', ' E', ' B', ' C', ' D', ' A', ' D', ' E', ' E', ' E', ' E', ' E', ' E', ' D', ' D', ' E', ' C', ' A', ' C', ' B', ' E', ' D', ' D', ' E', ' C', ' E', ' B', ' D', ' E', ' A', ' E', ' E', ' D', ' A', ' B', ' C', ' E', ' C', ' E', ' E', ' E', ' E', ' D', ' C', ' D']","[0.09702303, 0.14179501, 0.17259988, 0.14557349, 0.4430086, 0.0057112644562086]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV15a_W43,"Question: Since President Trump was elected, do you think it has become more common or less common for people to express racist or racially insensitive views, or is it about as common as it was before?
+A. More common
+B. Less common
+C. About as common
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C']","[0.42115706, 0.07326153, 0.50558141, 0.0034897154639626]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+IDIMPORT_W43,"Question: How important is being Asian to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' E', ' C', ' A', ' F', ' E', ' E', ' D', ' B', ' A', ' E', ' A', ' E', ' B', ' D', ' E', ' B', ' E', ' E', ' E', ' B', ' E', ' E', ' E', ' E', ' E', ' A', ' A', ' C', ' E', ' B', ' C', ' E', ' B', ' E', ' B', ' D', ' E', ' B', ' E', ' D', ' E', ' E', ' B', ' D', ' C', ' B', ' B', ' E', ' E', ' D', ' A', ' D', ' E', ' E', ' B', ' E', ' A', ' E', ' A', ' A', ' D', ' C', ' D', ' E', ' E', ' A', ' E', ' E', ' C', ' E', ' A', ' E', ' C', ' C', ' C', ' A', ' E', ' B', ' D', ' C', ' E', ' C', ' A', ' A', ' C', ' B', ' D', ' D', ' E', ' B', ' E', ' C', ' D', ' A', ' B', ' E', ' B', ' E']","[0.09702303, 0.14179501, 0.17259988, 0.14557349, 0.4430086, 0.0057112644562086]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV28b_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in stores or restaurants situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C']","[0.17666743, 0.02551174, 0.79782084, 0.0086542712611736]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+RACESURV28c_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when applying for a loan or mortgage situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' D', ' D', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' D', ' C']","[0.1741673, 0.04469812, 0.78113458, 0.0191547830680543]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+RACESURV5l_W43,"Question: Overall, how does being wealthy affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' A', ' E', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' F', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' E', ' B', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A']","[0.73840311, 0.17135227, 0.01881442, 0.00471968, 0.06671053, 0.0052697156907067]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV34b_W43,"Question: Overall, how much has being a man/Being a woman/Your gender helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' E', ' A', ' C', ' E', ' E', ' C', ' B', ' E', ' E', ' C', ' E', ' B', ' E', ' A', ' E', ' E', ' C', ' A', ' E', ' E', ' E', ' E', ' E', ' C', ' E', ' E', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' E', ' E', ' C', ' C', ' B', ' A', ' E', ' B', ' C', ' E', ' A', ' B', ' B', ' E', ' B', ' B', ' E', ' E', ' E', ' E', ' C', ' D', ' B', ' B', ' B', ' C', ' C', ' E', ' E', ' B', ' B', ' A', ' A', ' E', ' E', ' A', ' C', ' A', ' E', ' E', ' E', ' D', ' B', ' E', ' C', ' E', ' E', ' C', ' E', ' E', ' B', ' E', ' C', ' E', ' B', ' A', ' E', ' E', ' E', ' E', ' C', ' B', ' A', ' E', ' E', ' E']","[0.10055844, 0.20991179, 0.15963969, 0.03493854, 0.49495155, 0.0072745760165106]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5g_W43,"Question: Overall, how does being Muslim affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' E', ' C', ' A', ' E', ' E', ' D', ' C', ' A', ' E', ' D', ' E', ' E', ' E', ' E', ' C', ' E', ' C', ' C', ' E', ' E', ' C', ' C', ' B', ' D', ' E', ' C', ' E', ' D', ' E', ' A', ' C', ' C', ' E', ' C', ' D', ' D', ' B', ' C', ' E', ' A', ' E', ' D', ' C', ' A', ' A', ' C', ' D', ' E', ' E', ' C', ' D', ' C', ' E', ' D', ' C', ' D', ' D', ' D', ' E', ' B', ' B', ' E', ' C', ' D', ' D', ' E', ' D', ' C', ' B', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' E', ' E', ' E', ' E', ' D', ' C', ' E', ' C', ' E', ' E', ' C', ' C', ' E', ' E', ' C', ' D', ' D', ' E', ' C', ' E']","[0.06081338, 0.07752345, 0.33406785, 0.19868585, 0.32890947, 0.0083305582674915]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5f_W43,"Question: Overall, how does being Jewish affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' A', ' D', ' E', ' C', ' A', ' C', ' B', ' A', ' E', ' B', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' B', ' B', ' E', ' A', ' E', ' B', ' E', ' E', ' E', ' E', ' E', ' C', ' E', ' E', ' A', ' E', ' E', ' B', ' A', ' E', ' D', ' E', ' E', ' E', ' C', ' E', ' C', ' E', ' E', ' E', ' C', ' E', ' C', ' B', ' D', ' E', ' E', ' E', ' E', ' E', ' B', ' B', ' E', ' E', ' E', ' E', ' E', ' E', ' C', ' E', ' E', ' E', ' E', ' E', ' B', ' E', ' C', ' E', ' E', ' C', ' E', ' C', ' D', ' E', ' A', ' E', ' E', ' E', ' B', ' E', ' B', ' B', ' C', ' B', ' E', ' A', ' D', ' E', ' C']","[0.06205085, 0.12025352, 0.12886484, 0.05227491, 0.63655588, 0.0054180582442215]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV13_W43,"Question: How likely, if at all, is it that black people in our country will eventually have equal rights with whites?
+A. Very likely
+B. Somewhat likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' D', ' B', ' C', ' D', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' D', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' D', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' D', ' C', ' B', ' B', ' C', ' B']","[0.27601505, 0.48066211, 0.21502604, 0.0282968, 0.0]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV45_W43,"Question: How many black people in our country do you think would confront a black friend or family member if they made a racist or racially insensitive comment or joke about people who are white?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' C', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' B', ' C', ' E', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' E', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' E', ' B', ' C', ' E', ' B', ' C', ' C', ' C', ' B', ' E', ' C', ' E', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' E', ' C', ' E', ' C', ' C', ' E', ' B', ' C', ' C', ' C', ' C', ' E', ' E', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' E', ' B', ' C', ' C', ' E', ' E', ' C', ' E', ' E', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' E', ' B', ' A']","[0.03198893, 0.34511741, 0.62289366, 0.0, 0.253693298300139]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV34a_W43,"Question: Overall, how much has being white/Being black/Being Hispanic/Being Asian/Your racial background helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' E', ' A', ' A', ' E', ' B', ' E', ' E', ' E', ' B', ' E', ' B', ' C', ' E', ' E', ' E', ' E', ' B', ' E', ' A', ' A', ' E', ' A', ' E', ' E', ' E', ' C', ' E', ' E', ' C', ' E', ' A', ' E', ' E', ' D', ' B', ' B', ' E', ' E', ' E', ' E', ' E', ' B', ' E', ' F', ' E', ' B', ' B', ' E', ' B', ' E', ' B', ' A', ' E', ' E', ' E', ' E', ' C', ' B', ' E', ' E', ' E', ' E', ' E', ' B', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' B', ' B', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' C', ' A', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' C', ' B', ' E', ' B', ' E', ' E', ' E', ' B']","[0.0889727, 0.19944122, 0.06125389, 0.02241633, 0.62791585, 0.0084459392616511]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+IDIMPORT_W43,"Question: How important is your racial background to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' E', ' E', ' E', ' B', ' E', ' D', ' A', ' D', ' C', ' E', ' B', ' E', ' A', ' A', ' D', ' C', ' E', ' E', ' A', ' B', ' E', ' B', ' D', ' E', ' C', ' E', ' C', ' C', ' D', ' B', ' B', ' E', ' D', ' E', ' E', ' D', ' D', ' B', ' E', ' E', ' D', ' E', ' E', ' B', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' A', ' A', ' E', ' A', ' C', ' D', ' B', ' E', ' E', ' E', ' E', ' B', ' E', ' D', ' E', ' C', ' E', ' A', ' E', ' E', ' C', ' A', ' E', ' C', ' E', ' E', ' E', ' E', ' C', ' E', ' D', ' E', ' C', ' E', ' E', ' A', ' C', ' E', ' B', ' D', ' E', ' E', ' D', ' D', ' E', ' E', ' E']","[0.09702303, 0.14179501, 0.17259988, 0.14557349, 0.4430086, 0.0057112644562086]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV28a_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in hiring, pay and promotions situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' C']","[0.21963828, 0.11968694, 0.66067479, 0.0160757431845936]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+RACESURV19c_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Less access to good quality schools
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' C', ' D', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' D', ' C', ' A', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' C']","[0.24411178, 0.36086469, 0.39502353, 0.0081742084354261]",POLPARTY,Republican,"[1.0, 2.0, 3.0]"
+RACESURV28e_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in by the criminal justice system situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' D', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' D', ' C', ' C', ' A', ' C', ' D', ' A', ' C', ' D', ' A', ' A', ' C', ' C', ' B', ' A', ' C', ' C']","[0.36704072, 0.06249397, 0.5704653, 0.0215122554900845]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+RACESURV40_W43,"Question: How many white people in our country do you think are prejudiced against black people?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' C', ' B', ' B', ' B', ' B', ' E', ' C', ' E', ' B', ' C', ' B', ' E', ' C', ' B', ' E', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' E', ' B', ' E', ' C', ' E', ' B', ' B', ' E', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' B', ' E', ' E', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' E', ' E', ' A', ' B', ' B', ' C', ' E', ' E', ' C', ' B', ' B', ' E', ' B', ' B']","[0.03875427, 0.67164961, 0.28959612, 0.0, 0.1006000303801065]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV29d_W43,"Question: In your daily life, how much interaction, if any, would you say you have with people who are asian
+A. A lot of interaction
+B. Some interaction
+C. Not much interaction
+D. No interaction at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' A', ' D', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' D', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' C', ' D', ' A', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' D', ' A', ' D', ' C', ' C', ' B', ' D', ' A', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' D', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' D', ' C', ' D', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' C', ' B', ' D', ' B', ' C', ' B', ' D', ' C', ' C', ' D', ' C', ' C', ' C']","[0.12205371, 0.35930452, 0.39330151, 0.12534026, 0.0033644780163234]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV15b_W43,"Question: Since President Trump was elected, do you think it has become more acceptable or less acceptable for people to express racist or racially insensitive views, or is it about as acceptable as it was before?
+A. More acceptable
+B. Less acceptable
+C. About as acceptable
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' D', ' A', ' C', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' A']","[0.21355735, 0.27764049, 0.50880216, 0.0121916419226837]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+RACESURV2_W43,"Question: The U.S. population is made up of people of many different races and ethnicities. Overall, do you think this is
+A. Very good for the country
+B. Somewhat good for the country
+C. Somewhat bad for the country
+D. Very bad for the country
+E. Neither good nor bad for the country
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' A', ' B', ' E', ' A', ' A', ' A', ' E', ' C', ' B', ' A', ' A', ' D', ' A', ' E', ' E', ' A', ' E', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' E', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' E', ' A', ' E', ' C', ' A', ' E', ' A', ' A', ' A', ' E', ' C', ' E', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' E', ' A', ' E', ' A', ' E', ' B', ' A', ' B', ' B', ' C', ' E', ' A', ' B', ' A', ' A', ' A', ' E', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' E', ' E', ' A', ' B', ' B', ' E', ' A', ' A', ' D']","[0.39608176, 0.28057062, 0.08448067, 0.02517822, 0.21368873, 0.0026809165908828]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5d_W43,"Question: Overall, how does being Asian affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' C', ' C', ' B', ' E', ' B', ' E', ' B', ' C', ' B', ' B', ' B', ' B', ' E', ' E', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' E', ' E', ' E', ' E', ' E', ' E', ' B', ' E', ' E', ' B', ' E', ' B', ' E', ' C', ' E', ' E', ' B', ' E', ' E', ' A', ' C', ' C', ' E', ' E', ' C', ' E', ' E', ' E', ' E', ' E', ' E', ' F', ' C', ' E', ' B', ' C', ' E', ' A', ' B', ' E', ' E', ' B', ' E', ' E', ' B', ' E', ' B', ' E', ' B', ' E', ' A', ' E', ' E', ' E', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' E', ' E', ' C', ' B', ' A', ' F', ' E', ' E', ' E', ' B', ' E', ' C', ' E', ' A', ' E', ' E', ' E']","[0.10800006, 0.25462204, 0.11630332, 0.02343761, 0.49763697, 0.0062218444235077]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV27_W43,"Question: How much, if at all, do you think what happens to Asians in the country overall affects what happens in your own life?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' E', ' D', ' C', ' D', ' C', ' D', ' B', ' B', ' D', ' A', ' D', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' E', ' C', ' D', ' B', ' D', ' C', ' D', ' D', ' B', ' C', ' C', ' D', ' C', ' B', ' B', ' D', ' D', ' C', ' B', ' C', ' C', ' D', ' D', ' D', ' B', ' C', ' C', ' D', ' C', ' D', ' C', ' B', ' C', ' D', ' B', ' A', ' C', ' D', ' C', ' C', ' B', ' D', ' C', ' C', ' D', ' D', ' C', ' A', ' C', ' A', ' B', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' A', ' D', ' C', ' C', ' D', ' A', ' B', ' B', ' C', ' D', ' B', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' B', ' B', ' C', ' D', ' B']","[0.04247994, 0.20773703, 0.35439917, 0.39538385, 0.0113500499441725]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV47e_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A person wearing traditional dress from a country or culture other than their own as part of a Halloween costume
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' D', ' B', ' A', ' C', ' A', ' E', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' D', ' B', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' E', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' E', ' B', ' C', ' E', ' A', ' A', ' A', ' D', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' E', ' A', ' D', ' D', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' E', ' A', ' A', ' B', ' A']","[0.49103612, 0.34142493, 0.10354061, 0.06399834, 0.0872102178727561]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV19e_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Less access to high-paying jobs
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' D', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' C', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' C']","[0.15227106, 0.36913072, 0.47859822, 0.0106689735399464]",POLPARTY,Republican,"[1.0, 2.0, 3.0]"
+RACESURV5a_W43,"Question: Overall, how does being white affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' B', ' B', ' E', ' B', ' B', ' C', ' C', ' E', ' E', ' B', ' E', ' A', ' B', ' E', ' B', ' D', ' C', ' C', ' B', ' D', ' E', ' E', ' A', ' B', ' B', ' B', ' D', ' B', ' C', ' E', ' E', ' B', ' A', ' E', ' E', ' E', ' E', ' C', ' C', ' A', ' A', ' A', ' E', ' E', ' E', ' A', ' E', ' A', ' E', ' B', ' B', ' C', ' D', ' A', ' B', ' E', ' E', ' E', ' B', ' B', ' E', ' E', ' B', ' E', ' E', ' E', ' E', ' B', ' A', ' B', ' E', ' E', ' E', ' B', ' E', ' E', ' B', ' B', ' E', ' C', ' D', ' B', ' C', ' B', ' E', ' E', ' C', ' B', ' E', ' E', ' E', ' C', ' E', ' D', ' E', ' A', ' E', ' A']","[0.15622674, 0.2565541, 0.12979333, 0.07385761, 0.38356823, 0.0067189277581839]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV51_W43,"Question: Thinking about the community where you live, do you wish your community was
+A. More racially mixed
+B. Less racially mixed
+C. About as racially mixed as it is
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' C', ' A', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C']","[0.09236179, 0.10836593, 0.79927228, 0.0189528583324224]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+RACESURV34c_W43,"Question: Overall, how much has your family's financial situation when you were growing up helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' A', ' B', ' E', ' C', ' E', ' E', ' E', ' E', ' D', ' E', ' E', ' C', ' D', ' C', ' E', ' B', ' B', ' E', ' D', ' A', ' E', ' E', ' E', ' C', ' C', ' E', ' A', ' E', ' B', ' D', ' E', ' C', ' E', ' A', ' E', ' E', ' D', ' E', ' E', ' D', ' E', ' C', ' E', ' A', ' B', ' E', ' E', ' E', ' D', ' E', ' E', ' A', ' C', ' C', ' D', ' D', ' E', ' E', ' E', ' C', ' E', ' E', ' C', ' C', ' E', ' E', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' E', ' D', ' E', ' E', ' B', ' E', ' D', ' C', ' C', ' A', ' E', ' D', ' D', ' E', ' E', ' E', ' E', ' E', ' E', ' E', ' C', ' E', ' B', ' A', ' C']","[0.08656835, 0.19089193, 0.16161409, 0.12306108, 0.43786454, 0.0017118854227286]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+IDIMPORT_W43,"Question: How important is being black to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' C', ' E', ' D', ' E', ' E', ' E', ' A', ' E', ' E', ' A', ' A', ' E', ' C', ' C', ' E', ' C', ' E', ' C', ' D', ' E', ' E', ' E', ' C', ' E', ' E', ' E', ' D', ' E', ' E', ' C', ' C', ' E', ' A', ' E', ' E', ' E', ' C', ' C', ' C', ' D', ' B', ' D', ' E', ' E', ' E', ' E', ' C', ' E', ' D', ' E', ' B', ' B', ' C', ' A', ' B', ' E', ' A', ' C', ' D', ' E', ' D', ' D', ' E', ' E', ' E', ' D', ' E', ' C', ' E', ' E', ' B', ' C', ' D', ' E', ' E', ' E', ' E', ' E', ' C', ' B', ' C', ' E', ' C', ' E', ' E', ' B', ' C', ' B', ' E', ' E', ' E', ' E', ' E', ' C', ' E', ' B', ' D', ' B', ' E']","[0.09702303, 0.14179501, 0.17259988, 0.14557349, 0.4430086, 0.0057112644562086]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV52_W43,"Question: How much, if at all, would it bother you to hear people speak a language other than English in a public place?
+A. A lot
+B. Some
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' E', ' D', ' B', ' B', ' C', ' D', ' D', ' B', ' D', ' C', ' B', ' A', ' C', ' B', ' A', ' B', ' D', ' B', ' D', ' C', ' B', ' D', ' B', ' A', ' C', ' D', ' C', ' C', ' A', ' A', ' C', ' D', ' C', ' A', ' C', ' D', ' D', ' A', ' B', ' E', ' B', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' B', ' C', ' D', ' D', ' A', ' B', ' D', ' A', ' D', ' A', ' D', ' D', ' B', ' A', ' B', ' A', ' D', ' B', ' C', ' B', ' D', ' C', ' B', ' D', ' D', ' B', ' C', ' D', ' A', ' C', ' D', ' A', ' A', ' D', ' A', ' D', ' A', ' B', ' C', ' A']","[0.20040621, 0.26849839, 0.2486555, 0.2824399, 0.0047815224070546]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV18b_W43,"Question: Thinking again about race and race relations in the U.S. in general, how well, if at all, do you think each of these groups get along with each other in our society these days? Blacks and Hispanics
+A. Very well
+B. Pretty well
+C. Not too well
+D. Not at all well
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' E', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' E', ' C', ' C', ' E', ' E', ' B', ' E', ' B', ' B', ' E', ' D', ' B', ' C', ' C', ' B', ' E', ' B', ' E', ' C', ' C', ' E', ' C', ' B', ' B', ' D', ' E', ' B', ' E', ' A', ' E', ' E', ' B', ' B', ' B', ' B', ' B', ' E', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' E', ' B', ' B', ' C', ' C', ' B', ' E', ' E', ' C', ' B', ' C', ' B', ' E', ' A', ' B', ' B', ' C', ' E', ' C', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' D', ' B', ' A', ' C', ' D', ' A', ' C', ' A', ' C']","[0.09431079, 0.48651814, 0.32613714, 0.09303393, 0.2901306438356494]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV5j_W43,"Question: Overall, how does being a woman affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' C', ' B', ' E', ' C', ' C', ' E', ' B', ' C', ' E', ' B', ' B', ' E', ' E', ' B', ' B', ' E', ' B', ' E', ' B', ' C', ' E', ' B', ' C', ' E', ' D', ' E', ' B', ' B', ' C', ' B', ' C', ' E', ' E', ' B', ' E', ' C', ' E', ' B', ' A', ' B', ' C', ' A', ' E', ' C', ' E', ' C', ' E', ' C', ' B', ' C', ' A', ' E', ' C', ' F', ' C', ' B', ' E', ' C', ' E', ' E', ' A', ' E', ' C', ' B', ' D', ' B', ' B', ' B', ' A', ' C', ' C', ' E', ' B', ' E', ' B', ' E', ' C', ' B', ' E', ' B', ' C', ' B', ' C', ' B', ' F', ' B', ' E', ' E', ' C', ' E', ' B', ' E', ' E', ' E', ' C', ' E', ' A', ' E', ' E']","[0.1180754, 0.22647931, 0.30077468, 0.03908998, 0.31558063, 0.0057942112131096]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV21_W43,"Question: How often, if ever, did your family talk to you about challenges you might face because of your race or ethnicity?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' C', ' D', ' D', ' D', ' B', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' B', ' D', ' D', ' B', ' D', ' B', ' D', ' D', ' D', ' D', ' B', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' A', ' C', ' D', ' B', ' C', ' C', ' D', ' C', ' D', ' D', ' B', ' D', ' A', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' B', ' C', ' C', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' D', ' D', ' C', ' D', ' D', ' A', ' D', ' D']","[0.02577961, 0.10555066, 0.16774738, 0.70092235, 0.0040685081084846]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV1b_W43,"Question: For your job or career aspects of your life, would you say that you are, or about where you expected to be at this point in your life?
+A. In a better situation than I expected
+B. In a worse situation than I expected
+C. About where I expected
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B']","[0.32674484, 0.22449122, 0.44876394, 0.0032585482002281]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+RACESURV28f_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when voting in elections situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C']","[0.07272294, 0.05791451, 0.86936255, 0.005483584041613]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+IDIMPORT_W43,"Question: How important is being white to how you think about yourself?
+A. Extremely important
+B. Very important
+C. Moderately important
+D. Only a little important
+E. Not at all important
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' E', ' E', ' E', ' E', ' C', ' E', ' B', ' C', ' E', ' C', ' E', ' E', ' B', ' E', ' C', ' D', ' D', ' A', ' E', ' C', ' E', ' C', ' E', ' C', ' E', ' B', ' E', ' C', ' E', ' D', ' D', ' D', ' E', ' A', ' D', ' E', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' B', ' D', ' A', ' D', ' E', ' B', ' E', ' B', ' D', ' C', ' E', ' B', ' A', ' E', ' B', ' E', ' B', ' B', ' D', ' E', ' B', ' E', ' E', ' E', ' E', ' E', ' C', ' E', ' A', ' A', ' D', ' C', ' C', ' B', ' E', ' B', ' E', ' E', ' A', ' D', ' D', ' E', ' F', ' D', ' C', ' E', ' B', ' C', ' A', ' E', ' D', ' C', ' E', ' D', ' E', ' B']","[0.09702303, 0.14179501, 0.17259988, 0.14557349, 0.4430086, 0.0057112644562086]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+RACESURV5e_W43,"Question: Overall, how does being Native American affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' E', ' B', ' C', ' E', ' E', ' C', ' C', ' E', ' E', ' B', ' E', ' C', ' B', ' A', ' E', ' E', ' E', ' C', ' C', ' E', ' E', ' E', ' A', ' C', ' B', ' E', ' C', ' B', ' D', ' C', ' E', ' C', ' E', ' B', ' B', ' A', ' B', ' C', ' B', ' E', ' E', ' E', ' E', ' E', ' C', ' E', ' E', ' E', ' F', ' E', ' E', ' B', ' E', ' E', ' C', ' B', ' A', ' E', ' E', ' B', ' C', ' B', ' B', ' D', ' E', ' B', ' E', ' E', ' C', ' E', ' E', ' E', ' C', ' C', ' C', ' B', ' B', ' B', ' A', ' E', ' B', ' B', ' E', ' D', ' E', ' B', ' E', ' D', ' E', ' E', ' E', ' D', ' B', ' A', ' E', ' C', ' B', ' E']","[0.08653834, 0.21164331, 0.17367486, 0.0497707, 0.47837279, 0.0075690093550333]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV28g_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in when seeking medical treatment situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' A']","[0.10529357, 0.0405128, 0.85419363, 0.0082108506501928]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+RACESURV17_W43,"Question: How much, if at all, do you think the legacy of slavery affects the position of black people in American society today?
+A. A great deal
+B. A fair amount
+C. Not much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' D', ' A', ' D', ' B', ' D', ' A', ' D', ' D', ' C', ' E', ' C', ' A', ' C', ' C', ' A', ' A', ' D', ' B', ' C', ' A', ' D', ' D', ' C', ' B', ' D', ' D', ' C', ' A', ' B', ' D', ' A', ' B', ' C', ' B', ' A', ' C', ' D', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' C', ' D', ' A', ' A', ' D', ' A', ' C', ' D', ' C', ' D', ' B', ' B', ' D', ' C', ' D', ' B', ' B', ' B', ' D', ' D', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' C', ' D', ' B', ' D', ' D', ' D', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' C', ' C']","[0.16879577, 0.23901703, 0.28045994, 0.31172725, 0.0106943834407967]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV5h_W43,"Question: Overall, how does being an evangelical Christian affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' E', ' B', ' E', ' D', ' E', ' B', ' E', ' E', ' E', ' E', ' B', ' B', ' E', ' A', ' B', ' E', ' C', ' E', ' E', ' E', ' C', ' E', ' E', ' E', ' E', ' A', ' E', ' E', ' C', ' E', ' B', ' E', ' E', ' C', ' E', ' E', ' C', ' E', ' A', ' C', ' E', ' E', ' E', ' E', ' E', ' E', ' C', ' E', ' A', ' A', ' E', ' E', ' E', ' E', ' C', ' E', ' E', ' E', ' E', ' E', ' A', ' C', ' E', ' B', ' E', ' E', ' E', ' D', ' A', ' E', ' E', ' E', ' B', ' C', ' C', ' A', ' E', ' E', ' E', ' D', ' E', ' B', ' C', ' C', ' B', ' A', ' A', ' E', ' E', ' E', ' B', ' E', ' B', ' E', ' A', ' C', ' A', ' E', ' E']","[0.0785452, 0.13159687, 0.14204906, 0.0774687, 0.57034017, 0.0034997866259992]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV47b_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A black person using the n-word
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' A', ' D', ' D', ' C', ' C', ' D', ' D', ' B', ' D', ' D', ' A', ' B', ' D', ' D', ' B', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' E', ' C', ' E', ' D', ' C', ' B', ' D', ' B', ' D', ' D', ' E', ' D', ' D', ' E', ' A', ' D', ' D', ' D', ' D', ' A', ' C', ' A', ' E', ' B', ' A', ' D', ' C', ' D', ' C', ' A', ' D', ' D', ' C', ' D', ' D', ' A', ' C', ' C', ' B', ' D', ' D', ' C', ' B', ' D', ' D', ' B', ' E', ' D', ' B', ' D', ' D', ' D', ' A', ' D', ' B', ' A', ' D', ' D', ' E', ' D', ' B', ' A', ' C', ' D', ' B', ' A', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D']","[0.12575149, 0.15408525, 0.17307912, 0.54708414, 0.0797916703204483]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV47d_W43,"Question: For each, please indicate if you, personally, think it is acceptable. Casting an actor to play a character of a race or ethnicity other than their own
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' A', ' A', ' B', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' E', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' C', ' B', ' A', ' E', ' B', ' C', ' E', ' D', ' D', ' E', ' B', ' E', ' A', ' B', ' A', ' D', ' B', ' B', ' D', ' A', ' A', ' E', ' A', ' E', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' B', ' A', ' D', ' B', ' A', ' B', ' B', ' C', ' D', ' B', ' B', ' E', ' B', ' A', ' A', ' B', ' D', ' A', ' B', ' B', ' B', ' E', ' E', ' C', ' A', ' B', ' B', ' B', ' A', ' B']","[0.31100856, 0.43195342, 0.17739674, 0.07964127, 0.1130652830380267]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV14_W43,"Question: Would you say President Trump has
+A. Made progress toward improving race relations
+B. Tried but failed to make progress toward improving race relations
+C. Not addressed race relations
+D. Made race relations worse
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' A', ' C', ' A', ' A', ' E', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' D', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' D', ' C', ' C', ' A', ' D', ' A', ' A', ' A', ' D', ' A', ' C', ' C', ' D', ' B', ' B', ' D', ' A', ' C', ' D', ' E', ' C', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' B', ' D', ' C', ' D', ' A', ' C', ' A', ' A', ' B', ' D', ' A', ' B', ' A', ' A', ' C', ' B', ' D', ' D', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A']","[0.42059546, 0.26128107, 0.17642623, 0.14169723, 0.0202188991465463]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV47f_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A white person using makeup to darken their skin so they appear to be a different race as part of a Halloween costume
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' C', ' A', ' B', ' C', ' D', ' A', ' A', ' D', ' C', ' C', ' A', ' A', ' D', ' C', ' D', ' B', ' B', ' B', ' B', ' D', ' C', ' B', ' B', ' C', ' C', ' B', ' D', ' A', ' A', ' A', ' D', ' A', ' B', ' B', ' D', ' D', ' C', ' D', ' C', ' B', ' A', ' D', ' A', ' D', ' C', ' D', ' B', ' A', ' A', ' A', ' E', ' B', ' D', ' A', ' D', ' A', ' D', ' C', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' D', ' A', ' C', ' A', ' D', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' D', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' D', ' B', ' C', ' B', ' D', ' B', ' D', ' B', ' A', ' E']","[0.32299555, 0.29544121, 0.16660237, 0.21496087, 0.1058184789569926]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV28d_W43,"Question: Would you say that black people are treated less fairly than white people, white people are treated less fairly than black people, or both are treated about equally in in dealing with the police situations?
+A. Black people are treated less fairly than white people
+B. White people are treated less fairly than black people
+C. Both are treated about equally
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' A', ' A', ' C', ' A', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' A']","[0.42246723, 0.04031373, 0.53721905, 0.0079979456399841]",POLPARTY,Republican,"[1.0, 2.0, 1.5]"
+RACESURV48_W43,"Question: How important, if at all, would you say it is for companies and organizations to promote racial and ethnic diversity in their workplace?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' D', ' D', ' B', ' C', ' A', ' D', ' B', ' A', ' D', ' B', ' A', ' D', ' C', ' B', ' B', ' D', ' B', ' B', ' D', ' D', ' B', ' A', ' B', ' A', ' A', ' D', ' D', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' D', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' D', ' A', ' D', ' A', ' C', ' A', ' A', ' D', ' D', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' D', ' D', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' D']","[0.31064876, 0.34015451, 0.18048629, 0.16871044, 0.0068731248368346]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV5i_W43,"Question: Overall, how does being a man affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' E', ' B', ' A', ' E', ' B', ' A', ' C', ' B', ' A', ' E', ' B', ' B', ' A', ' E', ' E', ' B', ' E', ' B', ' C', ' F', ' E', ' E', ' A', ' A', ' B', ' E', ' A', ' A', ' E', ' C', ' A', ' C', ' B', ' A', ' E', ' A', ' E', ' B', ' A', ' B', ' A', ' C', ' E', ' E', ' E', ' B', ' B', ' A', ' B', ' D', ' C', ' D', ' C', ' E', ' B', ' B', ' B', ' E', ' C', ' B', ' E', ' C', ' B', ' E', ' B', ' A', ' A', ' B', ' B', ' E', ' B', ' E', ' E', ' A', ' C', ' C', ' B', ' E', ' B', ' C', ' E', ' E', ' A', ' B', ' B', ' C', ' A', ' E', ' E', ' A', ' B', ' B', ' B', ' E', ' E', ' D', ' E', ' B', ' E']","[0.23428394, 0.30568982, 0.11056956, 0.03740203, 0.31205465, 0.0037257315574799]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV47a_W43,"Question: For each, please indicate if you, personally, think it is acceptable. A sports team using Native American tribal names or images as mascots
+A. Always acceptable
+B. Sometimes acceptable
+C. Rarely acceptable
+D. Never acceptable
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' E', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' B', ' D', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' E', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' E', ' A', ' A', ' B', ' B', ' A', ' A', ' D', ' A', ' B', ' B', ' D', ' A', ' B', ' B', ' A', ' B', ' D', ' A', ' B', ' E', ' B', ' A', ' B', ' E', ' A', ' A', ' B', ' E', ' C', ' B', ' A', ' E', ' D', ' B', ' B', ' A', ' B', ' D', ' E', ' C', ' D', ' A', ' A', ' D', ' A', ' B', ' A', ' E', ' B', ' A', ' A', ' B', ' A', ' D', ' B', ' A']","[0.50361329, 0.35020791, 0.06607412, 0.08010468, 0.1382287989099287]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV19a_W43,"Question: Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Racial discrimination
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' D', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' B']","[0.14423173, 0.45028686, 0.4054814, 0.0083704302150099]",POLPARTY,Republican,"[1.0, 2.0, 3.0]"
+RACESURV38_W43,"Question: How often, if ever, do you stop yourself from saying something because someone might think you are racist or racially insensitive?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' B', ' D', ' B', ' C', ' A', ' D', ' D', ' B', ' D', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' D', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' D', ' C', ' D', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' D', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' A', ' B', ' B', ' D', ' D', ' D', ' B', ' B', ' B', ' D', ' D', ' D', ' D', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' D', ' C', ' B', ' D', ' B']","[0.05771467, 0.2887506, 0.35817645, 0.29535827, 0.0048504325097682]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV9_W43,"Question: When race or race relations comes up in your conversations with family and friends, is it
+A. Always with people who are the same race as you
+B. Mostly with people who are the same race as you
+C. Mostly with people who are not the same race as you
+D. Always with people who are not the same race as you
+E. Both about equally
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' E', ' B', ' E', ' A', ' E', ' B', ' C', ' E', ' E', ' E', ' A', ' E', ' B', ' B', ' A', ' B', ' B', ' C', ' F', ' B', ' C', ' E', ' C', ' D', ' B', ' D', ' E', ' B', ' B', ' B', ' B', ' E', ' E', ' E', ' B', ' B', ' B', ' B', ' E', ' E', ' B', ' B', ' E', ' E', ' B', ' E', ' A', ' C', ' E', ' B', ' E', ' E', ' B', ' A', ' E', ' B', ' E', ' B', ' E', ' B', ' E', ' E', ' B', ' B', ' E', ' B', ' E', ' A', ' E', ' E', ' B', ' A', ' C', ' A', ' B', ' A', ' E', ' B', ' A', ' A', ' B', ' E', ' E', ' B', ' A', ' E', ' E', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' E', ' A', ' A', ' B', ' C']","[0.16271928, 0.4178002, 0.10664574, 0.01368534, 0.29914945, 0.0031950058443205]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV41_W43,"Question: How many white people in our country do you think would confront a white friend or family member if they made a racist or racially insensitive comment or joke about people who are black?
+A. All or most
+B. Some
+C. Only a few
+D. None
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' B', ' E', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' E', ' E', ' B', ' E', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' E', ' B', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' E', ' B', ' C', ' E', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' E', ' E', ' B', ' E', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' E', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' E', ' A', ' B', ' E', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B']","[0.09197997, 0.57017491, 0.33784513, 0.0, 0.1386221142261536]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV18f_W43,"Question: Thinking again about race and race relations in the U.S. in general, how well, if at all, do you think each of these groups get along with each other in our society these days? Hispanics and Asians
+A. Very well
+B. Pretty well
+C. Not too well
+D. Not at all well
+E. Not sure
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' B', ' B', ' E', ' E', ' E', ' E', ' C', ' B', ' C', ' A', ' E', ' B', ' B', ' C', ' C', ' E', ' B', ' B', ' A', ' C', ' E', ' B', ' B', ' B', ' B', ' C', ' A', ' E', ' B', ' B', ' C', ' A', ' E', ' B', ' B', ' E', ' A', ' B', ' E', ' E', ' E', ' E', ' E', ' E', ' B', ' B', ' C', ' E', ' E', ' C', ' C', ' C', ' E', ' E', ' B', ' B', ' A', ' B', ' A', ' B', ' E', ' C', ' B', ' E', ' C', ' D', ' B', ' C', ' E', ' B', ' E', ' B', ' E', ' B', ' B', ' B', ' E', ' B', ' B', ' E', ' B', ' E', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' D', ' A', ' E', ' B', ' B']","[0.13850505, 0.59068982, 0.22771011, 0.04309502, 0.4348637907909932]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0]"
+RACESURV34d_W43,"Question: Overall, how much has how hard you've worked helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' A', ' A', ' A', ' E', ' A', ' A', ' A', ' E', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' E', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' E', ' A', ' B', ' C', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' E', ' E', ' B', ' A', ' A', ' A', ' A']","[0.72552003, 0.12540934, 0.02161069, 0.01092366, 0.11653628, 0.0014298059793264]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV34e_W43,"Question: Overall, how much has the people you know helped or hurt your ability to get ahead?
+A. Helped a lot
+B. Helped a little
+C. Hurt a little
+D. Hurt a lot
+E. Neither helped nor hurt
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' E', ' B', ' B', ' A', ' B', ' B', ' E', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' E', ' A', ' B', ' A', ' E', ' B', ' E', ' A', ' E', ' B', ' A', ' A', ' A', ' E', ' E', ' B', ' B', ' E', ' A', ' E', ' B', ' E', ' B', ' E', ' B', ' E', ' E', ' C', ' E', ' B', ' E', ' B', ' C', ' E', ' E', ' A', ' B', ' B', ' E', ' A', ' E', ' E', ' B', ' B', ' A', ' B', ' A', ' A', ' E', ' B', ' B', ' B', ' B', ' B', ' A', ' E', ' B', ' A', ' B', ' A', ' E', ' E', ' E', ' B', ' F', ' E', ' B', ' E', ' A', ' B', ' A', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' E', ' A']","[0.20707753, 0.39009533, 0.0258259, 0.01332044, 0.3636808, 0.0056752999287129]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"
+RACESURV5b_W43,"Question: Overall, how does being black affect people's ability to get ahead in our country these days?
+A. Helps a lot
+B. Helps a little
+C. Hurts a little
+D. Hurts a lot
+E. Neither helps nor hurts
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' E', ' B', ' A', ' C', ' E', ' B', ' B', ' C', ' E', ' B', ' C', ' C', ' E', ' E', ' C', ' C', ' E', ' E', ' E', ' E', ' B', ' C', ' E', ' C', ' B', ' B', ' D', ' C', ' D', ' E', ' C', ' E', ' E', ' A', ' E', ' E', ' E', ' C', ' E', ' D', ' E', ' A', ' D', ' B', ' A', ' E', ' E', ' B', ' D', ' E', ' A', ' E', ' E', ' C', ' B', ' B', ' E', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' E', ' C', ' B', ' E', ' C', ' E', ' B', ' A', ' E', ' C', ' B', ' E', ' E', ' D', ' C', ' D', ' C', ' E', ' B', ' C', ' E', ' A', ' A', ' E', ' E', ' A', ' C', ' B', ' C', ' E', ' E', ' E', ' E']","[0.14022958, 0.17999097, 0.27244057, 0.07949408, 0.3278448, 0.0070756085421893]",POLPARTY,Republican,"[1.0, 2.0, 3.0, 4.0, 2.5]"

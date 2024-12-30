@@ -1,0 +1,500 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+GAP21Q33_s_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think reducing legal immigrations into the US should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B']","[0.10343084, 0.39899898, 0.49757018, 0.0077369093426674]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0]"
+GAP21Q33_g_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think reducing illegal immigration into the US should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B']","[0.10816831, 0.6066443, 0.28518739, 0.0]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0]"
+GAP21Q7_d_W82,"Question: Would you say the World Health Organization, or WHO has done a good or bad job dealing with the coronavirus outbreak?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' A', ' B', ' C', ' D', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' B', ' C', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' D', ' B', ' A', ' D', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' D', ' B', ' B', ' D', ' B', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' D']","[0.10393183, 0.62047518, 0.20542215, 0.07017084, 0.0136752885820881]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_f_W82,"Question: Do you have a favorable or unfavorable opinion of nato, that is, North Atlantic Treaty Organization
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' D', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' E', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' D', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' D', ' B', ' A', ' A', ' D', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' E', ' A', ' D', ' B', ' B', ' A', ' B', ' C', ' B', ' B']","[0.31304857, 0.5347829, 0.13065294, 0.02151559, 0.025644031734007]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_e_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do improve relationships with our allies?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' E', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' D', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A']","[0.64013501, 0.29993986, 0.04398775, 0.01593738, 0.0074634545665986]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_i_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think maintaining the US military advantage over all other countries should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' C', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' A']","[0.26583289, 0.53097166, 0.20319544, 0.0]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0]"
+GAP21Q7_a_W82,"Question: Would you say the US has done a good or bad job dealing with the coronavirus outbreak?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' D', ' C', ' B', ' B', ' D', ' D', ' B', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' C', ' D', ' B', ' D', ' B', ' C', ' D', ' C', ' D', ' C', ' B', ' C', ' B', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' B', ' C', ' D', ' D', ' D', ' C', ' D', ' B', ' C', ' C', ' C', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' B', ' D', ' B', ' C', ' D', ' B', ' C', ' D', ' B', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' C', ' B', ' D', ' B', ' D', ' C', ' B', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' D', ' B', ' B', ' D', ' C', ' C', ' C', ' B']","[0.02526021, 0.15891651, 0.38874575, 0.42707753, 0.0009016761822602]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q19_e_W82,"Question: How much confidence do you have in french President Emmanuel Macron to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' E', ' B', ' B', ' D', ' B', ' A', ' C', ' B', ' C', ' B', ' E', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' D', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' E', ' B', ' E', ' A', ' B', ' C', ' E', ' B', ' B', ' E', ' A', ' C', ' C', ' C', ' E', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B']","[0.17024127, 0.60930069, 0.16792037, 0.05253767, 0.0352323149683006]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q21_e_W82,"Question: In the US, how strong, if at all, are conflicts between people who practice different religions?
+A. Very strong conflicts
+B. Strong conflicts
+C. Not very strong conflicts
+D. There are not conflicts
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' A', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' D', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' A', ' D', ' B', ' D', ' A', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' D', ' C', ' C']","[0.14016979, 0.42315912, 0.41800354, 0.01866755, 0.0011397638749384]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_e_W82,"Question: Do you have a favorable or unfavorable opinion of the United Nations
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' E', ' D', ' C', ' B', ' C', ' A', ' B', ' D', ' D', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' D', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' B']","[0.21208636, 0.60623001, 0.13835539, 0.04332825, 0.0087054715618669]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q38_b_W82,"Question: How much, if at all, do you think the US benefits from being a member of the United Nations organizations?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B']","[0.48595756, 0.38286509, 0.11404592, 0.01713143, 0.0085942731156108]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_r_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think aiding refugees fleeing violence around the world should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' A', ' B', ' A', ' C', ' D', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' D', ' A', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' D', ' A', ' B', ' A', ' A', ' B', ' B', ' C']","[0.34395062, 0.60091107, 0.05513831, 0.0222824816671068]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0]"
+GAP21Q19_a_W82,"Question: How much confidence do you have in us President Joe Biden to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' A', ' E', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' A', ' A', ' D', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' D', ' A', ' A', ' D', ' A', ' A', ' A', ' B', ' D', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A']","[0.56683767, 0.33575034, 0.06475678, 0.03265521, 0.0098664378937522]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_b_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do deal effectively with the threat of terrorism?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' E', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' D', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' B', ' C', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' B', ' B', ' B']","[0.38737596, 0.5027109, 0.08539527, 0.02451787, 0.0053617424143221]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_q_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think getting other countries to assume more of the costs of maintaining world order should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' D', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' D', ' A', ' A']","[0.25944214, 0.65841622, 0.08214163, 0.029332221352813]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0]"
+GAP21Q19_c_W82,"Question: How much confidence do you have in russian President Vladimir Putin to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' D', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' B', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' E', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D', ' D']","[0.01410325, 0.05932664, 0.34004062, 0.58652949, 0.024183385177308]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q41_W82,"Question: Overall, do you think current economic relations between the US and China are very good, somewhat good, somewhat bad or very bad?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' D', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' E', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' C']","[0.00132269, 0.32786564, 0.59535524, 0.07545642, 0.0272333125849587]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q38_c_W82,"Question: How much, if at all, do you think the US benefits from being a member of the World Health Organization, or WHO organizations?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' E', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' D', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B']","[0.54248376, 0.32568753, 0.09609866, 0.03573005, 0.0085942731156108]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_d_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do deal effectively with global climate change?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' B', ' B', ' D', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' E', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' E', ' A', ' B', ' A', ' A', ' A', ' B', ' A']","[0.38147708, 0.48190172, 0.11426238, 0.02235881, 0.0095024328432657]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q26_c_W82,"Question: Would you say China is doing a good or bad job dealing with global climate change?
+A. Very good job
+B. Somewhat good job
+C. Somewhat bad job
+D. Very bad job
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' D', ' C', ' C', ' D', ' A', ' C', ' D', ' C', ' B', ' B', ' E', ' D', ' D', ' C', ' C', ' D', ' C', ' D', ' C', ' D', ' B', ' D', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' B', ' D', ' D', ' C', ' D', ' B', ' D', ' C', ' D', ' B', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' D', ' E', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' D', ' D', ' C', ' C', ' D', ' B', ' D', ' D']","[0.01668477, 0.1616243, 0.42088203, 0.4008089, 0.0120617433165715]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q32_W82,"Question: Now that Joe Biden is president, do you think other countries view the U.S
+A. A lot more positively
+B. A little more positively
+C. A little more negatively
+D. A lot more negatively
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' E', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A']","[0.52162944, 0.43341789, 0.03362268, 0.01132999, 0.0087868130453288]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_c_W82,"Question: Do you have a favorable or unfavorable opinion of Germany
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' E', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' C', ' D', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' E', ' B', ' C', ' B', ' B', ' E', ' A', ' B', ' D', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B']","[0.18836985, 0.66901509, 0.12405547, 0.01855958, 0.0199769762222791]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_a_W82,"Question: Do you have a favorable or unfavorable opinion of the United States
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' D', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' A', ' A', ' D', ' B', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' B', ' C']","[0.31363481, 0.41829549, 0.24511649, 0.02295321, 0.0]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q26_b_W82,"Question: Would you say the United Nations are doing a good or bad job dealing with global climate change?
+A. Very good job
+B. Somewhat good job
+C. Somewhat bad job
+D. Very bad job
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' E', ' C', ' B', ' D', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' A', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' D', ' C', ' C', ' D', ' B', ' C', ' E', ' E', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' B']","[0.03850881, 0.57689953, 0.32542607, 0.05916559, 0.0247224459368198]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q21_a_W82,"Question: In the US, how strong, if at all, are conflicts between people who support different political parties?
+A. Very strong conflicts
+B. Strong conflicts
+C. Not very strong conflicts
+D. There are not conflicts
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' C', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' D', ' A', ' C']","[0.57272113, 0.33924277, 0.0684881, 0.019548, 0.0015471068176253]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q13_b_W82,"Question: Thinking about the US, how much would you say the healthcare system needs to be changed, if at all?
+A. It needs to be completely reformed
+B. It needs major changes
+C. It needs minor changes
+D. It doesn't need to be changed
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B']","[0.37615117, 0.5055902, 0.1080833, 0.01017532, 0.0011409294429531]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q7_b_W82,"Question: Would you say China has done a good or bad job dealing with the coronavirus outbreak?
+A. Very good
+B. Somewhat good
+C. Somewhat bad
+D. Very bad
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' B', ' C', ' D', ' C', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' C', ' D', ' A', ' B', ' B', ' E', ' B', ' B', ' D', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' D', ' D', ' A', ' A', ' B', ' B', ' B', ' E', ' B', ' D', ' A', ' C', ' B', ' B', ' C', ' C', ' D', ' C', ' D', ' B', ' B', ' D', ' D', ' B', ' A', ' B', ' B', ' C', ' D', ' B', ' A', ' B', ' D', ' B', ' C', ' C', ' B', ' B', ' B', ' A', ' D', ' B', ' C', ' C', ' A', ' B', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' D', ' B', ' D', ' B', ' A', ' D', ' B', ' A', ' D', ' B', ' B']","[0.16180462, 0.44385119, 0.24304164, 0.15130255, 0.0164926815478014]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q15_e_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Technological achievements
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' D', ' B', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' D', ' A', ' B', ' A', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' D', ' C', ' D', ' B', ' A', ' D', ' C', ' B', ' C', ' B', ' D', ' C', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' C']","[0.10839562, 0.56028121, 0.26533072, 0.06599246, 0.0, 0.0084050286312976]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q33_j_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think dealing with global climate change should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' D', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.73678415, 0.250685, 0.01253085, 0.0011212877594757]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0]"
+GAP21Q26_a_W82,"Question: Would you say the US is doing a good or bad job dealing with global climate change?
+A. Very good job
+B. Somewhat good job
+C. Somewhat bad job
+D. Very bad job
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' D', ' C', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' B', ' B', ' C', ' A', ' C', ' D', ' C', ' C', ' E', ' C', ' D', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' D', ' D', ' D', ' C', ' C', ' B', ' D', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' C']","[0.04805629, 0.22054123, 0.50104124, 0.23036124, 0.0070870170622885]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_f_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do deal effectively with China?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' D', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' B', ' D', ' A', ' D', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' C', ' B', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C']","[0.27347519, 0.53044721, 0.15827376, 0.03780384, 0.0038566137931859]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q34_c_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do make good decisions about the use of military force?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' D', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' D', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' B', ' D', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' E', ' B', ' B', ' B', ' A', ' B', ' A', ' E', ' A', ' C', ' A', ' A', ' B', ' B', ' E', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A']","[0.46245373, 0.41058586, 0.09636719, 0.03059322, 0.0114591698956102]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q31_W82,"Question: How important, if at all, is it that the US is generally respected by other countries around the world?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' D', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A']","[0.59246069, 0.3189629, 0.08084868, 0.00772773, 0.0019474776824188]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q23_W82,"Question: In the US, do you think discrimination against people based on their race or ethnicity is a
+A. Very serious problem
+B. Somewhat serious problem
+C. Not too serious problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' D', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A']","[0.61347397, 0.29067985, 0.07954053, 0.01630565, 0.0]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q19_d_W82,"Question: How much confidence do you have in german Chancellor Angela Merkel to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' D', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' D', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' A', ' D', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' B', ' E', ' A', ' D', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' D', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A']","[0.3967456, 0.43408386, 0.12340878, 0.04576177, 0.0332404175494164]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_b_W82,"Question: Do you have a favorable or unfavorable opinion of China
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' B', ' B', ' D', ' B', ' D', ' D', ' C', ' D', ' D', ' C', ' D', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' A', ' B', ' D', ' C', ' B', ' C', ' B', ' B', ' D', ' D', ' C', ' C', ' B', ' C', ' C', ' C', ' D', ' D', ' C', ' A', ' C', ' C', ' D', ' B', ' C', ' D', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' D', ' A', ' D', ' B', ' C', ' C', ' B', ' C', ' D', ' B', ' B', ' B', ' D', ' C', ' C', ' D', ' D', ' B', ' B', ' C', ' C', ' D', ' D', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' D', ' B', ' B', ' C', ' D', ' C', ' C']","[0.01092005, 0.29040193, 0.42525659, 0.27342142, 0.0033078685411653]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q28_W82,"Question: How confident are you, if at all, that the actions taken by the international community will significantly reduce the effects of global climate change?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' E', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' D', ' A', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' A', ' A', ' C', ' B']","[0.10180686, 0.56820679, 0.31298829, 0.01699806, 0.0032734929663787]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q4_d_W82,"Question: Do you have a favorable or unfavorable opinion of the European Union
+A. Very favorable
+B. Somewhat favorable
+C. Somewhat unfavorable
+D. Very unfavorable
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' B', ' A', ' E', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' D', ' E', ' B', ' C', ' B', ' B', ' B', ' D', ' C', ' B', ' D', ' B', ' E', ' C', ' B', ' E', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' D', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' D', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C']","[0.14408798, 0.672694, 0.15880249, 0.02441553, 0.0222793954968467]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q15_a_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Healthcare system
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' B', ' E', ' B', ' C', ' C', ' C', ' D', ' C', ' A', ' D', ' D', ' C', ' D', ' D', ' D', ' C', ' B', ' C', ' D', ' B', ' E', ' D', ' C', ' E', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' B', ' C', ' D', ' C', ' D', ' B', ' B', ' B', ' D', ' D', ' A', ' C', ' D', ' D', ' E', ' C', ' D', ' F', ' B', ' E', ' D', ' C', ' E', ' B', ' D', ' B', ' E', ' D', ' B', ' C', ' C', ' A', ' C', ' D', ' B', ' B', ' D', ' B', ' D', ' A', ' D', ' A', ' D', ' D', ' C', ' B', ' C', ' E', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' D', ' D', ' D']","[0.01804316, 0.15235905, 0.25423204, 0.46893585, 0.1064299, 0.0074545092406723]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q15_d_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Military
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' A', ' D', ' A', ' C', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' A', ' F', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' A', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C']","[0.3746422, 0.41962513, 0.19237259, 0.00834425, 0.00501582, 0.0107752718187907]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q17_W82,"Question: In making international policy decisions, to what extent, if at all, do you think the US takes into account the interests of other countries around the world?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' B', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' C', ' A', ' B', ' B', ' C', ' D', ' B', ' B', ' D', ' C', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' B', ' C', ' D', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B']","[0.07683097, 0.5076242, 0.3707426, 0.04480223, 0.0022677860721827]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q27_W82,"Question: Do you think actions taken by the international community to address global climate change, such as the Paris climate agreement, will mostly
+A. Benefit America's economy
+B. Harm America's economy
+C. Have no impact on America's economy
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' D', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B']","[0.52654928, 0.12950657, 0.34394415, 0.0282121669542405]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 1.5]"
+GAP21Q15_f_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Entertainment, including movies, music and television
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' B', ' B', ' B', ' A', ' B', ' E', ' B', ' C', ' C', ' B', ' B', ' A', ' D', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' B', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' D', ' A', ' A', ' A', ' A', ' D', ' B', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' E', ' B', ' A', ' A', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' A', ' B']","[0.35731087, 0.39685822, 0.20763636, 0.0262642, 0.01193035, 0.0086331550443012]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q34_a_W82,"Question: Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do make good decisions about international trade?
+A. Very confident
+B. Somewhat confident
+C. Not too confident
+D. Not at all confident
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' D', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' A']","[0.41056083, 0.48231118, 0.08371297, 0.02341502, 0.0011397638749384]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q38_a_W82,"Question: How much, if at all, do you think the US benefits from being a member of north Atlantic Treaty Organization, or NATO organizations?
+A. A great deal
+B. A fair amount
+C. Not too much
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' D', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' B', ' D', ' C', ' C', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' E', ' A', ' A', ' A', ' B', ' A', ' B', ' C', ' C', ' B', ' B', ' A']","[0.47076325, 0.40943228, 0.10219621, 0.01760826, 0.0224549422908637]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q10_W82,"Question: Thinking about restrictions on public activity in the US over the course of the coronavirus outbreak, do you think there should have been
+A. More restrictions
+B. Fewer restrictions
+C. The restrictions were about right
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B']","[0.831396, 0.08185958, 0.08674442, 0.0006089189827216]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 1.5]"
+GAP21Q15_c_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Standard of living
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' E', ' D', ' B', ' C', ' B', ' B', ' C', ' D', ' A', ' C', ' B', ' B', ' B', ' C', ' D', ' C', ' C', ' C', ' B', ' D', ' C', ' D', ' D', ' B', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' C', ' C', ' C', ' C', ' B', ' D', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' B', ' C', ' D', ' A', ' C', ' C', ' D', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' D']","[0.07377886, 0.32833148, 0.40070082, 0.18522321, 0.01196562, 0.0074545092406723]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q33_c_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think strengthening the United Nations should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' B', ' A']","[0.42307005, 0.51938088, 0.05754907, 0.0028396370820482]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0]"
+GAP21Q24_W82,"Question: How concerned are you, if at all, that global climate change will harm you personally at some point in your lifetime?
+A. Very concerned
+B. Somewhat concerned
+C. Not too concerned
+D. Not at all concerned
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' D', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' D', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A']","[0.46225507, 0.41243568, 0.10202117, 0.02328808, 0.0]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q19_b_W82,"Question: How much confidence do you have in chinese President Xi Jinping to do the right thing regarding world affairs?
+A. A lot of confidence
+B. Some confidence
+C. Not too much confidence
+D. No confidence at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' D', ' C', ' B', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' E', ' C', ' C', ' C', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' C', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' B', ' C', ' B', ' D', ' C', ' C', ' B', ' D', ' D', ' C', ' E', ' C', ' C', ' C', ' B', ' C', ' D', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' D', ' C', ' B', ' D', ' D', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' B', ' C', ' B', ' C', ' C', ' D', ' C', ' C', ' C', ' B', ' C', ' B', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' B', ' E', ' C', ' D', ' C', ' C']","[0.00562407, 0.14582434, 0.5126189, 0.33593269, 0.0321463830363833]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q25_W82,"Question: How much, if anything, would you be willing to change about how you live and work to help reduce the effects of global climate change? Would you be willing to make
+A. A lot of changes
+B. Some changes
+C. Only a few changes
+D. No changes at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' E', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' D', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B']","[0.49533955, 0.45642716, 0.03697133, 0.01126196, 0.0033031425408749]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q47_W82,"Question: When it comes to whether or not to limit Chinese students studying in the US, do you
+A. Strongly support limiting Chinese students
+B. Somewhat support limiting Chinese students
+C. Somewhat oppose limiting Chinese students
+D. Strongly oppose limiting Chinese students
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' C', ' A', ' C', ' C', ' D', ' B', ' B', ' C', ' C', ' C', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' D', ' E', ' D', ' B', ' D', ' D', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' D', ' D', ' A', ' C', ' C', ' D', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' A', ' A', ' D', ' A', ' B', ' B', ' D', ' D', ' C', ' D', ' B', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' D', ' C', ' D', ' C', ' E', ' C', ' C', ' C', ' E', ' B', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' B', ' B', ' B', ' C', ' D', ' C', ' B', ' E', ' D', ' B', ' E', ' E', ' D', ' A']","[0.07389301, 0.32938848, 0.34810038, 0.24861813, 0.0170463263496168]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q15_b_W82,"Question: Please compare the US to other developed nations in a few different areas. In each instance, how does the US compare? Colleges and universities
+A. The best
+B. Above average
+C. Average
+D. Below average
+E. The worst
+F. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.
+
+Answer:","[' C', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' B', ' A', ' B', ' C', ' D', ' C', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' D', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' D', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' B', ' D', ' D', ' C', ' D', ' C', ' A', ' D', ' C', ' C', ' C', ' C', ' A', ' D', ' B', ' A', ' C', ' C', ' E', ' C', ' C', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' C', ' B', ' C', ' A', ' D', ' A', ' A', ' B']","[0.13439194, 0.35200599, 0.38449291, 0.11333495, 0.0157742, 0.0085936017224631]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+GAP21Q33_m_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think reducing the spread of infectious diseases should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.81488381, 0.16942659, 0.0156896, 0.0032269884337195]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0]"
+GAP21Q43_g_W82,"Question: Please indicate how much of a problem, if at all, the following would be for the US: China's growing technological power
+A. Very serious problem
+B. Somewhat serious problem
+C. Not too serious of a problem
+D. Not a problem at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' A', ' C', ' B', ' A', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' E', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' B', ' D', ' A', ' C', ' B', ' C', ' C', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' C', ' A']","[0.38940525, 0.41919216, 0.16979176, 0.02161083, 0.0129044533790507]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0, 4.0]"
+GAP21Q33_n_W82,"Question: Thinking about long-range foreign policy goals, how much priority, if any, do you think limiting the power and influence of Iran should be given?
+A. Top priority
+B. Some priority
+C. No priority
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' B', ' C']","[0.24975888, 0.63890067, 0.11134045, 0.0100428202796872]",POLIDEOLOGY,Liberal,"[1.0, 2.0, 3.0]"

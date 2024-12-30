@@ -1,0 +1,371 @@
+qkey,input_prompt,output_token,output_dist,attribute,group,ordinal
+FAMSURV23d_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was wanted to have children someday a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' A', ' A', ' B', ' C', ' A', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' B', ' A', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C']","[0.13751702, 0.15537221, 0.70711077, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+HAVEKIDS1_W50,"Question: Thinking about the future, how likely, if at all, is it that you will have children someday?
+A. Very likely
+B. Somewhat likely
+C. Not too likely
+D. Not at all likely
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' D', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' D', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' D', ' D', ' A', ' B', ' D', ' D', ' C', ' B', ' A', ' B', ' D', ' D', ' C', ' D', ' B', ' C', ' A', ' B', ' D', ' D', ' B', ' A', ' D', ' B', ' B', ' B', ' A', ' A', ' D', ' B', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' D', ' D', ' C', ' A', ' D', ' A', ' B', ' A', ' A', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' D', ' A', ' A', ' B', ' D', ' D', ' D', ' D', ' B', ' C', ' C', ' B', ' A', ' A', ' D', ' A', ' B', ' B', ' A', ' C', ' C', ' B', ' D']","[0.327056, 0.24875181, 0.20207008, 0.22212211, 0.0023057448363863]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV2Mc_W50,"Question: In general, how important, if at all, is having children in order for a man to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' A', ' C', ' C', ' A', ' C', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' C', ' C', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' D', ' C', ' B', ' B', ' B', ' B', ' B', ' A', ' A']","[0.12247455, 0.59708089, 0.28044456, 0.0074561131582638]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+FAMSURV26c_W50,"Question: How much pressure, if any, do you feel from your friends to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' C', ' D', ' C', ' C', ' B', ' C', ' D', ' C', ' D', ' D', ' C', ' D', ' B', ' D', ' C', ' B', ' B', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' A', ' D', ' C', ' D', ' C', ' C', ' D', ' C', ' A', ' D', ' A', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' C', ' B', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' D', ' D', ' B', ' D', ' C', ' C', ' D', ' C', ' B', ' B', ' D', ' D', ' C', ' B', ' C', ' D', ' C', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' B', ' D', ' C']","[0.02687672, 0.10473093, 0.32827617, 0.54011618, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV26d_W50,"Question: How much pressure, if any, do you feel from society to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' A', ' D', ' C', ' A', ' C', ' B', ' B', ' D', ' D', ' D', ' B', ' A', ' C', ' B', ' B', ' D', ' C', ' D', ' C', ' B', ' B', ' D', ' D', ' D', ' C', ' B', ' C', ' C', ' D', ' B', ' C', ' C', ' C', ' D', ' A', ' B', ' C', ' D', ' B', ' D', ' B', ' B', ' B', ' C', ' D', ' D', ' D', ' C', ' B', ' B', ' C', ' B', ' C', ' B', ' D', ' B', ' C', ' D', ' B', ' B', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' C', ' C', ' B', ' C', ' D', ' C', ' C', ' B', ' D', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' C', ' D', ' D', ' D', ' B', ' C', ' C', ' C', ' B', ' D', ' D', ' C', ' C', ' D']","[0.04654297, 0.31811003, 0.2749076, 0.3604394, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+DNA2b_W50,"Question: Was to get information about your health or family medical history a reason you used a mail-in DNA testing service?
+A. Yes, a reason
+B. No, not a reason
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B']","[0.3848267, 0.6151733, 0.0048281634303352]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"
+FAMSURV43_W50,"Question: In general, how much, if at all, would you say that your adult child(ren) ages 18 to 29 rely on you for emotional support?
+A. A lot
+B. Some
+C. Only a little
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' A', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' A', ' D', ' B', ' A', ' C', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' C', ' C', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' D', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' C', ' D', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B']","[0.35324932, 0.42188481, 0.18716639, 0.03769947, 0.0007629749788438]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV23e_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was it made sense financially a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' B']","[0.53816871, 0.25896303, 0.20286826, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+E5MOD_W50,"Question: Is your spouse/partner now employed full-time, part-time or not employed?
+A. Full-time
+B. Part-time
+C. Not employed
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' A']","[0.60868366, 0.11705484, 0.2742615, 0.0005900378280595]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+FAMSURV16_W50,"Question: Which of the following best describes your current situation? Would you say you
+A. Would like to be in a romantic relationship
+B. Don't want to be in a romantic relationship
+C. Doesn't make much difference
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' A', ' A', ' C', ' B', ' C', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' C', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' C', ' C', ' C']","[0.51487452, 0.17668761, 0.30843787, 0.0018743757239698]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+FAMSURV17_W50,"Question: Thinking about the adults in your life, who is the person you feel closest to?
+A. Your spouse
+B. Your partner or boyfriend or girlfriend
+C. An adult child
+D. A sibling
+E. Your mother
+F. Your father
+G. A friend
+H. Another A family member
+I. Someone else
+J. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.,H.,I.,J.
+
+Answer:","[' G', ' A', ' A', ' A', ' B', ' H', ' B', ' I', ' A', ' B', ' H', ' E', ' G', ' A', ' I', ' A', ' A', ' H', ' A', ' A', ' B', ' H', ' D', ' I', ' B', ' J', ' A', ' H', ' A', ' J', ' H', ' A', ' B', ' A', ' A', ' G', ' F', ' A', ' E', ' G', ' A', ' B', ' A', ' E', ' G', ' G', ' G', ' A', ' G', ' E', ' D', ' G', ' A', ' B', ' A', ' A', ' A', ' F', ' A', ' A', ' A', ' F', ' A', ' A', ' G', ' A', ' E', ' A', ' A', ' F', ' D', ' F', ' A', ' A', ' E', ' A', ' A', ' A', ' G', ' B', ' E', ' A', ' A', ' A', ' E', ' A', ' E', ' A', ' A', ' A', ' E', ' E', ' E', ' J', ' A', ' C', ' A', ' A', ' D', ' E']","[0.47188331, 0.10148699, 0.0354755, 0.08673056, 0.0973383, 0.02559747, 0.12978242, 0.03517348, 0.01653198, 0.0067775454305861]",EDUCATION,College graduate/some postgrad,"[1, 1, 1, 1, 1, 1, 1, 1, 1]"
+SATLIFEc_W50,"Question: Please tell us whether you are satisfied or dissatisfied with your personal financial situation.
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' C', ' A', ' B', ' D', ' C', ' D', ' B', ' A', ' D', ' B', ' D', ' D', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' C', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' D', ' B', ' C', ' A', ' C', ' D', ' B', ' A', ' A', ' A', ' C', ' C', ' D', ' B', ' D', ' A', ' D', ' B', ' A', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' C', ' B', ' B', ' C', ' D', ' B', ' B', ' C', ' B', ' D', ' B', ' B', ' C', ' B', ' B', ' A', ' C', ' B']","[0.22425841, 0.44932722, 0.21841174, 0.10800263, 0.0017084901841471]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV6_W50,"Question: How do you feel about allowing unmarried couples to enter into legal agreements that would give them the same rights as married couples when it comes to things like health insurance, inheritance or tax benefits?
+A. Strongly favor
+B. Somewhat favor
+C. Somewhat oppose
+D. Strongly oppose
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' C', ' B', ' A', ' A', ' A', ' B', ' D', ' B', ' A', ' A', ' A', ' C', ' C', ' A', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' D', ' A', ' B', ' A', ' A', ' B', ' D', ' A', ' A', ' C', ' B', ' C', ' D', ' D', ' B', ' A', ' A', ' A', ' B', ' D', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' D', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' C', ' B', ' D', ' C', ' A', ' C', ' A', ' A', ' D', ' A', ' A', ' A', ' C', ' A', ' A', ' A', ' B', ' D', ' A', ' A', ' B', ' D', ' B']","[0.3705617, 0.3068383, 0.17236857, 0.15023143, 0.0051171390993816]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV20_W50,"Question: When you started living with your partner did you think about it as a step toward marriage?
+A. Yes, thought of it as a step toward marriage
+B. No, did not think of it as a step toward marriage
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' A', ' B']","[0.57080375, 0.42919625, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"
+DNA5_W50,"Question: Did your DNA test results change the way you think about your racial or ethnic identity?
+A. Yes, changed
+B. No, did not change
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B']","[0.13292353, 0.86707647, 0.0044655410351238]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"
+FAMSURV10c_W50,"Question: If a person decides to move in with a partner without being married, how important, if at all, do you think it is for that person to buy a house before moving in with their partner?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' A', ' C', ' D', ' B', ' B', ' D', ' B', ' B', ' C', ' D', ' A', ' D', ' B', ' C', ' D', ' C', ' D', ' C', ' D', ' C', ' D', ' D', ' B', ' D', ' C', ' C', ' B', ' D', ' C', ' C', ' B', ' C', ' D', ' D', ' B', ' C', ' C', ' D', ' D', ' C', ' D', ' D', ' B', ' C', ' D', ' D', ' D', ' B', ' C', ' B', ' C', ' C', ' D', ' C', ' D', ' C', ' B', ' D', ' D', ' C', ' D', ' D', ' A', ' C', ' C', ' D', ' C', ' A', ' C', ' D', ' D', ' D', ' C', ' D', ' B', ' D', ' A', ' C', ' B', ' C', ' D', ' B', ' D', ' D', ' D', ' B', ' D', ' C', ' A', ' A', ' B', ' C', ' C', ' B', ' C', ' C', ' C', ' B', ' D']","[0.05930833, 0.14118841, 0.41610026, 0.38340299, 0.0029392386463921]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+COHABDUR_W50,"Question: Now thinking about the partner you are currently living with how long have you and your partner been living together?
+A. Less than one year
+B. 1 year to less than 3 years
+C. 3 years to less than 5 years
+D. 5 years to less than 10 years
+E. 10 years to less than 20 years
+F. 20 years or more
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' B', ' C', ' B', ' B', ' A', ' A', ' F', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' D', ' B', ' A', ' A', ' B', ' B', ' D', ' C', ' E', ' E', ' B', ' F', ' E', ' C', ' B', ' A', ' C', ' D', ' B', ' D', ' B', ' E', ' D', ' C', ' D', ' D', ' C', ' B', ' E', ' B', ' B', ' B', ' C', ' C', ' B', ' E', ' E', ' A', ' B', ' C', ' C', ' B', ' B', ' E', ' B', ' C', ' F', ' D', ' C', ' B', ' B', ' B', ' D', ' A', ' E', ' E', ' C', ' A', ' C', ' B', ' C', ' C', ' A', ' B', ' D', ' B', ' B', ' A', ' E', ' E', ' B', ' E', ' B', ' C', ' B', ' D', ' C', ' F', ' B', ' B', ' C', ' A', ' A', ' C', ' B', ' B']","[0.17454607, 0.31094066, 0.19430725, 0.1667363, 0.11283795, 0.04063178, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+ROMRELSER_W50,"Question: How serious would you say your current romantic relationship is?
+A. Very serious
+B. Somewhat serious
+C. Not too serious
+D. Not at all serious
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' D', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' D', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' C', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A']","[0.65751867, 0.29380436, 0.02259815, 0.02607881, 0.0066380671943706]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV2Wa_W50,"Question: In general, how important, if at all, is being married in order for a woman to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' B', ' A', ' C', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' D', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' A', ' C']","[0.15539496, 0.56852751, 0.27607753, 0.0069615870025248]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+FAMSURV23g_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was wanted to test your relationship a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' B', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' A', ' B', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' B', ' C', ' B', ' C', ' A', ' B', ' C', ' B', ' A', ' C', ' B', ' A', ' C', ' B', ' C', ' C', ' C', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' B']","[0.27012913, 0.24082151, 0.48904935, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+FAMSURV44_W50,"Question: In the past 12 months, how much financial help, if any, did you provide for your adult child(ren) ages 18 to 29?
+A. A lot
+B. Some
+C. Only a little
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' C', ' B', ' A', ' B', ' B', ' B', ' B', ' D', ' B', ' A', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' D', ' A', ' D', ' C', ' A', ' C', ' C', ' D', ' A', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' D', ' C', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' B', ' C', ' A', ' D', ' C', ' A', ' B', ' B', ' C', ' B', ' A', ' A', ' D', ' C', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' B', ' B', ' A', ' C', ' B', ' D', ' D', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' C']","[0.32449982, 0.33103717, 0.21359955, 0.13086346, 0.0007629749788438]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV40_W50,"Question: In the past 12 months, how much financial help, if any, did you receive from a parent?
+A. A lot
+B. Some
+C. Only a little
+D. None at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' D', ' B', ' D', ' A', ' C', ' B', ' A', ' A', ' C', ' A', ' D', ' D', ' C', ' D', ' B', ' D', ' A', ' D', ' B', ' D', ' D', ' B', ' B', ' C', ' D', ' D', ' A', ' D', ' B', ' B', ' A', ' D', ' D', ' D', ' D', ' D', ' C', ' D', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' D', ' B', ' A', ' D', ' C', ' D', ' C', ' B', ' D', ' D', ' B', ' D', ' B', ' A', ' D', ' C', ' B', ' C', ' A', ' A', ' C', ' A', ' D', ' B', ' B', ' C', ' B', ' D', ' C', ' C', ' D', ' D', ' D', ' B', ' D', ' C', ' D', ' D', ' D', ' B', ' D', ' A', ' D', ' B', ' D', ' C', ' B', ' D', ' D', ' C', ' C', ' B', ' B', ' C', ' B']","[0.15390381, 0.1861544, 0.21419449, 0.4457473, 0.0019736246067914]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV29_W50,"Question: How often, if ever, do you and your partner talk about getting married?
+A. Often
+B. Sometimes
+C. Rarely
+D. Never
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' D', ' A', ' A', ' C', ' A', ' D', ' B', ' A', ' C', ' B', ' B', ' C', ' C', ' C', ' B', ' A', ' B', ' D', ' C', ' A', ' B', ' B', ' B', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' B', ' C', ' C', ' B', ' D', ' B', ' C', ' C', ' B', ' C', ' B', ' A', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' D', ' C', ' A', ' C', ' B', ' B', ' C', ' B', ' B', ' C', ' D', ' A', ' A', ' A', ' C', ' C', ' B', ' C', ' C', ' B', ' D', ' B', ' B', ' D', ' B', ' B', ' D', ' B', ' B', ' D', ' C', ' B', ' D', ' D', ' D', ' B', ' C', ' A', ' D', ' B', ' B', ' D', ' C', ' B', ' A', ' C']","[0.11602295, 0.39388467, 0.33653124, 0.15356114, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV1_W50,"Question: At this point in your life, which of the following would be best for you personally?
+A. Working full-time for pay
+B. Working part-time for pay
+C. Not working for pay at all
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' A', ' B', ' B', ' C', ' B', ' C', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' C', ' B', ' A', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A']","[0.58365409, 0.20748585, 0.20886007, 0.0036063471918241]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+MOTHER_W50,"Question: Is your mother living?
+A. Yes
+B. No
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A']","[0.67655948, 0.32344052, 0.0019632120473258]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"
+PAR2_W50,"Question: In general, do you think your parents do mother does father does
+A. Too much for you
+B. Too little for you
+C. About the right amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' A', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' B', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' A']","[0.19664253, 0.0906501, 0.71270737, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+FAMSURV26b_W50,"Question: How much pressure, if any, do you feel from family members to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' B', ' B', ' A', ' D', ' C', ' B', ' C', ' B', ' D', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' D', ' B', ' C', ' B', ' C', ' B', ' D', ' C', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' C', ' B', ' B', ' D', ' B', ' B', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' D', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' C', ' C', ' C', ' A', ' A', ' D', ' D', ' B', ' C', ' B', ' C', ' B', ' D', ' D', ' C', ' C', ' B', ' B', ' D', ' B', ' B', ' B', ' D', ' D', ' C', ' A', ' B', ' D', ' D', ' C', ' B', ' D', ' B', ' C', ' C', ' B', ' D', ' B', ' D', ' B', ' B', ' D', ' C']","[0.02594308, 0.34627933, 0.23086419, 0.39691341, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+MARRDUR_W50,"Question: Now thinking about your spouse how long have you and your spouse been married?
+A. Less than one year
+B. 1 year to less than 3 years
+C. 3 years to less than 5 years
+D. 5 years to less than 10 years
+E. 10 years to less than 20 years
+F. 20 years or more
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' A', ' D', ' F', ' F', ' F', ' F', ' E', ' F', ' F', ' B', ' E', ' B', ' F', ' F', ' D', ' B', ' F', ' F', ' E', ' F', ' F', ' A', ' D', ' F', ' C', ' E', ' F', ' B', ' E', ' E', ' B', ' E', ' D', ' F', ' F', ' F', ' F', ' F', ' F', ' F', ' D', ' C', ' E', ' E', ' F', ' D', ' C', ' C', ' C', ' E', ' D', ' E', ' D', ' F', ' F', ' E', ' E', ' E', ' F', ' B', ' C', ' C', ' F', ' D', ' F', ' C', ' A', ' F', ' B', ' F', ' E', ' F', ' F', ' D', ' E', ' F', ' F', ' F', ' F', ' D', ' A', ' C', ' D', ' F', ' E', ' B', ' E', ' F', ' F', ' E', ' F', ' A', ' E', ' C', ' E', ' E', ' E', ' F', ' F', ' F']","[0.0374674, 0.07864929, 0.0768192, 0.15009864, 0.21377905, 0.44318641, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+PAR1_W50,"Question: In general, do you think you do
+A. Too much for your adult child(ren) ages 18 to 29
+B. Too little for your adult child(ren) ages 18 to 29
+C. About the right amount
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' C', ' B', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' C', ' B', ' C', ' B', ' C', ' A', ' C', ' D', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' B', ' C', ' C', ' C', ' C', ' A', ' B']","[0.27519378, 0.07593081, 0.64887541, 0.0035754323217023]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+MARRYPREF2_W50,"Question: Thinking about the future, would you say you
+A. Want to get married again someday
+B. Don't want to get married again
+C. Are not sure if you want to get married again
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' B', ' B', ' B', ' C', ' A', ' C', ' C', ' C', ' C', ' B', ' C', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' C', ' B', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' C', ' B', ' A', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' A', ' A', ' B', ' C', ' B', ' C', ' C', ' C', ' B', ' B', ' C', ' A', ' B', ' A', ' C', ' A', ' B', ' C', ' A', ' C', ' B', ' B', ' A', ' B', ' B', ' A', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' B', ' B', ' A', ' B', ' A', ' C', ' C', ' B', ' C', ' C']","[0.22305942, 0.39269567, 0.38424491, 0.0046377059811731]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+FAMSURV9c_W50,"Question: How important, if at all, do you think it is for a person to buy a house before getting married?
+A. Very important
+B. Somewhat important
+C. Not too important
+D. Not at all important
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' D', ' C', ' B', ' D', ' C', ' D', ' B', ' B', ' D', ' C', ' A', ' D', ' C', ' B', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' B', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' D', ' A', ' C', ' C', ' D', ' B', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' C', ' C', ' C', ' C', ' D', ' B', ' B', ' D', ' C', ' D', ' C', ' D', ' B', ' B', ' B', ' C', ' C', ' B', ' D', ' C', ' C', ' D', ' D', ' D', ' D', ' D', ' C']","[0.03820081, 0.17130066, 0.45951573, 0.33098279, 0.0005766909630043]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV2Wc_W50,"Question: In general, how important, if at all, is having children in order for a woman to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' C', ' B', ' A', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' B', ' B', ' B', ' B', ' C', ' C', ' C', ' D', ' A', ' A', ' C', ' B', ' C', ' C', ' C', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' A', ' C', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' C', ' B', ' C']","[0.18793714, 0.58097582, 0.23108704, 0.0062456806034996]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+ROMRELDUR_W50,"Question: How long have you been in your current romantic relationship?
+A. Less than 3 months
+B. 3 months to less than 6 months
+C. 6 months to less than 1 year
+D. 1 year to less than 3 years
+E. 3 years to less than 5 years
+F. 5 years or more
+G. Refused
+Answer as a choice between A.,B.,C.,D.,E.,F.,G.
+
+Answer:","[' D', ' B', ' C', ' E', ' C', ' D', ' F', ' D', ' C', ' D', ' E', ' D', ' A', ' F', ' D', ' D', ' D', ' E', ' F', ' D', ' B', ' C', ' D', ' D', ' A', ' C', ' F', ' C', ' F', ' A', ' E', ' D', ' D', ' D', ' E', ' E', ' E', ' F', ' A', ' A', ' A', ' E', ' C', ' B', ' D', ' E', ' A', ' C', ' F', ' D', ' F', ' F', ' C', ' F', ' D', ' C', ' D', ' A', ' D', ' B', ' D', ' B', ' D', ' F', ' D', ' D', ' F', ' D', ' F', ' B', ' G', ' A', ' C', ' F', ' F', ' C', ' F', ' D', ' F', ' C', ' E', ' D', ' D', ' A', ' A', ' C', ' C', ' B', ' B', ' D', ' F', ' B', ' D', ' D', ' D', ' F', ' F', ' F', ' E', ' B']","[0.0847826, 0.08718998, 0.14012841, 0.30886963, 0.13416437, 0.24486501, 0.0084143062599573]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0, 5.0, 6.0]"
+FAMSURV39_W50,"Question: In general, how much, if at all, would you say that you rely on a parent for emotional support?
+A. A lot
+B. Some
+C. Only a little
+D. Not at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' B', ' C', ' D', ' B', ' B', ' A', ' C', ' A', ' A', ' A', ' D', ' A', ' C', ' C', ' B', ' A', ' A', ' B', ' D', ' B', ' B', ' A', ' D', ' A', ' B', ' B', ' A', ' C', ' C', ' D', ' D', ' D', ' C', ' C', ' B', ' B', ' C', ' C', ' B', ' C', ' A', ' B', ' B', ' D', ' D', ' B', ' D', ' D', ' D', ' C', ' B', ' D', ' C', ' B', ' A', ' C', ' D', ' B', ' C', ' A', ' B', ' C', ' B', ' C', ' A', ' D', ' B', ' D', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' D', ' A', ' B', ' C', ' B', ' B', ' D', ' D', ' B', ' C', ' A', ' C', ' C', ' C', ' B', ' D', ' C', ' B', ' C', ' C', ' B', ' A', ' A', ' D']","[0.17866795, 0.30502207, 0.28952312, 0.22678687, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FAMSURV23f_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was it was convenient a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' A', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' C', ' B', ' A', ' A', ' A', ' C', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' C', ' A', ' C', ' B', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' C', ' B', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' C', ' B', ' B', ' A', ' A', ' C', ' B', ' C']","[0.5267296, 0.28503862, 0.18823177, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+FAMSURV3_W50,"Question: Do you think it is ever acceptable for an unmarried couple to live together?
+A. Yes, even if they don't plan to get married
+B. Yes, but only if they plan to get married
+C. No, never acceptable
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' C', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' C', ' A', ' C', ' A', ' C', ' A', ' C', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' C', ' C', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A']","[0.71122504, 0.13820347, 0.15057149, 0.0058966244547609]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+MARRYPREF1_W50,"Question: Thinking about the future, would you say you
+A. Want to get married someday
+B. Don't want to get married
+C. Are not sure if you want to get married
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' C', ' C', ' A', ' C', ' C', ' A', ' C', ' A', ' A', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' A', ' C', ' A', ' C', ' A', ' C', ' A', ' A', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' A', ' C', ' A']","[0.54012923, 0.0963531, 0.36351767, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 1.5]"
+FAMSURV2Ma_W50,"Question: In general, how important, if at all, is being married in order for a man to live a fulfilling life?
+A. Essential
+B. Important, but not essential
+C. Not important
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' B', ' B', ' B', ' B', ' A', ' C', ' C', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' B', ' C', ' B', ' B', ' C', ' B', ' C', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' B', ' B', ' A', ' B', ' C', ' B', ' B', ' A', ' C', ' A', ' A', ' C', ' C', ' C', ' B', ' A', ' B', ' A', ' C', ' C', ' C', ' B', ' B', ' B', ' C', ' C', ' B', ' B', ' B', ' C', ' B', ' C', ' C', ' B', ' C', ' B', ' C', ' B', ' B', ' B', ' B', ' C', ' A', ' B', ' C', ' C', ' A', ' A', ' C', ' C', ' C', ' C', ' B', ' A', ' A', ' C', ' B', ' C', ' B', ' B', ' A', ' A', ' B']","[0.14616173, 0.55405609, 0.29978218, 0.0087850718818479]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+FAMSURV23b_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was companionship a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' B', ' A', ' B', ' A', ' A', ' C', ' C', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' C', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' A', ' B', ' C', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B']","[0.66059813, 0.26414952, 0.07525236, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+FAMSURV26a_W50,"Question: How much pressure, if any, do you feel from your partner to marry your partner?
+A. A lot of pressure
+B. Some pressure
+C. Not too much pressure
+D. No pressure at all
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' C', ' D', ' B', ' D', ' C', ' D', ' D', ' D', ' D', ' D', ' C', ' C', ' B', ' D', ' D', ' C', ' D', ' D', ' A', ' D', ' D', ' D', ' B', ' D', ' D', ' A', ' D', ' D', ' D', ' D', ' B', ' D', ' D', ' D', ' D', ' A', ' D', ' C', ' D', ' B', ' C', ' B', ' C', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' C', ' D', ' C', ' D', ' D', ' D', ' D', ' C', ' D', ' B', ' B', ' D', ' C', ' B', ' D', ' D', ' D', ' C', ' D', ' D', ' B', ' D', ' D', ' D', ' C', ' C', ' D', ' D', ' C', ' C', ' D', ' C', ' D', ' A', ' D', ' C', ' C', ' D', ' D', ' C', ' D', ' B', ' D', ' D', ' C', ' D', ' D', ' B', ' B', ' B']","[0.04608477, 0.12269703, 0.2434293, 0.5877889, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
+FATHER_W50,"Question: Is your father living?
+A. Yes
+B. No
+C. Refused
+Answer as a choice between A.,B.,C.
+
+Answer:","[' B', ' A', ' A', ' A', ' B', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' B', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' A']","[0.55708114, 0.44291886, 0.0032775635198301]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0]"
+FAMSURV23c_W50,"Question: Thinking back to when you started living with your partner, how much, if at all, was you or your partner were pregnant a reason you decided to move in together?
+A. Major reason
+B. Minor reason
+C. Not a reason
+D. Refused
+Answer as a choice between A.,B.,C.,D.
+
+Answer:","[' C', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' C', ' A', ' A', ' C', ' A', ' C', ' C', ' C', ' C', ' C', ' C']","[0.05829015, 0.01287526, 0.92883459, 0.0]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0]"
+FAMSURV32e_W50,"Question: How do you feel about your spouse's/partner's approach to parenting?
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+E. Refused
+Answer as a choice between A.,B.,C.,D.,E.
+
+Answer:","[' B', ' A', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' B', ' B', ' B', ' A', ' A', ' C', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' A', ' B', ' B', ' A', ' B', ' B', ' B', ' A', ' B', ' B', ' C', ' A', ' A', ' B', ' A', ' A', ' A', ' A', ' A', ' B', ' B', ' A', ' B', ' A', ' B', ' A', ' A', ' C', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' B', ' C', ' A', ' A', ' B', ' B', ' A', ' C', ' B', ' A', ' B', ' C', ' B', ' A', ' A', ' A', ' A', ' B', ' A', ' B', ' B', ' B', ' B', ' A', ' A', ' B', ' A', ' A', ' A', ' A']","[0.47898145, 0.412944, 0.07934413, 0.02873043, 0.0023226107573969]",EDUCATION,College graduate/some postgrad,"[1.0, 2.0, 3.0, 4.0]"
