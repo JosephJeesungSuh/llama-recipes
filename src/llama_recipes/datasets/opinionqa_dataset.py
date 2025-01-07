@@ -54,13 +54,7 @@ def get_preprocessed_opinionqa(dataset_config, tokenizer, split, save = True, de
     return dataset
 
 
-
 def get_preprocessed_opinionqa_ce_or_wd_loss(dataset_config, tokenizer, split, save = True):
-
-    if 'one_group' in dataset_config.dataset:
-        split = split.format(attribute=dataset_config.attribute, group=dataset_config.group)
-    elif 'all_group' in dataset_config.dataset:
-        split = split.format(steering=dataset_config.steering)
 
     def tokenize_add_label(sample):
         prompt = tokenizer.encode(
@@ -91,10 +85,14 @@ def get_preprocessed_opinionqa_ce_or_wd_loss(dataset_config, tokenizer, split, s
             sample["ordinal_info"] = ordinal_info
         return sample
 
-    preprocessed_file_dir = split.split(".csv")[0] + "_preprocessed.json"
+    preprocessed_file_dir = (
+        split.split(".csv")[0]
+        + "_" + tokenizer.name_or_path.split("/")[-1]
+        + "_preprocessed.json"
+    ) # detail: preprocessing file is dependent on the tokenizer used
 
     if os.path.exists(preprocessed_file_dir): # if preprocessed file exists
-        with open(split.split(".csv")[0] + "_preprocessed.json", 'r') as f:
+        with open(preprocessed_file_dir, 'r') as f:
             print("preprocessed file exists.")
             dataset_dict = json.load(f)
             dataset = datasets.Dataset.from_dict(dataset_dict)
@@ -109,7 +107,7 @@ def get_preprocessed_opinionqa_ce_or_wd_loss(dataset_config, tokenizer, split, s
         if save:
             # save dataset to json format
             dataset_dict = dataset.to_dict()
-            with open(split.split(".csv")[0] + "_preprocessed.json", 'w') as f:
+            with open(preprocessed_file_dir, 'w') as f:
                 json.dump(dataset_dict, f)
 
     return dataset

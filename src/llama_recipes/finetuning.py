@@ -2,6 +2,7 @@
 # This software may be used and distributed according to the terms of the Llama 2 Community License Agreement.
 
 from collections import Counter
+from datetime import datetime
 import os
 
 import dataclasses
@@ -17,16 +18,18 @@ from torch.distributed.fsdp import (
     ShardingStrategy
 )
 from torch.distributed.fsdp.fully_sharded_data_parallel import CPUOffload
-from torch.optim.lr_scheduler import StepLR
+from torch.optim.lr_scheduler import StepLR, LambdaLR
 from transformers import (
     AutoConfig,
     AutoTokenizer,
     BitsAndBytesConfig,
     AutoProcessor, 
     LlamaForCausalLM,
+    MistralForCausalLM, # mistral support (custom)
     MllamaForConditionalGeneration,
 )
 from transformers.models.llama.modeling_llama import LlamaDecoderLayer
+from transformers.models.mistral.modeling_mistral import MistralDecoderLayer # mistral support (custom)
 from transformers.models.mllama.modeling_mllama import  MllamaSelfAttentionDecoderLayer,MllamaCrossAttentionDecoderLayer,MllamaVisionEncoderLayer
 
 from llama_recipes.configs import fsdp_config as FSDP_CONFIG
@@ -77,6 +80,12 @@ def setup_wandb(train_config, fsdp_config, **kwargs):
     run.config.update(fsdp_config, allow_val_change=True)
     return run
 
+def lr_lambda(current_step, warmup_steps, total_steps):
+    if current_step < warmup_steps:
+        return float(current_step) / float(max(1, warmup_steps))
+    progress = float(current_step - warmup_steps) / float(max(1, total_steps - warmup_steps))
+    return max(0.0, 0.5 * (1.0 + torch.cos(torch.tensor(progress) * 3.14159265358979323846)))
+
 def main(**kwargs):
     # Update the configuration for the training and sharding process
     train_config, fsdp_config = TRAIN_CONFIG(), FSDP_CONFIG()
@@ -101,6 +110,28 @@ def main(**kwargs):
             torch.cuda.set_device(local_rank)
         clear_gpu_cache(local_rank)
         setup_environ_flags(rank)
+
+    if torch.distributed.is_initialized():
+        if torch.distributed.get_rank() == 0:
+            current_time = datetime.now()
+            formatted_time = current_time.strftime("%Y%m%d_%H%M%S")
+            formatted_time_tensor = torch.tensor([ord(c) for c in formatted_time], dtype=torch.int32, device="cuda")
+            print(f"size of formatted_time_tensor: {formatted_time_tensor.size()}")
+        else:
+            formatted_time_tensor = torch.empty(15, dtype=torch.int32, device="cuda")
+        
+        torch.distributed.barrier()  # Synchronize all ranks
+        torch.distributed.broadcast(formatted_time_tensor, src=0)  # Broadcast from rank 0
+        torch.distributed.barrier()  # Synchronize all ranks
+        
+        formatted_time = ''.join([chr(c) for c in formatted_time_tensor.cpu().tolist() if c != 0])
+    else:
+        current_time = datetime.now()
+        formatted_time = current_time.strftime("%Y%m%d_%H%M%S")
+    
+    train_config.output_dir += formatted_time
+    print(f"--> Output Directory (Rank {torch.distributed.get_rank() if torch.distributed.is_initialized() else 'N/A'}): {train_config.output_dir}")
+
 
     wandb_run = None
 
@@ -164,6 +195,30 @@ def main(**kwargs):
                 device_map="auto" if train_config.quantization and not train_config.enable_fsdp else None,
                 torch_dtype=torch.float16 if train_config.use_fp16 else torch.bfloat16,
             )
+    elif config.model_type == "mistral": # mistral support (custom)
+        is_vision = False
+        if train_config.enable_fsdp and train_config.low_cpu_fsdp:
+            if rank == 0:
+                model = MistralForCausalLM.from_pretrained(
+                    train_config.model_name,
+                    quantization_config=bnb_config,
+                    attn_implementation="sdpa" if train_config.use_fast_kernels else None,
+                    device_map="auto" if train_config.quantization and not train_config.enable_fsdp else None,
+                    torch_dtype=torch.float16 if train_config.use_fp16 else torch.bfloat16,
+                )
+            else:
+                mistral_config = AutoConfig.from_pretrained(train_config.model_name)
+                mistral_config.use_cache = use_cache
+                with torch.device("meta"):
+                    model = MistralForCausalLM(mistral_config)
+        else:
+            model = MistralForCausalLM.from_pretrained(
+                train_config.model_name,
+                quantization_config=bnb_config,
+                attn_implementation="sdpa" if train_config.use_fast_kernels else None,
+                device_map="auto" if train_config.quantization and not train_config.enable_fsdp else None,
+                torch_dtype=torch.float16 if train_config.use_fp16 else torch.bfloat16,
+            )
     else:
         raise ValueError(f"Model type {config.model_type} is not supported. Please use llama or mllama model.")
     # Load the tokenizer and add special tokens
@@ -214,7 +269,10 @@ def main(**kwargs):
             my_auto_wrapping_policy = fsdp_auto_wrap_policy(model, [MllamaSelfAttentionDecoderLayer,MllamaSelfAttentionDecoderLayer,MllamaVisionEncoderLayer])
         else:
         # Create the FSDP wrapper for LlamaDecoderLayer in text models
-            my_auto_wrapping_policy = fsdp_auto_wrap_policy(model, [LlamaDecoderLayer])
+            if config.model_type == "mistral":
+                my_auto_wrapping_policy = fsdp_auto_wrap_policy(model, [MistralDecoderLayer])
+            else:
+                my_auto_wrapping_policy = fsdp_auto_wrap_policy(model, [LlamaDecoderLayer])
         device_id = 0
         if is_xpu_available():
             device_id = torch.xpu.current_device()
@@ -233,6 +291,7 @@ def main(**kwargs):
             param_init_fn=(lambda module: module.to_empty(device=torch.device("cuda"), recurse=False))
             if train_config.low_cpu_fsdp and rank != 0 else None,
         )
+        import pdb; pdb.set_trace()
         if fsdp_config.fsdp_activation_checkpointing:            
             model.enable_input_require_grads()
             model.gradient_checkpointing_enable()
@@ -354,7 +413,31 @@ def main(**kwargs):
             lr=train_config.lr,
             weight_decay=train_config.weight_decay,
         )
-    scheduler = StepLR(optimizer, step_size=1, gamma=train_config.gamma)
+    # Initialize the learning rate scheduler
+    if train_config.which_scheduler == "cosine":
+        total_steps = int(
+            len(train_dataloader)
+            * train_config.num_epochs / train_config.gradient_accumulation_steps
+        )
+        scheduler = LambdaLR(
+            optimizer,
+            lr_lambda=lambda step: lr_lambda(
+                current_step = step,
+                warmup_steps = int(train_config.warmup_ratio * float(total_steps)),
+                total_steps = total_steps,
+            )
+        )
+        print(f"--> Using Cosine Scheduler with total_steps = {total_steps}, warmup_steps = {int(train_config.warmup_ratio * total_steps)}")
+    elif train_config.which_scheduler == 'step':
+        scheduler = StepLR(
+            optimizer,
+            step_size=1,
+            gamma=train_config.gamma ** (
+                1.0 / float(len(train_dataloader))
+                * float(train_config.gradient_accumulation_steps)
+            ),
+        )
+        print(f"--> Using Step Scheduler with gamma = {scheduler.gamma}")
     results = train(
         model,
         train_dataloader,

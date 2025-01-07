@@ -19,6 +19,6 @@ DATASET_PREPROC = {
 }
 DATALOADER_COLLATE_FUNC = {
     "custom_dataset": get_data_collator,
-    "opnqa_steering_dataset": custom_collator_no_labels,
-    "opnqa_single_demographic_dataset": custom_collator_no_labels,
+    "opnqa_steering_dataset": custom_collator_no_labels, # dataset consisted of steering prompt + survey question
+    "opnqa_single_demographic_dataset": custom_collator_no_labels, # dataset consisted of only survey quetsion
 }

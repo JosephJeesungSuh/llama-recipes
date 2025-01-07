@@ -10,8 +10,8 @@ class train_config:
     tokenizer_name: str=None
     enable_fsdp: bool=True # shards model parameters, optimizer states and gradients across DDP ranks
     low_cpu_fsdp: bool=True # saves cpu memory by loading pretrained model on rank0 only
-    run_validation: bool=True
-    run_test: bool=True
+    run_validation: bool=True # whether to run validation every epoch
+    run_test: bool=False # whether to run test when best performing validation
     batch_size_training: int=32
     batching_strategy: str="padding" #alternative: padding
     context_length: int=4096
@@ -21,10 +21,15 @@ class train_config:
     num_epochs: int=3
     max_train_step: int=0
     max_eval_step: int=0
-    num_workers_dataloader: int=1
-    lr: float=1e-4
+    num_workers_dataloader: int=8
     weight_decay: float=0.0
-    gamma: float= 0.85 # multiplicatively decay the learning rate by gamma after each epoch
+    
+    # learning rate and scheduler hyperparameter
+    lr: float=1e-4
+    which_scheduler: str="step" # step, cosine
+    gamma: float= 0.85 # multiplicatively decay the learning rate by gamma after each epoch)
+    warmup_ratio: float=0.1 # ratio of total steps to warmup / total steps
+
     seed: int=42
     use_fp16: bool=False
     mixed_precision: bool=True

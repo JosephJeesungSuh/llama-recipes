@@ -17,7 +17,7 @@ from torch.distributed.fsdp import StateDictType
 from torch.distributed.fsdp.sharded_grad_scaler import ShardedGradScaler
 import torch.nn.functional as F
 from tqdm import tqdm
-from transformers import LlamaTokenizer
+from transformers import AutoTokenizer # mistral support (custom)
 import json
 
 
@@ -26,7 +26,7 @@ from llama_recipes.policies import fpSixteen,bfSixteen, get_llama_wrapper
 from llama_recipes.utils.memory_utils import MemoryTrace
 from accelerate.utils import is_xpu_available, is_ccl_available
 from llama_recipes.utils.flop_utils import FlopMeasure
-def set_tokenizer_params(tokenizer: LlamaTokenizer):
+def set_tokenizer_params(tokenizer): # mistral support (custom)
     tokenizer.pad_token_id = 0
     tokenizer.padding_side = "left"
 
@@ -124,7 +124,7 @@ def ordinal_emd(
     return emd
 
 
-def train(model, train_dataloader,eval_dataloader, test_dataloader, tokenizer, optimizer, lr_scheduler, gradient_accumulation_steps, train_config, fsdp_config=None, local_rank=None, rank=None, wandb_run=None):
+def train(model, train_dataloader, eval_dataloader, test_dataloader, tokenizer, optimizer, lr_scheduler, gradient_accumulation_steps, train_config, fsdp_config=None, local_rank=None, rank=None, wandb_run=None):
     """
     Trains the model on the given dataloader
 
@@ -159,6 +159,14 @@ def train(model, train_dataloader,eval_dataloader, test_dataloader, tokenizer, o
     train_loss = []
     val_prep = []
     val_loss =[]
+    label_to_token_id = [] # convert ' A', ' B', ... to token ids
+    for chr_idx in range(10):
+        label_to_token_id.append(
+            tokenizer.encode(
+                " " + chr(ord('A') + chr_idx),
+                add_special_tokens=False
+            )[-1]
+        ) # calculation of token_id for ' A', ... for the given tokenizer
 
     if train_config.save_metrics:
         if not os.path.exists(train_config.output_dir):
@@ -181,18 +189,17 @@ def train(model, train_dataloader,eval_dataloader, test_dataloader, tokenizer, o
     for epoch in range(train_config.num_epochs):
         print(f"Starting epoch {epoch}/{train_config.num_epochs}")
         print(f"train_config.max_train_step: {train_config.max_train_step}")
+        print(f"Current starting learning rate: {optimizer.param_groups[0]['lr']}")
         # stop when the maximum number of training steps is reached
         if max_steps_reached:
             break
         epoch_start_time = time.perf_counter()
-        with MemoryTrace() as memtrace:  # track the memory usage
+        with MemoryTrace() as memtrace:  # track the memory usage. Use memtrace.print_stats()
             model.train()
             total_loss = 0.0
             total_length = len(train_dataloader)//gradient_accumulation_steps
             pbar = tqdm(colour="blue", desc=f"Training Epoch: {epoch+1}", total=total_length, dynamic_ncols=True)
             with profile(train_config,local_rank) as profile_context:
-
-                evaluation_freq = 4 # run evaluation every evaluation_freq steps
 
                 for step, batch in enumerate(train_dataloader):
                     total_train_steps += 1
@@ -217,8 +224,6 @@ def train(model, train_dataloader,eval_dataloader, test_dataloader, tokenizer, o
 
                         device = torch.device("cuda")
                         # Joseph's modification # TODO: [Joseph/Suhong] - need to make this more generic
-                        label_to_token_id = [319,350,315,360,382,383,402,379,306,435] # hacky solution for llama-2 tokenizer
-                        # this is each token_id (ex. 319, 350, 315, ...) respresents token ' A', ' B', ' C', ...
 
                         outputs = model(
                             input_ids = batch['input_ids'],
@@ -235,8 +240,11 @@ def train(model, train_dataloader,eval_dataloader, test_dataloader, tokenizer, o
 
                         # calculate ce loss
                         resp_dist = batch['response_distribution'].float() # shape = batch_size * max_options
-                        ce_loss = -torch.sum(resp_dist * torch.log(target_token_prob + 1e-8), dim=-1)
-                        ce_loss_mean = ce_loss.mean().detach().float()
+                        kl_loss = (
+                            -torch.sum(resp_dist * torch.log(target_token_prob + 1e-8), dim=-1)
+                            + torch.sum(resp_dist * torch.log(resp_dist + 1e-8), dim=-1)
+                        )
+                        kl_loss_mean = kl_loss.mean().detach().float()
                         # calculate wd loss
                         ordinal_info = batch['ordinal_info'].float()
                         wd_loss_list = []
@@ -247,7 +255,7 @@ def train(model, train_dataloader,eval_dataloader, test_dataloader, tokenizer, o
                         wd_loss_mean = wd_loss.mean().detach().float()
                         # save loss
                         if train_config.loss_function_type == 'ce':
-                            loss = ce_loss.mean()
+                            loss = kl_loss.mean()
                         elif train_config.loss_function_type == 'wd':
                             loss = wd_loss.mean()
                         else:
@@ -271,6 +279,7 @@ def train(model, train_dataloader,eval_dataloader, test_dataloader, tokenizer, o
                             scaler.step(optimizer)
                             scaler.update()
                             optimizer.zero_grad()
+                            lr_scheduler.step()
                             pbar.update(1)
                     else:
                         # regular backpropagation when fp16 is not used
@@ -283,6 +292,7 @@ def train(model, train_dataloader,eval_dataloader, test_dataloader, tokenizer, o
                                     torch.nn.utils.clip_grad_norm_(model.parameters(), train_config.gradient_clipping_threshold)
                             optimizer.step()
                             optimizer.zero_grad()
+                            lr_scheduler.step()
                             pbar.update(1)
                     if train_config.use_profiler or train_config.flop_counter:
                         profile_context.step()
@@ -295,7 +305,7 @@ def train(model, train_dataloader,eval_dataloader, test_dataloader, tokenizer, o
                                 'train/step': epoch * len(train_dataloader) + step,
                                 'train/loss': loss.detach().float(),
                                 'train/learning_rate': optimizer.param_groups[0]['lr'],
-                                'train/ce_loss': ce_loss_mean,
+                                'train/kl_loss': kl_loss_mean,
                                 'train/wd_loss': wd_loss_mean,
                             })
 
@@ -304,10 +314,6 @@ def train(model, train_dataloader,eval_dataloader, test_dataloader, tokenizer, o
                     if train_config.save_metrics:
                         save_to_json(metrics_filename, train_step_loss, train_loss, train_step_perplexity, train_prep, val_step_loss, val_loss, val_step_perplexity, val_prep)
                 pbar.close()
-
-                # run evaluation every evaluation_freq steps
-                if train_config.run_validation and (step+1) % evaluation_freq == 0:
-                    pass # TODO: IMPLEMENT FREQUENT EVALAUTION IN LLAMA_RECIPES (ALONG WITH TEST EVALUATION)
 
         epoch_end_time = time.perf_counter()-epoch_start_time
         epoch_times.append(epoch_end_time)
@@ -327,8 +333,6 @@ def train(model, train_dataloader,eval_dataloader, test_dataloader, tokenizer, o
         if not train_config.enable_fsdp or rank==0:
             memtrace.print_stats()
 
-        # Update the learning rate as needed
-        lr_scheduler.step()
         should_save_model = train_config.save_model
         if train_config.run_validation:
             eval_ppl, eval_epoch_loss, temp_val_loss, temp_step_perplexity = evaluation(model, train_config, eval_dataloader, local_rank, tokenizer, wandb_run)
@@ -457,8 +461,16 @@ def evaluation(model,train_config, eval_dataloader, local_rank, tokenizer, wandb
     eval_preds = []
     val_step_loss = []
     val_step_perplexity = []
+    label_to_token_id = []
+    for chr_idx in range(10):
+        label_to_token_id.append(
+            tokenizer.encode(
+                " " + chr(ord('A') + chr_idx),
+                add_special_tokens=False
+            )[-1]
+        ) # calculation of token_id for ' A', ... for the given tokenizer
     eval_loss = 0.0  # Initialize evaluation loss
-    eval_ce_loss = 0.0
+    eval_kl_loss = 0.0
     eval_wd_loss = 0.0
     total_eval_steps = 0
     with MemoryTrace() as memtrace:
@@ -482,9 +494,7 @@ def evaluation(model,train_config, eval_dataloader, local_rank, tokenizer, wandb
 
                 device = torch.device("cuda")
                 # Joseph's modification # TODO: [Joseph/Suhong] - need to make this more generic
-                label_to_token_id = [319,350,315,360,382,383,402,379,306,435] # hacky solution for llama-2 tokenizer
 
-                # this is each token_id (ex. 319, 350, 315, ...) respresents token ' A', ' B', ' C', ...
                 outputs = model(
                     input_ids = batch['input_ids'],
                     attention_mask = batch['attention_mask'],
@@ -500,7 +510,10 @@ def evaluation(model,train_config, eval_dataloader, local_rank, tokenizer, wandb
 
                 resp_dist = batch['response_distribution'].float() # shape = batch_size * max_options
                 # cross-entropy loss
-                ce_loss = -torch.sum(resp_dist * torch.log(target_token_prob + 1e-8), dim=-1)
+                kl_loss = (
+                    -torch.sum(resp_dist * torch.log(target_token_prob + 1e-8), dim=-1)
+                    + torch.sum(resp_dist * torch.log(resp_dist + 1e-8), dim=-1)
+                )
                 # Wasserstein distance loss
                 ordinal_info = batch['ordinal_info'].float()
                 wd_loss_list = []
@@ -511,10 +524,10 @@ def evaluation(model,train_config, eval_dataloader, local_rank, tokenizer, wandb
                 non_zero_idx = wd_loss != 0
                 wd_loss = wd_loss[non_zero_idx]
 
-                eval_ce_loss += ce_loss.mean().detach().float()
+                eval_kl_loss += kl_loss.mean().detach().float()
                 eval_wd_loss += wd_loss.mean().detach().float()
                 if train_config.loss_function_type == 'ce':
-                    loss = ce_loss.mean()
+                    loss = kl_loss.mean()
                 elif train_config.loss_function_type == 'wd':
                     loss = wd_loss.mean()
                 else:
@@ -534,20 +547,20 @@ def evaluation(model,train_config, eval_dataloader, local_rank, tokenizer, wandb
     # If there's more than one CUDA device, reduce evaluation loss across all devices
     if is_xpu_available() and (torch.xpu.device_count() > 1 and train_config.enable_fsdp):
         dist.all_reduce(eval_loss, op=dist.ReduceOp.SUM)
-        dist.all_reduce(eval_ce_loss, op=dist.ReduceOp.SUM)
+        dist.all_reduce(eval_kl_loss, op=dist.ReduceOp.SUM)
         dist.all_reduce(eval_wd_loss, op=dist.ReduceOp.SUM)
     if torch.cuda.device_count() > 1 and train_config.enable_fsdp:
         dist.all_reduce(eval_loss, op=dist.ReduceOp.SUM)
-        dist.all_reduce(eval_ce_loss, op=dist.ReduceOp.SUM)
+        dist.all_reduce(eval_kl_loss, op=dist.ReduceOp.SUM)
         dist.all_reduce(eval_wd_loss, op=dist.ReduceOp.SUM)
 
     # Compute average loss and perplexity
     eval_epoch_loss = eval_loss / len(eval_dataloader)
-    eval_epoch_ce_loss = eval_ce_loss / len(eval_dataloader)
+    eval_epoch_kl_loss = eval_kl_loss / len(eval_dataloader)
     eval_epoch_wd_loss = eval_wd_loss / len(eval_dataloader)
     if train_config.enable_fsdp:
         eval_epoch_loss = eval_epoch_loss/world_size
-        eval_epoch_ce_loss = eval_epoch_ce_loss/world_size
+        eval_epoch_kl_loss = eval_epoch_kl_loss/world_size
         eval_epoch_wd_loss = eval_epoch_wd_loss/world_size
     eval_ppl = torch.exp(eval_epoch_loss)
 
@@ -562,7 +575,7 @@ def evaluation(model,train_config, eval_dataloader, local_rank, tokenizer, wandb
         wandb_run.log({
                         f'{mode}/perplexity': eval_ppl,
                         f'{mode}/loss': eval_epoch_loss,
-                        f'{mode}/ce_loss': eval_epoch_ce_loss,
+                        f'{mode}/kl_loss': eval_epoch_kl_loss,
                         f'{mode}/wd_loss': eval_epoch_wd_loss
                     }, commit=False)
 
